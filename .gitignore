@@ -3,6 +3,7 @@
 .env.*
 *.pem
 *.key
+*.swp
 
 # Python
 __pycache__/
