@@ -1,0 +1,16 @@
+{
+  "critique_passed": true,
+  "feedback": "Soru iyi yapılandırılmıştır. Kurgu hatası yok, doğru cevap tek (Osteoid osteom) ve çeldiriciler güçlüdür. Osteoid osteomun tipik özellikleri (gece artan ağrı, aspirinle geçme, genç erişkin, litik nidus ve çevresinde skleroz) net bir şekilde verilmiştir. Çeldiriciler (osteosarkom, Ewing sarkomu, kondrosarkom, dev hücreli kemik tümörü) ayırt edici radyolojik ve klinik özellikleriyle iyi seçilmiştir.",
+  "sibling_suggestions": [
+    "Osteoblastom",
+    "Osteomiyelit",
+    "Brodie apsesi",
+    "Enkondrom"
+  ],
+  "improved_distractors": [
+    "Osteoblastom (daha büyük lezyon, aspirinle geçmeyen ağrı)",
+    "Osteomiyelit (ateş, sistemik semptomlar, daha yaygın enfeksiyon bulguları)",
+    "Brodie apsesi (subakut osteomiyelit, benzer litik lezyon ama farklı klinik)",
+    "Enkondrom (genellikle asemptomatik, farklı radyolojik görünüm)"
+  ]
+}

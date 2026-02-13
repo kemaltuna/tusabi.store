@@ -1,0 +1,16 @@
+{
+  "critique_passed": true,
+  "feedback": "Soru kurgusu iyi, Parkinson hastalığının tipik bulgularını test ediyor. Doğru cevap (C) açık ve kaynakla uyumlu. Çeldiriciler (A, B, D, E) hastalığın karakteristik özellikleri olarak güçlü seçenekler. Ancak, 'hipovolemik ses' terimi klinikte daha az yaygın kullanılabilir, 'hipofonik ses' veya 'monoton ses' gibi alternatifler daha standart olabilir, ama bu küçük bir nokta.",
+  "sibling_suggestions": [
+    "Huntington Hastalığı",
+    "Progresif Supranükleer Palsi",
+    "Multipl Sistem Atrofisi",
+    "Lewy Cisimcikli Demans"
+  ],
+  "improved_distractors": [
+    "Hipofonik ses (monoton ses)",
+    "Okülojirik kriz",
+    "Yürüme tutulması (freezing of gait)",
+    "Postüral instabilite"
+  ]
+}

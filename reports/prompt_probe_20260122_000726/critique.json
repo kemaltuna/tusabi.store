@@ -1,0 +1,15 @@
+{
+  "critique_passed": true,
+  "feedback": "Soru kurgu hatası içermiyor; klinik tablo tipik İdiopatik Parkinson Hastalığı bulgularını (istirahat tremoru, dişli çark rijiditesi, bradikinezi, maske yüz, postüral refleks zayıflığı) açıkça tanımlıyor. Doğru cevap tek ve net: A seçeneği (Substantia nigra'da dopaminerjik nöron kaybı ve Lewy cisimcikleri). Çeldiriciler güçlü: B (medulla spinalis tutulumu, Parkinson'da olmaz), C (demir birikimi ve nörofibriler yumaklar, Parkinson'da tipik değil, daha çok diğer nörodejeneratif hastalıklarla ilişkili), D (serebellar atrofi, Parkinson'da primer bulgu değil), E (amiloid plaklar ve nörofibriler yumaklar, Alzheimer hastalığı için tipik).",
+  "sibling_suggestions": [
+    "Huntington Hastalığı",
+    "Progresif Supranükleer Palsi",
+    "Multipl Sistem Atrofisi",
+    "Lewy Cisimcikli Demans"
+  ],
+  "improved_distractors": [
+    "Bazal ganglionlarda demir birikimi ve nöronal kayıp (Hallervorden-Spatz hastalığı)",
+    "Serebellar atrofi ve Purkinje hücre kaybı (Serebellar ataksiler)",
+    "Frontal kortekste tau protein birikimi ve nöronal kayıp (Frontotemporal demans)"
+  ]
+}

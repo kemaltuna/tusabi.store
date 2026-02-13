@@ -1,0 +1,28 @@
+{
+  "question_text": "Parsiyel nöbetleri olan ve karbamazepin tedavisi alan bir hastada, ilacın etki mekanizması aşağıdakilerden hangisidir?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Yavaş sodyum kanal blokajı"
+    },
+    {
+      "id": "B",
+      "text": "Kalsiyum kanallarının α2δ -1 ligandına bağlanma"
+    },
+    {
+      "id": "C",
+      "text": "Hızlı sodyum kanal blokajı"
+    },
+    {
+      "id": "D",
+      "text": "GABA uptake inhibisyonu"
+    },
+    {
+      "id": "E",
+      "text": "NMDA reseptör antagonistliği"
+    }
+  ],
+  "correct_option_id": "C",
+  "concept_tag": "concept: Antiepileptik ilaçların etki mekanizması",
+  "brief_explanation": "Karbamazepin, tabloda 'Hızlı sodyum kanal blokörleri' kategorisinde listelenmiştir ve parsiyel nöbetlerin konvansiyonel tedavisinde birinci sırada yer alır. Bu mekanizma, nöronal aşırı uyarılabilirliği azaltarak etki gösterir."
+}

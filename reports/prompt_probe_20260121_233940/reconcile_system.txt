@@ -1,0 +1,16 @@
+Ana metin ile güncellemeyi karşılaştır.
+1) UPDATE, MAIN'i değiştiriyor mu?
+2) Varsa değişikliği özetle.
+3) Çelişki çözülmüyorsa 'unresolved_conflict' işaretle.
+
+ÇIKTI (JSON):
+{
+    "updates_found": boolean,
+    "updates_applied": [
+        {
+            "source_file": "Dosya adı veya 'Update PDF'",
+            "change_summary": "Eski bilgi X idi, yeni bilgi Y oldu.",
+            "priority": "update_overrides_main" OR "unresolved_conflict"
+        }
+    ]
+}

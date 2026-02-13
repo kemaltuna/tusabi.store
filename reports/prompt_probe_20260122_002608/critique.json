@@ -1,0 +1,11 @@
+{
+  "critique_passed": true,
+  "feedback": "Soru kurgu hatası içermiyor; parsiyel nöbetler ve karbamazepin tedavisi bağlamında net bir şekilde etki mekanizması soruluyor. Doğru cevap tek ve kaynak tabloda 'Hızlı sodyum kanal blokörleri' altında listelenen karbamazepin için C seçeneği ('Hızlı sodyum kanal blokajı') olarak belirtilmiş. Çeldiriciler güçlü: A ('Yavaş sodyum kanal blokajı') lakosamid için, B ('Kalsiyum kanallarının α2δ -1 ligandına bağlanma') gabapentin ve pregabalin için, D ('GABA uptake inhibisyonu') tiagabin ve vigabatrin için, E ('NMDA reseptör antagonistliği') felbamat için geçerli olup, antiepileptik ilaçlar arasında yaygın mekanizmaları temsil ediyor, bu da öğrencinin bilgisini test etmek için uygun.",
+  "sibling_suggestions": [
+    "Lamotrijin",
+    "Fenitoin",
+    "Valproik asit",
+    "Okskarbazepin"
+  ],
+  "improved_distractors": []
+}

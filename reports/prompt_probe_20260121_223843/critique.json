@@ -1,0 +1,16 @@
+{
+  "critique_passed": true,
+  "feedback": "Soru kurgu hatası içermiyor; klinik senaryo net ve antipsikotik tedaviye bağlı akut distonik reaksiyonu doğru şekilde tanımlıyor. Doğru cevap (C) tek ve kaynakla uyumlu. Çeldiriciler (A, B, D, E) diğer ekstrapiramidal yan etkilerin tedavilerini temsil ediyor ve güçlü, ancak 'Difenhidramin veya benztropin' ifadesi açık ve spesifik. Kaynak tablosu, tedavi seçeneklerini destekliyor.",
+  "sibling_suggestions": [
+    "Akatizi",
+    "Parkinsonizm",
+    "Nöroleptik malign sendrom",
+    "Tardif diskinezi"
+  ],
+  "improved_distractors": [
+    "Propranolol (akatizi tedavisi için)",
+    "Bromokriptin (nöroleptik malign sendrom tedavisi için)",
+    "Valbenazin (tardif diskinezi tedavisi için)",
+    "Dantrolen (nöroleptik malign sendrom tedavisi için)"
+  ]
+}

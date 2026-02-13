@@ -1,0 +1,127 @@
+{
+  "summary": {
+    "generated_at": "2026-02-13T09:59:17",
+    "project_root": "/home/yusuf-kemal-tuna/medical_quiz_app",
+    "processed_dir": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs",
+    "manifests_scanned": 23,
+    "issues_total": 10,
+    "issues_by_type": {
+      "subsegment_coverage": 10
+    },
+    "issues_by_severity": {
+      "warn": 10
+    }
+  },
+  "issues": [
+    {
+      "issue_type": "subsegment_coverage",
+      "severity": "warn",
+      "manifest": "shared/processed_pdfs/Anatomi/output_anatomi/manifest.json",
+      "subject": "Anatomi",
+      "volume": "output_anatomi",
+      "segment_title": "Kaslar",
+      "subsegment_title": "",
+      "file": "",
+      "details": "first subsegment start=57 != segment.pages_raw start=56"
+    },
+    {
+      "issue_type": "subsegment_coverage",
+      "severity": "warn",
+      "manifest": "shared/processed_pdfs/Anatomi/output_anatomi/manifest.json",
+      "subject": "Anatomi",
+      "volume": "output_anatomi",
+      "segment_title": "Pleksuslar",
+      "subsegment_title": "",
+      "file": "",
+      "details": "first subsegment start=115 != segment.pages_raw start=107"
+    },
+    {
+      "issue_type": "subsegment_coverage",
+      "severity": "warn",
+      "manifest": "shared/processed_pdfs/Biyokimya/output_biyokimya_f1/manifest.json",
+      "subject": "Biyokimya",
+      "volume": "output_biyokimya_f1",
+      "segment_title": "Karbonhidratlar",
+      "subsegment_title": "",
+      "file": "",
+      "details": "first subsegment start=23 != segment.pages_raw start=17"
+    },
+    {
+      "issue_type": "subsegment_coverage",
+      "severity": "warn",
+      "manifest": "shared/processed_pdfs/Biyokimya/output_biyokimya_f1/manifest.json",
+      "subject": "Biyokimya",
+      "volume": "output_biyokimya_f1",
+      "segment_title": "Lipit Metabolizması",
+      "subsegment_title": "",
+      "file": "",
+      "details": "first subsegment start=68 != segment.pages_raw start=67"
+    },
+    {
+      "issue_type": "subsegment_coverage",
+      "severity": "warn",
+      "manifest": "shared/processed_pdfs/Farmakoloji/output_farmakoloji_f2/manifest.json",
+      "subject": "Farmakoloji",
+      "volume": "output_farmakoloji_f2",
+      "segment_title": "ANTİMİKROBİYAL İLAÇLAR",
+      "subsegment_title": "",
+      "file": "",
+      "details": "first subsegment start=114 != segment.pages_raw start=113"
+    },
+    {
+      "issue_type": "subsegment_coverage",
+      "severity": "warn",
+      "manifest": "shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f2/manifest.json",
+      "subject": "Genel_Cerrahi",
+      "volume": "output_genel_cerrahi_f2",
+      "segment_title": "AKUT KARIN",
+      "subsegment_title": "",
+      "file": "",
+      "details": "first subsegment start=1 != segment.pages_raw start=0"
+    },
+    {
+      "issue_type": "subsegment_coverage",
+      "severity": "warn",
+      "manifest": "shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f2/manifest.json",
+      "subject": "Genel_Cerrahi",
+      "volume": "output_genel_cerrahi_f2",
+      "segment_title": "MORBİD OBEZİTE",
+      "subsegment_title": "",
+      "file": "",
+      "details": "first subsegment start=56 != segment.pages_raw start=55"
+    },
+    {
+      "issue_type": "subsegment_coverage",
+      "severity": "warn",
+      "manifest": "shared/processed_pdfs/Pediatri/output_pediatri_f1/manifest.json",
+      "subject": "Pediatri",
+      "volume": "output_pediatri_f1",
+      "segment_title": "ADÖLESAN",
+      "subsegment_title": "",
+      "file": "",
+      "details": "first subsegment start=98 != segment.pages_raw start=93"
+    },
+    {
+      "issue_type": "subsegment_coverage",
+      "severity": "warn",
+      "manifest": "shared/processed_pdfs/Pediatri/output_pediatri_f2/manifest.json",
+      "subject": "Pediatri",
+      "volume": "output_pediatri_f2",
+      "segment_title": "Pediatrik Alerji-İmmünoloji",
+      "subsegment_title": "",
+      "file": "",
+      "details": "first subsegment start=155 != segment.pages_raw start=153"
+    },
+    {
+      "issue_type": "subsegment_coverage",
+      "severity": "warn",
+      "manifest": "shared/processed_pdfs/Pediatri/output_pediatri_f3/manifest.json",
+      "subject": "Pediatri",
+      "volume": "output_pediatri_f3",
+      "segment_title": "Metabolik Hastalıklar",
+      "subsegment_title": "",
+      "file": "",
+      "details": "first subsegment start=36 != segment.pages_raw start=33"
+    }
+  ]
+}

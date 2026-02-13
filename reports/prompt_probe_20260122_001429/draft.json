@@ -1,0 +1,28 @@
+{
+  "question_text": "Yirmi beş yaşında bir kadın hasta, son bir yıldır tekrarlayan, bilinç kaybı olmadan başlayan ve sağ kolunda kasılma ile seyreden nöbetler nedeniyle başvuruyor. EEG'de sol frontal odak saptanıyor. Hastaya etkinliği kanıtlanmış birinci basamak tedavi başlanıyor. Bu ilacın etki mekanizması aşağıdakilerden hangisidir?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Yavaş sodyum kanal blokajı"
+    },
+    {
+      "id": "B",
+      "text": "GABA uptake inhibisyonu"
+    },
+    {
+      "id": "C",
+      "text": "Hızlı sodyum kanal blokajı"
+    },
+    {
+      "id": "D",
+      "text": "Kalsiyum kanallarının α2δ -1 ligandına bağlanma"
+    },
+    {
+      "id": "E",
+      "text": "SV2A proteinine bağlanma"
+    }
+  ],
+  "correct_option_id": "C",
+  "concept_tag": "concept: Antiepileptik ilaçların etki mekanizmaları ve parsiyel nöbet tedavisi",
+  "brief_explanation": "Hastanın klinik tablosu (bilinç kaybı olmadan başlayan, fokal motor nöbet ve frontal odak) basit parsiyel nöbet ile uyumludur. Kaynak tabloda basit parsiyel nöbet için konvansiyonel tedavide birinci sırada karbamazepin belirtilmiştir. Karbamazepin, etki mekanizması tablosunda 'Hızlı sodyum kanal blokörleri' grubunda listelenmiştir. Bu nedenle doğru cevap hızlı sodyum kanal blokajıdır."
+}

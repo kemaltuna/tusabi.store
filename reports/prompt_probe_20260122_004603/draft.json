@@ -1,0 +1,28 @@
+{
+  "question_text": "Yeni tanı konmuş basit parsiyel nöbeti olan bir hastada, hızlı sodyum kanal blokajı yaparak etki eden ve konvansiyonel tedavi seçeneklerinden biri olan antiepileptik ilaç hangisidir?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Etosüksimid"
+    },
+    {
+      "id": "B",
+      "text": "Gabapentin"
+    },
+    {
+      "id": "C",
+      "text": "Karbamazepin"
+    },
+    {
+      "id": "D",
+      "text": "Levetirasetam"
+    },
+    {
+      "id": "E",
+      "text": "Vigabatrin"
+    }
+  ],
+  "correct_option_id": "C",
+  "concept_tag": "concept: Antiepileptik ilaçların etki mekanizması",
+  "brief_explanation": "Kaynak tablolarına göre, hızlı sodyum kanal blokörleri arasında Karbamazepin bulunur. Aynı zamanda, basit parsiyel nöbetler için konvansiyonel tedavi seçeneklerinden biri olarak Karbamazepin listelenmiştir. Diğer şıklar ya etki mekanizması (A, B, D, E) ya da konvansiyonel tedavi statüsü (B, D, E) açısından uyumsuzdur."
+}

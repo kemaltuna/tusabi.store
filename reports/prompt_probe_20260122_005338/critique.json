@@ -1,0 +1,11 @@
+{
+  "critique_passed": true,
+  "feedback": "Soru kurgu hatası içermiyor, net ve anlaşılır. Doğru cevap tek (C: Karbamazepin) ve kaynakla uyumlu. Çeldiriciler güçlü: Lamotrijin (A) hızlı sodyum kanal blokörü olmasına rağmen konvansiyonel tedavide değil, yeni geliştirilen tedavilerde listelenmiş; diğer seçenekler farklı mekanizmalara sahip ve basit parsiyel nöbet için konvansiyonel değiller.",
+  "sibling_suggestions": [
+    "Lamotrijin",
+    "Fenitoin",
+    "Valproik asit",
+    "Okskarbazepin"
+  ],
+  "improved_distractors": []
+}

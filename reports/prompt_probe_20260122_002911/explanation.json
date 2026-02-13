@@ -1,0 +1,171 @@
+{
+  "source_material": "Patoloji",
+  "topic": "Kemik ve Kıkırdak Hastalıkları",
+  "question_text": "Kırık iyileşmesi sürecinde, yetersiz immobilizasyon sonucu hareket eden kallusta kistik dejenerasyon gelişir ve bu yapının luminal yüzeyi sinovial-benzeri hücrelerle döşenir. Bu durum aşağıdakilerden hangisi ile tanımlanır?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Gecikmiş union"
+    },
+    {
+      "id": "B",
+      "text": "Nonunion"
+    },
+    {
+      "id": "C",
+      "text": "Psödoartroz"
+    },
+    {
+      "id": "D",
+      "text": "Malforme kallus"
+    },
+    {
+      "id": "E",
+      "text": "Fibrokartilajenöz kallus"
+    }
+  ],
+  "correct_option_id": "C",
+  "tags": [
+    "concept:Kemik kırıklarında iyileşme komplikasyonları"
+  ],
+  "explanation": {
+    "main_mechanism": "Bu soruda doğru cevap Psödoartroz. Yetersiz immobilizasyon nedeniyle kallus hareket eder ve nonunion gelişir. Nonunion devam ederse, malforme kallusta kistik dejenerasyon oluşur ve luminal yüzey sinovial-benzeri hücrelerle döşenerek yalancı eklem yapısı ortaya çıkar.",
+    "clinical_significance": "Psödoartroz, kırık iyileşmesinin tamamen bozulduğu, ağrısız anormal hareketlilikle seyreden ileri bir komplikasyondur. Cerrahi tedavi (debridman, kemik greftleme, internal fiksasyon) gerektirir ve yetersiz immobilizasyon başlıca risk faktörüdür.",
+    "sibling_entities": [
+      "Gecikmiş union",
+      "Nonunion",
+      "Malforme kallus"
+    ],
+    "updates_applied": [],
+    "update_checked": true,
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "Detaylı Açıklama & Mekanizma"
+      },
+      {
+        "type": "callout",
+        "style": "key_clues",
+        "title": "Klinik İpuçları",
+        "items": [
+          {
+            "text": "Yetersiz immobilizasyon öyküsü (örn. erken hareket, yetersiz alçılama)"
+          },
+          {
+            "text": "Kırık bölgesinde ağrısız mobilite veya anormal hareketlilik"
+          },
+          {
+            "text": "Radyolojik olarak kırık hattının devam etmesi, kemik uçlarının sklerotik ve yuvarlaklaşmış görünümü"
+          },
+          {
+            "text": "Kistik dejenerasyon alanları ve bazen eklem benzeri boşluk oluşumu"
+          }
+        ]
+      },
+      {
+        "type": "numbered_steps",
+        "title": "Mekanizma Zinciri",
+        "steps": [
+          "Kırık sonrası normal iyileşme süreci (hematom → prokallus → fibrokartilajenöz kallus → kemikleşme → remodelizasyon) başlar.",
+          "Yetersiz immobilizasyon nedeniyle kallus üzerine tekrarlayan stres ve hareket uygulanır.",
+          "Kallusun sürekli hareketi, kemikleşme ve remodeling süreçlerini bozar, nonunion gelişir.",
+          "Nonunion devam ederse, malforme (şekil bozukluğu olan) kallusta mikrotravmalar ve iskemik değişiklikler meydana gelir.",
+          "Bu mikrotravmalar, kistik dejenerasyon alanlarının oluşumuna yol açar.",
+          "Kistik boşlukların luminal yüzeyi, sürekli hareket nedeniyle metaplastik süreçle sinovial-benzeri hücrelerle döşenir.",
+          "Sonuçta, eklem benzeri yapı (psödoartroz) oluşur ve kırık bölgesi yalancı eklem gibi hareket eder."
+        ]
+      },
+      {
+        "type": "callout",
+        "style": "exam_trap",
+        "title": "Sınav Tuzağı",
+        "items": [
+          {
+            "text": "Psödoartroz sıklıkla nonunion ile karıştırılır, ancak nonunion'da sinovial-benzeri hücre döşenmesi yoktur; psödoartroz, nonunion'ın ileri bir formu ve spesifik histolojik özellik gösteren bir komplikasyonudur. Soruda 'sinovial-benzeri hücrelerle döşenme' vurgusu ayırıcı tanıda kritiktir."
+          }
+        ]
+      },
+      {
+        "type": "mini_ddx",
+        "title": "Çeldirici Analizi",
+        "items": [
+          {
+            "option_id": "A",
+            "label": "Gecikmiş union",
+            "why_wrong": "Gecikmiş union, kırık iyileşmesinin beklenen sürede tamamlanamamasıdır, ancak iyileşme potansiyeli hala devam eder. Sinovial-benzeri hücre döşenmesi veya kistik dejenerasyon gibi ileri yapısal değişiklikler içermez.",
+            "would_be_correct_if": "Soruda sadece iyileşme süresinin uzaması tanımlansaydı, ancak burada spesifik histolojik değişiklikler (kistik dejenerasyon, sinovial metaplazi) vurgulanmıştır.",
+            "best_discriminator": "Gecikmiş union'da kallus hareketi olsa bile, ileri derecede organize yalancı eklem yapısı gelişmez."
+          },
+          {
+            "option_id": "B",
+            "label": "Nonunion",
+            "why_wrong": "Nonunion, kırık iyileşmesinin tamamen durması ve kemik uçlarının birleşmemesidir. Psödoartroz, nonunion'ın bir alt tipi olarak kabul edilir, ancak nonunion'ın tüm formlarında sinovial-benzeri hücre döşenmesi görülmez.",
+            "would_be_correct_if": "Sadece iyileşmenin olmaması ve kallus hareketi tanımlansaydı, ancak kistik dejenerasyon ve sinovial metaplazi spesifik olarak psödoartroza işaret eder.",
+            "best_discriminator": "Nonunion'da radyolojik olarak kemik uçları sklerotik olabilir, ancak eklem benzeri boşluk ve sinovial döşeme tipik değildir."
+          },
+          {
+            "option_id": "D",
+            "label": "Malforme kallus",
+            "why_wrong": "Malforme kallus, kallusun anormal şekilli veya büyük olmasıdır, ancak kistik dejenerasyon veya sinovial-benzeri hücre döşenmesini içermez. Psödoartroz gelişiminde bir ara aşama olabilir, ancak kendisi nihai tanı değildir.",
+            "would_be_correct_if": "Sadece kallusun şekil bozukluğu tanımlansaydı, ancak soruda ilave patolojik değişiklikler (kistik dejenerasyon, sinovial döşeme) belirtilmiştir.",
+            "best_discriminator": "Malforme kallus, yapısal anormallik gösterir, ancak psödoartroz gibi yalancı eklem formasyonu ile sonuçlanmaz."
+          },
+          {
+            "option_id": "E",
+            "label": "Fibrokartilajenöz kallus",
+            "why_wrong": "Fibrokartilajenöz kallus, normal kırık iyileşmesinin bir aşamasıdır; hematom organizasyonundan sonra oluşur ve kemikleşmeye hazırlık yapar. Patolojik bir durum değildir ve sinovial-benzeri hücrelerle ilişkisi yoktur.",
+            "would_be_correct_if": "Normal iyileşme sürecindeki bir ara aşama tanımlansaydı, ancak soruda komplikasyon (yetersiz immobilizasyon sonucu gelişen yapısal bozukluk) vurgulanmıştır.",
+            "best_discriminator": "Fibrokartilajenöz kallus, sağlıklı iyileşmenin parçasıdır; psödoartroz ise iyileşme başarısızlığının sonucudur."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Ayırıcı Tanı",
+        "headers": [
+          "Özellik",
+          "Doğru Patoloji",
+          "Ayırıcı Tanıdaki Patoloji"
+        ],
+        "rows": [
+          {
+            "entity": "Tanım",
+            "cells": [
+              "Nonunion'ın ileri formu; kistik dejenerasyon ve sinovial-benzeri hücre döşenmesiyle yalancı eklem oluşumu",
+              "İyileşmenin tamamen durması, kemik uçlarının birleşmemesi"
+            ]
+          },
+          {
+            "entity": "İmmobilizasyon Durumu",
+            "cells": [
+              "Yetersiz immobilizasyon nedeniyle kallusun sürekli hareketi",
+              "Yetersiz immobilizasyon yaygın neden, ancak diğer faktörler (enfeksiyon, beslenme bozukluğu) da rol oynar"
+            ]
+          },
+          {
+            "entity": "Klinik Bulgular",
+            "cells": [
+              "Ağrısız mobilite, kırık bölgesinde eklem benzeri hareket",
+              "Ağrılı veya ağrısız olabilir, hareket kısıtlılığı veya instabilite"
+            ]
+          },
+          {
+            "entity": "Radyolojik Bulgular",
+            "cells": [
+              "Kırık hattı devam eder, kemik uçları sklerotik ve yuvarlak, kistik alanlar, eklem boşluğu benzeri görünüm",
+              "Kırık hattı belirgin, kemik uçları sklerotik veya atrofik, kallus yetersiz"
+            ]
+          },
+          {
+            "entity": "Histolojik Özellikler",
+            "cells": [
+              "Kistik boşluklar, luminal yüzey sinovial-benzeri hücrelerle döşeli, fibrozis",
+              "Fibroz doku, kıkırdak metaplazisi olabilir, sinovial döşeme yok"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

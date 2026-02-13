@@ -1,0 +1,54 @@
+# Secrets / local config
+.env
+.env.*
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+venv/
+.venv/
+env/
+.envdir/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+.turbo/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# App data (large / local)
+shared/
+processed_pdfs
+temp_merges/
+*.db
+*.db-shm
+*.db-wal
+
+# Logs / dumps
+*.log
+*.log.*
+*.bak
+*.dump
+*.sqlite
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Nested git metadata backups (we keep them locally but never commit)
+.git.bak/
+
+# Local binaries
+cloudflared
+cloudflared*

@@ -1,0 +1,146 @@
+{
+  "source_material": "Farmakoloji",
+  "topic": "Antipsikotik İlaçlar",
+  "question_text": "Şizofreni tanısıyla takip edilen 25 yaşındaki bir erkek hastaya antipsikotik tedavi başlanmıştır. Tedavinin 3. gününde dilini dışarı çıkarma, boynunu geriye atma ve gözlerini yukarı kaydırma şikayetleri ile acil servise başvurur. Fizik muayenede dilde ve boyun kaslarında spazm saptanır. Bu hastada gelişen durum için aşağıdaki ifadelerden hangisi doğrudur?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Tedavisinde antikolinerjik etkili Parkinson ilaçları veya difenhidramin kullanılır."
+    },
+    {
+      "id": "B",
+      "text": "Oluşma süresi genellikle aylar-yıllar içindedir ve ilerlemiş vakalarda tedavisi zordur."
+    },
+    {
+      "id": "C",
+      "text": "Mekanizması postsinaptik D2 reseptör duyarlılığında artış ve upregülasyondur."
+    },
+    {
+      "id": "D",
+      "text": "Tedavisinde propranolol veya benzodiazepinler ilk tercihtir."
+    },
+    {
+      "id": "E",
+      "text": "Mekanizması dopamin antagonizmasıdır ve tedavisinde dantrolen veya bromokriptin kullanılır."
+    }
+  ],
+  "correct_option_id": "A",
+  "tags": [
+    "concept:Antipsikotik İlaçların Ekstrapiramidal Yan Etkileri",
+    "visual:parkinson_cholinergic_balance"
+  ],
+  "explanation": {
+    "main_mechanism": "Bu soruda doğru cevap Akut Distonik Reaksiyon. Antipsikotik ilaçların nigrostriatal yolaktaki dopamin (D2) reseptör blokajına bağlı olarak dopaminerjik inhibisyon azalır ve göreceli kolinerjik aktivite artar, bu da dil, yüz, boyun ve sırt kaslarında akut spazmlara neden olur.",
+    "clinical_significance": "Akut distonik reaksiyon, tipik antipsikotiklerle tedavinin ilk birkaç gününde genç hastalarda ani gelişen, antikolinerjik ilaçlarla veya difenhidraminle hızla düzelen bir ekstrapiramidal yan etkidir; tanı ve tedavide gecikme hasta konforunu bozar ve gereksiz invazif girişimlere yol açabilir.",
+    "sibling_entities": [
+      "Akatizi",
+      "Parkinsonizm",
+      "Nöroleptik Malign Sendrom",
+      "Tardif Diskinezi"
+    ],
+    "updates_applied": [],
+    "update_checked": true,
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "Detaylı Açıklama & Mekanizma"
+      },
+      {
+        "type": "callout",
+        "style": "key_clues",
+        "title": "Klinik İpuçları",
+        "items": [
+          {
+            "text": "Genç erkek hasta, antipsikotik başlangıcından 3 gün sonra akut başvuru."
+          },
+          {
+            "text": "Dil çıkarma, boyun geriye atma, gözlerde yukarı kayma gibi fokal distonik spazmlar."
+          },
+          {
+            "text": "Fizik muayenede dil ve boyun kaslarında spazm saptanması."
+          }
+        ]
+      },
+      {
+        "type": "numbered_steps",
+        "title": "Mekanizma Zinciri",
+        "steps": [
+          "Tipik antipsikotikler nigrostriatal yolakta postsinaptik D2 reseptörlerini kompetitif olarak bloke eder.",
+          "Dopaminerjik nörotransmisyon inhibe olur, striatal GABAerjik projeksiyonlar azalır.",
+          "Göreceli kolinerjik aktivite artar, bu da doğrudan striatal GABAerjik nöronları uyarır.",
+          "Sonuçta talamokortikal yolaklarda disinhibisyon ve istemsiz kas kasılmaları (distoni) gelişir."
+        ]
+      },
+      {
+        "type": "callout",
+        "style": "exam_trap",
+        "title": "Sınav Tuzağı",
+        "items": [
+          {
+            "text": "Akut distonik reaksiyonda L-dopa tedavide kullanılmaz; bu özellik diğer EPYE'lerle (örn. Parkinsonizm, NMS) karıştırılabilir. Antikolinerjikler veya difenhidramin ilk seçenektir."
+          }
+        ]
+      },
+      {
+        "type": "mini_ddx",
+        "title": "Çeldirici Analizi",
+        "items": [
+          {
+            "option_id": "B",
+            "label": "Tardif Diskinezi",
+            "why_wrong": "Tardif diskinezi aylar-yıllar içinde gelişir ve ilerlemiş vakalarda tedavisi zordur, akut distonik reaksiyon ise ani başlar ve tedaviye hızlı yanıt verir.",
+            "would_be_correct_if": "Hastada buccolinguamastikatuvar hareketler gibi kronik diskineziler olsaydı ve antipsikotik kullanım süresi uzun olsaydı.",
+            "best_discriminator": "Oluşma süresi: akut (günler) vs. kronik (aylar-yıllar)."
+          },
+          {
+            "option_id": "C",
+            "label": "Tardif Diskinezi",
+            "why_wrong": "Postsinaptik D2 reseptör duyarlılığında artış ve upregülasyon tardif diskinezide görülen uzun vadeli bir adaptif mekanizmadır; akut distonik reaksiyonda dopamin antagonizmasına bağlı akut dengesizlik söz konusudur.",
+            "would_be_correct_if": "Hastada antipsikotik kullanımı sonrası geç dönemde gelişen orofasiyal diskineziler olsaydı.",
+            "best_discriminator": "Mekanizma: akut dopamin blokajı vs. kronik upregülasyon."
+          },
+          {
+            "option_id": "D",
+            "label": "Akatizi",
+            "why_wrong": "Akatizi tedavisinde propranolol veya benzodiazepinler ilk tercihtir; akut distonik reaksiyonda ise antikolinerjikler veya difenhidramin kullanılır.",
+            "would_be_correct_if": "Hastada yerinde duramama, huzursuzluk gibi motor restlessness bulguları olsaydı.",
+            "best_discriminator": "Klinik bulgular: distonik spazm vs. motor huzursuzluk."
+          },
+          {
+            "option_id": "E",
+            "label": "Nöroleptik Malign Sendrom",
+            "why_wrong": "Dopamin antagonizması her iki durumda da mekanizmadır, ancak NMS'de dantrolen veya bromokriptin kullanılır; akut distonik reaksiyonda antikolinerjikler tercih edilir. Ayrıca NMS'de ateş, rijidite, otonom instabilite gibi sistemik bulgular vardır.",
+            "would_be_correct_if": "Hastada yüksek ateş, şiddetli rijidite, kan basıncı düzensizliği gibi bulgular olsaydı.",
+            "best_discriminator": "Klinik tablo: fokal distoni vs. sistemik hipermetabolik sendrom."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "İlaç Tedavisi Karşılaştırması",
+        "headers": [
+          "Özellik",
+          "Doğru Cevaptaki İlaç",
+          "Çeldirici İlaç/Grup"
+        ],
+        "rows": [
+          {
+            "entity": "İsim",
+            "cells": [
+              "Akut Distonik Reaksiyon",
+              "Akatizi, Parkinsonizm, Nöroleptik Malign Sendrom, Tardif Diskinezi"
+            ]
+          },
+          {
+            "entity": "Tedavi İlaçları",
+            "cells": [
+              "Antikolinerjik ilaçlar (örn. Biperiden, Benztropin), Difenhidramin",
+              "Akatizi: Propranolol, Benzodiazepinler; Parkinsonizm: Antikolinerjik ilaçlar, Difenhidramin, Amantadin; NMS: Dantrolen, Diazepam, Bromokriptin, L-dopa; Tardif Diskinezi: Nöroleptik kesilir, yeni atipik nöroleptik, Diazepam, Valbenazin/Tetrabenazin"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

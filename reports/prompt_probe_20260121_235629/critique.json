@@ -1,0 +1,16 @@
+{
+  "critique_passed": true,
+  "feedback": "Soru kurgusu iyi, klinik bulgular idiyopatik Parkinson hastalığı ile net uyumlu. Doğru cevap tek ve açık (A seçeneği). Çeldiriciler güçlü, farklı nörodejeneratif hastalıklara ait patolojileri temsil ediyor (örneğin, B: ALS veya spinal dejenerasyon, C: serebellar ataksi, D: Pantotenat kinaz ile ilişkili nörodejenerasyon veya diğer demir birikim bozuklukları, E: Alzheimer hastalığı).",
+  "sibling_suggestions": [
+    "Progresif supranükleer palsi",
+    "Multipl sistem atrofisi",
+    "Lewy cisimcikli demans",
+    "Esansiyel tremor"
+  ],
+  "improved_distractors": [
+    "Bazal ganglionlarda bakır birikimi (Wilson hastalığı)",
+    "Serebral kortekste tau proteini birikimi (Alzheimer veya frontotemporal demans)",
+    "Medulla oblongata'da nöron dejenerasyonu (bulbar ALS)",
+    "Serebellar nükleuslarda atrofi (spinocerebellar ataksi)"
+  ]
+}

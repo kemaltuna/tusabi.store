@@ -1,0 +1,10 @@
+{
+  "critique_passed": true,
+  "feedback": "Soru, kırık iyileşmesi komplikasyonlarından psödoartrozun tanımını net bir şekilde test ediyor. Kurgu hatası yok; doğru cevap (C) açık ve kaynakla uyumlu. Çeldiriciler (A, B, D, E) güçlü, çünkü bunlar ilişkili ancak farklı kavramlardır (örneğin, nonunion psödoartrozun öncülüdür, malforme kallus erken bir aşamadır). Soru, 'Kemik kırıklarında iyileşme komplikasyonları' konseptini iyi temsil ediyor.",
+  "sibling_suggestions": [
+    "Gecikmiş union",
+    "Nonunion",
+    "Malforme kallus"
+  ],
+  "improved_distractors": []
+}

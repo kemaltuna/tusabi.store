@@ -1,0 +1,28 @@
+{
+  "question_text": "Altmış beş yaşında erkek hasta, son bir yıldır ellerinde titreme, hareketlerinde yavaşlama ve yürümede küçük adımlar şikayeti ile başvuruyor. Nörolojik muayenede istirahat tremoru, dişli çark rijiditesi ve bradikinezi saptanıyor. Yüz ifadesi donuk ve göz kırpma sıklığı azalmış. Postüral reflekslerde kayıp mevcut. Bu hasta için aşağıdaki ifadelerden hangisi yanlıştır?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Substantia nigra'daki dopaminerjik nöron kaybı patolojik temelini oluşturur."
+    },
+    {
+      "id": "B",
+      "text": "İntranöronal Lewy cisimcikleri karakteristik histopatolojik bulgusudur."
+    },
+    {
+      "id": "C",
+      "text": "Medulla spinalis tutulumu ve derin tendon reflekslerinde artış sıklıkla görülür."
+    },
+    {
+      "id": "D",
+      "text": "Locus seruleus nöronlarında dejenerasyon eşlik edebilir."
+    },
+    {
+      "id": "E",
+      "text": "Substantia nigra'dan globus pallidus'a dopaminerjik output azalması söz konusudur."
+    }
+  ],
+  "correct_option_id": "C",
+  "concept_tag": "concept: İdiopatik Parkinson Hastalığı - Klinik Bulgular ve Patoloji",
+  "brief_explanation": "Metinde açıkça belirtildiği üzere, İdiopatik Parkinson Hastalığı'nda medulla spinalis tutulumu ve derin tendon reflekslerinde artış OLMAZ. Bu, hastalığın ayırıcı tanısında önemli bir negatif bulgudur. Diğer seçeneklerdeki ifadeler (A, B, D, E) metinde tanımlanan patolojik özelliklerle uyumludur."
+}

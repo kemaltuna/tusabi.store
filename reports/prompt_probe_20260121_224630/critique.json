@@ -1,0 +1,15 @@
+{
+  "critique_passed": true,
+  "feedback": "Soru, İdiopatik Parkinson Hastalığı'nın klinik bulguları ve patolojisi hakkında iyi yapılandırılmıştır. Kurgu hatası yok, doğru cevap tek (C seçeneği) ve çeldiriciler güçlü (A, B, D, E seçenekleri doğru bilgiler içeriyor). Kaynak metinle uyumlu, medulla spinalis tutulumu ve derin tendon reflekslerinde artışın olmadığı vurgulanmış, bu da yanlış ifade olarak belirlenmiş.",
+  "sibling_suggestions": [
+    "Multipl Sistem Atrofisi",
+    "Progresif Supranükleer Palsi",
+    "Lewy Cisimcikli Demans",
+    "Kortikobazal Dejenerasyon"
+  ],
+  "improved_distractors": [
+    "Nöroleptik ilaç kullanımına bağlı parkinsonizm sıklıkla görülür.",
+    "Erken dönemde kognitif bozukluk tipik bir bulgudur.",
+    "Tremor genellikle istirahatte değil, aksiyonda belirgindir."
+  ]
+}

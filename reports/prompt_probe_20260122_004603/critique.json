@@ -1,0 +1,14 @@
+{
+  "critique_passed": true,
+  "feedback": "Soru kurgu hatası içermiyor, doğru cevap tek (C: Karbamazepin) ve çeldiriciler güçlü. Kaynak tablolarına göre, hızlı sodyum kanal blokörleri arasında Karbamazepin listelenmiş ve basit parsiyel nöbetler için konvansiyonel tedavi seçeneklerinden biri olarak belirtilmiştir. Diğer şıklar etki mekanizması veya tedavi statüsü açısından uyumsuzdur.",
+  "sibling_suggestions": [
+    "Fenitoin",
+    "Lamotrijin",
+    "Valproik asit"
+  ],
+  "improved_distractors": [
+    "Fenitoin (hızlı sodyum kanal blokörü ve konvansiyonel tedavi seçeneği)",
+    "Lamotrijin (hızlı sodyum kanal blokörü ama yeni tedavi seçeneği)",
+    "Valproik asit (hızlı sodyum kanal blokörü ama konvansiyonel tedavide daha az spesifik)"
+  ]
+}

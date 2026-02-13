@@ -1,0 +1,28 @@
+{
+  "question_text": "Altmış iki yaşında erkek hasta, son iki yıldır ellerinde titreme, hareketlerde yavaşlama ve yürürken küçük adımlar atma şikayetleri ile başvuruyor. Nörolojik muayenede istirahat halinde para sayar tarzda tremor, dişli çark rijiditesi, maske yüz ve postüral reflekslerde azalma saptanıyor. Derin tendon refleksleri normal sınırlarda. Bu hastada beklenen patolojik bulgu aşağıdakilerden hangisidir?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Substantia nigra'da dopaminerjik nöron kaybı ve Lewy cisimciği varlığı"
+    },
+    {
+      "id": "B",
+      "text": "Medulla spinalis'te nöron dejenerasyonu"
+    },
+    {
+      "id": "C",
+      "text": "Serebellar Purkinje hücrelerinde kayıp"
+    },
+    {
+      "id": "D",
+      "text": "Bazal ganglionlarda demir birikimi"
+    },
+    {
+      "id": "E",
+      "text": "Serebral kortekste amiloid plak oluşumu"
+    }
+  ],
+  "correct_option_id": "A",
+  "concept_tag": "concept: İdiopatik Parkinson Hastalığı patolojisi",
+  "brief_explanation": "Hastanın klinik bulguları (istirahat tremoru, dişli çark rijiditesi, bradikinezi, maske yüz, postüral refleks kaybı) idiyopatik Parkinson hastalığı ile uyumludur. Bu hastalığın karakteristik patolojik bulgusu substantia nigra'da dopaminerjik nöron kaybı ve intranöronal Lewy cisimciklerinin (alfa-sinüklein ve ubiquitin içeren inklüzyon cisimcikleri) varlığıdır. Diğer seçenekler farklı nörodejeneratif veya hareket bozukluklarına ait patolojileri tanımlar."
+}

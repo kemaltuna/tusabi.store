@@ -1,0 +1,167 @@
+{
+  "source_material": "Küçük Stajlar",
+  "topic": "Hareket Bozuklukları",
+  "question_text": "Altmış yaşında bir erkek hasta, son bir yıldır hareketlerinde yavaşlama, ellerinde istirahat halinde titreme ve yürürken küçük adımlar atma şikayetleri ile başvuruyor. Nörolojik muayenede, istirahat tremoru, dişli çark rijiditesi, bradikinezi ve postüral reflekslerde kayıp saptanıyor. Bu hastada aşağıdaki bulgulardan hangisinin görülmesi beklenmez?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Maske yüz"
+    },
+    {
+      "id": "B",
+      "text": "Göz kırpma oranında düşme"
+    },
+    {
+      "id": "C",
+      "text": "Derin tendon reflekslerinde artış"
+    },
+    {
+      "id": "D",
+      "text": "Hipovolemik ses"
+    },
+    {
+      "id": "E",
+      "text": "Fleksiyon postürü"
+    }
+  ],
+  "correct_option_id": "C",
+  "tags": [
+    "concept: İdiopatik Parkinson Hastalığı klinik bulguları ve ayırıcı tanı",
+    "visual:dopamine_pathways"
+  ],
+  "explanation": {
+    "main_mechanism": "Bu soruda doğru cevap Derin tendon reflekslerinde artış. İdiopatik Parkinson Hastalığı'nda substantia nigra'daki dopaminerjik nöron kaybı ve Lewy cisimcikleri ile karakterize nörodejeneratif süreç sonucu ekstrapiramidal sistem tutulumu olur, ancak medulla spinalis tutulumu olmadığı için derin tendon refleksleri normal kalır veya artmaz.",
+    "clinical_significance": "Parkinson hastalığı, hareket bozuklukları içinde en sık görülen hipokinetik sendromdur; erken tanı ve dopaminerjik tedavi ile semptom kontrolü sağlanabilir, ancak progresif seyir gösterir.",
+    "sibling_entities": [
+      "Huntington Hastalığı",
+      "Progresif Supranükleer Palsi",
+      "Multipl Sistem Atrofisi",
+      "Lewy Cisimcikli Demans"
+    ],
+    "updates_applied": [],
+    "update_checked": true,
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "Detaylı Açıklama & Mekanizma"
+      },
+      {
+        "type": "callout",
+        "style": "key_clues",
+        "title": "Klinik İpuçları",
+        "items": [
+          {
+            "text": "İstirahat tremoru (para sayar tarzda), dişli çark rijiditesi, bradikinezi triadı tipiktir."
+          },
+          {
+            "text": "Postüral refleks kaybı, maske yüz, göz kırpma azalması, hipovolemik ses ve fleksiyon postürü eşlik eder."
+          },
+          {
+            "text": "Derin tendon reflekslerinde artış veya medulla spinalis tutulumu beklenmez; bu bulgu varlığında ayırıcı tanı düşünülmelidir."
+          }
+        ]
+      },
+      {
+        "type": "numbered_steps",
+        "title": "Mekanizma Zinciri",
+        "steps": [
+          "Substantia nigra pars compacta'daki dopaminerjik nöronların dejenerasyonu ve Lewy cisimcikleri (alfa-sinüklein birikimi) oluşumu.",
+          "Nigrostriatal yolda dopamin salınımında azalma, bazal ganglionların direkt/indirekt yollarında dengesizlik.",
+          "Striatumda GABAerjik inhibisyon artışı, subtalamik nükleus ve globus pallidus interna aktivitesinde artış, talamokortikal uyarımda azalma.",
+          "Sonuçta bradikinezi, rijidite, tremor ve postüral instabilite gibi motor semptomlar ortaya çıkar."
+        ]
+      },
+      {
+        "type": "callout",
+        "style": "exam_trap",
+        "title": "Sınav Tuzağı",
+        "items": [
+          {
+            "text": "Parkinson'da derin tendon refleksleri normaldir veya hafif artabilir, ancak belirgin artış veya piramidal bulgular (Babinski, klonus) multipl sistem atrofisi veya diğer Parkinson-plus sendromlarını düşündürür."
+          }
+        ]
+      },
+      {
+        "type": "mini_ddx",
+        "title": "Çeldirici Analizi",
+        "items": [
+          {
+            "option_id": "A",
+            "label": "Maske yüz",
+            "why_wrong": "Parkinson'da mimik kaslarının hareketinde yavaşlama ve azalmaya bağlı tipik bir bulgudur, beklenir.",
+            "would_be_correct_if": "Eğer soru Parkinson'da görülen bulguları sorsaydı doğru olurdu.",
+            "best_discriminator": "Maske yüz, Parkinson'da sık olmakla birlikte diğer parkinsonizm nedenlerinde de görülebilir; ancak istirahat tremoru ve dişli çark rijiditesi ile birlikte olması Parkinson'u destekler."
+          },
+          {
+            "option_id": "B",
+            "label": "Göz kırpma oranında düşme",
+            "why_wrong": "Parkinson'da otonomik disfonksiyon ve yüz ifadesinin azalmasına bağlı olarak göz kırpma sıklığı azalır, beklenen bir bulgudur.",
+            "would_be_correct_if": "Parkinson'da beklenen bulgular listesinde yer alır, bu nedenle 'görülür' sorusuna cevap olurdu.",
+            "best_discriminator": "Göz kırpma azalması Parkinson'da spesifik değildir, ancak bradikinezi ve maske yüz ile uyumludur."
+          },
+          {
+            "option_id": "D",
+            "label": "Hipovolemik ses",
+            "why_wrong": "Parkinson'da larengeal kasların tutulumu ve otonomik disfonksiyon nedeniyle ses kısıklığı ve hipofoni gelişir, tipik bir bulgudur.",
+            "would_be_correct_if": "Parkinson'un motor ve otonomik bulguları arasında yer alır, bu yüzden 'görülür' sorusunda doğru olurdu.",
+            "best_discriminator": "Hipovolemik ses, Parkinson'da sıktır, ancak diğer nörolojik hastalıklarda da görülebilir; istirahat tremoru gibi spesifik bulgularla birlikte değerlendirilmelidir."
+          },
+          {
+            "option_id": "E",
+            "label": "Fleksiyon postürü",
+            "why_wrong": "Parkinson'da postüral instabilite ve rijidite nedeniyle gövde ve ekstremitelerde fleksiyon postürü gelişir, beklenen bir bulgudur.",
+            "would_be_correct_if": "Parkinson'da postüral bozuklukların bir parçasıdır, dolayısıyla 'görülür' sorusunda doğru cevap olurdu.",
+            "best_discriminator": "Fleksiyon postürü, Parkinson'da ileri dönemde belirgindir, ancak diğer parkinsonizm nedenlerinde de olabilir; erken dönemde daha az belirgindir."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Ayırıcı Tanı",
+        "headers": [
+          "Özellik",
+          "Doğru Tanı/Durum",
+          "Ayırıcı Tanı"
+        ],
+        "rows": [
+          {
+            "entity": "İsim",
+            "cells": [
+              "İdiopatik Parkinson Hastalığı",
+              "Progresif Supranükleer Palsi"
+            ]
+          },
+          {
+            "entity": "Klinik Bulgular",
+            "cells": [
+              "İstirahat tremoru, dişli çark rijiditesi, bradikinezi, postüral refleks kaybı",
+              "Supranükleer göz felci (özellikle dikey bakış), aksiyal rijidite, erken düşmeler, pseudobulber palsi"
+            ]
+          },
+          {
+            "entity": "Patoloji",
+            "cells": [
+              "Substantia nigra'da Lewy cisimcikleri (alfa-sinüklein birikimi)",
+              "Beyin sapı ve bazal ganglionlarda tau protein birikimi, globoz nükleus atrofisi"
+            ]
+          },
+          {
+            "entity": "Derin Tendon Refleksleri",
+            "cells": [
+              "Normal veya hafif artabilir, belirgin artış beklenmez",
+              "Genellikle normal, bazen artabilir ancak Parkinson'dan farklı olarak piramidal bulgular eşlik edebilir"
+            ]
+          },
+          {
+            "entity": "Levodopa Yanıtı",
+            "cells": [
+              "İyi yanıt",
+              "Zayıf veya geçici yanıt"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

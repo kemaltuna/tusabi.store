@@ -1,0 +1,28 @@
+{
+  "question_text": "Yeni tanı konmuş basit parsiyel nöbeti olan bir hastada, hızlı sodyum kanal blokajı yaparak etki gösteren ve konvansiyonel tedavi seçeneklerinden biri olan ilaç hangisidir?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Lamotrijin"
+    },
+    {
+      "id": "B",
+      "text": "Levetirasetam"
+    },
+    {
+      "id": "C",
+      "text": "Karbamazepin"
+    },
+    {
+      "id": "D",
+      "text": "Gabapentin"
+    },
+    {
+      "id": "E",
+      "text": "Etosüksimid"
+    }
+  ],
+  "correct_option_id": "C",
+  "concept_tag": "concept: Antiepileptik ilaçların etki mekanizması",
+  "brief_explanation": "Tablo, hızlı sodyum kanal blokörleri arasında karbamazepini listeler. Ayrıca, basit parsiyel nöbetler için konvansiyonel tedavi seçeneklerinde karbamazepin ilk sırada ve kalın yazıyla vurgulanmıştır. Lamotrijin de hızlı sodyum kanal blokörüdür ancak konvansiyonel tedavide değil, yeni geliştirilen tedaviler arasında yer alır. Levetirasetam SV2A proteinine bağlanır, gabapentin kalsiyum kanallarının α2δ -1 ligandına bağlanır, etosüksimid ise Ca2+ kanal blokörüdür ve öncelikle absans nöbetlerde kullanılır."
+}

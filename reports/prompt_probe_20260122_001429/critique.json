@@ -1,0 +1,11 @@
+{
+  "critique_passed": true,
+  "feedback": "Soru kurgusu doğru ve net. Klinik tablo (basit parsiyel nöbet) ve EEG bulgusu (sol frontal odak) tutarlı. Kaynak tablolara göre, basit parsiyel nöbet için konvansiyonel tedavide birinci sırada karbamazepin belirtilmiş ve karbamazepin hızlı sodyum kanal blokörleri grubunda listelenmiştir, bu nedenle doğru cevap (C) tek ve kesindir. Çeldiriciler güçlü: A (yavaş sodyum kanal blokajı) lakosamid için, B (GABA uptake inhibisyonu) tiagabin veya vigabatrin için, D (kalsiyum kanallarının α2δ -1 ligandına bağlanma) gabapentin veya pregabalin için, E (SV2A proteinine bağlanma) levetirasetam için geçerlidir ve diğer antiepileptik ilaçları temsil eder, bu da öğrencinin bilgisini test eder.",
+  "sibling_suggestions": [
+    "Kompleks parsiyel nöbet",
+    "Absans nöbet",
+    "Miyoklonik nöbet",
+    "Tonik-klonik nöbet"
+  ],
+  "improved_distractors": []
+}

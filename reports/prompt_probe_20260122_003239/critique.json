@@ -1,0 +1,11 @@
+{
+  "critique_passed": true,
+  "feedback": "Soru iyi yapılandırılmıştır. Kurgu hatası yok, doğru cevap tek ve açık (Osteoid osteom). Çeldiriciler güçlü ve ilgili kemik tümörlerini içeriyor. Kısa açıklama yeterli.",
+  "sibling_suggestions": [
+    "Osteoblastom",
+    "Osteomiyelit",
+    "Anevrizmal kemik kisti",
+    "Kondroblastom"
+  ],
+  "improved_distractors": []
+}

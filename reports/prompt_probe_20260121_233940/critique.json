@@ -1,0 +1,16 @@
+{
+  "critique_passed": true,
+  "feedback": "Soru kurgu hatası içermiyor; klinik senaryo akatiziyi net şekilde tanımlıyor. Doğru cevap (A) kaynak tabloya göre tek ve tutarlı. Çeldiriciler güçlü: B (L-Dopa) tabloda akatizi için kullanılmaz deniyor, C (Dantrolen) ve E (Bromokriptin) nöroleptik malign sendrom için, D (Antikolinerjik) ise akut distoni ve parkinsonizm için öncelikli, bu da akatizi ile karıştırılabilir. Soru, antipsikotiklerin ekstrapiramidal yan etkileri konseptini iyi test ediyor.",
+  "sibling_suggestions": [
+    "Akut distonik reaksiyon",
+    "Parkinsonizm",
+    "Nöroleptik malign sendrom",
+    "Tardif diskinezi"
+  ],
+  "improved_distractors": [
+    "Benzodiazepinler (örneğin diazepam)",
+    "Difenhidramin",
+    "Amantadin (parkinsonizm için)",
+    "Valbenazin (tardif diskinezi için)"
+  ]
+}

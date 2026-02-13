@@ -1,0 +1,375 @@
+[
+  {
+    "question_text": "A 35-year-old patient is being evaluated for a neurological disorder. In the context of central nervous system pharmacology, which of the following statements regarding postsynaptic potentials is correct?",
+    "options": {
+      "A": "Eksitatör postsinaptik potansiyeller (EPSP), genellikle klor kanallarının açılmasıyla oluşur.",
+      "B": "İnhibitör postsinaptik potansiyeller (IPSP), genellikle sodyum kanallarının açılmasıyla oluşur.",
+      "C": "EPSP'ler, potasyum kanallarının kapanmasıyla oluşabilir.",
+      "D": "IPSP sonucunda oluşan hiperpolarizasyon, kalpte muskarinik 1 reseptörü uyarısıyla potasyum kanallarının açılmasıdır.",
+      "E": "Santral sinir sisteminde sadece eksitatör postsinaptik potansiyeller bulunur."
+    },
+    "correct_answer": "C",
+    "explanation": "Eksitatör postsinaptik potansiyel (EPSP), genellikle sodyum ya da kalsiyum kanallarının açılmasıyla oluşur. Ancak bazı sinapslarda, potasyum kanallarının kapanmasıyla da benzer potansiyeller oluşabilir. Bu nedenle C seçeneği doğrudur.\nA seçeneği yanlıştır, EPSP'ler genellikle sodyum veya kalsiyum kanallarının açılmasıyla oluşur.\nB seçeneği yanlıştır, IPSP'ler potasyum ya da klor kanallarının açılmasıyla oluşur.\nD seçeneği yanlıştır, IPSP sonucunda oluşan hiperpolarizasyonun kalpteki muskarinik 2 reseptörü uyarısı sonucunda potasyum kanallarının açılmasıyla olduğu belirtilmiştir.\nE seçeneği yanlıştır, santral sinir sisteminde hem EPSP hem de IPSP bulunur.",
+    "difficulty": "kolay",
+    "tags": [
+      "Nörotransmitterler",
+      "EPSP",
+      "IPSP"
+    ]
+  },
+  {
+    "question_text": "Santral sinir sisteminde görevli nörotransmitterlerin kimyasal yapılarına göre sınıflandırılması dikkate alındığında, aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Amin yapılı: Asetilkolin",
+      "B": "Aminoasit yapılı: Glutamat",
+      "C": "Peptit yapılı: Enkefalin",
+      "D": "Pürin yapılı: Adenozin",
+      "E": "Gaz yapılı: Histamin"
+    },
+    "correct_answer": "E",
+    "explanation": "Nörotransmitterlerin sınıflandırılması tablosuna göre Histamin, 'Amin yapılı' nörotransmitterler arasında yer alır. 'Gaz yapılı' nörotransmitterler ise Nitrik oksit (NO) ve Karbonmonoksit (CO)'dur. Bu nedenle E seçeneği yanlıştır.\nA, B, C ve D seçenekleri tabloda verilen doğru eşleştirmelerdir.",
+    "difficulty": "kolay",
+    "tags": [
+      "Nörotransmitterler",
+      "Sınıflandırma"
+    ]
+  },
+  {
+    "question_text": "Dopaminerjik sistemin bozuklukları birçok nöropsikiyatrik hastalığın patogenezinde rol oynamaktadır. Aşağıdaki durumlardan hangisinde santral dopaminerjik D2 reseptör aktivitesinde bir azalma beklenir?",
+    "options": {
+      "A": "Şizofreni",
+      "B": "Huntington koresi",
+      "C": "Parkinson hastalığı",
+      "D": "Bağımlılık",
+      "E": "Tourette sendromu"
+    },
+    "correct_answer": "C",
+    "explanation": "Metinde belirtildiği üzere, 'Dopaminerjik D2 aktivitesi azalırsa ➤ Parkinson hastalığı' ortaya çıkar. Buna karşılık, 'Dopaminerjik D2 aktivitesi artarsa ➤ Huntington koresi / Şizofreni' görülür. Bağımlılık ve Tourette sendromu ise dopaminerjik sistemin genel bozukluklarıyla ilişkilidir ancak spesifik olarak D2 aktivitesinin azalmasıyla doğrudan ilişkilendirilmemiştir.\nBu nedenle doğru cevap C seçeneğidir.",
+    "difficulty": "orta",
+    "tags": [
+      "Dopamin",
+      "Dopamin Reseptörleri",
+      "Parkinson Hastalığı"
+    ]
+  },
+  {
+    "question_text": "Santral sinir sisteminde dopaminerjik yolakların fonksiyonları ve ilişkili durumlar göz önüne alındığında, aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Kemotrigger bölgedeki D2 reseptörlerinin aktivasyonu bulantı-kusma oluşturur.",
+      "B": "Mezokortikal yolaktaki D1 reseptör aktivasyonu öfori, halüsinasyon ve psikoz ile ilişkilidir.",
+      "C": "Nigrostrial yolak, hareketin anahtar düzenleyicisidir ve dejenerasyonu Parkinson hastalığında görülür.",
+      "D": "Tuberoinfundibular yolaktaki dopamin, D2 reseptörleri üzerinden prolaktin salıverilmesini baskılar.",
+      "E": "Mezokortikal yolaktaki D2 ve D3 reseptör aktivasyonu, ekstrapiramidal semptomlarda düzelme sağlar."
+    },
+    "correct_answer": "E",
+    "explanation": "Metinde 'Nigrostrial yolak: Bu yolaktaki D2 ve D3 reseptör aktivasyonu, ekstrapiramidal semptomlarda düzelme sağlar.' ifadesi yer almaktadır. E seçeneğinde ise bu durum 'Mezokortikal yolak' ile ilişkilendirilmiştir. Mezokortikal yolak D1 reseptör aktivasyonu ile öfori, halüsinasyon ve psikoz gibi durumlarla ilişkilidir. Bu nedenle E seçeneği yanlıştır.\nA, B, C ve D seçenekleri metinde belirtilen doğru bilgilerdir.",
+    "difficulty": "zor",
+    "tags": [
+      "Dopamin",
+      "Santral Etkiler",
+      "Dopamin Yolakları"
+    ]
+  },
+  {
+    "question_text": "Aşağıdaki nörotransmitterlerden hangisinin santral sinir sisteminde katekolaminerjik nöronların en fazla bulunduğu yer Locus coeruleus'tur?",
+    "options": {
+      "A": "Asetilkolin",
+      "B": "Dopamin",
+      "C": "Noradrenalin",
+      "D": "Serotonin",
+      "E": "GABA"
+    },
+    "correct_answer": "C",
+    "explanation": "Metinde açıkça belirtildiği üzere, 'Santral sinir sisteminde katekolaminerjik nöronların en fazla bulunduğu yer; Locus coeruleus'dur.' Noradrenalin, katekolaminerjik bir nörotransmitterdir ve bu bölgede yoğun olarak bulunur. Diğer seçenekler yanlıştır.\nAsetilkolin Meynert'in nucleus basalis'inde, Dopamin nigrostriatal, mezokortikal/mezolimbik ve tuberoinfundibular yolaklarda, Serotonin Raphe sisteminde ve GABA yaygın olarak santral sinir sisteminde bulunur.",
+    "difficulty": "kolay",
+    "tags": [
+      "Noradrenalin",
+      "Lokalizasyon"
+    ]
+  },
+  {
+    "question_text": "Serotonin (5-HT) metabolizması ve santral sinir sistemindeki etkileri ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "L-triptofan, serotoninden farklı olarak santral sinir sistemine geçemez.",
+      "B": "Serotonin, santral sinir sisteminde en fazla Substantia nigra içinde bulunur.",
+      "C": "Serotonin, iştahı artırıcı etkiye sahiptir.",
+      "D": "ACTH ve prolaktin salıverilmesinde artışa neden olur.",
+      "E": "GnRH salıverilmesinde artışa neden olur."
+    },
+    "correct_answer": "D",
+    "explanation": "Metinde 'ACTH ve prolaktin salıverilmesinde artış; GnRH salıverilmesinde ise azalma ortaya çıkartır.' ifadesi yer almaktadır. Bu nedenle D seçeneği doğrudur.\nA seçeneği yanlıştır, L-triptofan serotoninden farklı olarak santral sinir sistemine geçebilir.\nB seçeneği yanlıştır, serotonin santral sinir sisteminde en fazla Raphe sistemi içinde bulunur.\nC seçeneği yanlıştır, serotonin iştahı azaltır.\nE seçeneği yanlıştır, GnRH salıverilmesinde azalma ortaya çıkar.",
+    "difficulty": "orta",
+    "tags": [
+      "Serotonin",
+      "Sentez",
+      "Etkiler"
+    ]
+  },
+  {
+    "question_text": "Bir hastada bulantı-kusma şikayeti ile başvuru sonrası yapılan değerlendirmede, 5-HT3 reseptörlerinin aşırı aktivitesinin bu duruma katkıda bulunduğu düşünülmektedir. Bu reseptörlerin santral sinir sistemindeki esas lokalizasyonu neresidir?",
+    "options": {
+      "A": "Beyin omurilik sıvısı",
+      "B": "Miyenterik pleksus",
+      "C": "Raphe sistemi",
+      "D": "Bulantı-kusma merkezi",
+      "E": "Hipotalamus"
+    },
+    "correct_answer": "D",
+    "explanation": "Serotonerjik reseptörlerin etkileri tablosunda '5-HT3: Bulantı-kusma merkezinde bulunur.' ifadesi yer almaktadır. Bu nedenle 5-HT3 reseptörlerinin aşırı aktivitesi bulantı-kusmaya yol açabilir ve esas lokalizasyonu bulantı-kusma merkezidir.\nDiğer seçenekler yanlıştır.",
+    "difficulty": "orta",
+    "tags": [
+      "Serotonin Reseptörleri",
+      "5-HT3",
+      "Bulantı-Kusma"
+    ]
+  },
+  {
+    "question_text": "Santral sinir sisteminde gama-aminobütirik asit (GABA) ve asetilkolin ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "GABA, beyinde glutamat sentaz enzimi tarafından sentezlenir.",
+      "B": "İzoniazid ve sikloserin, GABA oluşumunu artırarak eksitasyon ve konvülsiyonları önler.",
+      "C": "Benzodiazepinler ve barbitüratlar, GABA-A reseptörü üzerinden antagonist etkiler oluşturur.",
+      "D": "Santral sinir sistemindeki asetilkolinerjik muskarinik yolakların çoğu Meynert'in nucleus basalis'inden köken alır.",
+      "E": "Kortekste asetilkolin artışı, Alzheimer hastalığı ve kognitif fonksiyonlarda baskılanmaya yol açar."
+    },
+    "correct_answer": "D",
+    "explanation": "Metinde 'Santral sinir sisteminde muskarinik yolakların çok büyük kısmı, Meynert'in nucleus basalis'inden köken alır.' ifadesi yer almaktadır. Bu nedenle D seçeneği doğrudur.\nA seçeneği yanlıştır, GABA glutamatın glutamik asit dekarboksilaz enzimi tarafından sentezlenir.\nB seçeneği yanlıştır, izoniazid ve sikloserin glutamik asit dekarboksilazı inhibe ederek GABA oluşumunu azaltır ve eksitasyon/konvülsiyon yapabilir.\nC seçeneği yanlıştır, benzodiazepinler ve barbitüratlar GABA-A reseptörü üzerinden agonistik etkiler oluşturur.\nE seçeneği yanlıştır, kortekste asetilkolin azalması Alzheimer hastalığı ve kognitif fonksiyonlarda baskılanmaya yol açar.",
+    "difficulty": "orta",
+    "tags": [
+      "GABA",
+      "Asetilkolin",
+      "Nörotransmitterler"
+    ]
+  },
+  {
+    "question_text": "Santral sinir sistemindeki glisin ve glutamat nörotransmitterleri ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Glisin, omurilik ve beyin sapının en önemli inhibitör nörotransmitteridir.",
+      "B": "Glisin reseptörleri, klor kanalı aktivasyonunu artırır.",
+      "C": "NMDA reseptörünün aktivasyonu için glutamat ve glisin birlikte bulunmak zorundadır.",
+      "D": "Striknin, postsinaptik glisin reseptör blokörüdür ve konvülsiyon oluşturur.",
+      "E": "Glutamat, santral sinir sisteminin esas inhibitör nörotransmitteridir."
+    },
+    "correct_answer": "E",
+    "explanation": "Metinde 'Glutamat: Santral sinir sisteminin esas ve en yaygın bulunan eksitatörüdür.' ifadesi yer almaktadır. E seçeneği, glutamatın inhibitör nörotransmitter olduğunu belirterek yanlış bilgi vermektedir. Glisin ise omurilik ve beyin sapının en önemli inhibitör nörotransmitteridir.\nDiğer seçenekler metinde verilen doğru bilgilerdir.",
+    "difficulty": "orta",
+    "tags": [
+      "Glisin",
+      "Glutamat",
+      "Nörotransmitterler"
+    ]
+  },
+  {
+    "question_text": "Santral sinir sisteminde GABA-A reseptörüne etki eden ilaçlarla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Musimol, GABA-A reseptör agonisti olarak görev yapar.",
+      "B": "Baklofen, GABA-B reseptör agonisti olup Gi proteini kenetlidir.",
+      "C": "Bikukulin, GABA-A reseptörünün klor kanalını antagonize eder ve deneysel epilepsi oluşturmak için kullanılır.",
+      "D": "Nipekotik asit, GABA geri alım blokörüdür.",
+      "E": "Pentilentetrazol, GABA-B reseptör agonisti olarak etki gösterir."
+    },
+    "correct_answer": "E",
+    "explanation": "GABA üzerinden etki eden maddeler tablosunda 'Pentilentetrazol' GABA-A reseptör antagonisti olarak listelenmiştir. GABA-B reseptör agonisti Baklofen'dir. Bu nedenle E seçeneği yanlıştır.\nA, B, C ve D seçenekleri metinde verilen doğru bilgilerdir.",
+    "difficulty": "zor",
+    "tags": [
+      "GABA",
+      "GABA Reseptörleri",
+      "Antagonistler"
+    ]
+  },
+  {
+    "question_text": "Aşağıdaki ilaçlardan hangisi NMDA reseptör antagonisti olarak Alzheimer hastalığı tedavisinde kullanılan bir ajandır?",
+    "options": {
+      "A": "Ketamin",
+      "B": "Memantin",
+      "C": "Riluzol",
+      "D": "Biperiden",
+      "E": "Fensiklidin"
+    },
+    "correct_answer": "B",
+    "explanation": "NMDA reseptör antagonistleri listesinde 'Memantin (Alzheimer tedavisi)' yer almaktadır. Ketamin, fensiklidin ve dizosilpin genel anestezik ve deneysel psikoz ilacı olarak kullanılırken, Biperiden ekstrapiramidal yan etki tedavisinde, Riluzol ise amyotrofik lateral skleroz tedavisinde kullanılır.\nBu nedenle doğru cevap B seçeneğidir.",
+    "difficulty": "orta",
+    "tags": [
+      "NMDA",
+      "NMDA Antagonistleri",
+      "Alzheimer Hastalığı"
+    ]
+  },
+  {
+    "question_text": "Narkolepsi patogenezinde rol oynayan nörotransmitter sistemi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Dopaminerjik sistem",
+      "B": "Serotonerjik sistem",
+      "C": "Orexin sistemi",
+      "D": "Asetilkolinerjik sistem",
+      "E": "Noradrenerjik sistem"
+    },
+    "correct_answer": "C",
+    "explanation": "Metinde 'Oreksin reseptörleri eksik olan hayvanlarda narkolepsi oluşur.' ifadesi yer almaktadır. Bu da oreksin sisteminin narkolepsi patogenezinde anahtar rol oynadığını göstermektedir.\nDiğer nörotransmitter sistemler uyku-uyanıklık döngüsünü etkilese de, narkolepsi ile doğrudan ilişkili ana sistem oreksindir.",
+    "difficulty": "zor",
+    "tags": [
+      "Oreksinler",
+      "Narkolepsi"
+    ]
+  },
+  {
+    "question_text": "Aşağıdaki maddelerden hangisi, santral sinir sisteminde adenozin reseptörlerini antagonize ederek uyanıklık sağlayan bir metilksantindir?",
+    "options": {
+      "A": "Teofilin",
+      "B": "Teobromin",
+      "C": "Kafein",
+      "D": "Pentoksifilin",
+      "E": "Aminofilin"
+    },
+    "correct_answer": "C",
+    "explanation": "Metinde 'Non-selektif bir adenozin reseptör antagonisti olan kafein, bu reseptörü antagonize ederek uyanıklık sağlar.' ifadesi yer almaktadır. Kafein, metilksantin grubuna ait bir maddedir.\nDiğer seçenekler de metilksantinler olsa da, soruda uyanıklık sağlama özelliği vurgulanmıştır ve kafein bu tanıma en uygun olanıdır.",
+    "difficulty": "kolay",
+    "tags": [
+      "Adenozin",
+      "Metilksantinler",
+      "Kafein"
+    ]
+  },
+  {
+    "question_text": "Kannabinoidler ve reseptörleri ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Kannabinoid CB1 ve CB2 reseptörleri G proteini kenetli reseptör yapısındadır.",
+      "B": "CB1 reseptörleri daha çok santralde, CB2 reseptörleri ise immün hücrelerde yoğundur.",
+      "C": "Anandamid, kannabinoid reseptörleri için tam agonisttir.",
+      "D": "Tetrahidrokannabinol (THC), psikoaktif etki oluşturur.",
+      "E": "Kannabinoidler, voltaj kapılı Ca++ kanallarını inhibe edebilirler."
+    },
+    "correct_answer": "C",
+    "explanation": "Metinde 'Anandamid... Kannabinoid reseptörleri için parsiyel agonisttir.' ifadesi yer almaktadır. Bu nedenle C seçeneği yanlıştır. 2-araşidonilgliserol (2-AG) ise tam agonisttir.\nA, B, D ve E seçenekleri metinde verilen doğru bilgilerdir.",
+    "difficulty": "orta",
+    "tags": [
+      "Kannabinoidler",
+      "Endokannabinoidler",
+      "Anandamid"
+    ]
+  },
+  {
+    "question_text": "Endokannabinoidlerin santral sinir sistemindeki fizyolojik rolleri ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Stres ve kaygıyı artırır, ağrıyı baskılar.",
+      "B": "Dopamin salıverilmesini inhibe ederek ödül sistemini baskılar.",
+      "C": "REM uykusunda harcanan sürenin yüzdesini artırır.",
+      "D": "Hepatosellüler CB1 reseptörlerinin aktivasyonu, yağlı karaciğer ve hepatik steatoz gelişimini engeller.",
+      "E": "Proinflamatuvar sitokinlerin salıverilmesini baskılayarak inflamasyonu azaltır."
+    },
+    "correct_answer": "E",
+    "explanation": "Metinde 'inflamasyonu baskılar. Bu etkiyi öncelikle proinflamatuvar sitokinlerin salıverilmesinin baskılanması ve ayrıca hücre proliferasyonu ve migrasyonunu inhibe ederek yapar.' ifadesi yer almaktadır. Bu nedenle E seçeneği doğrudur.\nA seçeneği yanlıştır, stres ve kaygıyı azaltır.\nB seçeneği yanlıştır, dopamin salıverilmesini uyararak ödül sistemini aktive ederler, pozitif pekiştiricidir.\nC seçeneği yanlıştır, esrar REM uykusunda harcanan sürenin yüzdesini azaltır.\nD seçeneği yanlıştır, hepatik CB1 reseptörlerinin aktivasyonu, yağlı karaciğer ve hepatik steatoz gelişimini destekler.",
+    "difficulty": "orta",
+    "tags": [
+      "Endokannabinoidler",
+      "Fizyolojik Rol"
+    ]
+  },
+  {
+    "question_text": "Multipl sklerozda spastisite ilişkili ağrı tedavisinde kullanılan, kannabidiol ve THC karışımı içeren ilaç aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Dronabinol",
+      "B": "Nabilon",
+      "C": "Rimonabant",
+      "D": "Nabiksimols",
+      "E": "Kannabidiol"
+    },
+    "correct_answer": "D",
+    "explanation": "Kannabinoid ilaçlar tablosunda 'Nabiksimols (Kannabidiol ve THC karışımı)' için 'Multipl skleroz' ve 'Ciddi spastisite ilişkili ağrı' endikasyonları belirtilmiştir. Bu nedenle D seçeneği doğrudur.\nDronabinol ve Nabilon kemoterapiye bağlı bulantı-kusma ve HIV'de iştahsızlık tedavisinde kullanılır. Rimonabant bir CB1 invers agonistidir ve obezite tedavisinde kullanılmıştır ancak piyasadan çekilmiştir. Kannabidiol ise dirençli epilepsilerde kullanılır.",
+    "difficulty": "orta",
+    "tags": [
+      "Kannabinoid İlaçlar",
+      "Nabiksimols",
+      "Multipl Skleroz"
+    ]
+  },
+  {
+    "question_text": "Aşağıdaki nörotransmitterlerden hangisi peptit yapılı olup, etkilerini sonlandıran spesifik bir geri alım mekanizması bulunmamaktadır?",
+    "options": {
+      "A": "Asetilkolin",
+      "B": "Dopamin",
+      "C": "GABA",
+      "D": "Enkefalin",
+      "E": "Glutamat"
+    },
+    "correct_answer": "D",
+    "explanation": "Metinde 'Peptit yapılı nörotransmitterler (Endorfin / Enkefalin / Dinorfin / P maddesi / Nöropeptit Y)' başlığı altında 'Etkilerini sonlandıran herhangi bir spesifik geri alım mekanizmaları yoktur.' ifadesi yer almaktadır. Enkefalin bu gruba dahildir.\nAsetilkolin, Dopamin, GABA ve Glutamatın ise spesifik geri alım mekanizmaları bulunur.\nBu nedenle D seçeneği doğrudur.",
+    "difficulty": "kolay",
+    "tags": [
+      "Nörotransmitterler",
+      "Peptit Nörotransmitterler"
+    ]
+  },
+  {
+    "question_text": "Hipnosedatif ilaçların etki mekanizmaları ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Benzodiazepinler, GABA-A reseptörü üzerinden klor kanalının açık kalma süresini artırır.",
+      "B": "Barbitüratlar, GABA-A reseptörü üzerinden klor kanalının açılma frekansını artırır.",
+      "C": "Atipik benzodiazepinler, GABA-A reseptörünün beta-1 alt ünitesine bağlanır.",
+      "D": "Flumazenil, benzodiazepin reseptör agonisti olarak etki gösterir.",
+      "E": "Tüm hipnosedatif ilaçlar, hücre içine klor girişini artırarak hiperpolarizasyona neden olur."
+    },
+    "correct_answer": "E",
+    "explanation": "Metinde 'Her iki ilaç grubu da hücre içine klor girişini artırır ve hiperpolarizasyona neden olur.' ifadesi yer almaktadır. Bu, tüm hipnosedatif ilaçlar için geçerli ortak bir özelliktir. Bu nedenle E seçeneği doğrudur.\nA seçeneği yanlıştır, benzodiazepinler klor kanalının açılma frekansını artırır.\nB seçeneği yanlıştır, barbitüratlar klor kanalının açık kalma süresini artırır.\nC seçeneği yanlıştır, atipik benzodiazepinler GABA-A reseptörünün alfa1 subünitine bağlanır.\nD seçeneği yanlıştır, flumazenil benzodiazepin reseptör antagonisti olarak etki gösterir.",
+    "difficulty": "kolay",
+    "tags": [
+      "Hipnosedatif İlaçlar",
+      "Etki Mekanizması",
+      "GABA-A"
+    ]
+  },
+  {
+    "question_text": "Sirotik karaciğer hastalığı olan yaşlı bir hastada insomni tedavisi için aşağıdaki benzodiazepinlerden hangisi tercih edilmelidir?",
+    "options": {
+      "A": "Diazepam",
+      "B": "Flurazepam",
+      "C": "Klorazepat",
+      "D": "Lorazepam",
+      "E": "Triazolam"
+    },
+    "correct_answer": "D",
+    "explanation": "Metinde 'Yaşlı, karaciğer yetmezliği olan ve sirotik hastalarda tercih edilirler. Sitokrom p450 yoluyla yıkılmazlar, ekstrahepatik olarak metabolize edilebilirler. Oxazepam, Lorazepam, Temazepam.' ifadesi yer almaktadır. Bu ilaçlar aktif metabolit oluşturmadan konjugasyon yoluyla metabolize edildiği için karaciğer yetmezliğinde güvenle kullanılabilir.\nDiğer seçenekler aktif metabolitler oluşturur ve hepatik metabolizmaya daha fazla bağımlıdır.",
+    "difficulty": "orta",
+    "tags": [
+      "Benzodiazepinler",
+      "Karaciğer Yetmezliği",
+      "Metabolizma"
+    ]
+  },
+  {
+    "question_text": "Aşağıdaki ilaçlardan hangisi, porfiri hastalarında kontrendike olan ilaçlar arasında yer almaz?",
+    "options": {
+      "A": "Fenobarbital",
+      "B": "Tiyopental",
+      "C": "Karbamazepin",
+      "D": "Griseofulvin",
+      "E": "Lorazepam"
+    },
+    "correct_answer": "E",
+    "explanation": "Metinde 'Porfiria'da kontrendike ilaçlar' başlığı altında Barbitüratlar (Fenobarbital, Tiyopental gibi), Karbamazepin ve Griseofulvin listelenmiştir. Lorazepam bir benzodiazepin olup, bu listede yer almamaktadır.\nBu nedenle E seçeneği doğrudur.",
+    "difficulty": "zor",
+    "tags": [
+      "Barbitüratlar",
+      "Porfiri",
+      "Kontrendikasyonlar"
+    ]
+  },
+  {
+    "question_text": "Alkol bağımlılığı tedavisinde kullanılan aşağıdaki ilaçlardan hangisinin etki mekanizması, aldehit dehidrogenaz enzimini inhibe ederek asetaldehit birikimine yol açmaktır?",
+    "options": {
+      "A": "Naltrekson",
+      "B": "Akamprosat",
+      "C": "Disülfiram",
+      "D": "Topiramat",
+      "E": "Gabapentin"
+    },
+    "correct_answer": "C",
+    "explanation": "Metinde 'Disülfiram: Aldehit dehidrogenaz inhibitörüdür. Asetaldehit birikimine bağlı bulantı-kusma, baş dönmesi, flushing ve baş ağrısı oluşturur.' ifadesi yer almaktadır. Bu durum, alkol alımından tiksinme yaratma mekanizmasıdır.\nNaltrekson opioid reseptör antagonisti, Akamprosat NMDA antagonisti ve GABA-A agonisti, Topiramat antiepileptik (çoklu mekanizma), Gabapentin ise GABA analoğudur.\nBu nedenle C seçeneği doğrudur.",
+    "difficulty": "orta",
+    "tags": [
+      "Alkol Bağımlılığı",
+      "Disülfiram",
+      "Farmakoloji"
+    ]
+  }
+]

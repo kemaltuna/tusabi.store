@@ -1,0 +1,184 @@
+{
+  "source_material": "Patoloji",
+  "topic": "Kemik ve Kıkırdak Hastalıkları",
+  "question_text": "Yirmi iki yaşında erkek hasta, geceleri artan ve aspirin ile tamamen geçen şiddetli sağ bacak ağrısı şikayeti ile başvuruyor. Fizik muayenede lokal hassasiyet ve ısı artışı saptanıyor. Direkt grafide, kortekste litik bir lezyon ve çevresinde belirgin skleroz izleniyor. Bu hastada en olası tanı aşağıdakilerden hangisidir?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Osteoid osteom"
+    },
+    {
+      "id": "B",
+      "text": "Osteosarkom"
+    },
+    {
+      "id": "C",
+      "text": "Ewing sarkomu"
+    },
+    {
+      "id": "D",
+      "text": "Kondrosarkom"
+    },
+    {
+      "id": "E",
+      "text": "Dev hücreli kemik tümörü"
+    }
+  ],
+  "correct_option_id": "A",
+  "tags": [
+    "concept: Osteoid osteom - Klinik ve radyolojik özellikler",
+    "visual:bone_pathology_differential"
+  ],
+  "explanation": {
+    "main_mechanism": "Bu soruda doğru cevap Osteoid osteom. Osteoid osteom, kemikte benign bir tümör olup, nidus adı verilen küçük litik bir odak ve çevresinde reaktif skleroz ile karakterizedir. Ağrı, lezyondaki prostaglandin salınımına bağlıdır ve nonsteroid antiinflamatuar ilaçlara (örn. aspirin) dramatik yanıt verir.",
+    "clinical_significance": "Osteoid osteom, genç erişkinlerde şiddetli gece ağrısı ile prezente olur ve radyolojik olarak tipik litik nidus ve skleroz ile tanınır. Benign seyirli olup, cerrahi veya radyofrekans ablasyon ile tedavi edilebilir.",
+    "sibling_entities": [
+      "Osteoblastom",
+      "Osteomiyelit",
+      "Brodie apsesi",
+      "Enkondrom"
+    ],
+    "updates_applied": [],
+    "update_checked": true,
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "Detaylı Açıklama & Mekanizma"
+      },
+      {
+        "type": "callout",
+        "style": "key_clues",
+        "title": "Klinik İpuçları",
+        "items": [
+          {
+            "text": "Gece artan ve aspirin gibi salisilatlara dramatik yanıt veren şiddetli ağrı."
+          },
+          {
+            "text": "Direkt grafide kortekste litik nidus (<2 cm) ve çevresinde belirgin reaktif skleroz."
+          },
+          {
+            "text": "Genç erişkin yaş grubunda (10-30 yaş) görülmesi."
+          },
+          {
+            "text": "Lokal hassasiyet ve ısı artışı gibi inflamatuar bulguların eşlik etmesi."
+          }
+        ]
+      },
+      {
+        "type": "numbered_steps",
+        "title": "Mekanizma Zinciri",
+        "steps": [
+          "Osteoid osteom, osteoblast benzeri hücrelerden köken alan benign bir kemik tümörüdür.",
+          "Tümör, osteoid matriks üretir ve merkezde litik bir nidus oluşturur.",
+          "Nidus çevresinde kemik yapımı artarak reaktif skleroz gelişir.",
+          "Nidustaki prostaglandin E2 salınımı, ağrı reseptörlerini sensitize eder ve şiddetli, gece artan ağrıya neden olur.",
+          "Aspirin gibi COX inhibitörleri prostaglandin sentezini engelleyerek ağrıda dramatik düzelme sağlar."
+        ]
+      },
+      {
+        "type": "callout",
+        "style": "exam_trap",
+        "title": "Sınav Tuzağı",
+        "items": [
+          {
+            "text": "Osteoblastom, osteoid osteoma benzer klinik ve radyolojik özellikler gösterir, ancak lezyon boyutu genellikle 2 cm'den büyüktür ve aspirin yanıtı daha az belirgindir. Ayırıcı tanıda osteoblastom unutulmamalıdır."
+          }
+        ]
+      },
+      {
+        "type": "mini_ddx",
+        "title": "Çeldirici Analizi",
+        "items": [
+          {
+            "option_id": "B",
+            "label": "Osteosarkom",
+            "why_wrong": "Osteosarkom malign bir tümördür, ağrı aspirin ile dramatik şekilde geçmez ve radyolojide agresif periost reaksiyonu (güneş ışını veya Codman üçgeni) görülür.",
+            "would_be_correct_if": "Hastada daha ileri yaşta, hızlı büyüyen kitle, patolojik kırık veya sistemik semptomlar olsaydı.",
+            "best_discriminator": "Aspirin yanıtı olmaması ve radyolojide malign periost reaksiyonu."
+          },
+          {
+            "option_id": "C",
+            "label": "Ewing sarkomu",
+            "why_wrong": "Ewing sarkomu daha genç yaşta (5-15 yaş) görülür, sıklıkla sistemik semptomlar (ateş, halsizlik) eşlik eder ve radyolojide 'soğan zarı' periost reaksiyonu tipiktir.",
+            "would_be_correct_if": "Hasta daha genç olsaydı ve sistemik semptomlar ile 'soğan zarı' görünümü olsaydı.",
+            "best_discriminator": "Yaş grubu ve aspirin ile ağrının geçmemesi."
+          },
+          {
+            "option_id": "D",
+            "label": "Kondrosarkom",
+            "why_wrong": "Kondrosarkom kıkırdak matriksi içeren malign bir tümördür, ağrı genellikle mekanik karakterdedir ve aspirin yanıtı yoktur; radyolojide kalsifikasyonlar ve lobüle görünüm olur.",
+            "would_be_correct_if": "Lezyon kıkırdak dokusunda, daha ileri yaşta ve radyolojide kalsifikasyonlar gösteriyor olsaydı.",
+            "best_discriminator": "Kıkırdak matriksinin olmaması ve aspirin yanıtı."
+          },
+          {
+            "option_id": "E",
+            "label": "Dev hücreli kemik tümörü",
+            "why_wrong": "Dev hücreli kemik tümörü litik ve ekspansil bir lezyondur, 'sabun köpüğü' görünümü olabilir, ancak aspirin ile dramatik ağrı geçişi tipik değildir ve genellikle epifizyel bölgede yerleşir.",
+            "would_be_correct_if": "Lezyon epifizyel bölgede, ekspansil ve 'sabun köpüğü' görünümünde olsaydı.",
+            "best_discriminator": "Aspirin yanıtının olmaması ve radyolojik görünümün farklılığı."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Ayırıcı Tanı",
+        "headers": [
+          "Özellik",
+          "Doğru Patoloji",
+          "Ayırıcı Tanıdaki Patoloji"
+        ],
+        "rows": [
+          {
+            "entity": "İsim",
+            "cells": [
+              "İsim",
+              "Osteoid osteom",
+              "Osteoblastom"
+            ]
+          },
+          {
+            "entity": "Yaş Dağılımı",
+            "cells": [
+              "Yaş Dağılımı",
+              "10-30 yaş (genç erişkinler)",
+              "10-30 yaş (benzer)"
+            ]
+          },
+          {
+            "entity": "Ağrı Karakteri",
+            "cells": [
+              "Ağrı Karakteri",
+              "Gece artan, aspirin ile dramatik yanıt",
+              "Benzer ağrı, aspirin yanıtı daha az belirgin"
+            ]
+          },
+          {
+            "entity": "Lezyon Boyutu",
+            "cells": [
+              "Lezyon Boyutu",
+              "<2 cm (nidus)",
+              ">2 cm (genellikle 2-10 cm)"
+            ]
+          },
+          {
+            "entity": "Radyolojik Görünüm",
+            "cells": [
+              "Radyolojik Görünüm",
+              "Litik nidus, çevresinde belirgin reaktif skleroz",
+              "Benzer ama daha büyük, skleroz daha az, ekspansil büyüme"
+            ]
+          },
+          {
+            "entity": "Histoloji",
+            "cells": [
+              "Histoloji",
+              "Osteoid matriks, osteoblast benzeri hücreler",
+              "Benzer, ama daha büyük ve daha agresif görünüm"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

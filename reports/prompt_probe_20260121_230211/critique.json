@@ -1,0 +1,15 @@
+{
+  "critique_passed": true,
+  "feedback": "Soru kurgu hatası içermiyor, doğru cevap tek ve net (A seçeneği). Çeldiriciler güçlü: B seçeneği atipik antipsikotiklerin daha düşük riskini vurgulayarak karşılaştırma yapıyor, C seçeneği yanıltıcı bir eşitlik iddiası sunuyor, D ve E seçenekleri spesifik ilaçlara odaklanarak genel grup ayrımını test ediyor. Soru, tipik ve atipik antipsikotiklerin ekstrapiramidal yan etki risk farkını ölçmek için iyi yapılandırılmış.",
+  "sibling_suggestions": [
+    "Akut distonik reaksiyonun tedavisi",
+    "Nöroleptik malign sendrom",
+    "Tardif diskinezi",
+    "Akatizi"
+  ],
+  "improved_distractors": [
+    "Sadece yüksek potensli tipik antipsikotikler",
+    "Sadece düşük potensli tipik antipsikotikler",
+    "Her iki grup için risk, doza bağlı olarak değişir"
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "source_material": "Kucuk_Stajlar",
+  "topic": "Hareket Bozuklukları",
+  "question_text": "Altmış beş yaşında erkek hasta, son bir yıldır ellerinde titreme, hareketlerinde yavaşlama ve yürümede küçük adımlar şikayeti ile başvuruyor. Nörolojik muayenede istirahat tremoru, dişli çark rijiditesi ve bradikinezi saptanıyor. Yüz ifadesi donuk ve göz kırpma sıklığı azalmış. Postüral reflekslerde kayıp mevcut. Bu hasta için aşağıdaki ifadelerden hangisi yanlıştır?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Substantia nigra'daki dopaminerjik nöron kaybı patolojik temelini oluşturur."
+    },
+    {
+      "id": "B",
+      "text": "İntranöronal Lewy cisimcikleri karakteristik histopatolojik bulgusudur."
+    },
+    {
+      "id": "C",
+      "text": "Medulla spinalis tutulumu ve derin tendon reflekslerinde artış sıklıkla görülür."
+    },
+    {
+      "id": "D",
+      "text": "Locus seruleus nöronlarında dejenerasyon eşlik edebilir."
+    },
+    {
+      "id": "E",
+      "text": "Substantia nigra'dan globus pallidus'a dopaminerjik output azalması söz konusudur."
+    }
+  ],
+  "correct_option_id": "C",
+  "tags": [
+    "concept: İdiopatik Parkinson Hastalığı - Klinik Bulgular ve Patoloji",
+    "visual:dopamine_pathways"
+  ],
+  "explanation": {
+    "main_mechanism": "Bu soruda doğru cevap C seçeneğidir. İdiopatik Parkinson Hastalığı'nda medulla spinalis tutulumu ve derin tendon reflekslerinde artış tipik değildir; bu bulgular daha çok üst motor nöron lezyonları veya diğer nörodejeneratif hastalıklarda görülür.",
+    "clinical_significance": "Parkinson hastalığı, substantia nigra'daki dopaminerjik nöron kaybına bağlı bradikinezi, rijidite, istirahat tremoru ve postüral instabilite ile karakterize progressif nörodejeneratif bir hastalıktır. Ayırıcı tanıda Parkinson-plus sendromları önemlidir.",
+    "sibling_entities": [
+      "Multipl Sistem Atrofisi",
+      "Progresif Supranükleer Palsi",
+      "Lewy Cisimcikli Demans",
+      "Kortikobazal Dejenerasyon"
+    ],
+    "updates_applied": [],
+    "update_checked": true,
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "Detaylı Açıklama & Mekanizma"
+      },
+      {
+        "type": "callout",
+        "style": "key_clues",
+        "title": "Klinik İpuçları",
+        "items": [
+          {
+            "text": "65 yaş erkek hasta, ileri yaş başlangıç tipik."
+          },
+          {
+            "text": "İstirahat tremoru (para sayar tarzda), dişli çark rijiditesi, bradikinezi: Parkinson triadı."
+          },
+          {
+            "text": "Maske yüz (donuk ifade), göz kırpma azalması, küçük adımlarla yürüme: hipokinetik bulgular."
+          },
+          {
+            "text": "Postüral refleks kaybı: postüral instabilite, düşme riski."
+          }
+        ]
+      },
+      {
+        "type": "numbered_steps",
+        "title": "Mekanizma Zinciri",
+        "steps": [
+          "Substantia nigra pars compacta'daki dopaminerjik nöronların progresif dejenerasyonu ve kaybı.",
+          "İntranöronal alfa-sinüklein birikimi ile Lewy cisimciklerinin oluşumu (karakteristik histopatoloji).",
+          "Nigrostriatal yolda dopamin salınımının azalması, substantia nigra'dan globus pallidus'a dopaminerjik output düşüşü.",
+          "Bazal ganglion devrelerinde direk-indirek yolak dengesinin bozulması, talamik inhibisyonda artış.",
+          "Klinik olarak bradikinezi, rijidite, istirahat tremoru ve postüral instabilitenin ortaya çıkması."
+        ]
+      },
+      {
+        "type": "callout",
+        "style": "exam_trap",
+        "title": "Sınav Tuzağı",
+        "items": [
+          {
+            "text": "Parkinson hastalığında derin tendon refleksleri genellikle normaldir veya hafif artabilir; belirgin artış ve spinal tutulum olmaması ayırıcı tanıda önemli bir negatif bulgudur. Diğer Parkinson-plus sendromlarında (örn. multipl sistem atrofisi) otonomik disfonksiyon, serebellar bulgular veya üst motor nöron işaretleri eşlik edebilir."
+          }
+        ]
+      },
+      {
+        "type": "mini_ddx",
+        "title": "Çeldirici Analizi",
+        "items": [
+          {
+            "option_id": "C",
+            "label": "Medulla spinalis tutulumu ve derin tendon reflekslerinde artış sıklıkla görülür.",
+            "why_wrong": "İdiopatik Parkinson Hastalığı'nda medulla spinalis tutulumu ve derin tendon reflekslerinde belirgin artış tipik değildir; bu bulgular daha çok üst motor nöron lezyonları veya diğer nörodejeneratif hastalıklarda (örn. multipl sistem atrofisi) görülebilir.",
+            "would_be_correct_if": "Eğer hastada üst motor nöron bulguları veya spinal kord tutulumu olan bir Parkinson-plus sendromu (örn. multipl sistem atrofisi veya progresif supranükleer palsi) tanımlansaydı.",
+            "best_discriminator": "Parkinson'da derin tendon refleksleri normal veya hafif artış gösterebilir, ancak belirgin artış ve medulla spinalis tutulumu olmaması, diğer hareket bozukluklarından ayırt etmede kritiktir."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Ayırıcı Tanı",
+        "headers": [
+          "Özellik",
+          "Doğru Tanı/Durum",
+          "Ayırıcı Tanı"
+        ],
+        "rows": [
+          {
+            "entity": "İsim",
+            "cells": [
+              "İdiopatik Parkinson Hastalığı",
+              "Multipl Sistem Atrofisi"
+            ]
+          },
+          {
+            "entity": "Patoloji",
+            "cells": [
+              "Substantia nigra dopaminerjik nöron kaybı, Lewy cisimcikleri",
+              "Olivo-ponto-serebellar atrofi, striatonigral dejenerasyon, glial sitoplazmik inklüzyonlar"
+            ]
+          },
+          {
+            "entity": "Klinik Bulgular",
+            "cells": [
+              "İstirahat tremoru, bradikinezi, rijidite, postüral instabilite",
+              "Parkinsonizm, otonomik disfonksiyon (örn. ortostatik hipotansiyon), serebellar bulgular (ataksi)"
+            ]
+          },
+          {
+            "entity": "Derin Tendon Refleksleri",
+            "cells": [
+              "Normal veya hafif artış",
+              "Artabilir, üst motor nöron bulguları eşlik edebilir"
+            ]
+          },
+          {
+            "entity": "Spinal Tutulum",
+            "cells": [
+              "Yok",
+              "Var olabilir, medulla spinalis etkilenebilir"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

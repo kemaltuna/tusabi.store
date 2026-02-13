@@ -1,0 +1,2122 @@
+[
+  {
+    "discipline": "Farmakoloji",
+    "topic": "SANTRAL SİNİR SİSTEMİ FARMAKOLOJİSİ (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 64,
+    "current_count": 28,
+    "remaining": 36,
+    "page_count": 20,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Farmakoloji_SANTRAL_SİNİR_SİSTEMİ_FARMAKOLOJİSİ_chunk2.pdf"
+  },
+  {
+    "discipline": "Farmakoloji",
+    "topic": "SANTRAL SİNİR SİSTEMİ FARMAKOLOJİSİ (Part 3)",
+    "type": "merged_chunk",
+    "target_count": 68,
+    "current_count": 25,
+    "remaining": 43,
+    "page_count": 21,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Farmakoloji_SANTRAL_SİNİR_SİSTEMİ_FARMAKOLOJİSİ_chunk3.pdf"
+  },
+  {
+    "discipline": "Farmakoloji",
+    "topic": "SANTRAL SİNİR SİSTEMİ FARMAKOLOJİSİ (Part 4)",
+    "type": "merged_chunk",
+    "target_count": 38,
+    "current_count": 16,
+    "remaining": 22,
+    "page_count": 12,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Farmakoloji_SANTRAL_SİNİR_SİSTEMİ_FARMAKOLOJİSİ_chunk4.pdf"
+  },
+  {
+    "discipline": "Farmakoloji",
+    "topic": "OTAKOİDLER (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 82,
+    "current_count": 56,
+    "remaining": 26,
+    "page_count": 38,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Farmakoloji_OTAKOİDLER_chunk1.pdf"
+  },
+  {
+    "discipline": "Farmakoloji",
+    "topic": "ANTİMİKROBİYAL İLAÇLAR (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 54,
+    "current_count": 26,
+    "remaining": 28,
+    "page_count": 20,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Farmakoloji_ANTİMİKROBİYAL_İLAÇLAR_chunk1.pdf"
+  },
+  {
+    "discipline": "Farmakoloji",
+    "topic": "ANTİMİKROBİYAL İLAÇLAR (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 64,
+    "current_count": 29,
+    "remaining": 35,
+    "page_count": 24,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Farmakoloji_ANTİMİKROBİYAL_İLAÇLAR_chunk2.pdf"
+  },
+  {
+    "discipline": "Farmakoloji",
+    "topic": "ANTİNEOPLASTİK İLAÇLAR",
+    "type": "main_file",
+    "target_count": 59,
+    "current_count": 43,
+    "remaining": 16,
+    "page_count": 22,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Farmakoloji/output_farmakoloji_f2/main/05_ANTİNEOPLASTİK_İLAÇLAR.pdf"
+  },
+  {
+    "discipline": "Farmakoloji",
+    "topic": "GASTROİNTESTİNAL SİSTEM FARMAKOLOJİSİ",
+    "type": "main_file",
+    "target_count": 66,
+    "current_count": 61,
+    "remaining": 5,
+    "page_count": 12,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Farmakoloji/output_farmakoloji_f2/main/07_GASTROİNTESTİNAL_SİSTEM_FARMAKOLOJİSİ.pdf"
+  },
+  {
+    "discipline": "Farmakoloji",
+    "topic": "SOLUNUM SİSTEMİ İLAÇLARI",
+    "type": "main_file",
+    "target_count": 27,
+    "current_count": 9,
+    "remaining": 18,
+    "page_count": 9,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Farmakoloji/output_farmakoloji_f2/main/08_SOLUNUM_SİSTEMİ_İLAÇLARI.pdf"
+  },
+  {
+    "discipline": "Farmakoloji",
+    "topic": "TOKSİKOLOJİ",
+    "type": "main_file",
+    "target_count": 38,
+    "current_count": 5,
+    "remaining": 33,
+    "page_count": 7,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Farmakoloji/output_farmakoloji_f2/main/09_TOKSİKOLOJİ.pdf"
+  },
+  {
+    "discipline": "Farmakoloji",
+    "topic": "GENEL FARMAKOLOJİ (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 73,
+    "current_count": 0,
+    "remaining": 73,
+    "page_count": 29,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Farmakoloji_GENEL_FARMAKOLOJİ_chunk1.pdf"
+  },
+  {
+    "discipline": "Farmakoloji",
+    "topic": "GENEL FARMAKOLOJİ (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 50,
+    "current_count": 14,
+    "remaining": 36,
+    "page_count": 20,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Farmakoloji_GENEL_FARMAKOLOJİ_chunk2.pdf"
+  },
+  {
+    "discipline": "Farmakoloji",
+    "topic": "GENEL FARMAKOLOJİ (Part 3)",
+    "type": "merged_chunk",
+    "target_count": 17,
+    "current_count": 6,
+    "remaining": 11,
+    "page_count": 7,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Farmakoloji_GENEL_FARMAKOLOJİ_chunk3.pdf"
+  },
+  {
+    "discipline": "Farmakoloji",
+    "topic": "OTONOM SİSTEM İLAÇLARI (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 60,
+    "current_count": 47,
+    "remaining": 13,
+    "page_count": 20,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Farmakoloji_OTONOM_SİSTEM_İLAÇLARI_chunk1.pdf"
+  },
+  {
+    "discipline": "Farmakoloji",
+    "topic": "OTONOM SİSTEM İLAÇLARI (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 64,
+    "current_count": 0,
+    "remaining": 64,
+    "page_count": 21,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Farmakoloji_OTONOM_SİSTEM_İLAÇLARI_chunk2.pdf"
+  },
+  {
+    "discipline": "Farmakoloji",
+    "topic": "KARDİYOVASKÜLER SİSTEM FARMAKOLOJİSİ (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 112,
+    "current_count": 53,
+    "remaining": 59,
+    "page_count": 33,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Farmakoloji_KARDİYOVASKÜLER_SİSTEM_FARMAKOLOJİSİ_chunk1.pdf"
+  },
+  {
+    "discipline": "Farmakoloji",
+    "topic": "KARDİYOVASKÜLER SİSTEM FARMAKOLOJİSİ (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 78,
+    "current_count": 52,
+    "remaining": 26,
+    "page_count": 23,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Farmakoloji_KARDİYOVASKÜLER_SİSTEM_FARMAKOLOJİSİ_chunk2.pdf"
+  },
+  {
+    "discipline": "Farmakoloji",
+    "topic": "KARDİYOVASKÜLER SİSTEM FARMAKOLOJİSİ (Part 3)",
+    "type": "merged_chunk",
+    "target_count": 44,
+    "current_count": 10,
+    "remaining": 34,
+    "page_count": 13,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Farmakoloji_KARDİYOVASKÜLER_SİSTEM_FARMAKOLOJİSİ_chunk3.pdf"
+  },
+  {
+    "discipline": "Farmakoloji",
+    "topic": "ENDOKRİN SİSTEM FARMAKOLOJİSİ (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 86,
+    "current_count": 7,
+    "remaining": 79,
+    "page_count": 29,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Farmakoloji_ENDOKRİN_SİSTEM_FARMAKOLOJİSİ_chunk1.pdf"
+  },
+  {
+    "discipline": "Farmakoloji",
+    "topic": "ENDOKRİN SİSTEM FARMAKOLOJİSİ (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 56,
+    "current_count": 0,
+    "remaining": 56,
+    "page_count": 19,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Farmakoloji_ENDOKRİN_SİSTEM_FARMAKOLOJİSİ_chunk2.pdf"
+  },
+  {
+    "discipline": "Pediatri",
+    "topic": "Yenidoğan (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 60,
+    "current_count": 56,
+    "remaining": 4,
+    "page_count": 20,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Pediatri_Yenidoğan_chunk2.pdf"
+  },
+  {
+    "discipline": "Pediatri",
+    "topic": "Yenidoğan (Part 3)",
+    "type": "merged_chunk",
+    "target_count": 54,
+    "current_count": 19,
+    "remaining": 35,
+    "page_count": 18,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Pediatri_Yenidoğan_chunk3.pdf"
+  },
+  {
+    "discipline": "Pediatri",
+    "topic": "Genetik",
+    "type": "main_file",
+    "target_count": 66,
+    "current_count": 62,
+    "remaining": 4,
+    "page_count": 16,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Pediatri/output_pediatri_f1/main/02_Genetik.pdf"
+  },
+  {
+    "discipline": "Pediatri",
+    "topic": "Büyüme ve Gelişme",
+    "type": "main_file",
+    "target_count": 26,
+    "current_count": 17,
+    "remaining": 9,
+    "page_count": 13,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Pediatri/output_pediatri_f1/main/03_Büyüme_ve_Gelişme.pdf"
+  },
+  {
+    "discipline": "Pediatri",
+    "topic": "ADÖLESAN",
+    "type": "main_file",
+    "target_count": 27,
+    "current_count": 24,
+    "remaining": 3,
+    "page_count": 9,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Pediatri/output_pediatri_f1/main/04_Sosyal_Pediatri_ve_Adölesan_Hastalıkları.pdf"
+  },
+  {
+    "discipline": "Pediatri",
+    "topic": "Beslenme ve Malnütrisyon",
+    "type": "main_file",
+    "target_count": 71,
+    "current_count": 65,
+    "remaining": 6,
+    "page_count": 21,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Pediatri/output_pediatri_f1/main/05_Beslenme_ve_Malnütrisyon.pdf"
+  },
+  {
+    "discipline": "Pediatri",
+    "topic": "Pediatrik Gastroenteroloji (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 70,
+    "current_count": 66,
+    "remaining": 4,
+    "page_count": 27,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Pediatri_Pediatrik_Gastroenteroloji_chunk1.pdf"
+  },
+  {
+    "discipline": "Pediatri",
+    "topic": "Pediatrik Gastroenteroloji (Part 3)",
+    "type": "merged_chunk",
+    "target_count": 15,
+    "current_count": 12,
+    "remaining": 3,
+    "page_count": 6,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Pediatri_Pediatrik_Gastroenteroloji_chunk3.pdf"
+  },
+  {
+    "discipline": "Pediatri",
+    "topic": "Pediatrik Nöroloji (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 48,
+    "current_count": 47,
+    "remaining": 1,
+    "page_count": 21,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Pediatri_Pediatrik_Nöroloji_chunk1.pdf"
+  },
+  {
+    "discipline": "Pediatri",
+    "topic": "Pediatrik Nöroloji (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 45,
+    "current_count": 11,
+    "remaining": 34,
+    "page_count": 20,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Pediatri_Pediatrik_Nöroloji_chunk2.pdf"
+  },
+  {
+    "discipline": "Pediatri",
+    "topic": "Pediatrik Kardiyoloji (Part 3)",
+    "type": "merged_chunk",
+    "target_count": 34,
+    "current_count": 15,
+    "remaining": 19,
+    "page_count": 20,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Pediatri_Pediatrik_Kardiyoloji_chunk3.pdf"
+  },
+  {
+    "discipline": "Pediatri",
+    "topic": "Pediatrik Göğüs Hastalıkları (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 67,
+    "current_count": 13,
+    "remaining": 54,
+    "page_count": 26,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Pediatri_Pediatrik_Göğüs_Hastalıkları_chunk1.pdf"
+  },
+  {
+    "discipline": "Pediatri",
+    "topic": "Pediatrik Göğüs Hastalıkları (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 44,
+    "current_count": 12,
+    "remaining": 32,
+    "page_count": 17,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Pediatri_Pediatrik_Göğüs_Hastalıkları_chunk2.pdf"
+  },
+  {
+    "discipline": "Pediatri",
+    "topic": "Döküntülü Hastalıklar ve Bağışıklama",
+    "type": "main_file",
+    "target_count": 103,
+    "current_count": 18,
+    "remaining": 85,
+    "page_count": 26,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Pediatri/output_pediatri_f2/main/03_Döküntülü_Hastalıklar_ve_Bağışıklama.pdf"
+  },
+  {
+    "discipline": "Pediatri",
+    "topic": "Pediatrik Alerji-İmmünoloji (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 59,
+    "current_count": 16,
+    "remaining": 43,
+    "page_count": 22,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Pediatri_Pediatrik_Alerji_İmmünoloji_chunk1.pdf"
+  },
+  {
+    "discipline": "Pediatri",
+    "topic": "Pediatrik Alerji-İmmünoloji (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 57,
+    "current_count": 54,
+    "remaining": 3,
+    "page_count": 21,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Pediatri_Pediatrik_Alerji_İmmünoloji_chunk2.pdf"
+  },
+  {
+    "discipline": "Pediatri",
+    "topic": "Zehirlenmeler",
+    "type": "main_file",
+    "target_count": 22,
+    "current_count": 21,
+    "remaining": 1,
+    "page_count": 10,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Pediatri/output_pediatri_f2/main/05_Zehirlenmeler.pdf"
+  },
+  {
+    "discipline": "Pediatri",
+    "topic": "Pediatrik Endokrinoloji (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 83,
+    "current_count": 10,
+    "remaining": 73,
+    "page_count": 23,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Pediatri_Pediatrik_Endokrinoloji_chunk1.pdf"
+  },
+  {
+    "discipline": "Pediatri",
+    "topic": "Pediatrik Endokrinoloji (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 28,
+    "current_count": 23,
+    "remaining": 5,
+    "page_count": 8,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Pediatri_Pediatrik_Endokrinoloji_chunk2.pdf"
+  },
+  {
+    "discipline": "Pediatri",
+    "topic": "Metabolik Hastalıklar (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 90,
+    "current_count": 10,
+    "remaining": 80,
+    "page_count": 25,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Pediatri_Metabolik_Hastalıklar_chunk1.pdf"
+  },
+  {
+    "discipline": "Pediatri",
+    "topic": "Pediatrik Hematoloji (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 106,
+    "current_count": 93,
+    "remaining": 13,
+    "page_count": 29,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Pediatri_Pediatrik_Hematoloji_chunk1.pdf"
+  },
+  {
+    "discipline": "Pediatri",
+    "topic": "Pediatrik Onkoloji",
+    "type": "main_file",
+    "target_count": 97,
+    "current_count": 45,
+    "remaining": 52,
+    "page_count": 22,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Pediatri/output_pediatri_f3/main/04_Pediatrik_Onkoloji.pdf"
+  },
+  {
+    "discipline": "Pediatri",
+    "topic": "Pediatrik Nefroloji (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 73,
+    "current_count": 60,
+    "remaining": 13,
+    "page_count": 21,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Pediatri_Pediatrik_Nefroloji_chunk1.pdf"
+  },
+  {
+    "discipline": "Pediatri",
+    "topic": "Pediatrik Nefroloji (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 41,
+    "current_count": 8,
+    "remaining": 33,
+    "page_count": 12,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Pediatri_Pediatrik_Nefroloji_chunk2.pdf"
+  },
+  {
+    "discipline": "Pediatri",
+    "topic": "Pediatrik Romatoloji",
+    "type": "main_file",
+    "target_count": 73,
+    "current_count": 10,
+    "remaining": 63,
+    "page_count": 21,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Pediatri/output_pediatri_f3/main/06_Pediatrik_Romatoloji.pdf"
+  },
+  {
+    "discipline": "Biyokimya",
+    "topic": "Amino Asitler ve Proteinler (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 136,
+    "current_count": 0,
+    "remaining": 136,
+    "page_count": 31,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Biyokimya_Amino_Asitler_ve_Proteinler_chunk1.pdf"
+  },
+  {
+    "discipline": "Biyokimya",
+    "topic": "Amino Asitler ve Proteinler (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 119,
+    "current_count": 8,
+    "remaining": 111,
+    "page_count": 27,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Biyokimya_Amino_Asitler_ve_Proteinler_chunk2.pdf"
+  },
+  {
+    "discipline": "Biyokimya",
+    "topic": "Amino Asitler ve Proteinler (Part 3)",
+    "type": "merged_chunk",
+    "target_count": 79,
+    "current_count": 3,
+    "remaining": 76,
+    "page_count": 18,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Biyokimya_Amino_Asitler_ve_Proteinler_chunk3.pdf"
+  },
+  {
+    "discipline": "Biyokimya",
+    "topic": "Nükleik Asitler (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 76,
+    "current_count": 4,
+    "remaining": 72,
+    "page_count": 23,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Biyokimya_Nükleik_Asitler_chunk1.pdf"
+  },
+  {
+    "discipline": "Biyokimya",
+    "topic": "Nükleik Asitler (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 66,
+    "current_count": 2,
+    "remaining": 64,
+    "page_count": 20,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Biyokimya_Nükleik_Asitler_chunk2.pdf"
+  },
+  {
+    "discipline": "Biyokimya",
+    "topic": "Nükleik Asitler (Part 3)",
+    "type": "merged_chunk",
+    "target_count": 9,
+    "current_count": 2,
+    "remaining": 7,
+    "page_count": 3,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Biyokimya_Nükleik_Asitler_chunk3.pdf"
+  },
+  {
+    "discipline": "Biyokimya",
+    "topic": "Vitaminler",
+    "type": "main_file",
+    "target_count": 116,
+    "current_count": 3,
+    "remaining": 113,
+    "page_count": 21,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Biyokimya/output_biyokimya_f2/main/03_Vitaminler.pdf"
+  },
+  {
+    "discipline": "Biyokimya",
+    "topic": "Hormon Metabolizması",
+    "type": "main_file",
+    "target_count": 106,
+    "current_count": 4,
+    "remaining": 102,
+    "page_count": 27,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Biyokimya/output_biyokimya_f2/main/04_Hormon_Metabolizması.pdf"
+  },
+  {
+    "discipline": "Biyokimya",
+    "topic": "KLİNİK BİYOKİMYA",
+    "type": "main_file",
+    "target_count": 97,
+    "current_count": 6,
+    "remaining": 91,
+    "page_count": 10,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Biyokimya/output_biyokimya_f2/main/05_Klinik_Biyokimya_ve_Testleri_Etkileyen_Faktörler.pdf"
+  },
+  {
+    "discipline": "Biyokimya",
+    "topic": "Metabolizmanın Temel Kavramları",
+    "type": "main_file",
+    "target_count": 63,
+    "current_count": 7,
+    "remaining": 56,
+    "page_count": 16,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Biyokimya/output_biyokimya_f1/main/01_Metabolizmanın_Temel_Kavramları.pdf"
+  },
+  {
+    "discipline": "Biyokimya",
+    "topic": "Karbonhidratlar (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 128,
+    "current_count": 1,
+    "remaining": 127,
+    "page_count": 23,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Biyokimya_Karbonhidratlar_chunk1.pdf"
+  },
+  {
+    "discipline": "Biyokimya",
+    "topic": "Karbonhidratlar (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 117,
+    "current_count": 0,
+    "remaining": 117,
+    "page_count": 21,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Biyokimya_Karbonhidratlar_chunk2.pdf"
+  },
+  {
+    "discipline": "Biyokimya",
+    "topic": "Lipit Metabolizması (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 107,
+    "current_count": 4,
+    "remaining": 103,
+    "page_count": 24,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Biyokimya_Lipit_Metabolizması_chunk1.pdf"
+  },
+  {
+    "discipline": "Biyokimya",
+    "topic": "Lipit Metabolizması (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 120,
+    "current_count": 2,
+    "remaining": 118,
+    "page_count": 27,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Biyokimya_Lipit_Metabolizması_chunk2.pdf"
+  },
+  {
+    "discipline": "Biyokimya",
+    "topic": "Hücre ve Organeller",
+    "type": "main_file",
+    "target_count": 80,
+    "current_count": 4,
+    "remaining": 76,
+    "page_count": 16,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Biyokimya/output_biyokimya_f1/main/04_Hücre_ve_Organeller.pdf"
+  },
+  {
+    "discipline": "Patoloji",
+    "topic": "HÜCRE PATOLOJİSİ",
+    "type": "main_file",
+    "target_count": 92,
+    "current_count": 1,
+    "remaining": 91,
+    "page_count": 11,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Patoloji/output_patoloji_f1/main/01_HÜCRE_HASARI__HÜCRE_ÖLÜMÜ_ve_ADAPTİF_DEĞİŞİKLİKLER.pdf"
+  },
+  {
+    "discipline": "Patoloji",
+    "topic": "İNFLAMASYON",
+    "type": "main_file",
+    "target_count": 46,
+    "current_count": 0,
+    "remaining": 46,
+    "page_count": 17,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Patoloji/output_patoloji_f1/main/02_İNFLAMASYON.pdf"
+  },
+  {
+    "discipline": "Patoloji",
+    "topic": "İMMÜN SİSTEM HASTALIKLARI",
+    "type": "main_file",
+    "target_count": 77,
+    "current_count": 3,
+    "remaining": 74,
+    "page_count": 16,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Patoloji/output_patoloji_f1/main/03_İMMÜN_SİSTEM_HASTALIKLARI.pdf"
+  },
+  {
+    "discipline": "Patoloji",
+    "topic": "ONARIM VE REJENERASYON",
+    "type": "main_file",
+    "target_count": 25,
+    "current_count": 1,
+    "remaining": 24,
+    "page_count": 8,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Patoloji/output_patoloji_f1/main/04_ONARIM__HÜCRE_YENİLENMESİ__FİBROZİS_ve_YARA_İYİLEŞMESİ.pdf"
+  },
+  {
+    "discipline": "Patoloji",
+    "topic": "HEMODİNAMİK HASTALIKLAR",
+    "type": "main_file",
+    "target_count": 37,
+    "current_count": 3,
+    "remaining": 34,
+    "page_count": 10,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Patoloji/output_patoloji_f1/main/05_HEMODİNAMİK_HASTALIKLAR.pdf"
+  },
+  {
+    "discipline": "Patoloji",
+    "topic": "NEOPLAZİ",
+    "type": "main_file",
+    "target_count": 77,
+    "current_count": 0,
+    "remaining": 77,
+    "page_count": 16,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Patoloji/output_patoloji_f1/main/06_NEOPLAZİ.pdf"
+  },
+  {
+    "discipline": "Patoloji",
+    "topic": "ÇOCUKLUK ÇAĞI HASTALIKLARI",
+    "type": "main_file",
+    "target_count": 15,
+    "current_count": 1,
+    "remaining": 14,
+    "page_count": 7,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Patoloji/output_patoloji_f1/main/07_ÇOCUKLUK_ÇAĞI_HASTALIKLARI.pdf"
+  },
+  {
+    "discipline": "Patoloji",
+    "topic": "GENETİK HASTALIKLAR",
+    "type": "main_file",
+    "target_count": 12,
+    "current_count": 0,
+    "remaining": 12,
+    "page_count": 6,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Patoloji/output_patoloji_f1/main/08_GENETİK_HASTALIKLAR.pdf"
+  },
+  {
+    "discipline": "Patoloji",
+    "topic": "ÇEVRESEL HASTALIKLAR ve BESLENME",
+    "type": "main_file",
+    "target_count": 6,
+    "current_count": 0,
+    "remaining": 6,
+    "page_count": 9,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Patoloji/output_patoloji_f1/main/09_ÇEVRESEL_HASTALIKLAR_ve_BESLENME.pdf"
+  },
+  {
+    "discipline": "Patoloji",
+    "topic": "SOLUNUM SİSTEMİ HASTALIKLARI",
+    "type": "main_file",
+    "target_count": 83,
+    "current_count": 1,
+    "remaining": 82,
+    "page_count": 25,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Patoloji/output_patoloji_f1/main/10_SOLUNUM_SİSTEMİ_HASTALIKLARI.pdf"
+  },
+  {
+    "discipline": "Patoloji",
+    "topic": "KALP HASTALIKLARI",
+    "type": "main_file",
+    "target_count": 43,
+    "current_count": 2,
+    "remaining": 41,
+    "page_count": 12,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Patoloji/output_patoloji_f1/main/11_KALP_HASTALIKLARI.pdf"
+  },
+  {
+    "discipline": "Patoloji",
+    "topic": "DAMAR HASTALIKLARI",
+    "type": "main_file",
+    "target_count": 32,
+    "current_count": 0,
+    "remaining": 32,
+    "page_count": 9,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Patoloji/output_patoloji_f1/main/12_DAMAR_HASTALIKLARI.pdf"
+  },
+  {
+    "discipline": "Patoloji",
+    "topic": "HEMATOPOETİK SİSTEM HASTALIKLARI",
+    "type": "main_file",
+    "target_count": 78,
+    "current_count": 0,
+    "remaining": 78,
+    "page_count": 28,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Patoloji/output_patoloji_f1/main/13_HEMATOPOETİK_SİSTEM_HASTALIKLARI.pdf"
+  },
+  {
+    "discipline": "Patoloji",
+    "topic": "SİNDİRİM SİSTEMİ HASTALIKLARI",
+    "type": "main_file",
+    "target_count": 112,
+    "current_count": 0,
+    "remaining": 112,
+    "page_count": 30,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Patoloji/output_patoloji_f2/main/01_SİNDİRİM_SİSTEMİ_HASTALIKLARI.pdf"
+  },
+  {
+    "discipline": "Patoloji",
+    "topic": "HEPATOBİLİYER SİSTEM HASTALIKLARI",
+    "type": "main_file",
+    "target_count": 63,
+    "current_count": 0,
+    "remaining": 63,
+    "page_count": 22,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Patoloji/output_patoloji_f2/main/02_HEPATOBİLİYER_SİSTEM_HASTALIKLARI.pdf"
+  },
+  {
+    "discipline": "Patoloji",
+    "topic": "PANKREAS HASTALIKLARI",
+    "type": "main_file",
+    "target_count": 10,
+    "current_count": 0,
+    "remaining": 10,
+    "page_count": 7,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Patoloji/output_patoloji_f2/main/03_PANKREAS_HASTALIKLARI.pdf"
+  },
+  {
+    "discipline": "Patoloji",
+    "topic": "ÜRİNER SİSTEM HASTALIKLARI",
+    "type": "main_file",
+    "target_count": 77,
+    "current_count": 3,
+    "remaining": 74,
+    "page_count": 22,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Patoloji/output_patoloji_f2/main/04_ÜRİNER_SİSTEM_HASTALIKLARI.pdf"
+  },
+  {
+    "discipline": "Patoloji",
+    "topic": "SİNİR SİSTEMİ HASTALIKLARI",
+    "type": "main_file",
+    "target_count": 86,
+    "current_count": 1,
+    "remaining": 85,
+    "page_count": 28,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Patoloji/output_patoloji_f2/main/05_SİNİR_SİSTEMİ_HASTALIKLARI.pdf"
+  },
+  {
+    "discipline": "Patoloji",
+    "topic": "ENDOKRİN SİSTEM HASTALIKLARI",
+    "type": "main_file",
+    "target_count": 68,
+    "current_count": 9,
+    "remaining": 59,
+    "page_count": 21,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Patoloji/output_patoloji_f2/main/06_ENDOKRİN_SİSTEM_HASTALIKLARI.pdf"
+  },
+  {
+    "discipline": "Patoloji",
+    "topic": "KADIN GENİTAL SİSTEM",
+    "type": "main_file",
+    "target_count": 65,
+    "current_count": 0,
+    "remaining": 65,
+    "page_count": 18,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Patoloji/output_patoloji_f2/main/07_KADIN_GENİTAL_SİSTEM_HASTALIKLARI_ve.pdf"
+  },
+  {
+    "discipline": "Patoloji",
+    "topic": "ERKEK GENİTAL SİSTEM",
+    "type": "main_file",
+    "target_count": 43,
+    "current_count": 0,
+    "remaining": 43,
+    "page_count": 8,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Patoloji/output_patoloji_f2/main/08_ERKEK_GENİTAL_SİSTEM.pdf"
+  },
+  {
+    "discipline": "Patoloji",
+    "topic": "MEME HASTALIKLARI",
+    "type": "main_file",
+    "target_count": 48,
+    "current_count": 9,
+    "remaining": 39,
+    "page_count": 11,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Patoloji/output_patoloji_f2/main/09_MEME_HASTALIKLARI.pdf"
+  },
+  {
+    "discipline": "Patoloji",
+    "topic": "İSKELET SİSTEMİ HASTALIKLARI (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 55,
+    "current_count": 0,
+    "remaining": 55,
+    "page_count": 22,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Patoloji_İSKELET_SİSTEMİ_HASTALIKLARI_chunk1.pdf"
+  },
+  {
+    "discipline": "Patoloji",
+    "topic": "İSKELET SİSTEMİ HASTALIKLARI (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 30,
+    "current_count": 6,
+    "remaining": 24,
+    "page_count": 12,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Patoloji_İSKELET_SİSTEMİ_HASTALIKLARI_chunk2.pdf"
+  },
+  {
+    "discipline": "Patoloji",
+    "topic": "DERİ HASTALIKLARI",
+    "type": "main_file",
+    "target_count": 51,
+    "current_count": 10,
+    "remaining": 41,
+    "page_count": 21,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Patoloji/output_patoloji_f2/main/11_DERİ_HASTALIKLARI.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "SIVI ELEKTROLİT",
+    "type": "main_file",
+    "target_count": 93,
+    "current_count": 9,
+    "remaining": 84,
+    "page_count": 24,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f1/main/01_SIVI__ELEKTROLİT_DENGESİ_VE_ASİT___BAZ_BOZUKLUKLARI.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "BESLENME",
+    "type": "main_file",
+    "target_count": 25,
+    "current_count": 9,
+    "remaining": 16,
+    "page_count": 9,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f1/main/02_BESLENME.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "TRAVMA CEVABI VE DESTEK",
+    "type": "main_file",
+    "target_count": 37,
+    "current_count": 16,
+    "remaining": 21,
+    "page_count": 21,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f1/main/03_TRAVMAYA_SİSTEMİK_CEVAP_VE_METABOLİK_DESTEK.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "ŞOK",
+    "type": "main_file",
+    "target_count": 57,
+    "current_count": 10,
+    "remaining": 47,
+    "page_count": 18,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f1/main/04_ŞOK.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "CERRAHİ ENFEKSİYONLAR",
+    "type": "main_file",
+    "target_count": 26,
+    "current_count": 14,
+    "remaining": 12,
+    "page_count": 8,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f1/main/05_CERRAHİ_ENFEKSİYONLAR.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "YARA İYİLEŞMESİ",
+    "type": "main_file",
+    "target_count": 22,
+    "current_count": 16,
+    "remaining": 6,
+    "page_count": 11,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f1/main/06_YARA_İYİLEŞMESİ.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "HEMOSTAZ VE TRANSFÜZYON",
+    "type": "main_file",
+    "target_count": 37,
+    "current_count": 9,
+    "remaining": 28,
+    "page_count": 12,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f1/main/07_HEMOSTAZ_VE_TRANSFÜZYON.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "TRAVMA",
+    "type": "main_file",
+    "target_count": 62,
+    "current_count": 10,
+    "remaining": 52,
+    "page_count": 12,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f1/main/08_TRAVMA_VE_TRAVMA_HASTASINA_YAKLAŞIM.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "YANIK",
+    "type": "main_file",
+    "target_count": 17,
+    "current_count": 4,
+    "remaining": 13,
+    "page_count": 10,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f1/main/09_YANIK.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "MEME HASTALIKLARI VE CERRAHİSİ",
+    "type": "main_file",
+    "target_count": 118,
+    "current_count": 10,
+    "remaining": 108,
+    "page_count": 27,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f1/main/10_MEME_HASTALIKLARI_VE_CERRAHİSİ.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "TİROİD HASTALIKLARI VE CERRAHİSİ",
+    "type": "main_file",
+    "target_count": 82,
+    "current_count": 10,
+    "remaining": 72,
+    "page_count": 28,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f1/main/11_TİROİD_HASTALIKLARI_VE_CERRAHİSİ.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "PARATİROİD CERRAHİSİ",
+    "type": "main_file",
+    "target_count": 21,
+    "current_count": 9,
+    "remaining": 12,
+    "page_count": 9,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f1/main/12_PARATİROİD_BEZİ_HASTALIKLARI_VE_CERRAHİSİ.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "ADRENAL",
+    "type": "main_file",
+    "target_count": 18,
+    "current_count": 10,
+    "remaining": 8,
+    "page_count": 12,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f1/main/13_ADRENAL_BEZ_HASTALIKLARI_VE_CERRAHİSİ.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "TRANSPLANTASYON",
+    "type": "main_file",
+    "target_count": 28,
+    "current_count": 10,
+    "remaining": 18,
+    "page_count": 13,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f1/main/14_TRANSPLANTASYON.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "AKUT KARIN",
+    "type": "main_file",
+    "target_count": 19,
+    "current_count": 9,
+    "remaining": 10,
+    "page_count": 6,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f2/main/01_AKUT_KARIN.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "ÖZOFAGUS HASTALIKLARI",
+    "type": "main_file",
+    "target_count": 36,
+    "current_count": 10,
+    "remaining": 26,
+    "page_count": 20,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f2/main/02_ÖZOFAGUS_HASTALIKLARI.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "MİDE HASTALIKLARI",
+    "type": "main_file",
+    "target_count": 60,
+    "current_count": 8,
+    "remaining": 52,
+    "page_count": 29,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f2/main/03_MİDE_HASTALIKLARI.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "MORBİD OBEZİTE",
+    "type": "main_file",
+    "target_count": 12,
+    "current_count": 3,
+    "remaining": 9,
+    "page_count": 4,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f2/main/04_MORBİD_OBEZİTE.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "İNCE BAĞIRSAK HASTALIKLARI",
+    "type": "main_file",
+    "target_count": 36,
+    "current_count": 0,
+    "remaining": 36,
+    "page_count": 21,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f2/main/05_İNCE_BAĞIRSAK_HASTALIKLARI.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "KOLON VE REKTUM HASTALIKLARI (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 70,
+    "current_count": 0,
+    "remaining": 70,
+    "page_count": 22,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Genel_Cerrahi_KOLON_VE_REKTUM_HASTALIKLARI_chunk1.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "KOLON VE REKTUM HASTALIKLARI (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 29,
+    "current_count": 0,
+    "remaining": 29,
+    "page_count": 9,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Genel_Cerrahi_KOLON_VE_REKTUM_HASTALIKLARI_chunk2.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "APENDİKS VERMİFORMİS HASTALIKLARI",
+    "type": "main_file",
+    "target_count": 25,
+    "current_count": 0,
+    "remaining": 25,
+    "page_count": 11,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f2/main/07_APENDİKS_VERMİFORMİS_HASTALIKLARI.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "PERİANAL BÖLGE HASTALIKLARI",
+    "type": "main_file",
+    "target_count": 28,
+    "current_count": 0,
+    "remaining": 28,
+    "page_count": 12,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f2/main/08_PERİANAL_BÖLGE_HASTALIKLARI.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "İNTESTİNAL TIKANIKLIKLAR",
+    "type": "main_file",
+    "target_count": 16,
+    "current_count": 0,
+    "remaining": 16,
+    "page_count": 7,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f2/main/09_İNTESTİNAL_TIKANIKLIKLAR.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "GASTROİNTESTİNAL SİSTEM KANAMALARI",
+    "type": "main_file",
+    "target_count": 19,
+    "current_count": 0,
+    "remaining": 19,
+    "page_count": 6,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f2/main/10_GASTROİNTESTİNAL_SİSTEM_KANAMALARI.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "GİS FİSTÜLLERİ",
+    "type": "main_file",
+    "target_count": 10,
+    "current_count": 0,
+    "remaining": 10,
+    "page_count": 3,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f2/main/11_GİS_FİSTÜLLERİ.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "KARACİĞER HASTALIKLARI",
+    "type": "main_file",
+    "target_count": 40,
+    "current_count": 0,
+    "remaining": 40,
+    "page_count": 15,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f2/main/12_KARACİĞER_HASTALIKLARI.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "PORTAL HİPERTANSİYON",
+    "type": "main_file",
+    "target_count": 27,
+    "current_count": 0,
+    "remaining": 27,
+    "page_count": 10,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f2/main/13_PORTAL_HİPERTANSİYON.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "SAFRA YOLLARI",
+    "type": "main_file",
+    "target_count": 68,
+    "current_count": 0,
+    "remaining": 68,
+    "page_count": 19,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f2/main/14_SAFRA_KESESİ___SAFRA_YOLLARI_HASTALIKLARI.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "PANKREAS HASTALIKLARI",
+    "type": "main_file",
+    "target_count": 88,
+    "current_count": 0,
+    "remaining": 88,
+    "page_count": 27,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f2/main/15_PANKREAS_HASTALIKLARI.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "MEZENTERİK VASKÜLER HASTALIKLAR",
+    "type": "main_file",
+    "target_count": 16,
+    "current_count": 0,
+    "remaining": 16,
+    "page_count": 4,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f2/main/16_MEZENTERİK_VASKÜLER_HASTALIKLAR.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "DALAK HASTALIKLARI",
+    "type": "main_file",
+    "target_count": 37,
+    "current_count": 0,
+    "remaining": 37,
+    "page_count": 7,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f2/main/17_DALAK_HASTALIKLARI.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "PERİTON VE MEZENTER",
+    "type": "main_file",
+    "target_count": 27,
+    "current_count": 0,
+    "remaining": 27,
+    "page_count": 6,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f2/main/18_KARIN_DUVARI__PERİTON__RETROPERİTON_VE_MEZENTER_HASTALIKLARI.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "KARIN DUVARI FITIKLARI",
+    "type": "main_file",
+    "target_count": 33,
+    "current_count": 0,
+    "remaining": 33,
+    "page_count": 12,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f2/main/19_KARIN_DUVARI_FITIKLARI.pdf"
+  },
+  {
+    "discipline": "Genel_Cerrahi",
+    "topic": "CERRAHİ KOMPLİKASYONLAR",
+    "type": "main_file",
+    "target_count": 36,
+    "current_count": 0,
+    "remaining": 36,
+    "page_count": 11,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Genel_Cerrahi/output_genel_cerrahi_f2/main/20_CERRAHİ_KOMPLİKASYONLAR.pdf"
+  },
+  {
+    "discipline": "Kadin_Dogum",
+    "topic": "Jinekolojik Onkoloji (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 112,
+    "current_count": 0,
+    "remaining": 112,
+    "page_count": 43,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Kadin_Dogum_Jinekolojik_Onkoloji_chunk1.pdf"
+  },
+  {
+    "discipline": "Kadin_Dogum",
+    "topic": "Jinekolojik Onkoloji (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 18,
+    "current_count": 0,
+    "remaining": 18,
+    "page_count": 7,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Kadin_Dogum_Jinekolojik_Onkoloji_chunk2.pdf"
+  },
+  {
+    "discipline": "Kadin_Dogum",
+    "topic": "Obstetri (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 49,
+    "current_count": 0,
+    "remaining": 49,
+    "page_count": 20,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Kadin_Dogum_Obstetri_chunk1.pdf"
+  },
+  {
+    "discipline": "Kadin_Dogum",
+    "topic": "Obstetri (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 62,
+    "current_count": 0,
+    "remaining": 62,
+    "page_count": 25,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Kadin_Dogum_Obstetri_chunk2.pdf"
+  },
+  {
+    "discipline": "Kadin_Dogum",
+    "topic": "Obstetri (Part 3)",
+    "type": "merged_chunk",
+    "target_count": 49,
+    "current_count": 0,
+    "remaining": 49,
+    "page_count": 20,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Kadin_Dogum_Obstetri_chunk3.pdf"
+  },
+  {
+    "discipline": "Kadin_Dogum",
+    "topic": "Obstetri (Part 4)",
+    "type": "merged_chunk",
+    "target_count": 89,
+    "current_count": 0,
+    "remaining": 89,
+    "page_count": 36,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Kadin_Dogum_Obstetri_chunk4.pdf"
+  },
+  {
+    "discipline": "Kadin_Dogum",
+    "topic": "Obstetri (Part 5)",
+    "type": "merged_chunk",
+    "target_count": 57,
+    "current_count": 0,
+    "remaining": 57,
+    "page_count": 23,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Kadin_Dogum_Obstetri_chunk5.pdf"
+  },
+  {
+    "discipline": "Kadin_Dogum",
+    "topic": "Jinekoloji ve Üreme Endokrinolojisi (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 70,
+    "current_count": 0,
+    "remaining": 70,
+    "page_count": 26,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Kadin_Dogum_Jinekoloji_ve_Üreme_Endokrinolojisi_chunk1.pdf"
+  },
+  {
+    "discipline": "Kadin_Dogum",
+    "topic": "Jinekoloji ve Üreme Endokrinolojisi (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 60,
+    "current_count": 0,
+    "remaining": 60,
+    "page_count": 22,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Kadin_Dogum_Jinekoloji_ve_Üreme_Endokrinolojisi_chunk2.pdf"
+  },
+  {
+    "discipline": "Kadin_Dogum",
+    "topic": "Jinekoloji ve Üreme Endokrinolojisi (Part 3)",
+    "type": "merged_chunk",
+    "target_count": 54,
+    "current_count": 0,
+    "remaining": 54,
+    "page_count": 20,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Kadin_Dogum_Jinekoloji_ve_Üreme_Endokrinolojisi_chunk3.pdf"
+  },
+  {
+    "discipline": "Kadin_Dogum",
+    "topic": "Jinekoloji ve Üreme Endokrinolojisi (Part 4)",
+    "type": "merged_chunk",
+    "target_count": 84,
+    "current_count": 0,
+    "remaining": 84,
+    "page_count": 31,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Kadin_Dogum_Jinekoloji_ve_Üreme_Endokrinolojisi_chunk4.pdf"
+  },
+  {
+    "discipline": "Kadin_Dogum",
+    "topic": "Jinekoloji ve Üreme Endokrinolojisi (Part 5)",
+    "type": "merged_chunk",
+    "target_count": 65,
+    "current_count": 0,
+    "remaining": 65,
+    "page_count": 24,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Kadin_Dogum_Jinekoloji_ve_Üreme_Endokrinolojisi_chunk5.pdf"
+  },
+  {
+    "discipline": "Kadin_Dogum",
+    "topic": "Jinekoloji ve Üreme Endokrinolojisi (Part 6)",
+    "type": "merged_chunk",
+    "target_count": 45,
+    "current_count": 0,
+    "remaining": 45,
+    "page_count": 17,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Kadin_Dogum_Jinekoloji_ve_Üreme_Endokrinolojisi_chunk6.pdf"
+  },
+  {
+    "discipline": "Kucuk_Stajlar",
+    "topic": "Kulak-Burun-Boğaz Hastalıkları",
+    "type": "main_file",
+    "target_count": 58,
+    "current_count": 16,
+    "remaining": 42,
+    "page_count": 21,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Kucuk_Stajlar/output_kucuk_stajlar_f2/main/01_Kulak_Burun_Boğaz_Hastalıkları.pdf"
+  },
+  {
+    "discipline": "Kucuk_Stajlar",
+    "topic": "KVC VE GÖC (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 86,
+    "current_count": 61,
+    "remaining": 25,
+    "page_count": 49,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Kucuk_Stajlar_KVC_VE_GÖC_chunk1.pdf"
+  },
+  {
+    "discipline": "Kucuk_Stajlar",
+    "topic": "Çocuk Cerrahisi",
+    "type": "main_file",
+    "target_count": 51,
+    "current_count": 41,
+    "remaining": 10,
+    "page_count": 23,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Kucuk_Stajlar/output_kucuk_stajlar_f2/main/07_Çocuk_Cerrahisi.pdf"
+  },
+  {
+    "discipline": "Kucuk_Stajlar",
+    "topic": "Çocuk ve Ergen Psikiyatrisi",
+    "type": "main_file",
+    "target_count": 29,
+    "current_count": 18,
+    "remaining": 11,
+    "page_count": 12,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Kucuk_Stajlar/output_kucuk_stajlar_f2/main/09_Çocuk_ve_Ergen_Psikiyatrisi.pdf"
+  },
+  {
+    "discipline": "Kucuk_Stajlar",
+    "topic": "Plastik ve Rekonstrüktif Cerrahisi",
+    "type": "main_file",
+    "target_count": 19,
+    "current_count": 18,
+    "remaining": 1,
+    "page_count": 21,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Kucuk_Stajlar/output_kucuk_stajlar_f2/main/10_Plastik_ve_Rekonstrüktif_Cerrahisi.pdf"
+  },
+  {
+    "discipline": "Kucuk_Stajlar",
+    "topic": "Nöroloji (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 78,
+    "current_count": 45,
+    "remaining": 33,
+    "page_count": 22,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Kucuk_Stajlar_Nöroloji_chunk1.pdf"
+  },
+  {
+    "discipline": "Kucuk_Stajlar",
+    "topic": "Beyin Cerrahisi",
+    "type": "main_file",
+    "target_count": 64,
+    "current_count": 31,
+    "remaining": 33,
+    "page_count": 19,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Kucuk_Stajlar/output_kucuk_stajlar_f1/main/02_Beyin_Cerrahisi.pdf"
+  },
+  {
+    "discipline": "Kucuk_Stajlar",
+    "topic": "Dermatoloji (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 68,
+    "current_count": 12,
+    "remaining": 56,
+    "page_count": 21,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Kucuk_Stajlar_Dermatoloji_chunk1.pdf"
+  },
+  {
+    "discipline": "Kucuk_Stajlar",
+    "topic": "Dermatoloji (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 46,
+    "current_count": 14,
+    "remaining": 32,
+    "page_count": 14,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Kucuk_Stajlar_Dermatoloji_chunk2.pdf"
+  },
+  {
+    "discipline": "Kucuk_Stajlar",
+    "topic": "Halk Sağlığı",
+    "type": "main_file",
+    "target_count": 91,
+    "current_count": 18,
+    "remaining": 73,
+    "page_count": 16,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Kucuk_Stajlar/output_kucuk_stajlar_f1/main/05_Halk_Sağlığı.pdf"
+  },
+  {
+    "discipline": "Kucuk_Stajlar",
+    "topic": "Radyoloji ve Nükleer Tıp",
+    "type": "main_file",
+    "target_count": 108,
+    "current_count": 18,
+    "remaining": 90,
+    "page_count": 19,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Kucuk_Stajlar/output_kucuk_stajlar_f1/main/06_Radyoloji_ve_Nükleer_Tıp.pdf"
+  },
+  {
+    "discipline": "Fizyoloji",
+    "topic": "HÜCRE HİSTOLOJİSİ",
+    "type": "main_file",
+    "target_count": 61,
+    "current_count": 0,
+    "remaining": 61,
+    "page_count": 7,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Fizyoloji/output_fizyoloji_f1/main/01_HÜCRE_HİSTOLOJİSİ.pdf"
+  },
+  {
+    "discipline": "Fizyoloji",
+    "topic": "DOKU HİSTOLOJİSİ",
+    "type": "main_file",
+    "target_count": 87,
+    "current_count": 0,
+    "remaining": 87,
+    "page_count": 24,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Fizyoloji/output_fizyoloji_f1/main/02_DOKU_HİSTOLOJİSİ.pdf"
+  },
+  {
+    "discipline": "Fizyoloji",
+    "topic": "KAS DOKUSU HİSTOLOJİSİ",
+    "type": "main_file",
+    "target_count": 60,
+    "current_count": 0,
+    "remaining": 60,
+    "page_count": 14,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Fizyoloji/output_fizyoloji_f1/main/03_KAS_DOKUSU_HİSTOLOJİSİ.pdf"
+  },
+  {
+    "discipline": "Fizyoloji",
+    "topic": "GENİTAL SİSTEM HİSTOLOJİSİ",
+    "type": "main_file",
+    "target_count": 42,
+    "current_count": 3,
+    "remaining": 39,
+    "page_count": 12,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Fizyoloji/output_fizyoloji_f1/main/04_GENİTAL_SİSTEM_HİSTOLOJİSİ.pdf"
+  },
+  {
+    "discipline": "Fizyoloji",
+    "topic": "GENEL EMBRİYOLOJİ",
+    "type": "main_file",
+    "target_count": 81,
+    "current_count": 0,
+    "remaining": 81,
+    "page_count": 26,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Fizyoloji/output_fizyoloji_f1/main/05_GENEL_EMBRİYOLOJİ.pdf"
+  },
+  {
+    "discipline": "Fizyoloji",
+    "topic": "GASTROİNTESTİNAL SİSTEM HİSTOLOJİSİ",
+    "type": "main_file",
+    "target_count": 71,
+    "current_count": 0,
+    "remaining": 71,
+    "page_count": 26,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Fizyoloji/output_fizyoloji_f1/main/06_GASTROİNTESTİNAL_SİSTEM_HİSTOLOJİSİ.pdf"
+  },
+  {
+    "discipline": "Fizyoloji",
+    "topic": "HEMATOPOETİK SİSTEM HİSTOLOJİSİ",
+    "type": "main_file",
+    "target_count": 72,
+    "current_count": 4,
+    "remaining": 68,
+    "page_count": 22,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Fizyoloji/output_fizyoloji_f1/main/07_HEMATOPOETİK_SİSTEM_HİSTOLOJİSİ.pdf"
+  },
+  {
+    "discipline": "Fizyoloji",
+    "topic": "KARDİYOVASKÜLER SİSTEM HİSTOLOJİSİ",
+    "type": "main_file",
+    "target_count": 93,
+    "current_count": 0,
+    "remaining": 93,
+    "page_count": 29,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Fizyoloji/output_fizyoloji_f2/main/01_KARDİYOVASKÜLER_SİSTEM_HİSTOLOJİSİ.pdf"
+  },
+  {
+    "discipline": "Fizyoloji",
+    "topic": "ENDOKRİN SİSTEM HİSTOLOJİSİ",
+    "type": "main_file",
+    "target_count": 96,
+    "current_count": 0,
+    "remaining": 96,
+    "page_count": 25,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Fizyoloji/output_fizyoloji_f2/main/02_ENDOKRİN_SİSTEM_HİSTOLOJİSİ.pdf"
+  },
+  {
+    "discipline": "Fizyoloji",
+    "topic": "SOLUNUM SİSTEMİ HİSTOLOJİSİ",
+    "type": "main_file",
+    "target_count": 67,
+    "current_count": 0,
+    "remaining": 67,
+    "page_count": 18,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Fizyoloji/output_fizyoloji_f2/main/03_SOLUNUM_SİSTEMİ_HİSTOLOJİSİ.pdf"
+  },
+  {
+    "discipline": "Fizyoloji",
+    "topic": "SANTRAL SİNİR SİSTEMİ HİSTOLOJİSİ (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 52,
+    "current_count": 0,
+    "remaining": 52,
+    "page_count": 22,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Fizyoloji_SANTRAL_SİNİR_SİSTEMİ_HİSTOLOJİSİ_chunk1.pdf"
+  },
+  {
+    "discipline": "Fizyoloji",
+    "topic": "SANTRAL SİNİR SİSTEMİ HİSTOLOJİSİ (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 47,
+    "current_count": 0,
+    "remaining": 47,
+    "page_count": 20,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Fizyoloji_SANTRAL_SİNİR_SİSTEMİ_HİSTOLOJİSİ_chunk2.pdf"
+  },
+  {
+    "discipline": "Fizyoloji",
+    "topic": "SANTRAL SİNİR SİSTEMİ HİSTOLOJİSİ (Part 3)",
+    "type": "merged_chunk",
+    "target_count": 50,
+    "current_count": 0,
+    "remaining": 50,
+    "page_count": 21,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Fizyoloji_SANTRAL_SİNİR_SİSTEMİ_HİSTOLOJİSİ_chunk3.pdf"
+  },
+  {
+    "discipline": "Fizyoloji",
+    "topic": "ÜRİNER SİSTEM HİSTOLOJİSİ",
+    "type": "main_file",
+    "target_count": 48,
+    "current_count": 0,
+    "remaining": 48,
+    "page_count": 29,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Fizyoloji/output_fizyoloji_f2/main/05_ÜRİNER_SİSTEM_HİSTOLOJİSİ.pdf"
+  },
+  {
+    "discipline": "Mikrobiyoloji",
+    "topic": "Viroloji (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 125,
+    "current_count": 0,
+    "remaining": 125,
+    "page_count": 36,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Mikrobiyoloji_Viroloji_chunk1.pdf"
+  },
+  {
+    "discipline": "Mikrobiyoloji",
+    "topic": "Viroloji (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 108,
+    "current_count": 0,
+    "remaining": 108,
+    "page_count": 31,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Mikrobiyoloji_Viroloji_chunk2.pdf"
+  },
+  {
+    "discipline": "Mikrobiyoloji",
+    "topic": "Viroloji (Part 3)",
+    "type": "merged_chunk",
+    "target_count": 52,
+    "current_count": 0,
+    "remaining": 52,
+    "page_count": 15,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Mikrobiyoloji_Viroloji_chunk3.pdf"
+  },
+  {
+    "discipline": "Mikrobiyoloji",
+    "topic": "Parazitoloji (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 64,
+    "current_count": 0,
+    "remaining": 64,
+    "page_count": 21,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Mikrobiyoloji_Parazitoloji_chunk1.pdf"
+  },
+  {
+    "discipline": "Mikrobiyoloji",
+    "topic": "Parazitoloji (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 70,
+    "current_count": 0,
+    "remaining": 70,
+    "page_count": 23,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Mikrobiyoloji_Parazitoloji_chunk2.pdf"
+  },
+  {
+    "discipline": "Mikrobiyoloji",
+    "topic": "Parazitoloji (Part 3)",
+    "type": "merged_chunk",
+    "target_count": 18,
+    "current_count": 0,
+    "remaining": 18,
+    "page_count": 6,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Mikrobiyoloji_Parazitoloji_chunk3.pdf"
+  },
+  {
+    "discipline": "Mikrobiyoloji",
+    "topic": "İmmünoloji (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 116,
+    "current_count": 0,
+    "remaining": 116,
+    "page_count": 25,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Mikrobiyoloji_İmmünoloji_chunk1.pdf"
+  },
+  {
+    "discipline": "Mikrobiyoloji",
+    "topic": "İmmünoloji (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 79,
+    "current_count": 0,
+    "remaining": 79,
+    "page_count": 17,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Mikrobiyoloji_İmmünoloji_chunk2.pdf"
+  },
+  {
+    "discipline": "Mikrobiyoloji",
+    "topic": "Temel Bakteriyoloji (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 181,
+    "current_count": 0,
+    "remaining": 181,
+    "page_count": 27,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Mikrobiyoloji_Temel_Bakteriyoloji_chunk1.pdf"
+  },
+  {
+    "discipline": "Mikrobiyoloji",
+    "topic": "Temel Bakteriyoloji (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 113,
+    "current_count": 0,
+    "remaining": 113,
+    "page_count": 17,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Mikrobiyoloji_Temel_Bakteriyoloji_chunk2.pdf"
+  },
+  {
+    "discipline": "Mikrobiyoloji",
+    "topic": "Klinik Bakteriyoloji (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 91,
+    "current_count": 0,
+    "remaining": 91,
+    "page_count": 28,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Mikrobiyoloji_Klinik_Bakteriyoloji_chunk1.pdf"
+  },
+  {
+    "discipline": "Mikrobiyoloji",
+    "topic": "Klinik Bakteriyoloji (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 72,
+    "current_count": 0,
+    "remaining": 72,
+    "page_count": 22,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Mikrobiyoloji_Klinik_Bakteriyoloji_chunk2.pdf"
+  },
+  {
+    "discipline": "Mikrobiyoloji",
+    "topic": "Klinik Bakteriyoloji (Part 3)",
+    "type": "merged_chunk",
+    "target_count": 144,
+    "current_count": 0,
+    "remaining": 144,
+    "page_count": 44,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Mikrobiyoloji_Klinik_Bakteriyoloji_chunk3.pdf"
+  },
+  {
+    "discipline": "Mikrobiyoloji",
+    "topic": "Mikoloji",
+    "type": "main_file",
+    "target_count": 196,
+    "current_count": 0,
+    "remaining": 196,
+    "page_count": 28,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Mikrobiyoloji/output_mikrobiyoloji_f1/main/04_Mikoloji.pdf"
+  },
+  {
+    "discipline": "Dahiliye",
+    "topic": "Hematoloji (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 73,
+    "current_count": 0,
+    "remaining": 73,
+    "page_count": 24,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Dahiliye_Hematoloji_chunk1.pdf"
+  },
+  {
+    "discipline": "Dahiliye",
+    "topic": "Hematoloji (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 67,
+    "current_count": 0,
+    "remaining": 67,
+    "page_count": 22,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Dahiliye_Hematoloji_chunk2.pdf"
+  },
+  {
+    "discipline": "Dahiliye",
+    "topic": "Hematoloji (Part 3)",
+    "type": "merged_chunk",
+    "target_count": 58,
+    "current_count": 0,
+    "remaining": 58,
+    "page_count": 19,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Dahiliye_Hematoloji_chunk3.pdf"
+  },
+  {
+    "discipline": "Dahiliye",
+    "topic": "Onkoloji",
+    "type": "main_file",
+    "target_count": 73,
+    "current_count": 0,
+    "remaining": 73,
+    "page_count": 13,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Dahiliye/output_dahiliye_f1/main/02_Onkoloji.pdf"
+  },
+  {
+    "discipline": "Dahiliye",
+    "topic": "Nefroloji (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 75,
+    "current_count": 0,
+    "remaining": 75,
+    "page_count": 20,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Dahiliye_Nefroloji_chunk1.pdf"
+  },
+  {
+    "discipline": "Dahiliye",
+    "topic": "Nefroloji (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 75,
+    "current_count": 0,
+    "remaining": 75,
+    "page_count": 20,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Dahiliye_Nefroloji_chunk2.pdf"
+  },
+  {
+    "discipline": "Dahiliye",
+    "topic": "Nefroloji (Part 3)",
+    "type": "merged_chunk",
+    "target_count": 18,
+    "current_count": 0,
+    "remaining": 18,
+    "page_count": 5,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Dahiliye_Nefroloji_chunk3.pdf"
+  },
+  {
+    "discipline": "Dahiliye",
+    "topic": "Geriatri (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 25,
+    "current_count": 0,
+    "remaining": 25,
+    "page_count": 22,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Dahiliye_Geriatri_chunk1.pdf"
+  },
+  {
+    "discipline": "Dahiliye",
+    "topic": "Geriatri (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 15,
+    "current_count": 0,
+    "remaining": 15,
+    "page_count": 13,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Dahiliye_Geriatri_chunk2.pdf"
+  },
+  {
+    "discipline": "Dahiliye",
+    "topic": "Endokrinoloji (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 78,
+    "current_count": 0,
+    "remaining": 78,
+    "page_count": 23,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Dahiliye_Endokrinoloji_chunk1.pdf"
+  },
+  {
+    "discipline": "Dahiliye",
+    "topic": "Endokrinoloji (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 78,
+    "current_count": 0,
+    "remaining": 78,
+    "page_count": 23,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Dahiliye_Endokrinoloji_chunk2.pdf"
+  },
+  {
+    "discipline": "Dahiliye",
+    "topic": "Endokrinoloji (Part 3)",
+    "type": "merged_chunk",
+    "target_count": 50,
+    "current_count": 0,
+    "remaining": 50,
+    "page_count": 15,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Dahiliye_Endokrinoloji_chunk3.pdf"
+  },
+  {
+    "discipline": "Dahiliye",
+    "topic": "Romatoloji (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 72,
+    "current_count": 0,
+    "remaining": 72,
+    "page_count": 21,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Dahiliye_Romatoloji_chunk1.pdf"
+  },
+  {
+    "discipline": "Dahiliye",
+    "topic": "Romatoloji (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 55,
+    "current_count": 0,
+    "remaining": 55,
+    "page_count": 16,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Dahiliye_Romatoloji_chunk2.pdf"
+  },
+  {
+    "discipline": "Dahiliye",
+    "topic": "Hepatoloji",
+    "type": "main_file",
+    "target_count": 134,
+    "current_count": 0,
+    "remaining": 134,
+    "page_count": 30,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Dahiliye/output_dahiliye_f3/main/03_Hepatoloji.pdf"
+  },
+  {
+    "discipline": "Dahiliye",
+    "topic": "Gastroenteroloji (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 46,
+    "current_count": 0,
+    "remaining": 46,
+    "page_count": 20,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Dahiliye_Gastroenteroloji_chunk1.pdf"
+  },
+  {
+    "discipline": "Dahiliye",
+    "topic": "Gastroenteroloji (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 49,
+    "current_count": 0,
+    "remaining": 49,
+    "page_count": 21,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Dahiliye_Gastroenteroloji_chunk2.pdf"
+  },
+  {
+    "discipline": "Dahiliye",
+    "topic": "Gastroenteroloji (Part 3)",
+    "type": "merged_chunk",
+    "target_count": 25,
+    "current_count": 0,
+    "remaining": 25,
+    "page_count": 11,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Dahiliye_Gastroenteroloji_chunk3.pdf"
+  },
+  {
+    "discipline": "Dahiliye",
+    "topic": "Kardiyoloji (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 78,
+    "current_count": 0,
+    "remaining": 78,
+    "page_count": 28,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Dahiliye_Kardiyoloji_chunk1.pdf"
+  },
+  {
+    "discipline": "Dahiliye",
+    "topic": "Kardiyoloji (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 70,
+    "current_count": 0,
+    "remaining": 70,
+    "page_count": 25,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Dahiliye_Kardiyoloji_chunk2.pdf"
+  },
+  {
+    "discipline": "Dahiliye",
+    "topic": "Kardiyoloji (Part 3)",
+    "type": "merged_chunk",
+    "target_count": 67,
+    "current_count": 0,
+    "remaining": 67,
+    "page_count": 24,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Dahiliye_Kardiyoloji_chunk3.pdf"
+  },
+  {
+    "discipline": "Dahiliye",
+    "topic": "Kardiyoloji (Part 4)",
+    "type": "merged_chunk",
+    "target_count": 10,
+    "current_count": 0,
+    "remaining": 10,
+    "page_count": 4,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Dahiliye_Kardiyoloji_chunk4.pdf"
+  },
+  {
+    "discipline": "Dahiliye",
+    "topic": "Göğüs Hastalıkları (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 118,
+    "current_count": 0,
+    "remaining": 118,
+    "page_count": 36,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Dahiliye_Göğüs_Hastalıkları_chunk1.pdf"
+  },
+  {
+    "discipline": "Dahiliye",
+    "topic": "Göğüs Hastalıkları (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 65,
+    "current_count": 0,
+    "remaining": 65,
+    "page_count": 20,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Dahiliye_Göğüs_Hastalıkları_chunk2.pdf"
+  },
+  {
+    "discipline": "Dahiliye",
+    "topic": "Göğüs Hastalıkları (Part 3)",
+    "type": "merged_chunk",
+    "target_count": 25,
+    "current_count": 0,
+    "remaining": 25,
+    "page_count": 8,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Dahiliye_Göğüs_Hastalıkları_chunk3.pdf"
+  },
+  {
+    "discipline": "Anatomi",
+    "topic": "Kemikler (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 71,
+    "current_count": 0,
+    "remaining": 71,
+    "page_count": 34,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Anatomi_Kemikler_chunk1.pdf"
+  },
+  {
+    "discipline": "Anatomi",
+    "topic": "Kemikler (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 10,
+    "current_count": 0,
+    "remaining": 10,
+    "page_count": 2,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Anatomi_Kemikler_chunk2.pdf"
+  },
+  {
+    "discipline": "Anatomi",
+    "topic": "Eklemler",
+    "type": "main_file",
+    "target_count": 27,
+    "current_count": 4,
+    "remaining": 23,
+    "page_count": 20,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Anatomi/output_anatomi/main/02_Eklemler.pdf"
+  },
+  {
+    "discipline": "Anatomi",
+    "topic": "Kaslar (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 85,
+    "current_count": 0,
+    "remaining": 85,
+    "page_count": 29,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Anatomi_Kaslar_chunk1.pdf"
+  },
+  {
+    "discipline": "Anatomi",
+    "topic": "Kaslar (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 61,
+    "current_count": 0,
+    "remaining": 61,
+    "page_count": 21,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Anatomi_Kaslar_chunk2.pdf"
+  },
+  {
+    "discipline": "Anatomi",
+    "topic": "Pleksuslar",
+    "type": "main_file",
+    "target_count": 43,
+    "current_count": 1,
+    "remaining": 42,
+    "page_count": 15,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Anatomi/output_anatomi/main/04_Pleksuslar.pdf"
+  },
+  {
+    "discipline": "Anatomi",
+    "topic": "Solunum Sistemi Anatomisi",
+    "type": "main_file",
+    "target_count": 42,
+    "current_count": 4,
+    "remaining": 38,
+    "page_count": 16,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Anatomi/output_anatomi/main/05_Solunum_Sistemi_Anatomisi.pdf"
+  },
+  {
+    "discipline": "Anatomi",
+    "topic": "Dolaşım Sistemi Anatomisi (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 81,
+    "current_count": 0,
+    "remaining": 81,
+    "page_count": 32,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Anatomi_Dolaşım_Sistemi_Anatomisi_chunk1.pdf"
+  },
+  {
+    "discipline": "Anatomi",
+    "topic": "Dolaşım Sistemi Anatomisi (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 23,
+    "current_count": 0,
+    "remaining": 23,
+    "page_count": 9,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Anatomi_Dolaşım_Sistemi_Anatomisi_chunk2.pdf"
+  },
+  {
+    "discipline": "Anatomi",
+    "topic": "Sindirim Sistemi Anatomisi",
+    "type": "main_file",
+    "target_count": 87,
+    "current_count": 0,
+    "remaining": 87,
+    "page_count": 24,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Anatomi/output_anatomi/main/07_Sindirim_Sistemi_Anatomisi.pdf"
+  },
+  {
+    "discipline": "Anatomi",
+    "topic": "Ürogenital Sistem Anatomisi",
+    "type": "main_file",
+    "target_count": 35,
+    "current_count": 0,
+    "remaining": 35,
+    "page_count": 16,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs/Anatomi/output_anatomi/main/08_Ürogenital_Sistem_Anatomisi.pdf"
+  },
+  {
+    "discipline": "Anatomi",
+    "topic": "Sinir Sistemi Anatomisi (Part 1)",
+    "type": "merged_chunk",
+    "target_count": 60,
+    "current_count": 0,
+    "remaining": 60,
+    "page_count": 21,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Anatomi_Sinir_Sistemi_Anatomisi_chunk1.pdf"
+  },
+  {
+    "discipline": "Anatomi",
+    "topic": "Sinir Sistemi Anatomisi (Part 2)",
+    "type": "merged_chunk",
+    "target_count": 57,
+    "current_count": 0,
+    "remaining": 57,
+    "page_count": 20,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Anatomi_Sinir_Sistemi_Anatomisi_chunk2.pdf"
+  },
+  {
+    "discipline": "Anatomi",
+    "topic": "Sinir Sistemi Anatomisi (Part 3)",
+    "type": "merged_chunk",
+    "target_count": 63,
+    "current_count": 0,
+    "remaining": 63,
+    "page_count": 22,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Anatomi_Sinir_Sistemi_Anatomisi_chunk3.pdf"
+  },
+  {
+    "discipline": "Anatomi",
+    "topic": "Sinir Sistemi Anatomisi (Part 4)",
+    "type": "merged_chunk",
+    "target_count": 28,
+    "current_count": 0,
+    "remaining": 28,
+    "page_count": 10,
+    "file_path": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/temp_chunks/Anatomi_Sinir_Sistemi_Anatomisi_chunk4.pdf"
+  }
+]

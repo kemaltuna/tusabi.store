@@ -1,0 +1,16 @@
+{
+  "critique_passed": true,
+  "feedback": "Soru kurgusu net ve doğru cevap tek (B). Çeldiriciler güçlü, çünkü diğer seçenekler antipsikotiklerin diğer ekstrapiramidal yan etkileri için kullanılan ilaçlardır ve akatizi ile karıştırılabilir. Kaynak tabloda akatizi için propranolol ilk sırada belirtilmiş, bu soruyla uyumlu.",
+  "sibling_suggestions": [
+    "Akut distonik reaksiyon",
+    "Parkinsonizm",
+    "Nöroleptik malign sendrom",
+    "Tardif diskinezi"
+  ],
+  "improved_distractors": [
+    "L-Dopa (akut distonik reaksiyon, akatizi ve parkinsonizm için kullanılmaz, bu nedenle güçlü çeldirici)",
+    "Amantadin (parkinsonizm için kullanılır)",
+    "Bromokriptin (nöroleptik malign sendrom için kullanılır)",
+    "Dantrolen (nöroleptik malign sendrom için kullanılır)"
+  ]
+}

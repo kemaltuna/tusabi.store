@@ -1,0 +1,377 @@
+[
+  {
+    "question_text": "Santral sinir sisteminde nörotransmitterlerin veziküllerden salıverilmesi için mutlak gerekli olan iyon aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sodyum",
+      "B": "Potasyum",
+      "C": "Kalsiyum",
+      "D": "Klor",
+      "E": "Magnezyum"
+    },
+    "correct_answer": "C",
+    "explanation": "Nörotransmitterlerin presinaptik nörondan bir aksiyon potansiyeli ile salıverilmesi için kalsiyum iyonu gereklidir. Aksiyon potansiyeli sinir ucuna ulaştığında voltaj bağımlı kalsiyum kanalları açılır ve hücre içine giren kalsiyum ekzositozu tetikler.",
+    "difficulty": "kolay",
+    "tags": [
+      "nörotransmitter",
+      "fizyoloji"
+    ]
+  },
+  {
+    "question_text": "Şizofreni tanısı ile takip edilen bir hastada kullanılan antipsikotik ilaçların mezolimbik yolaktaki dopaminerjik aktiviteyi azaltması beklenirken, tuberoinfundibuler yolaktaki D2 reseptörlerini bloke etmesi hangi yan etkiye neden olur?",
+    "options": {
+      "A": "Parkinson benzeri semptomlar",
+      "B": "Hiperprolaktinemi",
+      "C": "Öfori",
+      "D": "Öğrenme bozukluğu",
+      "E": "Bulantı ve kusma"
+    },
+    "correct_answer": "B",
+    "explanation": "Tuberoinfundibuler yolakta salıverilen dopamin, D2 reseptörleri üzerinden prolaktin salınımını fizyolojik olarak baskılar. Bu yolaktaki D2 reseptörlerinin blokajı prolaktin üzerindeki baskıyı kaldırarak hiperprolaktinemiye yol açar.",
+    "difficulty": "orta",
+    "tags": [
+      "dopamin",
+      "antipsikotik",
+      "endokrin"
+    ]
+  },
+  {
+    "question_text": "Dopamin D2 reseptör sinyal yolağı ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Gs proteini ile kenetlidir",
+      "B": "Adenilat siklaz aktivitesini artırır",
+      "C": "Beta-arrestinleri bağlayarak Akt (protein kinaz B) yolağını inaktive eder",
+      "D": "Glikojen sentaz-kinaz-3β (GSK-3β) yolağını inhibe eder",
+      "E": "Hücre içi cAMP düzeyini yükseltir"
+    },
+    "correct_answer": "C",
+    "explanation": "Dopamin D2 reseptörleri Gi ile kenetlidir (cAMP azaltır). Ayrıca beta-arrestinleri bağlayarak Akt (protein kinaz B) yolağını inaktive eder ve GSK-3β sinyal yolağını aktifleştirir.",
+    "difficulty": "zor",
+    "tags": [
+      "dopamin",
+      "reseptör",
+      "sinyal yolağı"
+    ]
+  },
+  {
+    "question_text": "Aşağıdaki beyin bölgelerinden hangisi noradrenalin sentezleyen hücre gövdelerinin en yoğun bulunduğu yerdir?",
+    "options": {
+      "A": "Raphe çekirdekleri",
+      "B": "Locus coeruleus",
+      "C": "Nucleus basalis of Meynert",
+      "D": "Ventral tegmental alan",
+      "E": "Substantia nigra"
+    },
+    "correct_answer": "B",
+    "explanation": "Santral sinir sisteminde noradrenerjik (katekolaminerjik) nöronların en fazla bulunduğu yer Locus coeruleus'dur. Raphe çekirdekleri serotonin, Nucleus basalis asetilkolin için ana merkezdir.",
+    "difficulty": "kolay",
+    "tags": [
+      "noradrenalin",
+      "anatomi"
+    ]
+  },
+  {
+    "question_text": "Migrenin akut tedavisinde kullanılan triptan grubu ilaçların (örneğin sumatriptan) temel hedefi olan serotonin reseptör alt tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "5-HT1A",
+      "B": "5-HT1D",
+      "C": "5-HT2C",
+      "D": "5-HT3",
+      "E": "5-HT4"
+    },
+    "correct_answer": "B",
+    "explanation": "5-HT1D (ve 5-HT1B) reseptörleri migren patofizyolojisi ile ilişkilidir. Triptanlar bu reseptörlerin agonistidir. 5-HT1A anksiyolitik, 5-HT3 bulantı-kusma, 5-HT2C ise iştah ile ilişkilidir.",
+    "difficulty": "orta",
+    "tags": [
+      "serotonin",
+      "migren",
+      "triptanlar"
+    ]
+  },
+  {
+    "question_text": "Hem MT1 hem de MT2 reseptörlerine agonist etki gösteren, aynı zamanda 5-HT2C reseptörlerini bloke ederek majör depresyon tedavisinde kullanılan ilaç aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Ramelteon",
+      "B": "Tasimelteon",
+      "C": "Agomelatin",
+      "D": "Buspiron",
+      "E": "Suvoreksant"
+    },
+    "correct_answer": "C",
+    "explanation": "Agomelatin, MT1/MT2 agonisti ve 5-HT2C antagonistidir. Bu kombine mekanizması sayesinde depresyon ve buna eşlik eden uyku bozukluklarının tedavisinde kullanılır.",
+    "difficulty": "orta",
+    "tags": [
+      "melatonin",
+      "serotonin",
+      "antidepresan"
+    ]
+  },
+  {
+    "question_text": "İzoniazid tedavisi alan bir tüberküloz hastasında nöbet (konvülsiyon) görülmesinin temel farmakolojik nedeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Glutamat salınımının artması",
+      "B": "Piridoksin bağımlı Glutamik asit dekarboksilaz (GAD) enziminin inhibisyonu",
+      "C": "GABA-A reseptörlerinin doğrudan blokajı",
+      "D": "Glisin reseptör antagonizması",
+      "E": "NMDA reseptörlerinin aşırı uyarılması"
+    },
+    "correct_answer": "B",
+    "explanation": "İzoniazid, GABA sentezinde rol oynayan ve piridoksin (B6) bağımlı bir enzim olan glutamik asit dekarboksilazı (GAD) inhibe eder. GABA düzeyi azaldığı için inhibitör denge bozulur ve eksitasyon/konvülsiyon ortaya çıkar.",
+    "difficulty": "zor",
+    "tags": [
+      "GABA",
+      "izoniazid",
+      "yan etki"
+    ]
+  },
+  {
+    "question_text": "GABA-A reseptör kompleksi üzerinde klor kanalının açılma sıklığını (frekansını) artırarak etki gösteren ilaç grubu aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Barbitüratlar",
+      "B": "Benzodiazepinler",
+      "C": "Z-ilaçları (Atipik benzodiazepinler)",
+      "D": "GABA-B agonistleri",
+      "E": "Nöroleptikler"
+    },
+    "correct_answer": "B",
+    "explanation": "Benzodiazepinler klor kanalının açılma frekansını (sıklığını) artırırken, Barbitüratlar kanalın açık kalma süresini uzatırlar.",
+    "difficulty": "orta",
+    "tags": [
+      "GABA",
+      "benzodiazepinler",
+      "mekanizma"
+    ]
+  },
+  {
+    "question_text": "Aşağıdaki maddelerden hangisi NMDA (N-metil-D-aspartat) reseptörünün aktivasyonu için glutamat ile birlikte bulunması gereken zorunlu ko-agonisttir?",
+    "options": {
+      "A": "GABA",
+      "B": "Glisin",
+      "C": "Aspartat",
+      "D": "Magnezyum",
+      "E": "Çinko"
+    },
+    "correct_answer": "B",
+    "explanation": "NMDA reseptörünün aktivasyonu için glutamat ve glisinin birlikte reseptöre bağlanması zorunludur. Glisin burada ko-agonist olarak rol oynar.",
+    "difficulty": "orta",
+    "tags": [
+      "glutamat",
+      "glisin",
+      "NMDA"
+    ]
+  },
+  {
+    "question_text": "Aşağıdakilerden hangisi NMDA reseptör antagonisti olup Alzheimer hastalığı tedavisinde kullanılır?",
+    "options": {
+      "A": "Ketamin",
+      "B": "Memantin",
+      "C": "Riluzol",
+      "D": "Amantadin",
+      "E": "Fensiklidin"
+    },
+    "correct_answer": "B",
+    "explanation": "Memantin, orta-ağır şiddetli Alzheimer hastalığında kullanılan bir NMDA reseptör antagonistidir. Ketamin anestezik, Riluzol ALS tedavisi, Amantadin ise antiparkinson/antiviraldir.",
+    "difficulty": "kolay",
+    "tags": [
+      "glutamat",
+      "Alzheimer",
+      "NMDA"
+    ]
+  },
+  {
+    "question_text": "Narkolepsi patofizyolojisinde eksikliği saptanan ve 'suvoreksant' gibi ilaçlarla antagonize edilen nörotransmitter aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Melatonin",
+      "B": "Oreksin (Hipokretin)",
+      "C": "Adenozin",
+      "D": "Madde P",
+      "E": "Anandamid"
+    },
+    "correct_answer": "B",
+    "explanation": "Oreksinler (hipokretinler) uyanıklığı sağlayan peptit yapılı nörotransmitterlerdir. Eksikliklerinde narkolepsi oluşur. Suvoreksant bir oreksin reseptör antagonistidir ve insomnia tedavisinde kullanılır.",
+    "difficulty": "kolay",
+    "tags": [
+      "oreksin",
+      "narkolepsi",
+      "insomnia"
+    ]
+  },
+  {
+    "question_text": "Adenozin ve reseptörleri ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Adenozin inhibitör bir nörotransmitterdir",
+      "B": "ATP'nin hidrolizi sonucu oluşabilir",
+      "C": "Kafein, adenozin reseptörlerini antagonize ederek uyanıklık sağlar",
+      "D": "Uyku ile ilişkili esas reseptörü A1'dir",
+      "E": "Metilksantinler psikostimülan etkilerini adenozin inhibisyonu ile yaparlar"
+    },
+    "correct_answer": "D",
+    "explanation": "Adenozinin uyku ile ilişkili esas reseptörü A2A'dır. Diğer şıklar doğrudur.",
+    "difficulty": "zor",
+    "tags": [
+      "adenozin",
+      "kafein",
+      "uyku"
+    ]
+  },
+  {
+    "question_text": "Endokannabinoid sistem ile ilgili aşağıdaki bilgilerden hangisi doğrudur?",
+    "options": {
+      "A": "Anandamid, kannabinoid reseptörleri için tam agonisttir",
+      "B": "CB1 reseptörleri esas olarak immün hücrelerde bulunur",
+      "C": "Endokannabinoidler postsinaptik nöronda sentezlenip presinaptik ucu etkileyen 'retrograd' habercilerdir",
+      "D": "2-Araşidonilgliserol (2-AG) veziküllerde depolanır",
+      "E": "Rimonabant, CB1 reseptör agonisti olarak obezite tedavisinde kullanılır"
+    },
+    "correct_answer": "C",
+    "explanation": "Endokannabinoidler (Anandamid ve 2-AG) postsinaptik nöronda sentezlenir ve presinaptik CB1 reseptörlerini aktive ederek GABA/Glutamat salınımını baskılarlar (retrograd sinyalizasyon). Anandamid parsiyel agonisttir, CB1 santralde yoğundur, 2-AG depolanabilir, Rimonabant ise ters (invers) agonisttir.",
+    "difficulty": "zor",
+    "tags": [
+      "kannabinoid",
+      "retrograd",
+      "CB1"
+    ]
+  },
+  {
+    "question_text": "Aşağıdaki benzodiazepinlerden hangisi karaciğerde sitokrom P450 (faz 1) enzimleriyle metabolize edilmeden doğrudan glukuronidasyonu (faz 2) uğrar ve bu nedenle yaşlılarda veya karaciğer yetmezliği olanlarda tercih edilir?",
+    "options": {
+      "A": "Diazepam",
+      "B": "Lorazepam",
+      "C": "Klordiazepoksit",
+      "D": "Flurazepam",
+      "E": "Midazolam"
+    },
+    "correct_answer": "B",
+    "explanation": "Lorazepam, Oxazepam ve Temazepam (LOT) sadece konjugasyon (faz 2) ile metabolize edilirler. Bu özellikleri nedeniyle karaciğer fonksiyonları bozuk olanlarda ve yaşlılarda birikim yapma riskleri daha düşüktür.",
+    "difficulty": "orta",
+    "tags": [
+      "benzodiazepinler",
+      "farmakokinetik",
+      "geriatri"
+    ]
+  },
+  {
+    "question_text": "Benzodiazepin doz aşımında veya etkisini geri döndürmek amacıyla kullanılan spesifik antagonist aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Nalokson",
+      "B": "Flumazenil",
+      "C": "Fizostigmin",
+      "D": "Pikrotoksin",
+      "E": "Bikukulin"
+    },
+    "correct_answer": "B",
+    "explanation": "Flumazenil, selektif benzodiazepin reseptör antagonistidir. Sadece intravenöz kullanılır. Barbitürat zehirlenmesinde etkisizdir.",
+    "difficulty": "kolay",
+    "tags": [
+      "benzodiazepinler",
+      "antidot",
+      "flumazenil"
+    ]
+  },
+  {
+    "question_text": "Barbitüratların etkileri ve klinik kullanımı ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Benzodiazepinlere göre daha güçlü antikonvülzandırlar",
+      "B": "Porfiria hastalarında kontrendikedirler",
+      "C": "Karaciğerde mikrozomal enzim indüksiyonu yaparlar",
+      "D": "Ağrı duyusunu azaltırlar (analjezik etki)",
+      "E": "Laringospazm ve öksürüğe neden olabilirler"
+    },
+    "correct_answer": "D",
+    "explanation": "Barbitüratların analjezik etkileri yoktur, aksine hiperaljezi (ağrı duyarlılığında artış) yapabilirler. Diğer şıklar barbitüratların karakteristik özellikleridir.",
+    "difficulty": "orta",
+    "tags": [
+      "barbitüratlar",
+      "yan etki",
+      "porfiria"
+    ]
+  },
+  {
+    "question_text": "Kısa süreli cerrahi girişimlerde kullanılan, en kısa yarı ömre sahip ve en hızlı inaktive edilen benzodiazepin aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Midazolam",
+      "B": "Remimazolam",
+      "C": "Triazolam",
+      "D": "Alprazolam",
+      "E": "Oksazepam"
+    },
+    "correct_answer": "B",
+    "explanation": "Remimazolam, en kısa yarı ömre (0.6-0.9 saat) sahip ve en hızlı inaktive edilen benzodiazepindir. Midazolam da kısa etkilidir ancak Remimazolam ultra kısa etkilidir.",
+    "difficulty": "orta",
+    "tags": [
+      "benzodiazepinler",
+      "anestezi"
+    ]
+  },
+  {
+    "question_text": "Alkol bağımlılığı tedavisinde kullanılan ve aldehit dehidrogenaz enzimini inhibe ederek asetaldehit birikimine neden olan ilaç aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Naltrekson",
+      "B": "Akamprosat",
+      "C": "Disülfiram",
+      "D": "Fomepizol",
+      "E": "Baklofen"
+    },
+    "correct_answer": "C",
+    "explanation": "Disülfiram, aldehit dehidrogenazı inhibe eder. Alkol alındığında asetaldehit birikir ve bulantı, kusma, flushing (kızarma) gibi rahatsız edici semptomlar oluşturarak hastayı alkolden uzaklaştırır.",
+    "difficulty": "kolay",
+    "tags": [
+      "alkol",
+      "disülfiram",
+      "tedavi"
+    ]
+  },
+  {
+    "question_text": "Böbrek yetmezliği ve ciddi kardiyovasküler hastalığı olan bir alkol bağımlısında kontrendike olan, NMDA reseptör antagonisti ve GABA-A agonisti ilaç aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Disülfiram",
+      "B": "Naltrekson",
+      "C": "Akamprosat",
+      "D": "Topiramat",
+      "E": "Gabapentin"
+    },
+    "correct_answer": "C",
+    "explanation": "Akamprosat, NMDA antagonisti ve GABA-A agonistidir. Böbrek yoluyla atıldığı için böbrek yetmezliğinde ve ciddi KVS hastalıklarında kontrendikedir.",
+    "difficulty": "zor",
+    "tags": [
+      "alkol",
+      "akamprosat",
+      "kontrendikasyon"
+    ]
+  },
+  {
+    "question_text": "Limbik sistemdeki 5-HT1A reseptörlerine parsiyel agonist etki gösteren, bağımlılık yapmayan ve etkisi yaklaşık bir haftada ortaya çıkan anksiyolitik ilaç aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Diazepam",
+      "B": "Alprazolam",
+      "C": "Buspiron",
+      "D": "Zolpidem",
+      "E": "Hidroksizin"
+    },
+    "correct_answer": "C",
+    "explanation": "Buspiron, 5-HT1A parsiyel agonistidir. Sedasyon ve bağımlılık yapmaz, motor koordinasyonu bozmaz. Ancak etkisi geç (1-2 hafta) başlar, bu yüzden akut anksiyete ataklarında kullanılmaz.",
+    "difficulty": "orta",
+    "tags": [
+      "anksiyolitik",
+      "buspiron",
+      "serotonin"
+    ]
+  },
+  {
+    "question_text": "Benzodiazepin yapısında olmamasına rağmen GABA-A reseptörünün alfa-1 subünitine selektif bağlanarak sadece uykuya dalma süresini kısaltan ve antikonvülzan etkisi olmayan ilaç aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Zolpidem",
+      "B": "Diazepam",
+      "C": "Fenobarbital",
+      "D": "Kloralhidrat",
+      "E": "Eszopiklon"
+    },
+    "correct_answer": "A",
+    "explanation": "Zolpidem (ve Zaleplon), atipik benzodiazepin agonistidir. GABA-A'nın alfa-1 izoformuna selektif bağlanır. Bu yüzden sadece hipnotik etkisi vardır; antikonvülzan veya kas gevşetici etkisi yoktur.",
+    "difficulty": "orta",
+    "tags": [
+      "insomnia",
+      "zolpidem",
+      "GABA"
+    ]
+  }
+]

@@ -1,0 +1,167 @@
+{
+  "source_material": "Farmakoloji",
+  "topic": "Antipsikotik İlaçlar",
+  "question_text": "Yirmi beş yaşında erkek hasta, şizofreni tanısıyla başlanan antipsikotik tedavisinin 3. gününde dilini dışarı çıkaramama, boynunu geriye atma ve gözlerini yukarı kaydırma şikayetleriyle acil servise başvuruyor. Fizik muayenede bilinç açık, vital bulguları normal sınırlarda. Hangi antipsikotik ilaç grubunun kullanımı bu yan etki için daha yüksek risk oluşturur?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Tipik (klasik) antipsikotikler"
+    },
+    {
+      "id": "B",
+      "text": "Atipik antipsikotikler"
+    },
+    {
+      "id": "C",
+      "text": "Her iki grup için risk eşittir"
+    },
+    {
+      "id": "D",
+      "text": "Sadece klozapin"
+    },
+    {
+      "id": "E",
+      "text": "Sadece risperidon"
+    }
+  ],
+  "correct_option_id": "A",
+  "tags": [
+    "concept: Antipsikotik İlaçların Ekstrapiramidal Yan Etkileri ve Tipik/Atipik Ayrımı",
+    "visual:dopamine_pathways"
+  ],
+  "explanation": {
+    "main_mechanism": "Bu soruda doğru cevap tipik (klasik) antipsikotikler. Tipik antipsikotikler, güçlü dopamin D2 reseptör antagonistleri olup nigrostriatal yolda dopamin blokajı yaparak akut distonik reaksiyon gibi ekstrapiramidal yan etkilere yol açar; atipik antipsikotikler ise serotonin 5-HT2A reseptör blokajı ile daha düşük risk taşır.",
+    "clinical_significance": "Akut distonik reaksiyon, antipsikotik tedavinin erken döneminde ortaya çıkan, dil, boyun ve göz kaslarında spazmla karakterize bir ekstrapiramidal yan etkidir. Genç hastalarda daha sık görülür ve antikolinerjik ajanlarla (difenhidramin, benztropin) hızlı tedavi edilebilir.",
+    "sibling_entities": [
+      "Akut distonik reaksiyonun tedavisi",
+      "Nöroleptik malign sendrom",
+      "Tardif diskinezi",
+      "Akatizi"
+    ],
+    "updates_applied": [],
+    "update_checked": true,
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "Detaylı Açıklama & Mekanizma"
+      },
+      {
+        "type": "callout",
+        "style": "key_clues",
+        "title": "Klinik İpuçları",
+        "items": [
+          {
+            "text": "Hastanın genç yaşı (25) ve antipsikotik başlangıcının 3. gününde akut gelişen semptomlar – akut distonik reaksiyon için tipik zamanlama."
+          },
+          {
+            "text": "Dilini dışarı çıkaramama, boynunu geriye atma, gözlerini yukarı kaydırma – spesifik kas gruplarını (dil, boyun, okülomotor) tutan spazmlar, akut distoninin karakteristik bulguları."
+          },
+          {
+            "text": "Bilinç açık ve vital bulgular normal – nöroleptik malign sendrom gibi hayatı tehdit eden durumlardan ayırır."
+          }
+        ]
+      },
+      {
+        "type": "numbered_steps",
+        "title": "Mekanizma Zinciri",
+        "steps": [
+          "Tipik (klasik) antipsikotikler, güçlü dopamin D2 reseptör antagonistleri olarak nigrostriatal yoldaki dopaminerjik nöronları inhibe eder.",
+          "Nigrostriatal yolda dopamin blokajı, striatumdaki kolinerjik nöronların göreceli aşırı aktivasyonuna yol açar (dopamin-kolinerjik dengesizlik).",
+          "Bazal gangliyonlarda (özellikle striatum) fonksiyon bozukluğu gelişir, bu da ekstrapiramidal motor kontrolün bozulmasına neden olur.",
+          "Sonuç olarak, akut distonik reaksiyon gibi kas spazmları ve anormal hareketler ortaya çıkar; atipik antipsikotiklerde serotonin 5-HT2A blokajının koruyucu etkisi nedeniyle risk düşüktür."
+        ]
+      },
+      {
+        "type": "callout",
+        "style": "exam_trap",
+        "title": "Sınav Tuzağı",
+        "items": [
+          {
+            "text": "Atipik antipsikotiklerin (özellikle yüksek doz risperidon, paliperidon) ekstrapiramidal yan etki yapabileceği unutulmamalıdır, ancak kaynakta vurgulandığı gibi risk tipik antipsikotiklere göre belirgin şekilde düşüktür. Bu nedenle 'her iki grup için risk eşittir' seçeneği sık bir çeldiricidir."
+          }
+        ]
+      },
+      {
+        "type": "mini_ddx",
+        "title": "Çeldirici Analizi",
+        "items": [
+          {
+            "option_id": "B",
+            "label": "Atipik antipsikotikler",
+            "why_wrong": "Atipik antipsikotiklerin ekstrapiramidal yan etki riski, tipik antipsikotiklere göre belirgin şekilde düşüktür (kaynak tablosunda 'Ekstrapiramidal yan etki az' olarak belirtilmiştir).",
+            "would_be_correct_if": "Hastada metabolik sendrom, kilo artışı veya sedasyon gibi atipik antipsikotiklere özgü yan etkiler sorgulansaydı.",
+            "best_discriminator": "Ekstrapiramidal yan etki riskinin yüksek olması tipik antipsikotiklerin ayırıcı özelliğidir."
+          },
+          {
+            "option_id": "C",
+            "label": "Her iki grup için risk eşittir",
+            "why_wrong": "Kaynak tablosunda açıkça tipik antipsikotiklerde ekstrapiramidal yan etkinin fazla, atipiklerde ise az olduğu belirtilmiştir; risk eşit değildir.",
+            "would_be_correct_if": "Her iki antipsikotik grubunun ekstrapiramidal yan etki profili benzer olsaydı (örneğin, bazı atipiklerin yüksek dozda tipikler kadar risk taşıdığı durumlar).",
+            "best_discriminator": "Tipik ve atipik antipsikotiklerin ekstrapiramidal yan etki riskindeki belirgin fark, klinik pratikte ve sınavlarda temel ayrım noktasıdır."
+          },
+          {
+            "option_id": "D",
+            "label": "Sadece klozapin",
+            "why_wrong": "Klozapin, atipik bir antipsikotiktir ve ekstrapiramidal yan etki riski düşüktür; ayrıca agranülositoz gibi ciddi yan etkileriyle ön plandadır.",
+            "would_be_correct_if": "Soruda, tedaviye dirençli şizofreni veya intihar riski olan hastalarda tercih edilen, ekstrapiramidal yan etkisi minimal ilaç sorgulansaydı.",
+            "best_discriminator": "Klozapinin ekstrapiramidal yan etki riski düşüktür ve genel antipsikotik grupları temsil etmez."
+          },
+          {
+            "option_id": "E",
+            "label": "Sadece risperidon",
+            "why_wrong": "Risperidon, atipik antipsikotik olmasına rağmen yüksek dozlarda ekstrapiramidal yan etki yapabilir, ancak soru genel antipsikotik grubu riskini sorduğu için bu spesifik ilaç yanıltıcıdır.",
+            "would_be_correct_if": "Hastada prolaktin yükselmesi veya doza bağımlı ekstrapiramidal yan etki gelişimi gibi risperidone özgü bir durum vurgulansaydı.",
+            "best_discriminator": "Risperidon, atipik antipsikotikler içinde ekstrapiramidal yan etki riski nispeten yüksek olabilir, ancak tipik antipsikotiklerle karşılaştırıldığında risk hala düşüktür."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Ayırıcı Tanı",
+        "headers": [
+          "Özellik",
+          "Doğru Cevaptaki İlaç",
+          "Çeldirici İlaç/Grup"
+        ],
+        "rows": [
+          {
+            "entity": "İsim",
+            "cells": [
+              "Tipik (klasik) antipsikotikler",
+              "Atipik antipsikotikler"
+            ]
+          },
+          {
+            "entity": "Ekstrapiramidal Yan Etki Riski",
+            "cells": [
+              "Yüksek (kaynakta 'fazla' olarak belirtilmiştir)",
+              "Düşük (kaynakta 'az' olarak belirtilmiştir)"
+            ]
+          },
+          {
+            "entity": "Ana Reseptör Affinitesi",
+            "cells": [
+              "Dopamin D2 reseptör antagonisti (güçlü blokaj)",
+              "Serotonin 5-HT2A reseptör antagonisti / dopamin D2 parsiyel antagonizması"
+            ]
+          },
+          {
+            "entity": "Akut Distonik Reaksiyon Sıklığı",
+            "cells": [
+              "Sık, özellikle genç erkek hastalarda erken tedavi döneminde",
+              "Nadir, atipiklerde genellikle düşük risk"
+            ]
+          },
+          {
+            "entity": "Diğer Ekstrapiramidal Yan Etkiler",
+            "cells": [
+              "Akatizi, parkinsonizm, tardif diskinezi, nöroleptik malign sendrom riski yüksek",
+              "Ekstrapiramidal yan etkiler genel olarak az, nöroleptik malign sendrom riski düşük"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

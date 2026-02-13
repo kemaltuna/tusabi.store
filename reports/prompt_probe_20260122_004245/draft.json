@@ -1,0 +1,28 @@
+{
+  "question_text": "Şizofreni tanısıyla takip edilen 28 yaşındaki bir erkek hastaya, pozitif semptomlarının kontrolü için antipsikotik tedavi başlanıyor. Tedavinin 3. haftasında hastada yerinde duramama, huzursuzluk ve içsel bir sıkıntı hissi gelişiyor. Bu durum, hastanın ilacı bırakma isteğine neden oluyor. Hangi antipsikotik ilaç grubunda bu yan etkinin görülme olasılığı daha yüksektir?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Tipik antipsikotikler"
+    },
+    {
+      "id": "B",
+      "text": "Atipik antipsikotikler"
+    },
+    {
+      "id": "C",
+      "text": "Her iki grupta da görülme sıklığı eşittir"
+    },
+    {
+      "id": "D",
+      "text": "Sadece klozapin kullanımında görülür"
+    },
+    {
+      "id": "E",
+      "text": "Sadece risperidon kullanımında görülür"
+    }
+  ],
+  "correct_option_id": "A",
+  "concept_tag": "concept:Tipik ve Atipik Antipsikotikler",
+  "brief_explanation": "Soruda tarif edilen klinik tablo, antipsikotik ilaçlara bağlı gelişen 'akatizi'dir. Kaynak tablosunda, ekstrapiramidal yan etkiler arasında akatizi listelenmiştir ve tipik antipsikotiklerin atipiklere göre ekstrapiramidal yan etki (EPYE) riskinin daha yüksek olduğu belirtilmiştir. Bu nedenle, akatizi de dahil olmak üzere EPYE'ler tipik antipsikotiklerde daha sık görülür."
+}

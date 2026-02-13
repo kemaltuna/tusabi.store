@@ -1,0 +1,28 @@
+{
+  "question_text": "Altmış beş yaşında erkek hasta, son iki yıldır ellerinde titreme, hareketlerde yavaşlama ve yürümede küçük adımlar şikayetleri ile başvuruyor. Nörolojik muayenede istirahat halinde para sayar tarzda tremor, dişli çark rijiditesi ve bradikinezi saptanıyor. Yüz ifadesi donuk ve göz kırpma sıklığı azalmış. Postüral refleksler zayıflamış. Bu hastada patolojik incelemede en olası bulgu aşağıdakilerden hangisidir?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Substantia nigra'da dopaminerjik nöron kaybı ve Lewy cisimcikleri"
+    },
+    {
+      "id": "B",
+      "text": "Medulla spinaliste nöron kaybı ve derin tendon reflekslerinde artış"
+    },
+    {
+      "id": "C",
+      "text": "Bazal ganglionlarda demir birikimi ve nörofibriler yumaklar"
+    },
+    {
+      "id": "D",
+      "text": "Serebellar Purkinje hücre kaybı ve atrofi"
+    },
+    {
+      "id": "E",
+      "text": "Frontal kortekste amiloid plaklar ve nörofibriler yumaklar"
+    }
+  ],
+  "correct_option_id": "A",
+  "concept_tag": "concept: İdiopatik Parkinson Hastalığı patolojisi",
+  "brief_explanation": "Metinde İdiopatik Parkinson Hastalığı'nın patolojik bulguları olarak substantia nigra'da pigmente nükleusların kaybı ve Lewy cisimcikleri (alfa-sinüklein ve ubiquitin içeren inklüzyon cisimcikleri) tanımlanmıştır. Ayrıca, medulla spinalis tutulumu ve derin tendon reflekslerinde artışın olmadığı belirtilmiştir. Klinik tablo tipik Parkinson bulgularını (istirahat tremoru, dişli çark rijiditesi, bradikinezi, maske yüz, postüral refleks kaybı) içermektedir."
+}

@@ -1,0 +1,28 @@
+{
+  "question_text": "Şizofreni tanısıyla takip edilen 25 yaşındaki bir erkek hastaya antipsikotik tedavi başlanmıştır. Tedavinin 3. gününde dilini dışarı çıkarma, boynunu geriye atma ve gözlerini yukarı kaydırma şikayetleri ile acil servise başvurur. Fizik muayenede dilde ve boyun kaslarında spazm saptanır. Bu hastada gelişen durum için aşağıdaki ifadelerden hangisi doğrudur?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Tedavisinde antikolinerjik etkili Parkinson ilaçları veya difenhidramin kullanılır."
+    },
+    {
+      "id": "B",
+      "text": "Oluşma süresi genellikle aylar-yıllar içindedir ve ilerlemiş vakalarda tedavisi zordur."
+    },
+    {
+      "id": "C",
+      "text": "Mekanizması postsinaptik D2 reseptör duyarlılığında artış ve upregülasyondur."
+    },
+    {
+      "id": "D",
+      "text": "Tedavisinde propranolol veya benzodiazepinler ilk tercihtir."
+    },
+    {
+      "id": "E",
+      "text": "Mekanizması dopamin antagonizmasıdır ve tedavisinde dantrolen veya bromokriptin kullanılır."
+    }
+  ],
+  "correct_option_id": "A",
+  "concept_tag": "concept:Antipsikotik İlaçların Ekstrapiramidal Yan Etkileri",
+  "brief_explanation": "Hastada antipsikotik tedavinin erken döneminde (3. gün) gelişen, dil ve boyun kaslarında spazmla karakterize tablo, 'Akut Distonik Reaksiyon'dur. Tabloda bu durumun tedavisi için 'Antikolinerjik* etkili Parkinson ilaçları' ve 'Difenhidramin' belirtilmiştir. Diğer seçenekler farklı ekstrapiramidal yan etkilere aittir: B seçeneği Tardif Diskinezi, C seçeneği Tardif Diskinezi, D seçeneği Akatizi, E seçeneği ise Nöroleptik Malign Sendrom için doğru bilgileri içermektedir."
+}

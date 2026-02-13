@@ -1,0 +1,152 @@
+{
+  "source_material": "Farmakoloji",
+  "topic": "Antiepileptik İlaçlar",
+  "question_text": "Yeni tanı konmuş basit parsiyel nöbeti olan bir hastada, hızlı sodyum kanal blokajı yaparak etki eden ve konvansiyonel tedavi seçeneklerinden biri olan antiepileptik ilaç hangisidir?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Etosüksimid"
+    },
+    {
+      "id": "B",
+      "text": "Gabapentin"
+    },
+    {
+      "id": "C",
+      "text": "Karbamazepin"
+    },
+    {
+      "id": "D",
+      "text": "Levetirasetam"
+    },
+    {
+      "id": "E",
+      "text": "Vigabatrin"
+    }
+  ],
+  "correct_option_id": "C",
+  "tags": [
+    "concept: Antiepileptik ilaçların etki mekanizması",
+    "visual:epilepsy_pathway"
+  ],
+  "explanation": {
+    "main_mechanism": "Bu soruda doğru cevap Karbamazepin. Karbamazepin, presinaptik nöronlarda voltaj bağımlı hızlı sodyum kanallarını bloke ederek aksiyon potansiyeli oluşumunu ve yayılımını inhibe eder. Bu mekanizma parsiyel nöbetlerin kontrolünde etkilidir. Ayrıca, basit parsiyel nöbetler için konvansiyonel tedavi seçenekleri arasında yer alır.",
+    "clinical_significance": "Yeni tanı konmuş basit parsiyel nöbetlerde ilk basamak tedavi seçeneklerinden biridir. Hızlı sodyum kanal blokajı, nöronal hipereksitabiliteyi azaltarak nöbet eşiğini yükseltir. Konvansiyonel tedavi statüsü, uzun yıllardır kullanımı ve etkinliği kanıtlanmış olmasından kaynaklanır.",
+    "sibling_entities": [
+      "Fenitoin",
+      "Lamotrijin",
+      "Valproik asit"
+    ],
+    "updates_applied": [],
+    "update_checked": true,
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "Detaylı Açıklama & Mekanizma"
+      },
+      {
+        "type": "callout",
+        "style": "key_clues",
+        "title": "Klinik İpuçları",
+        "items": [
+          {
+            "text": "Basit parsiyel nöbetlerde bilinç korunur; fokal semptomlar (motor, duysal, otonomik veya psişik) görülür."
+          },
+          {
+            "text": "Konvansiyonel tedavi seçenekleri uzun süredir kullanılan, etkinliği iyi bilinen ilaçları içerir. Karbamazepin bu grupta yer alır."
+          },
+          {
+            "text": "Hızlı sodyum kanal blokörleri, parsiyel ve sekonder jeneralize nöbetlerde özellikle etkilidir."
+          }
+        ]
+      },
+      {
+        "type": "numbered_steps",
+        "title": "Mekanizma Zinciri",
+        "steps": [
+          "Karbamazepin, presinaptik nöronların aksiyon potansiyeli sırasında açılan voltaj bağımlı hızlı sodyum kanallarına bağlanır.",
+          "Bu bağlanma, sodyum iyon girişini inhibe eder ve hücre depolarizasyonunu engeller.",
+          "Depolarizasyonun engellenmesi, aksiyon potansiyeli oluşumunu ve sinaptik bölgeye yayılımını baskılar.",
+          "Nöronal ateşleme ve nöbet aktivitesinin yayılımı azalır, böylece parsiyel nöbetler kontrol altına alınır."
+        ]
+      },
+      {
+        "type": "callout",
+        "style": "exam_trap",
+        "title": "Sınav Tuzağı",
+        "items": [
+          {
+            "text": "Hızlı sodyum kanal blokörleri arasında sadece Karbamazepin değil, Fenitoin, Lamotrijin, Valproik asit gibi diğer ilaçlar da bulunur. Ancak, soru özelinde 'konvansiyonel tedavi seçeneği' vurgusu nedeniyle Karbamazepin doğrudur. Kaynak tablosunda basit parsiyel nöbetler için konvansiyonel tedavide Karbamazepin ilk sırada listelenmiştir."
+          }
+        ]
+      },
+      {
+        "type": "mini_ddx",
+        "title": "Çeldirici Analizi",
+        "items": [
+          {
+            "option_id": "A",
+            "label": "Etosüksimid",
+            "why_wrong": "Etosüksimid, T-tipi kalsiyum kanal blokajı yapar; hızlı sodyum kanal blokajı yapmaz.",
+            "would_be_correct_if": "Absans nöbetler için konvansiyonel tedavi seçeneği olan ve kalsiyum kanal blokajı yapan bir ilaç sorulsaydı.",
+            "best_discriminator": "Etki mekanizması farklıdır; parsiyel nöbetlerde değil, absans nöbetlerde kullanılır."
+          },
+          {
+            "option_id": "B",
+            "label": "Gabapentin",
+            "why_wrong": "Gabapentin, voltaj bağımlı kalsiyum kanallarının α2δ-1 alt birimine bağlanarak etki eder; hızlı sodyum kanal blokajı yapmaz.",
+            "would_be_correct_if": "Nöropatik ağrı veya parsiyel nöbetlerde yeni geliştirilen tedavi seçeneklerinden biri sorulsaydı.",
+            "best_discriminator": "Etki mekanizması farklıdır ve basit parsiyel nöbetler için konvansiyonel tedavide yer almaz."
+          },
+          {
+            "option_id": "D",
+            "label": "Levetirasetam",
+            "why_wrong": "Levetirasetam, sinaptik vezikül proteini SV2A'ya bağlanarak etki eder; hızlı sodyum kanal blokajı yapmaz.",
+            "would_be_correct_if": "Parsiyel nöbetlerde yeni geliştirilen tedavi seçeneklerinden biri veya miyoklonik nöbetlerde kullanılan bir ilaç sorulsaydı.",
+            "best_discriminator": "Etki mekanizması farklıdır ve basit parsiyel nöbetler için konvansiyonel tedavide yer almaz."
+          },
+          {
+            "option_id": "E",
+            "label": "Vigabatrin",
+            "why_wrong": "Vigabatrin, GABA aminotransferazı inhibe ederek GABA düzeylerini artırır; hızlı sodyum kanal blokajı yapmaz.",
+            "would_be_correct_if": "İnfantil spazm (West sendromu) veya refrakter parsiyel nöbetlerde kullanılan bir GABAerjik ilaç sorulsaydı.",
+            "best_discriminator": "Etki mekanizması farklıdır ve basit parsiyel nöbetler için konvansiyonel tedavide yer almaz."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Ayırıcı Tanı",
+        "headers": [
+          "Özellik",
+          "Doğru Cevaptaki İlaç",
+          "Çeldirici İlaç/Grup"
+        ],
+        "rows": [
+          {
+            "entity": "Etki Mekanizması",
+            "cells": [
+              "Hızlı sodyum kanal blokörü",
+              "Diğer mekanizmalar (örn. Ca2+ kanal blokajı, GABAerjik modülasyon, SV2A bağlanması)"
+            ]
+          },
+          {
+            "entity": "Klinik Kullanım (Basit Parsiyel Nöbet)",
+            "cells": [
+              "Konvansiyonel tedavi seçeneği",
+              "Yeni geliştirilen tedaviler veya farklı endikasyonlar (örn. absans nöbet, infantil spazm)"
+            ]
+          },
+          {
+            "entity": "Sibling İlaçlar ile Karşılaştırma",
+            "cells": [
+              "Hızlı sodyum kanal blokörü ve konvansiyonel tedavide; enzim indükleyici etkisi var",
+              "Diğer hızlı sodyum kanal blokörleri (Fenitoin, Lamotrijin, Valproik asit) da bu mekanizmada ancak soru özelinde konvansiyonel statü vurgusu Karbamazepin'i öne çıkarır"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

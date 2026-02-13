@@ -1,0 +1,28 @@
+{
+  "question_text": "Altmış yaşında bir erkek hasta, son bir yıldır hareketlerinde yavaşlama, ellerinde istirahat halinde titreme ve yürürken küçük adımlar atma şikayetleri ile başvuruyor. Nörolojik muayenede, istirahat tremoru, dişli çark rijiditesi, bradikinezi ve postüral reflekslerde kayıp saptanıyor. Bu hastada aşağıdaki bulgulardan hangisinin görülmesi beklenmez?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Maske yüz"
+    },
+    {
+      "id": "B",
+      "text": "Göz kırpma oranında düşme"
+    },
+    {
+      "id": "C",
+      "text": "Derin tendon reflekslerinde artış"
+    },
+    {
+      "id": "D",
+      "text": "Hipovolemik ses"
+    },
+    {
+      "id": "E",
+      "text": "Fleksiyon postürü"
+    }
+  ],
+  "correct_option_id": "C",
+  "concept_tag": "concept: İdiopatik Parkinson Hastalığı klinik bulguları ve ayırıcı tanı",
+  "brief_explanation": "Metinde İdiopatik Parkinson Hastalığı'nın önemli bulguları arasında 'Medulla spinalis tutulumu ve derin tendon reflekslerinde artış OLMAZ' ifadesi yer almaktadır. Diğer şıklar (maske yüz, göz kırpma oranında düşme, hipovolemik ses, fleksiyon postürü) ise hastalığın tipik bulgularıdır. Bu nedenle derin tendon reflekslerinde artış beklenmez."
+}

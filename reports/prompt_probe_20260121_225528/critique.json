@@ -1,0 +1,11 @@
+{
+  "critique_passed": true,
+  "feedback": "Soru kurgu hatası içermiyor, doğru cevap tek (B seçeneği), çeldiriciler güçlü ve konuyla ilgili. Kaynak tabloda akut distonik reaksiyonların mekanizması 'Dopamin antagonizması' olarak belirtilmiş, bu B seçeneğiyle uyumlu. Diğer seçenekler farklı antipsikotik yan etkileri veya mekanizmaları temsil ediyor, bu da sorunun zorluk seviyesini artırıyor.",
+  "sibling_suggestions": [
+    "Akut distonik reaksiyon",
+    "Akatizi",
+    "Parkinsonizm",
+    "Nöroleptik malign sendrom"
+  ],
+  "improved_distractors": []
+}

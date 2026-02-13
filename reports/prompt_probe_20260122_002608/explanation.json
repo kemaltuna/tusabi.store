@@ -1,0 +1,156 @@
+{
+  "source_material": "Farmakoloji",
+  "topic": "Antiepileptik İlaçlar",
+  "question_text": "Parsiyel nöbetleri olan ve karbamazepin tedavisi alan bir hastada, ilacın etki mekanizması aşağıdakilerden hangisidir?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Yavaş sodyum kanal blokajı"
+    },
+    {
+      "id": "B",
+      "text": "Kalsiyum kanallarının α2δ -1 ligandına bağlanma"
+    },
+    {
+      "id": "C",
+      "text": "Hızlı sodyum kanal blokajı"
+    },
+    {
+      "id": "D",
+      "text": "GABA uptake inhibisyonu"
+    },
+    {
+      "id": "E",
+      "text": "NMDA reseptör antagonistliği"
+    }
+  ],
+  "correct_option_id": "C",
+  "tags": [
+    "concept: Antiepileptik ilaçların etki mekanizması",
+    "visual:epilepsy_pathway"
+  ],
+  "explanation": {
+    "main_mechanism": "Bu soruda doğru cevap Karbamazepin. Karbamazepin, nöronal aksiyon potansiyellerinin yayılmasını engellemek için hızlı voltaj kapılı sodyum kanallarını kullanım bağımlı (use-dependent) şekilde bloke eder, böylece parsiyel nöbetlerde nöronal hipereksitabiliteyi azaltır.",
+    "clinical_significance": "Parsiyel nöbetlerin konvansiyonel tedavisinde birinci basamak ajan olarak kullanılır; etkinliği ve uzun süreli kullanım deneyimi nedeniyle tercih edilir.",
+    "sibling_entities": [
+      "Lamotrijin",
+      "Fenitoin",
+      "Valproik asit",
+      "Okskarbazepin"
+    ],
+    "updates_applied": [],
+    "update_checked": true,
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "Detaylı Açıklama & Mekanizma"
+      },
+      {
+        "type": "callout",
+        "style": "key_clues",
+        "title": "Klinik İpuçları",
+        "items": [
+          {
+            "text": "Parsiyel nöbetlerde (basit, kompleks, sekonder jeneralize) birinci sıra konvansiyonel tedavi seçeneğidir."
+          },
+          {
+            "text": "Hızlı sodyum kanal blokajı mekanizması, nöronal aşırı uyarılabilirliği baskılayarak nöbet eşiğini yükseltir."
+          }
+        ]
+      },
+      {
+        "type": "numbered_steps",
+        "title": "Mekanizma Zinciri",
+        "steps": [
+          "Nöronal membran depolarize olduğunda (örneğin, nöbet sırasında), hızlı voltaj kapılı sodyum kanalları açılır ve sodyum iyon girişi ile aksiyon potansiyeli oluşur.",
+          "Karbamazepin, bu kanalların açık veya inaktif durumuna yüksek afinite ile bağlanarak iyon geçişini engeller; bu blokaj kullanım bağımlıdır (aktivite arttıkça etki artar).",
+          "Sodyum kanal blokajı, aksiyon potansiyelinin yayılmasını ve nöronal ateşlemeyi sınırlar, böylece nöbet aktivitesini baskılar ve parsiyel nöbetleri kontrol altına alır."
+        ]
+      },
+      {
+        "type": "callout",
+        "style": "exam_trap",
+        "title": "Sınav Tuzağı",
+        "items": [
+          {
+            "text": "Yavaş sodyum kanal blokajı (Lakosamid) ile karıştırılmamalıdır; hızlı sodyum kanal blokörleri parsiyel nöbetlerde birinci basamak iken, yavaş olanlar daha spesifik durumlarda (örneğin, lakosamid parsiyel nöbetlerde ek tedavi olarak) kullanılır ve mekanizma farklılığı sıklıkla sorgulanır."
+          }
+        ]
+      },
+      {
+        "type": "mini_ddx",
+        "title": "Çeldirici Analizi",
+        "items": [
+          {
+            "option_id": "A",
+            "label": "Yavaş sodyum kanal blokajı",
+            "why_wrong": "Bu mekanizma, Lakosamid'e özgüdür ve hızlı sodyum kanal blokörleri grubunda yer almaz.",
+            "would_be_correct_if": "Soru Lakosamid'in etki mekanizmasını sorsaydı.",
+            "best_discriminator": "Lakosamid, antiepileptikler arasında yavaş sodyum kanal blokajı yapan tek ajandır; karbamazepin ise hızlı sodyum kanal blokörüdür."
+          },
+          {
+            "option_id": "B",
+            "label": "Kalsiyum kanallarının α2δ -1 ligandına bağlanma",
+            "why_wrong": "Bu mekanizma, Gabapentin ve Pregabalin'e özgüdür; karbamazepin bu yolla etki göstermez.",
+            "would_be_correct_if": "Soru Gabapentin veya Pregabalin'in etki mekanizmasını sorsaydı.",
+            "best_discriminator": "α2δ ligandları nöropatik ağrıda birinci basamak iken, karbamazepin parsiyel nöbetlerde hızlı sodyum kanal blokajı ile etkilidir."
+          },
+          {
+            "option_id": "D",
+            "label": "GABA uptake inhibisyonu",
+            "why_wrong": "Bu mekanizma, Tiagabin'e özgüdür; karbamazepin GABAerjik sistemi doğrudan etkilemez.",
+            "would_be_correct_if": "Soru Tiagabin'in etki mekanizmasını sorsaydı.",
+            "best_discriminator": "GABA uptake inhibitörleri GABA'nın sinaptik aralıktan geri alımını engellerken, karbamazepin sodyum kanal blokajı ile etki gösterir."
+          },
+          {
+            "option_id": "E",
+            "label": "NMDA reseptör antagonistliği",
+            "why_wrong": "Bu mekanizma, Felbamat'e özgüdür; karbamazepin glutamaterjik NMDA reseptörlerini bloke etmez.",
+            "would_be_correct_if": "Soru Felbamat'in etki mekanizmasını sorsaydı.",
+            "best_discriminator": "NMDA antagonistleri nadir kullanılırken, karbamazepin yaygın bir hızlı sodyum kanal blokörüdür."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Ayırıcı Tanı",
+        "headers": [
+          "Özellik",
+          "Doğru Cevaptaki İlaç",
+          "Çeldirici İlaç/Grup"
+        ],
+        "rows": [
+          {
+            "entity": "Etki Mekanizması",
+            "cells": [
+              "Hızlı sodyum kanal blokajı (kullanım bağımlı)",
+              "Yavaş sodyum kanal blokajı (Lakosamid)"
+            ]
+          },
+          {
+            "entity": "Ana Endikasyon",
+            "cells": [
+              "Parsiyel nöbetler (birinci basamak)",
+              "Parsiyel nöbetler (diğer hızlı blokörler: Fenitoin, Lamotrijin, Valproik asit, Okskarbazepin)"
+            ]
+          },
+          {
+            "entity": "Farmakolojik Grup",
+            "cells": [
+              "Hızlı sodyum kanal blokörleri",
+              "Kalsiyum kanal α2δ ligandları (Gabapentin, Pregabalin)"
+            ]
+          },
+          {
+            "entity": "Klinik Kullanım",
+            "cells": [
+              "Konvansiyonel tedavide öncelikli",
+              "Nöropatik ağrıda birinci basamak veya ek antiepileptik"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

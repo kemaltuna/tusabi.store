@@ -1,0 +1,28 @@
+{
+  "question_text": "Yirmi yedi yaşında erkek hasta, şizofreni tanısıyla takip edilmektedir. Haloperidol tedavisine başlandıktan iki hafta sonra, yerinde duramama, sürekli ayakta durma isteği ve huzursuzluk şikayetleri başlamıştır. Bu durum için en uygun tedavi yaklaşımı aşağıdakilerden hangisidir?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Propranolol"
+    },
+    {
+      "id": "B",
+      "text": "L-Dopa"
+    },
+    {
+      "id": "C",
+      "text": "Dantrolen"
+    },
+    {
+      "id": "D",
+      "text": "Antikolinerjik etkili bir Parkinson ilacı (örneğin biperiden)"
+    },
+    {
+      "id": "E",
+      "text": "Bromokriptin"
+    }
+  ],
+  "correct_option_id": "A",
+  "concept_tag": "concept:Antipsikotiklerin Ekstrapiramidal Yan Etkileri ve Tedavisi",
+  "brief_explanation": "Hastada tipik antipsikotik (haloperidol) kullanımından 5-60 gün sonra başlayan, anksiyete ve ajitasyona bağlı olmayan 'yerinde duramama' tablosu akatiziyi düşündürmektedir. Kaynak tabloda akatizinin birincil tedavisi olarak propranolol belirtilmiştir. L-Dopa, tabloda belirtildiği gibi, akut distonik reaksiyon, akatizi ve parkinsonizm tedavisinde kullanılmaz. Dantrolen ve bromokriptin nöroleptik malign sendrom tedavisinde, antikolinerjik ilaçlar ise akut distoni ve parkinsonizm tedavisinde öncelikli olarak kullanılır."
+}

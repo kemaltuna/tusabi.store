@@ -1,0 +1,117 @@
+{
+  "summary": {
+    "generated_at": "2026-02-13T09:40:29",
+    "project_root": "/home/yusuf-kemal-tuna/medical_quiz_app",
+    "processed_dir": "/home/yusuf-kemal-tuna/medical_quiz_app/shared/processed_pdfs",
+    "manifests_scanned": 1,
+    "issues_total": 9,
+    "issues_by_type": {
+      "title_mismatch": 7,
+      "subsegment_coverage": 2
+    },
+    "issues_by_severity": {
+      "warn": 9
+    }
+  },
+  "issues": [
+    {
+      "issue_type": "title_mismatch",
+      "severity": "warn",
+      "manifest": "shared/processed_pdfs/Anatomi/output_anatomi/manifest.json",
+      "subject": "Anatomi",
+      "volume": "output_anatomi",
+      "segment_title": "Eklemler",
+      "subsegment_title": "Alt Ekstremite Eklemleri",
+      "file": "processed_pdfs/Anatomi/output_anatomi/sub/Eklemler/03_Alt_Ekstremite_Eklemleri.pdf",
+      "details": "subsegment title not found in first 2 page(s); first_page_preview='ÜST EKSTREMİTE EKLEMLERİ | ARTICULATIO STERNOCLAVICULARIS | Sellar tiptir. Discus articularis’i vardır.'"
+    },
+    {
+      "issue_type": "title_mismatch",
+      "severity": "warn",
+      "manifest": "shared/processed_pdfs/Anatomi/output_anatomi/manifest.json",
+      "subject": "Anatomi",
+      "volume": "output_anatomi",
+      "segment_title": "Kaslar",
+      "subsegment_title": "Alt Ekstremite Kasları",
+      "file": "processed_pdfs/Anatomi/output_anatomi/sub/Kaslar/07_Alt_Ekstremite_Kasları.pdf",
+      "details": "subsegment title not found in first 2 page(s); first_page_preview='ÜST EKSTREMİTE KASLARI | OMUZ BÖLGESİ KASLARI | M. DELTOIDEUS'"
+    },
+    {
+      "issue_type": "subsegment_coverage",
+      "severity": "warn",
+      "manifest": "shared/processed_pdfs/Anatomi/output_anatomi/manifest.json",
+      "subject": "Anatomi",
+      "volume": "output_anatomi",
+      "segment_title": "Kaslar",
+      "subsegment_title": "",
+      "file": "",
+      "details": "first subsegment start=57 != segment.pages_raw start=56"
+    },
+    {
+      "issue_type": "subsegment_coverage",
+      "severity": "warn",
+      "manifest": "shared/processed_pdfs/Anatomi/output_anatomi/manifest.json",
+      "subject": "Anatomi",
+      "volume": "output_anatomi",
+      "segment_title": "Pleksuslar",
+      "subsegment_title": "",
+      "file": "",
+      "details": "first subsegment start=115 != segment.pages_raw start=107"
+    },
+    {
+      "issue_type": "title_mismatch",
+      "severity": "warn",
+      "manifest": "shared/processed_pdfs/Anatomi/output_anatomi/manifest.json",
+      "subject": "Anatomi",
+      "volume": "output_anatomi",
+      "segment_title": "Solunum Sistemi Anatomisi",
+      "subsegment_title": "Paranasal Sinüsler",
+      "file": "processed_pdfs/Anatomi/output_anatomi/sub/Solunum_Sistemi_Anatomisi/03_Paranasal_Sinüsler.pdf",
+      "details": "subsegment title not found in first 2 page(s); first_page_preview='PARANAZAL SİNÜSLER | SINUS FRONTALIS | Yenidoğanda bulunmaz.'"
+    },
+    {
+      "issue_type": "title_mismatch",
+      "severity": "warn",
+      "manifest": "shared/processed_pdfs/Anatomi/output_anatomi/manifest.json",
+      "subject": "Anatomi",
+      "volume": "output_anatomi",
+      "segment_title": "Dolaşım Sistemi Anatomisi",
+      "subsegment_title": "Arterler Radyolojik Görüntüleri",
+      "file": "processed_pdfs/Anatomi/output_anatomi/sub/Dolaşım_Sistemi_Anatomisi/05_Arterler_Radyolojik_Görüntüleri.pdf",
+      "details": "subsegment title not found in first 2 page(s); first_page_preview='ARTERLER | TRUNCUS (ARTERIA) PULMONALIS | Sağ ventrikül’den kalbi terk eder ve'"
+    },
+    {
+      "issue_type": "title_mismatch",
+      "severity": "warn",
+      "manifest": "shared/processed_pdfs/Anatomi/output_anatomi/manifest.json",
+      "subject": "Anatomi",
+      "volume": "output_anatomi",
+      "segment_title": "Ürogenital Sistem Anatomisi",
+      "subsegment_title": "Erkek İç Genital Organları",
+      "file": "processed_pdfs/Anatomi/output_anatomi/sub/Ürogenital_Sistem_Anatomisi/03_Erkek_İç_Genital_Organları.pdf",
+      "details": "subsegment title not found in first 2 page(s); first_page_preview='ERKEK DIŞ GENİTAL ORGANLARI | PENIS | Radix penis ve corpus penis olarak iki parçası vardır.'"
+    },
+    {
+      "issue_type": "title_mismatch",
+      "severity": "warn",
+      "manifest": "shared/processed_pdfs/Anatomi/output_anatomi/manifest.json",
+      "subject": "Anatomi",
+      "volume": "output_anatomi",
+      "segment_title": "Sinir Sistemi Anatomisi",
+      "subsegment_title": "Temel Bilgiler",
+      "file": "processed_pdfs/Anatomi/output_anatomi/sub/Sinir_Sistemi_Anatomisi/01_Temel_Bilgiler.pdf",
+      "details": "subsegment title not found in first 2 page(s); first_page_preview='SİNİR SİSTEMİ ANATOMİSİ | GENEL BİLGİLER | SİNİR SİSTEMİNİN GELİŞİMİ VE BÖLÜMLERİ'"
+    },
+    {
+      "issue_type": "title_mismatch",
+      "severity": "warn",
+      "manifest": "shared/processed_pdfs/Anatomi/output_anatomi/manifest.json",
+      "subject": "Anatomi",
+      "volume": "output_anatomi",
+      "segment_title": "Sinir Sistemi Anatomisi",
+      "subsegment_title": "Duyu Organları Radyolojik Görüntüleri",
+      "file": "processed_pdfs/Anatomi/output_anatomi/sub/Sinir_Sistemi_Anatomisi/14_Duyu_Organları_Radyolojik_Görüntüleri.pdf",
+      "details": "subsegment title not found in first 2 page(s); first_page_preview='DUYU ORGANLARI | KULAK (AURIS) | AURIS EXTERNA'"
+    }
+  ]
+}

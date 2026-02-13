@@ -1,0 +1,159 @@
+{
+  "source_material": "Farmakoloji",
+  "topic": "Antipsikotik İlaçlar",
+  "question_text": "Şizofreni tanısıyla takip edilen 28 yaşındaki bir erkek hastaya, pozitif semptomları için tipik bir antipsikotik ilaç başlanıyor. Tedavinin 3. haftasında hasta, yerinde duramama, huzursuzluk ve içsel bir sıkıntı hissi şikayetiyle başvuruyor. Bu durumun anksiyeteden kaynaklanmadığı düşünülüyor. Bu hastada gelişen yan etki için aşağıdaki tedavi seçeneklerinden hangisi en uygun ilk tercihtir?",
+  "options": [
+    {
+      "id": "A",
+      "text": "L-Dopa"
+    },
+    {
+      "id": "B",
+      "text": "Propranolol"
+    },
+    {
+      "id": "C",
+      "text": "Amantadin"
+    },
+    {
+      "id": "D",
+      "text": "Bromokriptin"
+    },
+    {
+      "id": "E",
+      "text": "Dantrolen"
+    }
+  ],
+  "correct_option_id": "B",
+  "tags": [
+    "concept: Antipsikotik İlaçların Ekstrapiramidal Yan Etkileri ve Tedavisi"
+  ],
+  "explanation": {
+    "main_mechanism": "Bu soruda doğru cevap Propranolol. Akatizi, tipik antipsikotiklerin nigrostriatal yolaktaki dopamin 2 (D2) reseptör blokajına bağlı gelişen ekstrapiramidal yan etkisidir; propranolol ise beta blokajı ile motor huzursuzluğu ve içsel sıkıntı hissini azaltarak etki gösterir.",
+    "clinical_significance": "Akatizi, antipsikotik tedavinin ilk 5-60 gününde ortaya çıkan, hasta tarafından anksiyete olarak yorumlanabilen ancak objektif olarak yerinde duramama ile karakterize motor huzursuzluk tablosudur; tedavi edilmezse ilaç uyumsuzluğuna yol açabilir.",
+    "sibling_entities": [
+      "Akut distonik reaksiyon",
+      "Parkinsonizm",
+      "Nöroleptik malign sendrom",
+      "Tardif diskinezi"
+    ],
+    "updates_applied": [],
+    "update_checked": true,
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "Detaylı Açıklama & Mekanizma"
+      },
+      {
+        "type": "callout",
+        "style": "key_clues",
+        "title": "Klinik İpuçları",
+        "items": [
+          {
+            "text": "Tipik antipsikotik (dopamin 2 reseptör antagonisti) başlanan hastada 3. haftada (5-60 gün aralığında) gelişen semptomlar."
+          },
+          {
+            "text": "Yerinde duramama, huzursuzluk ve içsel sıkıntı hissi şikayetleri; anksiyeteden bağımsız olarak değerlendirilmesi akatiziyi düşündürür."
+          },
+          {
+            "text": "Genç erkek hasta popülasyonunda akut distonik reaksiyon riski yüksek olsa da, zamanlama ve klinik bulgular akatizi lehinedir."
+          }
+        ]
+      },
+      {
+        "type": "numbered_steps",
+        "title": "Mekanizma Zinciri",
+        "steps": [
+          "Tipik antipsikotik ilaç, pozitif semptomları kontrol etmek için mezolimbik yolakta dopamin 2 reseptörlerini bloke eder.",
+          "İlacın nigrostriatal yolakta da dopamin 2 reseptör blokajı yapması, bazal ganglionlardaki dopaminerjik inhibisyonu azaltır.",
+          "Bu durum, striatal GABAerjik projeksiyonlarda dengesizliğe ve talamokortikal yolaklarda aşırı aktivasyona neden olarak motor huzursuzluk (akatizi) ortaya çıkarır.",
+          "Propranolol, periferik ve merkezi beta adrenerjik blokaj yaparak, noradrenerjik tonusu azaltır ve akatizi semptomlarını düzeltir."
+        ]
+      },
+      {
+        "type": "callout",
+        "style": "exam_trap",
+        "title": "Sınav Tuzağı",
+        "items": [
+          {
+            "text": "Akut distonik reaksiyon, parkinsonizm ve akatizi için L-Dopa tedavide kullanılmaz; bu bilgi sıklıkla karıştırılır. L-Dopa sadece nöroleptik malign sendromda bromokriptin ile birlikte kullanılabilir."
+          }
+        ]
+      },
+      {
+        "type": "mini_ddx",
+        "title": "Çeldirici Analizi",
+        "items": [
+          {
+            "option_id": "A",
+            "label": "L-Dopa",
+            "why_wrong": "L-Dopa, dopamin prekürsörü olduğu için akatizide kontrendikedir; semptomları şiddetlendirebilir.",
+            "would_be_correct_if": "Hastada nöroleptik malign sendrom gelişmiş olsaydı ve bromokriptin ile kombine kullanılsaydı.",
+            "best_discriminator": "Kaynak tabloda akut distonik reaksiyon, akatizi ve parkinsonizm için 'L-Dopa tedavide kullanılmaz' açıkça belirtilmiştir."
+          },
+          {
+            "option_id": "C",
+            "label": "Amantadin",
+            "why_wrong": "Amantadin, antikolinerjik ve NMDA antagonisti etkileri ile parkinsonizm tedavisinde kullanılır; akatizide etkinliği sınırlıdır.",
+            "would_be_correct_if": "Hastada bradikinezi, rijidite ve tremor gibi parkinsonizm bulguları olsaydı.",
+            "best_discriminator": "Amantadin tabloda parkinsonizm tedavisi için listelenmiştir; akatizide propranolol birinci basamaktır."
+          },
+          {
+            "option_id": "D",
+            "label": "Bromokriptin",
+            "why_wrong": "Bromokriptin, dopamin agonisti olup akatizide kullanılmaz; aksine dopaminerjik aktiviteyi artırarak semptomları kötüleştirebilir.",
+            "would_be_correct_if": "Hastada nöroleptik malign sendrom gelişmiş olsaydı (aşırı rijidite, yüksek ateş, otonom disfonksiyon).",
+            "best_discriminator": "Bromokriptin, tabloda nöroleptik malign sendrom tedavisi için belirtilmiştir; akatizi farklı patofizyolojiye sahiptir."
+          },
+          {
+            "option_id": "E",
+            "label": "Dantrolen",
+            "why_wrong": "Dantrolen, kas gevşetici etkisi ile nöroleptik malign sendromda rijidite ve hipertermiyi tedavi etmek için kullanılır; akatizide etkisizdir.",
+            "would_be_correct_if": "Hastada kas rijiditesi, hipertermi ve otonom instabilite gibi nöroleptik malign sendrom bulguları olsaydı.",
+            "best_discriminator": "Dantrolen, tabloda nöroleptik malign sendrom tedavisi için dantrolen/diazepam olarak belirtilmiştir; akatizi tedavisinde yeri yoktur."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Ayırıcı Tanı",
+        "headers": [
+          "Özellik",
+          "Doğru Cevaptaki İlaç",
+          "Çeldirici İlaç/Grup"
+        ],
+        "rows": [
+          {
+            "entity": "Propranolol",
+            "cells": [
+              "Beta adrenerjik blokaj ile motor huzursuzluğu azaltır; akatizide ilk tercih.",
+              "L-Dopa: Dopaminerjik aktivite artışı semptomları şiddetlendirir; akatizide kontrendike."
+            ]
+          },
+          {
+            "entity": "Oluşma Süresi",
+            "cells": [
+              "5-60 gün içinde gelişir (3. hafta tipik).",
+              "Akut distonik reaksiyon: İlk günler; parkinsonizm: 5-30 gün; nöroleptik malign sendrom: haftalar."
+            ]
+          },
+          {
+            "entity": "Mekanizma",
+            "cells": [
+              "Nigrostriatal yolakta dopamin 2 reseptör blokajına bağlı gelişen motor huzursuzluk.",
+              "Parkinsonizm: Dopamin antagonizması; nöroleptik malign sendrom: Dopamin antagonizması; tardif diskinezi: D2 reseptör upregülasyonu."
+            ]
+          },
+          {
+            "entity": "Tedavi Yaklaşımı",
+            "cells": [
+              "Propranolol, benzodiazepinler, difenhidramin; nöroleptik dozu azaltılır veya kesilir.",
+              "Akut distonik reaksiyon: Antikolinerjikler; parkinsonizm: Antikolinerjikler/amantadin; nöroleptik malign sendrom: Dantrolen/bromokriptin."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

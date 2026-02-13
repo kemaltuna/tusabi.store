@@ -1,0 +1,28 @@
+{
+  "question_text": "Şizofreni tanısıyla takip edilen 28 yaşındaki bir erkek hastaya, pozitif semptomları için tipik bir antipsikotik ilaç başlanıyor. Tedavinin 3. haftasında hasta, yerinde duramama, huzursuzluk ve içsel bir sıkıntı hissi şikayetiyle başvuruyor. Bu durumun anksiyeteden kaynaklanmadığı düşünülüyor. Bu hastada gelişen yan etki için aşağıdaki tedavi seçeneklerinden hangisi en uygun ilk tercihtir?",
+  "options": [
+    {
+      "id": "A",
+      "text": "L-Dopa"
+    },
+    {
+      "id": "B",
+      "text": "Propranolol"
+    },
+    {
+      "id": "C",
+      "text": "Amantadin"
+    },
+    {
+      "id": "D",
+      "text": "Bromokriptin"
+    },
+    {
+      "id": "E",
+      "text": "Dantrolen"
+    }
+  ],
+  "correct_option_id": "B",
+  "concept_tag": "concept: Antipsikotik İlaçların Ekstrapiramidal Yan Etkileri ve Tedavisi",
+  "brief_explanation": "Tablo, akatiziyi 'yerinde duramama, anksiyete ve ajitasyona bağlı değil' olarak tanımlar ve oluşma süresini 5-60 gün olarak belirtir. Tedavi seçenekleri arasında propranolol ilk sırada yer alır. L-Dopa, tabloda akut distonik reaksiyon, akatizi ve parkinsonizm için 'tedavide kullanılmaz' olarak belirtilmiştir. Amantadin parkinsonizm için, bromokriptin ve dantrolen ise nöroleptik malign sendrom için tedavi seçenekleridir."
+}

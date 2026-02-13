@@ -1,0 +1,1352 @@
+[
+  {
+    "source": "Anatomi",
+    "topic": "Kemikler",
+    "weight": 61,
+    "segments": [
+      "Kemikler"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Anatomi",
+    "topic": "Eklemler",
+    "weight": 22,
+    "segments": [
+      "Eklemler"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Anatomi",
+    "topic": "Kaslar",
+    "weight": 118,
+    "segments": [
+      "Kaslar"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Anatomi",
+    "topic": "Ürogenital Sistem",
+    "weight": 28,
+    "segments": [
+      "Ürogenital Sistem Anatomisi"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Anatomi",
+    "topic": "Gastrointestinal Sistem",
+    "weight": 70,
+    "segments": [
+      "Sindirim Sistemi Anatomisi"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Anatomi",
+    "topic": "Solunum Sistemi",
+    "weight": 34,
+    "segments": [
+      "Solunum Sistemi Anatomisi"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Anatomi",
+    "topic": "Dolaşım Sistemi",
+    "weight": 84,
+    "segments": [
+      "Dolaşım Sistemi Anatomisi"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Anatomi",
+    "topic": "Nöroanatomi",
+    "weight": 203,
+    "segments": [
+      "Sinir Sistemi Anatomisi"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Fizyoloji",
+    "topic": "Hücre",
+    "weight": 49,
+    "segments": [
+      "HÜCRE HİSTOLOJİSİ"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Fizyoloji",
+    "topic": "Kaslar",
+    "weight": 48,
+    "segments": [
+      "KAS DOKUSU HİSTOLOJİSİ"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Fizyoloji",
+    "topic": "Kardiyovasküler Sistem",
+    "weight": 75,
+    "segments": [
+      "KARDİYOVASKÜLER SİSTEM HİSTOLOJİSİ"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Fizyoloji",
+    "topic": "Üriner Sistem",
+    "weight": 39,
+    "segments": [
+      "ÜRİNER SİSTEM HİSTOLOJİSİ"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Fizyoloji",
+    "topic": "Hemopoetik Sistem",
+    "weight": 58,
+    "segments": [
+      "HEMATOPOETİK SİSTEM HİSTOLOJİSİ"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Fizyoloji",
+    "topic": "Solunum Sistemi",
+    "weight": 54,
+    "segments": [
+      "SOLUNUM SİSTEMİ HİSTOLOJİSİ"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Fizyoloji",
+    "topic": "Doku",
+    "weight": 70,
+    "segments": [
+      "DOKU HİSTOLOJİSİ"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Fizyoloji",
+    "topic": "Sinir Sistemi",
+    "weight": 121,
+    "segments": [
+      "SANTRAL SİNİR SİSTEMİ HİSTOLOJİSİ"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Fizyoloji",
+    "topic": "Gastrointestinal Sistem",
+    "weight": 57,
+    "segments": [
+      "GASTROİNTESTİNAL SİSTEM HİSTOLOJİSİ"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Fizyoloji",
+    "topic": "Endokrin Sistem",
+    "weight": 77,
+    "segments": [
+      "ENDOKRİN SİSTEM HİSTOLOJİSİ"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Fizyoloji",
+    "topic": "Embriyoloji",
+    "weight": 65,
+    "segments": [
+      "GENEL EMBRİYOLOJİ"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Fizyoloji",
+    "topic": "Genital Sistem",
+    "weight": 34,
+    "segments": [
+      "GENİTAL SİSTEM HİSTOLOJİSİ"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Biyokimya",
+    "topic": "Karbonhidratlar",
+    "weight": 197,
+    "segments": [
+      "Karbonhidratlar"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Biyokimya",
+    "topic": "Lipitler",
+    "weight": 183,
+    "segments": [
+      "Lipit Metabolizması"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Biyokimya",
+    "topic": "Aminoasitler ve Proteinler",
+    "weight": 268,
+    "segments": [
+      "Amino Asitler ve Proteinler"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Biyokimya",
+    "topic": "Klinik Tanıda Biyokimyasal Testler",
+    "weight": 78,
+    "segments": [
+      "KLİNİK BİYOKİMYA"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Biyokimya",
+    "topic": "DNA, RNA ve Protein Sentezi",
+    "weight": 123,
+    "segments": [
+      "Nükleik Asitler"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Biyokimya",
+    "topic": "Metabolizma",
+    "weight": 136,
+    "segments": [
+      "Metabolizmanın Temel Kavramları",
+      "Hormon Metabolizması"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Biyokimya",
+    "topic": "Hücre ve Organeller",
+    "weight": 64,
+    "segments": [
+      "Hücre ve Organeller"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Biyokimya",
+    "topic": "Vitaminler",
+    "weight": 93,
+    "segments": [
+      "Vitaminler"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Mikrobiyoloji",
+    "topic": "Genel Mikrobiyoloji",
+    "weight": 122,
+    "segments": [
+      "Temel Bakteriyoloji"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Mikrobiyoloji",
+    "topic": "İmmünoloji",
+    "weight": 157,
+    "segments": [
+      "İmmünoloji"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Mikrobiyoloji",
+    "topic": "Bakteriyoloji",
+    "weight": 362,
+    "segments": [
+      "Klinik Bakteriyoloji"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Mikrobiyoloji",
+    "topic": "Viroloji",
+    "weight": 229,
+    "segments": [
+      "Viroloji"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Mikrobiyoloji",
+    "topic": "Mikoloji",
+    "weight": 157,
+    "segments": [
+      "Mikoloji"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Mikrobiyoloji",
+    "topic": "Parazitoloji",
+    "weight": 123,
+    "segments": [
+      "Parazitoloji"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Patoloji",
+    "topic": "Hücre",
+    "weight": 74,
+    "segments": [
+      "HÜCRE PATOLOJİSİ"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Patoloji",
+    "topic": "İnflamasyon",
+    "weight": 37,
+    "segments": [
+      "İNFLAMASYON"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Patoloji",
+    "topic": "Onarım ve Yara İyileşmesi",
+    "weight": 20,
+    "segments": [
+      "ONARIM VE REJENERASYON"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Patoloji",
+    "topic": "Hemodinamik Hastalıklar",
+    "weight": 30,
+    "segments": [
+      "HEMODİNAMİK HASTALIKLAR"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Patoloji",
+    "topic": "İmmun Sistem",
+    "weight": 62,
+    "segments": [
+      "İMMÜN SİSTEM HASTALIKLARI"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Patoloji",
+    "topic": "Neoplazi",
+    "weight": 62,
+    "segments": [
+      "NEOPLAZİ"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Patoloji",
+    "topic": "Genetik ve Pediatrik Hastalıklar",
+    "weight": 23,
+    "segments": [
+      "GENETİK HASTALIKLAR",
+      "ÇOCUKLUK ÇAĞI HASTALIKLARI"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Patoloji",
+    "topic": "Çevresel Hastalıklar",
+    "weight": 5,
+    "segments": [
+      "ÇEVRESEL HASTALIKLAR ve BESLENME"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Patoloji",
+    "topic": "Hematopoetik Sistem Hastalıkları",
+    "weight": 63,
+    "segments": [
+      "HEMATOPOETİK SİSTEM HASTALIKLARI"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Patoloji",
+    "topic": "Kardiyovasküler Sistem Patolojisi",
+    "weight": 61,
+    "segments": [
+      "KALP HASTALIKLARI",
+      "DAMAR HASTALIKLARI"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Patoloji",
+    "topic": "Solunum Sistemi Patolojisi",
+    "weight": 67,
+    "segments": [
+      "SOLUNUM SİSTEMİ HASTALIKLARI"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Patoloji",
+    "topic": "Gastrointestinal Sistem Patolojisi",
+    "weight": 90,
+    "segments": [
+      "SİNDİRİM SİSTEMİ HASTALIKLARI"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Patoloji",
+    "topic": "Karaciğer Patolojileri",
+    "weight": 43,
+    "segments": [
+      "HEPATOBİLİYER SİSTEM HASTALIKLARI"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Patoloji",
+    "topic": "Safra Kesesi Patolojileri",
+    "weight": 1,
+    "segments": [
+      "HEPATOBİLİYER SİSTEM HASTALIKLARI"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Patoloji",
+    "topic": "Pankreas Hastalıkları",
+    "weight": 11,
+    "segments": [
+      "PANKREAS HASTALIKLARI"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Patoloji",
+    "topic": "Endokrin Sistem Patolojisi",
+    "weight": 55,
+    "segments": [
+      "ENDOKRİN SİSTEM HASTALIKLARI"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Patoloji",
+    "topic": "Meme Hastalıkları",
+    "weight": 39,
+    "segments": [
+      "MEME HASTALIKLARI"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Patoloji",
+    "topic": "Kadın Genital Sistemi Patolojisi",
+    "weight": 52,
+    "segments": [
+      "KADIN GENİTAL SİSTEM"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Patoloji",
+    "topic": "Erkek Genital Sistemi Patolojisi",
+    "weight": 35,
+    "segments": [
+      "ERKEK GENİTAL SİSTEM"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Patoloji",
+    "topic": "Üriner Sistem Patolojisi",
+    "weight": 62,
+    "segments": [
+      "ÜRİNER SİSTEM HASTALIKLARI"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Patoloji",
+    "topic": "Kas-İskelet Sistemi Patolojisi",
+    "weight": 69,
+    "segments": [
+      "İSKELET SİSTEMİ HASTALIKLARI"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Patoloji",
+    "topic": "Sinir Sistemi Patolojisi",
+    "weight": 69,
+    "segments": [
+      "SİNİR SİSTEMİ HASTALIKLARI"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Patoloji",
+    "topic": "Deri Hastalıkları",
+    "weight": 41,
+    "segments": [
+      "DERİ HASTALIKLARI"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Farmakoloji",
+    "topic": "Genel Farmakoloji",
+    "weight": 113,
+    "segments": [
+      "GENEL FARMAKOLOJİ"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Farmakoloji",
+    "topic": "Otonom Sinir Sistemi",
+    "weight": 100,
+    "segments": [
+      "OTONOM SİSTEM İLAÇLARI"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Farmakoloji",
+    "topic": "Kardiyovasküler Sistem",
+    "weight": 189,
+    "segments": [
+      "KARDİYOVASKÜLER SİSTEM FARMAKOLOJİSİ"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Farmakoloji",
+    "topic": "Santral Sinir Sistemi",
+    "weight": 192,
+    "segments": [
+      "SANTRAL SİNİR SİSTEMİ FARMAKOLOJİSİ"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Farmakoloji",
+    "topic": "Solunum Sistemi",
+    "weight": 22,
+    "segments": [
+      "SOLUNUM SİSTEMİ İLAÇLARI"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Farmakoloji",
+    "topic": "Gastrointestinal Sistem",
+    "weight": 53,
+    "segments": [
+      "GASTROİNTESTİNAL SİSTEM FARMAKOLOJİSİ"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Farmakoloji",
+    "topic": "Endokrin Sistem",
+    "weight": 115,
+    "segments": [
+      "ENDOKRİN SİSTEM FARMAKOLOJİSİ"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Farmakoloji",
+    "topic": "Otakoidler",
+    "weight": 66,
+    "segments": [
+      "OTAKOİDLER"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Farmakoloji",
+    "topic": "Kemoterapötikler",
+    "weight": 191,
+    "segments": [
+      "ANTİMİKROBİYAL İLAÇLAR",
+      "ANTİNEOPLASTİK İLAÇLAR",
+      "İMMÜNMODÜLATÖR İLAÇLAR"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Farmakoloji",
+    "topic": "Toksikoloji",
+    "weight": 31,
+    "segments": [
+      "TOKSİKOLOJİ"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Dahiliye",
+    "topic": "Kardiyoloji",
+    "weight": 155,
+    "segments": [
+      "Kardiyoloji"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Dahiliye",
+    "topic": "Göğüs Hastalıkları",
+    "weight": 147,
+    "segments": [
+      "Göğüs Hastalıkları"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Dahiliye",
+    "topic": "Nefroloji",
+    "weight": 122,
+    "segments": [
+      "Nefroloji"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Dahiliye",
+    "topic": "Gastroenteroloji",
+    "weight": 80,
+    "segments": [
+      "Gastroenteroloji"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Dahiliye",
+    "topic": "Hepatoloji",
+    "weight": 97,
+    "segments": [
+      "Hepatoloji"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Dahiliye",
+    "topic": "Hematoloji",
+    "weight": 138,
+    "segments": [
+      "Hematoloji"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Dahiliye",
+    "topic": "Onkoloji",
+    "weight": 55,
+    "segments": [
+      "Onkoloji"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Dahiliye",
+    "topic": "Endokrinoloji",
+    "weight": 145,
+    "segments": [
+      "Endokrinoloji"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Dahiliye",
+    "topic": "Romatoloji",
+    "weight": 90,
+    "segments": [
+      "Romatoloji"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Dahiliye",
+    "topic": "Geriatri",
+    "weight": 22,
+    "segments": [
+      "Geriatri"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Dahiliye",
+    "topic": "Enfeksiyon Hastalıkları",
+    "weight": 172,
+    "segments": [
+      "Göğüs Hastalıkları"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Pediatri",
+    "topic": "Büyüme ve Gelişme",
+    "weight": 21,
+    "segments": [
+      "Büyüme ve Gelişme"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Pediatri",
+    "topic": "Sosyal Pediatri ve Adölesan Hastalıkları",
+    "weight": 22,
+    "segments": [
+      "ADÖLESAN"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Pediatri",
+    "topic": "Beslenme ve Malnutrisyon",
+    "weight": 57,
+    "segments": [
+      "Beslenme ve Malnütrisyon"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Pediatri",
+    "topic": "Pediatrik Acil, Yoğun Bakım ve Zehirlenmeler",
+    "weight": 43,
+    "segments": [
+      "ACİL VE YOĞUN BAKIM",
+      "Zehirlenmeler"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Pediatri",
+    "topic": "Pediatrik Genetik Hastalıklar",
+    "weight": 53,
+    "segments": [
+      "Genetik"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Pediatri",
+    "topic": "Pediatrik Metabolik Hastalıklar",
+    "weight": 84,
+    "segments": [
+      "Metabolik Hastalıklar"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Pediatri",
+    "topic": "Yenidoğan Hastalıkları",
+    "weight": 150,
+    "segments": [
+      "Yenidoğan"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Pediatri",
+    "topic": "Allerji ve İmmünoloji",
+    "weight": 94,
+    "segments": [
+      "Pediatrik Alerji-İmmünoloji"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Pediatri",
+    "topic": "Pediatrik Romatoloji",
+    "weight": 59,
+    "segments": [
+      "Pediatrik Romatoloji"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Pediatri",
+    "topic": "Pediatrik Gastroenteroloji",
+    "weight": 112,
+    "segments": [
+      "Pediatrik Gastroenteroloji"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Pediatri",
+    "topic": "Pediatrik Göğüs Hastalıkları",
+    "weight": 90,
+    "segments": [
+      "Pediatrik Göğüs Hastalıkları"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Pediatri",
+    "topic": "Döküntülü Hastalıklar ve Bağışıklama",
+    "weight": 83,
+    "segments": [
+      "Döküntülü Hastalıklar ve Bağışıklama"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Pediatri",
+    "topic": "Pediatrik Kardiyoloji",
+    "weight": 113,
+    "segments": [
+      "Pediatrik Kardiyoloji"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Pediatri",
+    "topic": "Pediatrik Hematoloji",
+    "weight": 132,
+    "segments": [
+      "Pediatrik Hematoloji"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Pediatri",
+    "topic": "Pediatrik Onkoloji",
+    "weight": 78,
+    "segments": [
+      "Pediatrik Onkoloji"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Pediatri",
+    "topic": "Pediatrik Nefroloji ve Üriner Hastalıklar",
+    "weight": 92,
+    "segments": [
+      "Pediatrik Nefroloji"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Pediatri",
+    "topic": "Pediatrik Endokrinoloji",
+    "weight": 90,
+    "segments": [
+      "Pediatrik Endokrinoloji"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Pediatri",
+    "topic": "Pediatrik Nöroloji",
+    "weight": 87,
+    "segments": [
+      "Pediatrik Nöroloji"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Sıvı, Elektrolit ve Asit Baz Dengesi",
+    "weight": 75,
+    "segments": [
+      "SIVI ELEKTROLİT"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Şok",
+    "weight": 46,
+    "segments": [
+      "ŞOK"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Beslenme",
+    "weight": 20,
+    "segments": [
+      "BESLENME"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Yara İyileşmesi",
+    "weight": 18,
+    "segments": [
+      "YARA İYİLEŞMESİ"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Cerrahi Enfeksiyonlar ve Komplikasyonlar",
+    "weight": 51,
+    "segments": [
+      "CERRAHİ ENFEKSİYONLAR",
+      "CERRAHİ KOMPLİKASYONLAR"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Travmaya Sistemik Cevap",
+    "weight": 30,
+    "segments": [
+      "TRAVMA CEVABI VE DESTEK"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Travma ve Travma Hastasına Yaklaşım",
+    "weight": 50,
+    "segments": [
+      "TRAVMA"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Yanık",
+    "weight": 14,
+    "segments": [
+      "YANIK"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Hemostaz ve Transfüzyon",
+    "weight": 30,
+    "segments": [
+      "HEMOSTAZ VE TRANSFÜZYON"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Transplantasyon",
+    "weight": 23,
+    "segments": [
+      "TRANSPLANTASYON"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Meme Hastalıkları ve Cerrahisi",
+    "weight": 95,
+    "segments": [
+      "MEME HASTALIKLARI VE CERRAHİSİ"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Tiroid Hastalıkları ve Cerrahisi",
+    "weight": 66,
+    "segments": [
+      "TİROİD HASTALIKLARI VE CERRAHİSİ"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Paratiroid Bezi Hastalıkları ve Cerrahisi",
+    "weight": 17,
+    "segments": [
+      "PARATİROİD CERRAHİSİ"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Adrenal Bez Hastalıkları ve Cerrahisi",
+    "weight": 15,
+    "segments": [
+      "ADRENAL"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Özofagus Hastalıkları",
+    "weight": 47,
+    "segments": [
+      "ÖZOFAGUS HASTALIKLARI"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Karın Duvarı, Umbilikus, Periton, Mezenter, Omentum ve Retroperiton Hastalıkları",
+    "weight": 22,
+    "segments": [
+      "PERİTON VE MEZENTER"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Akut Karın ve Gastrointestinal Sistem Kanamaları",
+    "weight": 31,
+    "segments": [
+      "AKUT KARIN",
+      "GASTROİNTESTİNAL SİSTEM KANAMALARI"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Karın Duvarı Fıtıkları",
+    "weight": 27,
+    "segments": [
+      "KARIN DUVARI FITIKLARI"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "İntestinal Obstrüksiyon",
+    "weight": 13,
+    "segments": [
+      "İNTESTİNAL TIKANIKLIKLAR"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Gastrointestinal Sistem Fistülleri",
+    "weight": 8,
+    "segments": [
+      "GİS FİSTÜLLERİ"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Morbid Obezite",
+    "weight": 10,
+    "segments": [
+      "MORBİD OBEZİTE"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Mide Hastalıkları",
+    "weight": 48,
+    "segments": [
+      "MİDE HASTALIKLARI"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "İnce Bağırsak Hastalıkları",
+    "weight": 29,
+    "segments": [
+      "İNCE BAĞIRSAK HASTALIKLARI"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Apendiks Hastalıkları",
+    "weight": 20,
+    "segments": [
+      "APENDİKS VERMİFORMİS HASTALIKLARI"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Kalın Bağırsak ve Rektum Hastalıkları",
+    "weight": 80,
+    "segments": [
+      "KOLON VE REKTUM HASTALIKLARI"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Perianal Bölge Hastalıkları",
+    "weight": 23,
+    "segments": [
+      "PERİANAL BÖLGE HASTALIKLARI"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Karaciğer Hastalıkları",
+    "weight": 55,
+    "segments": [
+      "KARACİĞER HASTALIKLARI",
+      "PORTAL HİPERTANSİYON"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Safra Kesesi ve Safra Yolları Hastalıkları",
+    "weight": 55,
+    "segments": [
+      "SAFRA YOLLARI"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Pankreas Hastalıkları",
+    "weight": 71,
+    "segments": [
+      "PANKREAS HASTALIKLARI"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Dalak Hastalıkları",
+    "weight": 30,
+    "segments": [
+      "DALAK HASTALIKLARI"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Genel_Cerrahi",
+    "topic": "Cerrahi Vasküler Hastalıklar",
+    "weight": 13,
+    "segments": [
+      "MEZENTERİK VASKÜLER HASTALIKLAR"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Kucuk_Stajlar",
+    "topic": "Nöroloji",
+    "weight": 133,
+    "segments": [
+      "Nöroloji"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Kucuk_Stajlar",
+    "topic": "Beyin Cerrahisi",
+    "weight": 51,
+    "segments": [
+      "Beyin Cerrahisi"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Kucuk_Stajlar",
+    "topic": "Psikiyatri",
+    "weight": 85,
+    "segments": [
+      "Psikiyatri"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Kucuk_Stajlar",
+    "topic": "Göz Hastalıkları",
+    "weight": 36,
+    "segments": [
+      "Göz Hastalıkları"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Kucuk_Stajlar",
+    "topic": "Dermatoloji",
+    "weight": 91,
+    "segments": [
+      "Dermatoloji"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Kucuk_Stajlar",
+    "topic": "Kulak Burun ve Boğaz Hastalıkları",
+    "weight": 46,
+    "segments": [
+      "Kulak-Burun-Boğaz Hastalıkları"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Kucuk_Stajlar",
+    "topic": "Radyoloji",
+    "weight": 69,
+    "segments": [
+      "Radyoloji ve Nükleer Tıp"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Kucuk_Stajlar",
+    "topic": "Nükleer Tıp",
+    "weight": 17,
+    "segments": [
+      "Radyoloji ve Nükleer Tıp"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Kucuk_Stajlar",
+    "topic": "Halk Sağlığı",
+    "weight": 72,
+    "segments": [
+      "Halk Sağlığı"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Kucuk_Stajlar",
+    "topic": "Üroloji",
+    "weight": 38,
+    "segments": [
+      "Üroloji"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Kucuk_Stajlar",
+    "topic": "Ortopedi",
+    "weight": 48,
+    "segments": [
+      "Ortopedi"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Kucuk_Stajlar",
+    "topic": "Fiziksel Tıp ve Rehabilitasyon",
+    "weight": 50,
+    "segments": [
+      "Fizik Tedavi ve Rehabilitasyon"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Kucuk_Stajlar",
+    "topic": "Kalp ve Damar Cerrahisi",
+    "weight": 41,
+    "segments": [
+      "KVC VE GÖC"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Kucuk_Stajlar",
+    "topic": "Göğüs Cerrahisi",
+    "weight": 25,
+    "segments": [
+      "KVC VE GÖC"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Kucuk_Stajlar",
+    "topic": "Çocuk Cerrahisi",
+    "weight": 40,
+    "segments": [
+      "Çocuk Cerrahisi"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Kucuk_Stajlar",
+    "topic": "Anestezi",
+    "weight": 52,
+    "segments": [
+      "Anestezi"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Kucuk_Stajlar",
+    "topic": "Plastik Cerrahi",
+    "weight": 15,
+    "segments": [
+      "Plastik ve Rekonstrüktif Cerrahisi"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Kucuk_Stajlar",
+    "topic": "Acil Tıp",
+    "weight": 29,
+    "segments": [
+      "Anestezi"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Kadin_Dogum",
+    "topic": "Obstetri",
+    "weight": 247,
+    "segments": [
+      "Obstetri"
+    ],
+    "inferred": false
+  },
+  {
+    "source": "Kadin_Dogum",
+    "topic": "Endokrinoloji",
+    "weight": 124,
+    "segments": [
+      "Jinekoloji ve Üreme Endokrinolojisi"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Kadin_Dogum",
+    "topic": "Jinekoloji",
+    "weight": 184,
+    "segments": [
+      "Jinekoloji ve Üreme Endokrinolojisi"
+    ],
+    "inferred": true
+  },
+  {
+    "source": "Kadin_Dogum",
+    "topic": "Onkoloji",
+    "weight": 105,
+    "segments": [
+      "Jinekolojik Onkoloji"
+    ],
+    "inferred": true
+  }
+]

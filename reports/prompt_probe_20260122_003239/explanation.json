@@ -1,0 +1,188 @@
+{
+  "source_material": "Patoloji",
+  "topic": "Kemik ve Kıkırdak Hastalıkları",
+  "question_text": "On yedi yaşında erkek hasta, gece uykudan uyandıran, aspirinle tamamen geçen şiddetli sağ bacak ağrısı şikayeti ile başvuruyor. Fizik muayenede ağrılı bölgede lokal hassasiyet ve hafif şişlik saptanıyor. Radyolojik incelemede femurda kortikal kalınlaşma ile çevrili, merkezinde radyolüsent nidus izleniyor. Bu hastada en olası tanı aşağıdakilerden hangisidir?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Osteoid osteom"
+    },
+    {
+      "id": "B",
+      "text": "Osteosarkom"
+    },
+    {
+      "id": "C",
+      "text": "Ewing sarkomu"
+    },
+    {
+      "id": "D",
+      "text": "Kondrosarkom"
+    },
+    {
+      "id": "E",
+      "text": "Dev hücreli kemik tümörü"
+    }
+  ],
+  "correct_option_id": "A",
+  "tags": [
+    "concept: Osteoid osteom",
+    "visual:bone_pathology_differential"
+  ],
+  "explanation": {
+    "main_mechanism": "Bu soruda doğru cevap Osteoid osteom. Osteoid osteom, osteoblast benzeri hücrelerden kaynaklanan benign bir kemik tümörüdür. Tipik olarak genç erkeklerde gece artan ve salisilatlarla (aspirin) dramatik şekilde rahatlayan ağrıya neden olur. Ağrı, tümör nidusundaki prostaglandin E2 salınımına bağlıdır. Radyolojik olarak, yoğun reaktif skleroz (kortikal kalınlaşma) ile çevrili küçük (<2 cm) radyolüsent nidus görülür.",
+    "clinical_significance": "Osteoid osteom, genç populasyonda benign seyirli olmasına rağmen şiddetli ağrıya yol açabilir. Tanıda klinik ve radyolojik bulgular tipiktir. Tedavide cerrahi rezeksiyon veya radyofrekans ablasyon uygulanır; tam çıkarıldığında nüks riski düşüktür.",
+    "sibling_entities": [
+      "Osteoblastom",
+      "Osteomiyelit",
+      "Anevrizmal kemik kisti",
+      "Kondroblastom"
+    ],
+    "updates_applied": [],
+    "update_checked": true,
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "Detaylı Açıklama & Mekanizma"
+      },
+      {
+        "type": "callout",
+        "style": "key_clues",
+        "title": "Klinik İpuçları",
+        "items": [
+          {
+            "text": "Genç erkek hasta (tipik 10-30 yaş arası)"
+          },
+          {
+            "text": "Gece uykudan uyandıran, nabız gibi atan şiddetli ağrı"
+          },
+          {
+            "text": "Aspirin veya diğer salisilatlarla tam ve dramatik rahatlama (prostaglandin inhibisyonuna bağlı)"
+          },
+          {
+            "text": "Radyolojide femur gibi uzun kemiklerin korteksinde yoğun sklerotik reaksiyon (kortikal kalınlaşma) ile çevrili, merkezde radyolüsent nidus (<2 cm)"
+          }
+        ]
+      },
+      {
+        "type": "numbered_steps",
+        "title": "Mekanizma Zinciri",
+        "steps": [
+          "Osteoblast benzeri mezenkimal hücrelerin proliferasyonu ve osteoid matriks üretimi ile benign tümör nidusunun oluşumu.",
+          "Nidusta prostaglandin E2 (PGE2) gibi inflamatuar mediatörlerin aşırı salınımı; PGE2 sinir uçlarını sensitize ederek ağrıya neden olur.",
+          "Gece artan ağrı, PGE2'nin vazodilatasyon ve lokal ödem etkilerine bağlı olarak ortaya çıkar.",
+          "Aspirin (ve diğer NSAİİ'ler) siklooksijenazı inhibe ederek PGE2 sentezini azaltır ve ağrıda hızlı rahatlama sağlar.",
+          "Kemikte reaktif osteoblastik aktivite sonucu çevrede yoğun skleroz (kortikal kalınlaşma) gelişir; bu, radyolojik olarak nidusun etrafında belirgin hale gelir."
+        ]
+      },
+      {
+        "type": "callout",
+        "style": "exam_trap",
+        "title": "Sınav Tuzağı",
+        "items": [
+          {
+            "text": "Osteoblastom, osteoid osteomun büyük versiyonu olarak düşünülür; ancak nidus genellikle >2 cm'dir ve ağrı aspirinle tam olarak geçmeyebilir. Ayrıca, osteoblastom sıklıkla vertebra gibi aksiyel iskelette veya uzun kemiklerin metafizinde görülür, kortikal tutulum daha az belirgindir."
+          },
+          {
+            "text": "Osteomiyelitte de kemik ağrısı ve radyolojik değişiklikler olabilir, ancak enfeksiyon bulguları (ateş, lökositoz, CRP yüksekliği) ve aspirinle rahatlamama ayırıcı tanıda kritiktir. Ayrıca osteomiyelitte nidus yerine sekestrum veya involukrum gibi bulgular izlenir."
+          }
+        ]
+      },
+      {
+        "type": "mini_ddx",
+        "title": "Çeldirici Analizi",
+        "items": [
+          {
+            "option_id": "B",
+            "label": "Osteosarkom",
+            "why_wrong": "Osteosarkom malign bir kemik tümörüdür; ağrı sürekli, ilerleyici ve aspirinle rahatlamaz. Radyolojide agresif litik-blaster lezyon, periost reaksiyonu (güneş ışını, Codman üçgeni) görülür, nidus tipik değildir.",
+            "would_be_correct_if": "Hastada ilerleyici şiddetli ağrı, patolojik kırık, sistemik semptomlar (kilo kaybı, halsizlik) olsaydı ve radyolojide malign özellikler (kemik destrüksiyonu, yumuşak doku invazyonu) izlenseydi.",
+            "best_discriminator": "Aspirinle ağrının tam geçmesi ve radyolojik nidus varlığı; osteosarkomda bu bulgular yoktur."
+          },
+          {
+            "option_id": "C",
+            "label": "Ewing sarkomu",
+            "why_wrong": "Ewing sarkomu malign, küçük yuvarlak hücreli tümördür; sıklıkla çocuklarda görülür, ağrı yanında ateş, lökositoz gibi sistemik bulgular olabilir. Radyolojide 'soğan zarı' periost reaksiyonu, litik lezyon ve yumuşak doku kitlesi izlenir, nidus yoktur.",
+            "would_be_correct_if": "Hasta daha genç (5-15 yaş) olsaydı, ateş ve sistemik semptomlar eşlik etseydi, radyolojide agresif litik lezyon ve periost reaksiyonu görülseydi.",
+            "best_discriminator": "Gece artan ağrının aspirinle tam geçmesi; Ewing sarkomunda ağrı genellikle süreklidir ve salisilatlarla dramatik yanıt alınmaz."
+          },
+          {
+            "option_id": "D",
+            "label": "Kondrosarkom",
+            "why_wrong": "Kondrosarkom kıkırdak kaynaklı malign tümördür; genellikle orta yaş ve üzerinde görülür, ağrı yavaş ilerleyicidir ve aspirinle rahatlamaz. Radyolojide kıkırdak matriksine bağlı 'popcorn' veya 'halka-ark' kalsifikasyonları, litik lezyon izlenir, nidus ve reaktif skleroz tipik değildir.",
+            "would_be_correct_if": "Hasta daha ileri yaşta olsaydı, ağrı kronik ve hafif seyretseydi, radyolojide kıkırdak kalsifikasyonları belirgin olsaydı.",
+            "best_discriminator": "Genç yaş ve aspirinle ağrının dramatik rahatlaması; kondrosarkom yaşlı populasyonda ve yavaş seyirli ağrı ile karakterizedir."
+          },
+          {
+            "option_id": "E",
+            "label": "Dev hücreli kemik tümörü",
+            "why_wrong": "Dev hücreli kemik tümörü benign ancak lokal agresif tümördür; ağrı ve şişlik ile gelebilir, ancak aspirinle spesifik rahatlama olmaz. Radyolojide epifiz-diafiz bileşkesinde 'sabun köpüğü' görünümünde litik lezyon izlenir, nidus ve kortikal kalınlaşma tipik değildir.",
+            "would_be_correct_if": "Hastada patolojik kırık veya eklem tutulumu olsaydı, radyolojide ekspansil, litik lezyon ve ince trabekülasyonlar görülseydi.",
+            "best_discriminator": "Radyolojik nidus ve aspirinle ağrının tam geçmesi; dev hücreli tümörde bu bulgular yoktur."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Ayırıcı Tanı: Osteoid Osteom vs Osteoblastom",
+        "headers": [
+          "Özellik",
+          "Doğru Patoloji",
+          "Ayırıcı Tanıdaki Patoloji"
+        ],
+        "rows": [
+          {
+            "entity": "Yaş Grubu",
+            "cells": [
+              "10-30 yaş",
+              "10-30 yaş (benzer)"
+            ]
+          },
+          {
+            "entity": "Klinik Ağrı",
+            "cells": [
+              "Gece artan, aspirin/salisilatlarla dramatik rahatlama",
+              "Benzer ama aspirinle tam rahatlama olmayabilir; sürekli veya aralıklı ağrı"
+            ]
+          },
+          {
+            "entity": "Lezyon Boyutu",
+            "cells": [
+              "<2 cm, küçük nidus",
+              ">2 cm, genellikle 2-10 cm, büyük ekspansil lezyon"
+            ]
+          },
+          {
+            "entity": "Radyolojik Görünüm",
+            "cells": [
+              "Yoğun reaktif skleroz (kortikal kalınlaşma) ile çevrili radyolüsent nidus",
+              "Ekspansil, litik lezyon, reaktif skleroz minimal veya yok; bazen kistik alanlar"
+            ]
+          },
+          {
+            "entity": "Lokalizasyon",
+            "cells": [
+              "Uzun kemiklerin korteksi (femur, tibia sık); diafiz veya metafiz",
+              "Sıklıkla vertebra, sakrum, uzun kemiklerin metafizi; kortikal tutulum az"
+            ]
+          },
+          {
+            "entity": "Malign Potansiyel",
+            "cells": [
+              "Benign, nüks riski düşük",
+              "Benign ancak lokal agresif, nüks riski yüksek; nadiren malign transformasyon"
+            ]
+          },
+          {
+            "entity": "Tedavi",
+            "cells": [
+              "Cerrahi rezeksiyon veya radyofrekans ablasyon; tam çıkarıldığında nüks nadir",
+              "Cerrahi rezeksiyon (küretaj veya blok rezeksiyon); nüks sık, yakın takip gerekir"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

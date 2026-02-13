@@ -1,0 +1,28 @@
+{
+  "question_text": "Yirmi iki yaşında erkek hasta, geceleri artan ve aspirin ile tamamen geçen şiddetli sağ bacak ağrısı şikayeti ile başvuruyor. Fizik muayenede lokal hassasiyet ve ısı artışı saptanıyor. Direkt grafide, kortekste litik bir lezyon ve çevresinde belirgin skleroz izleniyor. Bu hastada en olası tanı aşağıdakilerden hangisidir?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Osteoid osteom"
+    },
+    {
+      "id": "B",
+      "text": "Osteosarkom"
+    },
+    {
+      "id": "C",
+      "text": "Ewing sarkomu"
+    },
+    {
+      "id": "D",
+      "text": "Kondrosarkom"
+    },
+    {
+      "id": "E",
+      "text": "Dev hücreli kemik tümörü"
+    }
+  ],
+  "correct_option_id": "A",
+  "concept_tag": "concept: Osteoid osteom - Klinik ve radyolojik özellikler",
+  "brief_explanation": "Osteoid osteom, genç erişkinlerde görülen, gece artan ve salisilatlara (aspirin) dramatik yanıt veren şiddetli ağrı ile karakterize benign bir kemik tümörüdür. Radyolojik olarak, litik bir nidus ve çevresinde belirgin reaktif skleroz tipiktir. Bu bulgular, osteosarkom (daha agresif, periost reaksiyonu), Ewing sarkomu (daha genç yaş, 'soğan zarı' periost reaksiyonu), kondrosarkom (kıkırdak matriksi) ve dev hücreli tümör (litik, 'sabun köpüğü' görünümü) gibi diğer kemik tümörlerinden ayırt edicidir."
+}

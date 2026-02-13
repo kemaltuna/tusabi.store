@@ -1,0 +1,167 @@
+{
+  "source_material": "Farmakoloji",
+  "topic": "Antiepileptik İlaçlar",
+  "question_text": "Yirmi beş yaşında bir kadın hasta, son bir yıldır tekrarlayan, bilinç kaybı olmadan başlayan ve sağ kolunda kasılma ile seyreden nöbetler nedeniyle başvuruyor. EEG'de sol frontal odak saptanıyor. Hastaya etkinliği kanıtlanmış birinci basamak tedavi başlanıyor. Bu ilacın etki mekanizması aşağıdakilerden hangisidir?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Yavaş sodyum kanal blokajı"
+    },
+    {
+      "id": "B",
+      "text": "GABA uptake inhibisyonu"
+    },
+    {
+      "id": "C",
+      "text": "Hızlı sodyum kanal blokajı"
+    },
+    {
+      "id": "D",
+      "text": "Kalsiyum kanallarının α2δ -1 ligandına bağlanma"
+    },
+    {
+      "id": "E",
+      "text": "SV2A proteinine bağlanma"
+    }
+  ],
+  "correct_option_id": "C",
+  "tags": [
+    "concept: Antiepileptik ilaçların etki mekanizmaları ve parsiyel nöbet tedavisi",
+    "visual:action_potential"
+  ],
+  "explanation": {
+    "main_mechanism": "Bu soruda doğru cevap hızlı sodyum kanal blokajı. Karbamazepin, nöronal aksiyon potansiyelinin yayılmasını engelleyerek voltaj kapılı hızlı sodyum kanallarını bloke eder ve parsiyel nöbetlerde etkin birinci basamak tedavidir.",
+    "clinical_significance": "Basit parsiyel nöbetlerde birinci basamak tedavi olarak karbamazepin kullanılır; hızlı sodyum kanal blokajı ile nöronal hipereksitabiliteyi azaltarak nöbet kontrolü sağlar.",
+    "sibling_entities": [
+      "Yavaş sodyum kanal blokajı",
+      "GABA uptake inhibisyonu",
+      "Kalsiyum kanallarının α2δ-1 ligandına bağlanma",
+      "SV2A proteinine bağlanma"
+    ],
+    "updates_applied": [],
+    "update_checked": true,
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "Detaylı Açıklama & Mekanizma"
+      },
+      {
+        "type": "callout",
+        "style": "key_clues",
+        "title": "Klinik İpuçları",
+        "items": [
+          {
+            "text": "Hasta: 25 yaşında kadın, tekrarlayan nöbetler ile başvuruyor."
+          },
+          {
+            "text": "Nöbet özellikleri: Bilinç kaybı olmadan başlayan, sağ kolunda fokal motor kasılma; bu basit parsiyel (fokal) nöbet ile uyumludur."
+          },
+          {
+            "text": "EEG bulgusu: Sol frontal odak, nöbet odağını gösterir."
+          },
+          {
+            "text": "Tedavi seçimi: Kaynak tabloda basit parsiyel nöbet için konvansiyonel birinci basamak tedavi karbamazepin olarak belirtilmiştir."
+          }
+        ]
+      },
+      {
+        "type": "numbered_steps",
+        "title": "Mekanizma Zinciri",
+        "steps": [
+          "Karbamazepin, nöronal hücre zarındaki voltaj kapılı hızlı sodyum kanallarına yüksek afinite ile bağlanır.",
+          "Bağlanma, sodyum kanallarının inaktif duruma geçişini stabilize eder veya açılma sıklığını azaltarak kanal kinetiğini değiştirir.",
+          "Bu, aksiyon potansiyelinin hızlı yayılmasını ve nöronal deşarjın senkronize olmasını engeller.",
+          "Sonuçta, parsiyel nöbetlerin başlaması ve yayılması önlenerek antiepileptik etki sağlanır."
+        ]
+      },
+      {
+        "type": "callout",
+        "style": "exam_trap",
+        "title": "Sınav Tuzağı",
+        "items": [
+          {
+            "text": "Hızlı ve yavaş sodyum kanal blokajı sıklıkla karıştırılır: Karbamazepin hızlı sodyum kanal blokörüdür; lakosamid ise yavaş sodyum kanal blokörü olup farklı klinik endikasyonlara sahiptir."
+          },
+          {
+            "text": "Gabapentin ve pregabalin gibi α2δ ligandları parsiyel nöbetlerde adjuvan tedavidir, birinci basamak değildir; bu nedenle klinik senaryoda 'birinci basamak' vurgusu ayırıcıdır."
+          }
+        ]
+      },
+      {
+        "type": "mini_ddx",
+        "title": "Çeldirici Analizi",
+        "items": [
+          {
+            "option_id": "A",
+            "label": "Yavaş sodyum kanal blokajı",
+            "why_wrong": "Bu mekanizma lakosamide aittir; karbamazepin hızlı sodyum kanal blokörüdür.",
+            "would_be_correct_if": "Soru lakosamid gibi yavaş sodyum kanal blokörü bir ilacın mekanizmasını sorsaydı.",
+            "best_discriminator": "Karbamazepin kaynakta 'Hızlı sodyum kanal blokörleri' grubunda listelenmiştir; lakosamid ise 'Yavaş sodyum kanal blokörleri' grubundadır."
+          },
+          {
+            "option_id": "B",
+            "label": "GABA uptake inhibisyonu",
+            "why_wrong": "Bu mekanizma tiagabin veya vigabatrine aittir; karbamazepin GABAerjik sistem üzerinden direkt etkili değildir.",
+            "would_be_correct_if": "Soru GABA uptake inhibitörü bir ilacın mekanizmasını sorsaydı.",
+            "best_discriminator": "Karbamazepin etki mekanizması tablosunda GABAerjik modülasyon grubunda değil, hızlı sodyum kanal blokörleri grubunda yer alır."
+          },
+          {
+            "option_id": "D",
+            "label": "Kalsiyum kanallarının α2δ-1 ligandına bağlanma",
+            "why_wrong": "Bu mekanizma gabapentin ve pregabaline aittir; karbamazepin bu şekilde etki etmez.",
+            "would_be_correct_if": "Soru gabapentin veya pregabalin gibi α2δ ligandlarının mekanizmasını sorsaydı.",
+            "best_discriminator": "Karbamazepin kaynakta α2δ ligandları grubunda değil, hızlı sodyum kanal blokörleri grubunda listelenmiştir; ayrıca klinikte birinci basamak tedavi olması gabapentinden farklıdır."
+          },
+          {
+            "option_id": "E",
+            "label": "SV2A proteinine bağlanma",
+            "why_wrong": "Bu mekanizma levetirasetama aittir; karbamazepin SV2A proteinine bağlanmaz.",
+            "would_be_correct_if": "Soru levetirasetam gibi SV2A ligandının mekanizmasını sorsaydı.",
+            "best_discriminator": "Karbamazepin etki mekanizması tablosunda SV2A grubunda değil, hızlı sodyum kanal blokörleri grubunda yer alır."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Ayırıcı Tanı",
+        "headers": [
+          "Özellik",
+          "Doğru Cevaptaki İlaç",
+          "Çeldirici İlaç/Grup"
+        ],
+        "rows": [
+          {
+            "entity": "İsim",
+            "cells": [
+              "İlaç",
+              "Karbamazepin",
+              "Gabapentin/Pregabalin (α2δ ligandları)"
+            ]
+          },
+          {
+            "entity": "Etki Mekanizması",
+            "cells": [
+              "Hızlı voltaj kapılı sodyum kanal blokajı",
+              "Kalsiyum kanallarının α2δ-1 alt birimine bağlanarak nörotransmitter salınımını modüle etme"
+            ]
+          },
+          {
+            "entity": "Klinik Kullanım",
+            "cells": [
+              "Basit ve kompleks parsiyel nöbetlerde birinci basamak tedavi",
+              "Parsiyel nöbetlerde adjuvan tedavi, nöropatik ağrı"
+            ]
+          },
+          {
+            "entity": "Yan Etkiler",
+            "cells": [
+              "Hiponatremi, döküntü, hepatotoksisite, diplopi",
+              "Periferal ödem, baş dönmesi, sedasyon, kilo alımı"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

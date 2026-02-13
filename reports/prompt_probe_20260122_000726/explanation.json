@@ -1,0 +1,166 @@
+{
+  "source_material": "Küçük Stajlar",
+  "topic": "Hareket Bozuklukları",
+  "question_text": "Altmış beş yaşında erkek hasta, son iki yıldır ellerinde titreme, hareketlerde yavaşlama ve yürümede küçük adımlar şikayetleri ile başvuruyor. Nörolojik muayenede istirahat halinde para sayar tarzda tremor, dişli çark rijiditesi ve bradikinezi saptanıyor. Yüz ifadesi donuk ve göz kırpma sıklığı azalmış. Postüral refleksler zayıflamış. Bu hastada patolojik incelemede en olası bulgu aşağıdakilerden hangisidir?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Substantia nigra'da dopaminerjik nöron kaybı ve Lewy cisimcikleri"
+    },
+    {
+      "id": "B",
+      "text": "Medulla spinaliste nöron kaybı ve derin tendon reflekslerinde artış"
+    },
+    {
+      "id": "C",
+      "text": "Bazal ganglionlarda demir birikimi ve nörofibriler yumaklar"
+    },
+    {
+      "id": "D",
+      "text": "Serebellar Purkinje hücre kaybı ve atrofi"
+    },
+    {
+      "id": "E",
+      "text": "Frontal kortekste amiloid plaklar ve nörofibriler yumaklar"
+    }
+  ],
+  "correct_option_id": "A",
+  "tags": [
+    "concept: İdiopatik Parkinson Hastalığı patolojisi"
+  ],
+  "explanation": {
+    "main_mechanism": "Bu soruda doğru cevap Substantia nigra'da dopaminerjik nöron kaybı ve Lewy cisimcikleri. İdiopatik Parkinson Hastalığı'nda substantia nigra pars compacta'daki dopaminerjik nöronların dejenerasyonu ve intrasitoplazmik Lewy cisimcikleri (alfa-sinüklein birikimi) karakteristik patolojik bulgulardır, bu da nigrostriatal yolakta dopamin eksikliğine ve klinik triad (istirahat tremoru, rijidite, bradikinezi) ile ilişkilidir.",
+    "clinical_significance": "İdiopatik Parkinson Hastalığı, hipokinetik hareket bozukluklarının prototipidir; erken tanı ve tedavi yaşam kalitesini artırabilir, ancak progresif nörodejeneratif seyir gösterir. Patolojik inceleme tanıyı doğrulamada altın standarttır.",
+    "sibling_entities": [
+      "Huntington Hastalığı",
+      "Progresif Supranükleer Palsi",
+      "Multipl Sistem Atrofisi",
+      "Lewy Cisimcikli Demans"
+    ],
+    "updates_applied": [],
+    "update_checked": true,
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "Detaylı Açıklama & Mekanizma"
+      },
+      {
+        "type": "callout",
+        "style": "key_clues",
+        "title": "Klinik İpuçları",
+        "items": [
+          {
+            "text": "65 yaş erkek hasta, iki yıllık progresif şikayetler (titreme, yavaşlama, küçük adımlar)."
+          },
+          {
+            "text": "Nörolojik muayenede istirahat tremoru (para sayar tarz), dişli çark rijiditesi, bradikinezi."
+          },
+          {
+            "text": "Ek bulgular: maske yüz (donuk ifade), göz kırpma sıklığında azalma, postüral refleks zayıflığı."
+          },
+          {
+            "text": "Medulla spinalis tutulumu veya derin tendon refleks artışı yok – bu ayırıcı tanıda önemli."
+          }
+        ]
+      },
+      {
+        "type": "numbered_steps",
+        "title": "Mekanizma Zinciri",
+        "steps": [
+          "Substantia nigra pars compacta'daki dopaminerjik nöronlarda dejeneratif kayıp başlar.",
+          "İntranöronal alfa-sinüklein birikimi ile Lewy cisimcikleri oluşur (ubiquitin de içerir).",
+          "Nigrostriatal dopaminerjik yolakta dopamin salınımı azalır, striatumda dopamin eksikliği gelişir.",
+          "Dopaminerjik inhibisyon kaybı, bazal ganglion devrelerinde inhibitör-eksitatör dengesizliğine yol açar.",
+          "Bu, klinik olarak istirahat tremoru, rijidite, bradikinezi triadı ve otonom/kognitif semptomlarla sonuçlanır."
+        ]
+      },
+      {
+        "type": "callout",
+        "style": "exam_trap",
+        "title": "Sınav Tuzağı",
+        "items": [
+          {
+            "text": "Parkinson Hastalığı'nda medulla spinalis tutulumu ve derin tendon refleks artışı olmaz; bu bulgular üst motor nöron tutulumunu düşündürür (örneğin, ALS veya spinal kord lezyonları) ve B şıkkı yanlıştır."
+          },
+          {
+            "text": "Lewy cisimcikleri sadece Parkinson'da değil, Lewy Cisimcikli Demans'ta da görülür, ancak klinik farklar (demansın erken başlaması, görsel halüsinasyonlar) ayırıcıdır; sıklıkla karıştırılır."
+          }
+        ]
+      },
+      {
+        "type": "mini_ddx",
+        "title": "Çeldirici Analizi",
+        "items": [
+          {
+            "option_id": "B",
+            "label": "Medulla spinaliste nöron kaybı ve derin tendon reflekslerinde artış",
+            "why_wrong": "Parkinson Hastalığı'nda medulla spinalis tutulumu yoktur ve derin tendon refleksler genellikle normaldir; üst motor nöron bulguları beklenmez.",
+            "would_be_correct_if": "Hastada spastisite, hiperrefleksi veya diğer üst motor nöron belirtileri olsaydı (örneğin, amiyotrofik lateral skleroz veya spinal kord hastalığı).",
+            "best_discriminator": "Parkinson'da istirahat tremoru ve rijidite varken, medulla spinalis tutulumu olmaması."
+          },
+          {
+            "option_id": "C",
+            "label": "Bazal ganglionlarda demir birikimi ve nörofibriler yumaklar",
+            "why_wrong": "Demir birikimi daha çok nöroakantositoz veya Hallervorden-Spatz sendromu gibi nadir hastalıklarda görülür; nörofibriler yumaklar Alzheimer Hastalığı'nda tipiktir.",
+            "would_be_correct_if": "Hastada distoni, kore veya demans ile seyreden atipik bir hareket bozukluğu olsaydı (örneğin, Progresif Supranükleer Palsi'de nörofibriler yumaklar olabilir).",
+            "best_discriminator": "Parkinson'da Lewy cisimcikleri alfa-sinüklein birikimi iken, nörofibriler yumaklar tau proteini birikimidir."
+          },
+          {
+            "option_id": "D",
+            "label": "Serebellar Purkinje hücre kaybı ve atrofi",
+            "why_wrong": "Serebellar tutulum ataksi, dismetri, intansiyonel tremor gibi bulgulara yol açar; Parkinson'da serebellar patoloji beklenmez.",
+            "would_be_correct_if": "Hastada serebellar sendrom bulguları (örneğin, ataksi, nistagmus) olsaydı (örneğin, spinoserebellar ataksiler).",
+            "best_discriminator": "Parkinson'da istirahat tremoru ve bradikinezi hakim iken, serebellar hastalıklarda intansiyonel tremor ve koordinasyon bozukluğu ön plandadır."
+          },
+          {
+            "option_id": "E",
+            "label": "Frontal kortekste amiloid plaklar ve nörofibriler yumaklar",
+            "why_wrong": "Bu bulgular Alzheimer Hastalığı'na özgüdür ve klinikte demans, bellek bozukluğu ile seyreder; Parkinson'da kortikal patoloji erken evrede belirgin değildir.",
+            "would_be_correct_if": "Hastada öncelikle kognitif bozukluk ve davranış değişiklikleri olsaydı (örneğin, Alzheimer Hastalığı).",
+            "best_discriminator": "Parkison'da motor bulgular ön planda iken, Alzheimer'da demans erken ve baskın semptomdur."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Ayırıcı Tanı",
+        "headers": [
+          "Özellik",
+          "Doğru Tanı/Durum",
+          "Ayırıcı Tanı"
+        ],
+        "rows": [
+          {
+            "entity": "İsim",
+            "cells": [
+              "İdiopatik Parkinson Hastalığı",
+              "Huntington Hastalığı, Progresif Supranükleer Palsi, Multipl Sistem Atrofisi, Lewy Cisimcikli Demans"
+            ]
+          },
+          {
+            "entity": "Klinik Bulgular",
+            "cells": [
+              "İstirahat tremoru, dişli çark rijiditesi, bradikinezi, maske yüz, postüral refleks kaybı, küçük adımlar",
+              "Huntington'da kore ve demans; PSP'de vertikal bakış felci ve aksiyal rijidite; MSA'da otonom disfonksiyon ve serebellar ataksi; Lewy'de demans, görsel halüsinasyonlar ve parkinsonizm"
+            ]
+          },
+          {
+            "entity": "Patolojik Bulgular",
+            "cells": [
+              "Substantia nigra'da dopaminerjik nöron kaybı, Lewy cisimcikleri (alfa-sinüklein birikimi)",
+              "Huntington'da striatal GABAerjik nöron kaybı; PSP'de nörofibriler yumaklar; MSA'da glial sitoplazmik inklüzyonlar; Lewy'de kortikal ve subkortikal Lewy cisimcikleri"
+            ]
+          },
+          {
+            "entity": "Medulla Spinalis Tutulumu",
+            "cells": [
+              "Yok",
+              "Multipl Sistem Atrofisi'de otonom tutulum olabilir, ancak direkt medulla spinalis patolojisi nadir; diğerlerinde tipik değil"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+GİRDİ VERİSİ:
+{"draft": {"question_text": "Şizofreni tanısıyla takip edilen 25 yaşındaki bir erkek hastaya antipsikotik tedavi başlanmıştır. Tedavinin 3. gününde dilini dışarı çıkarma, boynunu geriye atma ve gözlerini yukarı kaydırma şikayetleri ile acil servise başvurur. Fizik muayenede dilde ve boyun kaslarında spazm saptanır. Bu hastada gelişen durum için aşağıdaki ifadelerden hangisi doğrudur?", "options": [{"id": "A", "text": "Tedavisinde antikolinerjik etkili Parkinson ilaçları veya difenhidramin kullanılır."}, {"id": "B", "text": "Oluşma süresi genellikle aylar-yıllar içindedir ve ilerlemiş vakalarda tedavisi zordur."}, {"id": "C", "text": "Mekanizması postsinaptik D2 reseptör duyarlılığında artış ve upregülasyondur."}, {"id": "D", "text": "Tedavisinde propranolol veya benzodiazepinler ilk tercihtir."}, {"id": "E", "text": "Mekanizması dopamin antagonizmasıdır ve tedavisinde dantrolen veya bromokriptin kullanılır."}], "correct_option_id": "A", "concept_tag": "concept:Antipsikotik İlaçların Ekstrapiramidal Yan Etkileri", "brief_explanation": "Hastada antipsikotik tedavinin erken döneminde (3. gün) gelişen, dil ve boyun kaslarında spazmla karakterize tablo, 'Akut Distonik Reaksiyon'dur. Tabloda bu durumun tedavisi için 'Antikolinerjik* etkili Parkinson ilaçları' ve 'Difenhidramin' belirtilmiştir. Diğer seçenekler farklı ekstrapiramidal yan etkilere aittir: B seçeneği Tardif Diskinezi, C seçeneği Tardif Diskinezi, D seçeneği Akatizi, E seçeneği ise Nöroleptik Malign Sendrom için doğru bilgileri içermektedir."}, "siblings": ["Akatizi", "Parkinsonizm", "Nöroleptik Malign Sendrom", "Tardif Diskinezi"], "updates": [], "source_material": "Farmakoloji", "topic": "Antipsikotik İlaçlar"}
+
+KAYNAK:
+243
+TUS HAZIRLIK MERKEZLERİ
+
+
+|Antipsikotik ilaçların özellikle|Col2|
+|---|---|
+|**Tipik (klasik) antipsikotikler**|**Atipik antipsikotikler**|
+|•  Dopamin 2 (D2) reseptör blokajı|•  5-HT2A reseptör blokajı<br>•  5-HT1A parsiyel agonistik etki|
+|•  Pozitif semptomlara etkinlik (Mezolimbik yol)|•  Negatif semptomlara etkinlik|
+|•  Antiemetik etki yüksek (Kemotrigger bölge)|•  Antiemetik etki düşük|
+|•  Ekstrapiramidal yan etki fazla (Nigrostriatal yolak)|•  Ekstrapiramidal yan etki az|
+|•  Nöroleptik malign sendrom ihtimali yüksek|•  Nöroleptik malign sendrom ihtimali düşük|
+|•  Prolaktin artışı çok (Tuberoinfindibuler yolak)|•  Prolaktin artışı az|
+|•   Amenore / Galaktore / Libido azalması / İnfertilite|•  Amenore, galaktore, libido azalması ve<br>infertilite tablosu daha az oluşur.|
+|||
+
+
+
+Antipsikotik İlaçların Yan Etkileri
+
+
+|Ekstrapiramidal yan etkiler (EPYE)|Col2|Col3|Col4|Col5|Col6|
+|---|---|---|---|---|---|
+||**Klinik**|**Oluşma**<br>**süresi**|**Mekanizma**|**Tedavi**|**Özellik**|
+|**Akut distonik**<br>**reaksiyonlar**|• Dil, yüz, sırt ve boyun<br>kaslarında spazm<br>• Genç hastalar|•|amin<br>zması|• Antikolinerjik* etkili<br>Parkinson ilaçları<br>• Difenhidramin<br>• Benztropin|L-Dopa<br>tedavide<br>kullanılmaz|
+|**Akatizi**|• Yerinde duramama,<br>anksiyete ve ajitasyona<br>bağlı değil|• 5-60 gün|• Bilinmeyen<br>mekanizma|• Propranolol<br>• Benzodiazepinler<br>• Difenhidramin*<br>• Nöroleptik kesilir / dozu<br>azaltılır|L-Dopa<br>tedavide<br>kullanılmaz|
+|**Parkinsonizm**|• Bradikinezi rijidite,<br>tremor, maske yüz|• 5-30 gün|• Dopamin<br>antagonizması|• Antikolinerjik* etkili<br>Parkinson ilaçları<br>• Difenhidramin<br>• Amantadin|L-Dopa<br>tedavide<br>kullanılmaz|
+|**Nöroleptik**<br>**malign**<br>**sendrom**|• Aşırı rijidite, yüksek<br>ateş, kan basıncı<br>düzensizliği, lökositoz,<br>miyoglobulinemi|• Haftalar|• Dopamin<br>antagonizması|• Nöroleptik acilen kesilir<br>• Dantrolen/Diazepam<br>• Bromokriptin/<br>L-dopa kullanılır.|%10 mortal|
+|**Perioral tremor**||• Aylar yıllar|• Bilinmeyen<br>mekanizma|• Antikolinerjik* etkili<br>Parkinson ilaçları<br>• Nöroleptik kesilir||
+|**Tardif diskinezi**|• Buccolinguamastilatuvar<br>hareketler, orofasiyal<br>diskinezi, koreatetoz,<br>distoni<br>• Yaşlı hastalarda risk<br>artar.|• Aylar<br>yıllar  D2<br>reseptör<br>blokajıyla<br>oluşum<br>riski artar|• Postsinaptik<br>D2 reseptör<br>duyarlılığında<br>artış<br>• Upregulasyon<br>oluşumu|• Nöroleptik tedrici olarak<br>kesilir<br>• Yeni atipik nöroleptiğe<br>başlanır<br>• Yüksek doz diazepam<br>•  Valbenazin /<br>Tetrabenazin (VMAT-2**|İlerlemiş<br>vakalarda<br>tedavi<br>zordur.<br>İrreversibl<br>olabilir|
+|||||||
+
+
+
+
+|**|eçen antikolinerjik ilaçlar: Biperiden / Benztropin / Dife<br>VMAT-2: Veziküler monoamin transporter (veziküler transport protein)|
+|---|---|
+
+
+
+https://www.klinisyen.com?route=product&isbn=2359550578339&product=XRmjDOR+zGe/2uqAQ//dZZhc4Woljfgs&sav=true

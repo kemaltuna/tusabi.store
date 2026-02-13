@@ -1,0 +1,28 @@
+{
+  "question_text": "Kırık iyileşmesi sürecinde, yetersiz immobilizasyon sonucu hareket eden kallusta kistik dejenerasyon gelişir ve bu yapının luminal yüzeyi sinovial-benzeri hücrelerle döşenir. Bu durum aşağıdakilerden hangisi ile tanımlanır?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Gecikmiş union"
+    },
+    {
+      "id": "B",
+      "text": "Nonunion"
+    },
+    {
+      "id": "C",
+      "text": "Psödoartroz"
+    },
+    {
+      "id": "D",
+      "text": "Malforme kallus"
+    },
+    {
+      "id": "E",
+      "text": "Fibrokartilajenöz kallus"
+    }
+  ],
+  "correct_option_id": "C",
+  "concept_tag": "concept:Kemik kırıklarında iyileşme komplikasyonları",
+  "brief_explanation": "Kırık iyileşmesinde, yetersiz immobilizasyon nedeniyle kallusun hareket etmesi nonunion'a yol açar. Nonunion devam ederse, malforme kallusta kistik dejenerasyon gelişir ve luminal yüzey sinovial-benzeri hücrelerle döşenir; bu yapı psödoartroz (yalancı eklem) olarak adlandırılır. Gecikmiş union ve malforme kallus bu sürecin erken aşamalarını, fibrokartilajenöz kallus ise normal iyileşme sürecindeki bir aşamayı tanımlar."
+}

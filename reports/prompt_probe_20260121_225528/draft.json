@@ -1,0 +1,28 @@
+{
+  "question_text": "Şizofreni tanısıyla takip edilen 28 yaşındaki bir erkek hastaya, pozitif semptomları için antipsikotik tedavi başlanıyor. Tedavinin 10. gününde hasta, dilinde ve boyun kaslarında şiddetli spazm, konuşma güçlüğü ve başını geriye doğru atma şikayetiyle acil servise başvuruyor. Bu tablo için en olası mekanizma aşağıdakilerden hangisidir?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Postsinaptik D2 reseptör duyarlılığında artış (upregülasyon)"
+    },
+    {
+      "id": "B",
+      "text": "Dopamin reseptör blokajına bağlı nigrostriatal yolak inhibisyonu"
+    },
+    {
+      "id": "C",
+      "text": "5-HT2A reseptör blokajı"
+    },
+    {
+      "id": "D",
+      "text": "Tuberoinfundibular yolak inhibisyonu"
+    },
+    {
+      "id": "E",
+      "text": "Kemotrigger bölge üzerindeki dopaminerjik etki"
+    }
+  ],
+  "correct_option_id": "B",
+  "concept_tag": "concept: Tipik antipsikotiklerin ekstrapiramidal yan etki mekanizması",
+  "brief_explanation": "Hastada tipik antipsikotik kullanımının erken döneminde (10. gün) gelişen, dil ve boyun kaslarını tutan akut distonik reaksiyon tanımlanmıştır. Kaynak tablosunda, akut distonik reaksiyonların mekanizması 'Dopamin antagonizması' olarak belirtilmiştir. Bu, tipik antipsikotiklerin D2 reseptör blokajı yoluyla nigrostriatal dopaminerjik yolakta inhibisyona neden olmasıyla açıklanır. Diğer seçenekler bu spesifik tablo ile uyumlu değildir: A seçeneği tardif diskinezi, C seçeneği atipik antipsikotiklerin etki mekanizması, D seçeneği hiperprolaktinemi, E seçeneği ise antiemetik etki ile ilişkilidir."
+}

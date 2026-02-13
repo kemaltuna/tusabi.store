@@ -1,0 +1,15 @@
+{
+  "critique_passed": true,
+  "feedback": "Soru kurgu hatası içermiyor; klinik senaryo akatiziyi net şekilde tanımlıyor. Doğru cevap tek ve açık: Tipik antipsikotikler. Çeldiriciler güçlü: B seçeneği atipik antipsikotikler, C eşit sıklık, D ve E spesifik ilaçlar, ancak kaynak tipiklerde EPYE'nin daha yüksek olduğunu gösteriyor. Sibling önerileri için, antipsikotiklerle ilişkili diğer yan etkiler veya hastalıklar düşünülebilir.",
+  "sibling_suggestions": [
+    "Nöroleptik malign sendrom",
+    "Tardif diskinezi",
+    "Akut distonik reaksiyon",
+    "Parkinsonizm"
+  ],
+  "improved_distractors": [
+    "Sadece yüksek potensli tipik antipsikotiklerde görülür",
+    "Sadece antipsikotik doz artışında görülür",
+    "Her iki grupta da görülmez, sadece plasebo etkisidir"
+  ]
+}

@@ -1,0 +1,81 @@
+GİRDİ VERİSİ:
+{"draft": {"question_text": "Altmış beş yaşında erkek hasta, son iki yıldır ellerinde titreme, hareketlerde yavaşlama ve yürümede küçük adımlar şikayetleri ile başvuruyor. Nörolojik muayenede istirahat halinde para sayar tarzda tremor, dişli çark rijiditesi ve bradikinezi saptanıyor. Yüz ifadesi donuk ve göz kırpma sıklığı azalmış. Postüral refleksler zayıflamış. Bu hastada patolojik incelemede en olası bulgu aşağıdakilerden hangisidir?", "options": [{"id": "A", "text": "Substantia nigra'da dopaminerjik nöron kaybı ve Lewy cisimcikleri"}, {"id": "B", "text": "Medulla spinaliste nöron kaybı ve derin tendon reflekslerinde artış"}, {"id": "C", "text": "Bazal ganglionlarda demir birikimi ve nörofibriler yumaklar"}, {"id": "D", "text": "Serebellar Purkinje hücre kaybı ve atrofi"}, {"id": "E", "text": "Frontal kortekste amiloid plaklar ve nörofibriler yumaklar"}], "correct_option_id": "A", "concept_tag": "concept: İdiopatik Parkinson Hastalığı patolojisi", "brief_explanation": "Metinde İdiopatik Parkinson Hastalığı'nın patolojik bulguları olarak substantia nigra'da pigmente nükleusların kaybı ve Lewy cisimcikleri (alfa-sinüklein ve ubiquitin içeren inklüzyon cisimcikleri) tanımlanmıştır. Ayrıca, medulla spinalis tutulumu ve derin tendon reflekslerinde artışın olmadığı belirtilmiştir. Klinik tablo tipik Parkinson bulgularını (istirahat tremoru, dişli çark rijiditesi, bradikinezi, maske yüz, postüral refleks kaybı) içermektedir."}, "siblings": ["Huntington Hastalığı", "Progresif Supranükleer Palsi", "Multipl Sistem Atrofisi", "Lewy Cisimcikli Demans"], "updates": [], "source_material": "Kucuk_Stajlar", "topic": "Hareket Bozuklukları"}
+
+KAYNAK:
+TUS HAZIRLIK MERKEZLERİ
+23
+
+HAREKET BOZUKLUKL
+
+HİPOKİNETİK HAREKET BOZUKLUKLARI
+
+þ Bu hastalık grubunda hakim tablo hareketlerin azalması, yavaşlaması ve güçleşmesidir.
+
+þ Bu grubun prototipi Parkinson sendromudur.
+
+þ Bradikinezi: Hareketleri başlatmakta güçlük, uygulamada yavaşlık ve zorluk, genel olarak hareketlerin fakirleşmesidir.
+
+þ Maske yüz: Mimik ifadesi yavaşlamasıdır.
+
+þ Göz kırpmada azalma
+
+þ Postürel bozukluk: Genellikle fleksiyon postürü şeklindedir.
+
+þ Rijidite: Agonist ve antagonist kasların eşzamanlı olarak kasılmalarına bağlı olarak ortaya çıkan, devamlı bir direnme 
+şeklinde kendini gösteren kas tonusundaki artışı ifade eder.
+
+İdiopatik Parkinson Hastalığı 
+
+Substantia nigra’da pigmente nüklelusların kaybı ve Lewy cisimcikleri olarak adlandırılan alfa-sinüklein ve 
+ubiquitin adı verilen proteinler içeren küresel inklüzyon cisimciklerinin saptanması şeklindedir. Ortalama 50-60 
+yaşlarında görülür.
+
+Önemli bulgular
+
+ü İstirahat tremoru (para sayar şekilde, tipiktir)
+
+ü Dişli çark rijiditesi
+
+ü Bradikinezi
+
+ü Maske yüz
+
+ü Postürel reflekslerin kaybı
+
+ü Göz kırpma oranında düşme
+
+ü Küçük adımlarla yürüme
+
+ü Hipovolemik ses
+
+ü Yürüme tutulması 
+
+ü Arkaya doğru düşme 
+
+ü Fleksiyon postürü 
+
+ü Okülojirik kriz
+
+ü Medulla spinalis tutulumu ve derin tendon reflekslerinde artış OLMAZ. 
+**TUS**
+
+Parkinson hastalığı
+
+Patoloji
+
+•	
+Substansia nigra’daki pigmente dopaminerjik nöronlarda kayıp
+
+•	
+İntranöronal hyalen madde birikimi (Lewy cisimciği)
+
+•	
+Locus serulous nöronlarında dejenerasyon
+
+•	
+Substantia nigra’dan **TUSX2** globus pallidus’a dopaminerjik output’un azalması
+
+•	
+Subtalamik nükleus üzerinde inhibitör aktivitenin kaybolması
+
+https://www.klinisyen.com?route=product&isbn=2091928108933&product=XRmjDOR+zGe/2uqAQ//dZZhc4Woljfgs&sav=true

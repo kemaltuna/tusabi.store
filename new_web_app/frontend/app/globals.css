@@ -1,0 +1,224 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --app-filter: none;
+  --page-background: var(--background);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0b1220;
+    --foreground: #e6edf5;
+    --page-background: radial-gradient(120% 140% at 20% 10%, #17233f 0%, #0b1220 45%, #0a0f1b 100%);
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  filter: var(--app-filter);
+  transition: filter 0.3s ease;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.liquid-glass {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.55));
+  -webkit-backdrop-filter: blur(18px) saturate(1.2);
+  backdrop-filter: blur(18px) saturate(1.2);
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.14), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+@media (prefers-color-scheme: dark) {
+  .liquid-glass {
+    background: linear-gradient(135deg, rgba(12, 18, 32, 0.86), rgba(18, 24, 42, 0.58));
+    box-shadow: 0 20px 42px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  }
+}
+
+.edge-trigger {
+  opacity: 0;
+  transition: opacity 150ms ease;
+}
+
+.edge-trigger:hover {
+  opacity: 1;
+}
+
+/* Reading Mode Styles */
+.reading-mode {
+  --background: #fcf7ec;
+  --foreground: #3e3832;
+  --page-background: #fcf7ec;
+  font-family: "Georgia", "Times New Roman", Times, serif;
+}
+
+.reading-mode body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Georgia", "Times New Roman", Times, serif;
+}
+
+/* Override dark mode preferences when Reading Mode is active if desired, 
+   OR provide a specific dark reading mode. 
+   Making it warm/sepia for both but darker in dark mode. */
+
+@media (prefers-color-scheme: dark) {
+  .reading-mode {
+    --background: #1e1a17;
+    /* Dark warm charcoal/brown */
+    --foreground: #dcd3c9;
+    /* Soft warm gray/white */
+    --page-background: #1e1a17;
+  }
+}
+
+/* Ensure Reading Mode overrides the app-filter if it conflicts */
+.reading-mode {
+  --reading-bg: #fdf6e3;
+  /* Solarized Light base3 / Warm paper */
+  --reading-fg: #5f5a4e;
+  /* Soft dark brownish gray */
+  --reading-border: rgba(95, 90, 78, 0.15);
+}
+
+@media (prefers-color-scheme: dark) {
+  .reading-mode {
+    --reading-bg: #1c1b1a;
+    /* Warm dark gray */
+    --reading-fg: #a8a095;
+    /* Warm light gray */
+    --reading-border: rgba(168, 160, 149, 0.15);
+  }
+}
+
+/* Force overrides for common Tailwind classes when inside .reading-mode */
+.reading-mode body,
+.reading-mode .bg-white,
+.reading-mode .dark\:bg-zinc-900,
+.reading-mode .bg-zinc-50,
+.reading-mode .dark\:bg-zinc-800,
+.reading-mode .bg-slate-50,
+.reading-mode .bg-gray-50 {
+  background-color: var(--reading-bg) !important;
+  color: var(--reading-fg) !important;
+  font-family: "Georgia", "Cambria", "Times New Roman", Times, serif !important;
+}
+
+.reading-mode .text-zinc-900,
+.reading-mode .dark\:text-zinc-100,
+.reading-mode .text-zinc-500,
+.reading-mode .dark\:text-zinc-400,
+.reading-mode .text-gray-900,
+.reading-mode .dark\:text-gray-100,
+.reading-mode .prose {
+  color: var(--reading-fg) !important;
+}
+
+.reading-mode .border-zinc-200,
+.reading-mode .dark\:border-zinc-700,
+.reading-mode .border-zinc-100,
+.reading-mode .dark\:border-zinc-800 {
+  border-color: var(--reading-border) !important;
+}
+
+/* Headers */
+.reading-mode h1,
+.reading-mode h2,
+.reading-mode h3,
+.reading-mode h4,
+.reading-mode h5,
+.reading-mode h6 {
+  color: var(--reading-fg) !important;
+  font-family: "Georgia", "Cambria", "Times New Roman", Times, serif !important;
+  letter-spacing: normal !important;
+  /* Remove uppercase tracking if any */
+}
+
+/* Remove effects */
+.reading-mode .shadow-sm,
+.reading-mode .shadow-lg,
+.reading-mode .shadow-xl,
+.reading-mode .backdrop-blur,
+.reading-mode .liquid-glass {
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  /* Do NOT force background here, it overrides button states */
+}
+
+/* Adjust prose strong/headings */
+.reading-mode .prose strong,
+.reading-mode .prose b {
+  color: var(--reading-fg) !important;
+  font-weight: 700;
+}
+
+/* Specific visibility for Selected/Correct/Incorrect states in Reading Mode */
+.reading-mode .bg-blue-50,
+.reading-mode .dark\:bg-blue-900\/30 {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+  border-color: #5f5a4e !important;
+  font-weight: 600;
+}
+
+.reading-mode .bg-green-100,
+.reading-mode .dark\:bg-green-900\/30 {
+  background-color: rgba(46, 125, 50, 0.1) !important;
+  color: #1b5e20 !important;
+  border-color: #1b5e20 !important;
+}
+
+.reading-mode .bg-red-100,
+.reading-mode .dark\:bg-red-900\/30 {
+  background-color: rgba(198, 40, 40, 0.1) !important;
+  color: #b71c1c !important;
+  border-color: #b71c1c !important;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .reading-mode .bg-blue-50,
+  .reading-mode .dark\:bg-blue-900\/30 {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-color: #a8a095 !important;
+  }
+
+  .reading-mode .bg-green-100,
+  .reading-mode .dark\:bg-green-900\/30 {
+    background-color: rgba(129, 199, 132, 0.15) !important;
+    color: #a5d6a7 !important;
+    border-color: #a5d6a7 !important;
+  }
+
+  .reading-mode .bg-red-100,
+  .reading-mode .dark\:bg-red-900\/30 {
+    background-color: rgba(229, 115, 115, 0.15) !important;
+    color: #ef9a9a !important;
+    border-color: #ef9a9a !important;
+  }
+}
+
+/* Buttons inside reading mode should probably retain some distinction, 
+   but maybe softer? 
+   Let's leave buttons alone for now, or just ensure text is readable. 
+   If buttons inherit color !important, they might break.
+   Excluded button from the wildcard color/bg override above (selectors are specific).
+*/

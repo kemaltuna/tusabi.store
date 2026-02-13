@@ -1,0 +1,28 @@
+{
+  "question_text": "On yedi yaşında erkek hasta, gece uykudan uyandıran, aspirinle tamamen geçen şiddetli sağ bacak ağrısı şikayeti ile başvuruyor. Fizik muayenede ağrılı bölgede lokal hassasiyet ve hafif şişlik saptanıyor. Radyolojik incelemede femurda kortikal kalınlaşma ile çevrili, merkezinde radyolüsent nidus izleniyor. Bu hastada en olası tanı aşağıdakilerden hangisidir?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Osteoid osteom"
+    },
+    {
+      "id": "B",
+      "text": "Osteosarkom"
+    },
+    {
+      "id": "C",
+      "text": "Ewing sarkomu"
+    },
+    {
+      "id": "D",
+      "text": "Kondrosarkom"
+    },
+    {
+      "id": "E",
+      "text": "Dev hücreli kemik tümörü"
+    }
+  ],
+  "correct_option_id": "A",
+  "concept_tag": "concept: Osteoid osteom",
+  "brief_explanation": "Osteoid osteom, tipik olarak genç erkeklerde görülen, gece artan ve salisilatlarla (aspirin) dramatik şekilde rahatlayan ağrı ile karakterize benign bir kemik tümörüdür. Radyolojik olarak, yoğun sklerotik reaksiyon (kortikal kalınlaşma) ile çevrili küçük (<2 cm) radyolüsent nidus görünümü tanı koydurucudur. Bu bulgular, verilen klinik tablo ve radyolojik tanımlama ile tam uyumludur."
+}

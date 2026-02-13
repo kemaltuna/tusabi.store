@@ -1,0 +1,174 @@
+{
+  "source_material": "Farmakoloji",
+  "topic": "Antipsikotik İlaçlar",
+  "question_text": "Şizofreni tanısıyla takip edilen 25 yaşındaki bir erkek hastaya, pozitif semptomları için antipsikotik tedavi başlanıyor. Tedavinin 2. gününde, ani başlayan boyun ve sırt kaslarında şiddetli spazm, dilde geri çekilme ve gözlerde yukarı kayma şikayetleriyle acil servise başvuruyor. Bu tablo için en uygun tedavi yaklaşımı aşağıdakilerden hangisidir?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Propranolol"
+    },
+    {
+      "id": "B",
+      "text": "Bromokriptin"
+    },
+    {
+      "id": "C",
+      "text": "Difenhidramin veya benztropin"
+    },
+    {
+      "id": "D",
+      "text": "Valbenazin"
+    },
+    {
+      "id": "E",
+      "text": "Dantrolen"
+    }
+  ],
+  "correct_option_id": "C",
+  "tags": [
+    "concept: Antipsikotiklerin ekstrapiramidal yan etkileri ve tedavisi",
+    "visual:parkinson_cholinergic_balance"
+  ],
+  "explanation": {
+    "main_mechanism": "Bu soruda doğru cevap Difenhidramin veya benztropin. Akut distonik reaksiyon, tipik antipsikotiklerin dopamin D2 reseptör blokajına bağlı nigrostriatal yolda dopaminerjik inhibisyon kaybı ve kolinerjik fazlalık sonucu gelişir; antikolinerjik ilaçlar bu dengesizliği düzelterek semptomları hızla geriletir.",
+    "clinical_significance": "Akut distonik reaksiyon, antipsikotik tedavinin erken döneminde (ilk birkaç gün) görülebilen, genç hastalarda daha sık olan ve acil antikolinerjik müdahale ile tam düzelme sağlanan bir ekstrapiramidal yan etkidir.",
+    "sibling_entities": [
+      "Akatizi",
+      "Parkinsonizm",
+      "Nöroleptik malign sendrom",
+      "Tardif diskinezi"
+    ],
+    "updates_applied": [],
+    "update_checked": true,
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "Detaylı Açıklama & Mekanizma"
+      },
+      {
+        "type": "callout",
+        "style": "key_clues",
+        "title": "Klinik İpuçları",
+        "items": [
+          {
+            "text": "Genç hasta (25 yaş) ve antipsikotik başlangıcından 2 gün sonra ani semptom başlangıcı, akut distonik reaksiyon için tipik zamanlamadır."
+          },
+          {
+            "text": "Boyun ve sırt kaslarında şiddetli spazm, dil geri çekilmesi (protrüzyon veya retraksiyon) ve gözlerde yukarı kayma (oküljirik kriz), akut distoninin karakteristik bulgularıdır."
+          },
+          {
+            "text": "Pozitif semptomlar için başlanan antipsikotik, büyük olasılıkla tipik (klasik) antipsikotiktir, çünkü atipiklere göre ekstrapiramidal yan etki riski daha yüksektir."
+          }
+        ]
+      },
+      {
+        "type": "numbered_steps",
+        "title": "Mekanizma Zinciri",
+        "steps": [
+          "Tipik antipsikotikler (örn. haloperidol) dopamin D2 reseptörlerini yüksek afiniteyle bloke eder.",
+          "Nigrostriatal yolakta dopaminerjik nöronların inhibitör etkisi azalır, bu da striatal kolinerjik nöronlar üzerindeki inhibisyonu kaldırır (disinhibisyon).",
+          "Kolinerjik nöronlar aşırı aktif hale gelir, striatumda asetilkolin salınımı artar ve dopamin-kolinerjik dengesizlik oluşur.",
+          "Bu dengesizlik, bazal ganglion çıktısında bozulmaya yol açar, sonuçta ani, şiddetli kas spazmları (distoni) ve oküljirik kriz gibi bulgular ortaya çıkar.",
+          "Antikolinerjik ilaçlar (difenhidramin veya benztropin) muskarinik reseptörleri bloke ederek kolinerjik fazlalığı antagonize eder ve semptomları hızla düzeltir."
+        ]
+      },
+      {
+        "type": "callout",
+        "style": "exam_trap",
+        "title": "Sınav Tuzağı",
+        "items": [
+          {
+            "text": "Akut distonik reaksiyon, antipsikotik başlangıcının ilk birkaç gününde görülür ve gençlerde daha sıktır; oysa tardif diskinezi aylar-yıllar sonra ve yaşlılarda daha sıktır. Bu zamanlama ve yaş farkı ayırıcı tanıda kritiktir."
+          },
+          {
+            "text": "Distonide kas spazmı ve oküljirik kriz belirginken, akatizide yerinde duramama ve içsel huzursuzluk ön plandadır; bu klinik fark sınavda sık karıştırılır."
+          },
+          {
+            "text": "Nöroleptik malign sendromda (NMS) ateş, otonomik disregülasyon ve aşırı rijidite gibi sistemik bulgular vardır; distoni ile karıştırılmamalıdır, çünkü NMS acil yoğun bakım gerektirir ve tedavisi farklıdır."
+          }
+        ]
+      },
+      {
+        "type": "mini_ddx",
+        "title": "Çeldirici Analizi",
+        "items": [
+          {
+            "option_id": "A",
+            "label": "Propranolol",
+            "why_wrong": "Propranolol, beta-adrenerjik blokör olup akut distonik reaksiyon tedavisinde etkisizdir.",
+            "would_be_correct_if": "Hastada antipsikotik kullanımına bağlı gelişen akatizi (yerinde duramama, huzursuzluk) olsaydı, çünkü propranolol akatizinin birinci basamak tedavisinde kullanılır.",
+            "best_discriminator": "Klinik bulgu: akatizide kas spazmı veya oküljirik kriz yoktur; distonide ise bu bulgular belirgindir."
+          },
+          {
+            "option_id": "B",
+            "label": "Bromokriptin",
+            "why_wrong": "Bromokriptin, dopamin agonisti olup akut distonik reaksiyonda kullanılmaz; antikolinerjik etkisi yoktur.",
+            "would_be_correct_if": "Tablo nöroleptik malign sendrom (NMS) ile uyumlu olsaydı (ateş, rijidite, otonomik disregülasyon), çünkü bromokriptin NMS tedavisinde dopamin agonisti olarak kullanılır.",
+            "best_discriminator": "NMS sistemik semptomlar (ateş, lökositoz) içerirken, distoni sadece fokal kas spazmları ile sınırlıdır."
+          },
+          {
+            "option_id": "D",
+            "label": "Valbenazin",
+            "why_wrong": "Valbenazin, veziküler monoamin transporter-2 (VMAT-2) inhibitörü olup tardif diskinezi tedavisinde kullanılır; akut distonide etkisizdir.",
+            "would_be_correct_if": "Hastada antipsikotik kullanımına bağlı gelişen tardif diskinezi (örn. bukkolingual mastsilatuvar hareketler) olsaydı.",
+            "best_discriminator": "Tardif diskinezi geç dönemde (aylar-yıllar sonra) ortaya çıkar ve genellikle irreversibldir; distoni ise erken dönemde ve reversibldir."
+          },
+          {
+            "option_id": "E",
+            "label": "Dantrolen",
+            "why_wrong": "Dantrolen, kas gevşetici olup akut distonik reaksiyon tedavisinde rutin kullanılmaz; antikolinerjik etkisi yoktur.",
+            "would_be_correct_if": "Tablo nöroleptik malign sendrom veya malign hipertermi ile uyumlu olsaydı, çünkü dantrolen bu durumlarda kas rijiditesini azaltmak için kullanılır.",
+            "best_discriminator": "Dantrolen, santral etkili antikolinerjiklerden farklı olarak periferik kalsiyum salınımını inhibe eder; distonide etkin değildir, çünkü patofizyoloji santral dopamin-kolinerjik dengesizliktir."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Ayırıcı Tanı",
+        "headers": [
+          "Özellik",
+          "Doğru Cevaptaki İlaç",
+          "Çeldirici İlaç/Grup"
+        ],
+        "rows": [
+          {
+            "entity": "İsim",
+            "cells": [
+              "Akut Distonik Reaksiyon",
+              "Diğer Ekstrapiramidal Yan Etkiler (Akatizi, Parkinsonizm, NMS, Tardif Diskinezi)"
+            ]
+          },
+          {
+            "entity": "Oluşma Süresi",
+            "cells": [
+              "2. gün (akut, ilk birkaç gün)",
+              "Akatizi: 5-60 gün, Parkinsonizm: 5-30 gün, NMS: haftalar, Tardif Diskinezi: aylar-yıllar"
+            ]
+          },
+          {
+            "entity": "Klinik Bulgular",
+            "cells": [
+              "Dil, yüz, sırt, boyun kas spazmı; oküljirik kriz",
+              "Akatizi: yerinde duramama, huzursuzluk; Parkinsonizm: bradikinezi, rijidite, tremor; NMS: ateş, rijidite, otonomik disregülasyon; Tardif Diskinezi: bukkolingual mastsilatuvar hareketler"
+            ]
+          },
+          {
+            "entity": "Tedavi Mekanizması",
+            "cells": [
+              "Antikolinerjik etki (muskarinik reseptör blokajı)",
+              "Propranolol (beta blokaj), Bromokriptin (dopamin agonizmi), Dantrolen (kas gevşetici), Valbenazin (VMAT-2 inhibisyonu)"
+            ]
+          },
+          {
+            "entity": "Hasta Profili",
+            "cells": [
+              "Genç hastalarda daha sık",
+              "Akatizi: her yaş; Parkinsonizm: yaşlılarda daha belirgin; NMS: her yaş; Tardif Diskinezi: yaşlılarda risk artar"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

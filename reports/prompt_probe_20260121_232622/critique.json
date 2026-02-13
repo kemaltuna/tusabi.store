@@ -1,0 +1,16 @@
+{
+  "critique_passed": true,
+  "feedback": "Soru kurgu hatası yok, doğru cevap tek (A seçeneği), çeldiriciler güçlü ve ilgili antiteye yönlendiriyor. Soru, antipsikotik ilaçların ekstrapiramidal yan etkileri arasında akut distonik reaksiyonu net bir şekilde test ediyor.",
+  "sibling_suggestions": [
+    "Akatizi",
+    "Parkinsonizm",
+    "Nöroleptik Malign Sendrom",
+    "Tardif Diskinezi"
+  ],
+  "improved_distractors": [
+    "Tedavisinde antikolinerjik ilaçlar yerine propranolol veya benzodiazepinler kullanılır (akatizi için).",
+    "Mekanizması dopamin antagonizmasıdır ve tedavisinde dantrolen veya bromokriptin kullanılır (nöroleptik malign sendrom için).",
+    "Oluşma süresi genellikle aylar-yıllar içindedir ve ilerlemiş vakalarda tedavisi zordur (tardif diskinezi için).",
+    "Mekanizması postsinaptik D2 reseptör duyarlılığında artış ve upregülasyondur (tardif diskinezi için)."
+  ]
+}

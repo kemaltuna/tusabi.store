@@ -1,0 +1,28 @@
+{
+  "question_text": "Şizofreni tanısıyla takip edilen 25 yaşındaki bir erkek hastaya, pozitif semptomları için antipsikotik tedavi başlanıyor. Tedavinin 2. gününde, ani başlayan boyun ve sırt kaslarında şiddetli spazm, dilde geri çekilme ve gözlerde yukarı kayma şikayetleriyle acil servise başvuruyor. Bu tablo için en uygun tedavi yaklaşımı aşağıdakilerden hangisidir?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Propranolol"
+    },
+    {
+      "id": "B",
+      "text": "Bromokriptin"
+    },
+    {
+      "id": "C",
+      "text": "Difenhidramin veya benztropin"
+    },
+    {
+      "id": "D",
+      "text": "Valbenazin"
+    },
+    {
+      "id": "E",
+      "text": "Dantrolen"
+    }
+  ],
+  "correct_option_id": "C",
+  "concept_tag": "concept: Antipsikotiklerin ekstrapiramidal yan etkileri ve tedavisi",
+  "brief_explanation": "Hastada tipik antipsikotik kullanımına bağlı gelişen akut distonik reaksiyon tanımlanmıştır. Tabloda 'Akut distonik reaksiyonlar' için tedavi olarak 'Antikolinerjik* etkili Parkinson ilaçları, Difenhidramin, Benztropin' belirtilmiştir. Bu nedenle doğru seçenek, antikolinerjik etkili bu ajanlardan birini içeren C'dir. Propranolol akatizi, bromokriptin ve dantrolen nöroleptik malign sendrom, valbenazin ise tardif diskinezi tedavisinde kullanılır."
+}

@@ -1,0 +1,156 @@
+Found 15 feedbacks:
+
+--------------------------------------------------------------------------------
+ID: 15 | Resolved: 0
+Type: other
+Date: 2026-01-17 11:23:07
+Topic: 05 Lizozomal Depo Hastalıkları (Pediatri)
+Question: Altı yaşındaki bir erkek çocuk, öğretmenlerinin son aylarda derslere odaklanamadığı ve aşırı hareket...
+Feedback: Açıklamada bir hastalıktan bahsederken o hastalıgın ismiyle açıklamaya başla
+--------------------------------------------------------------------------------
+ID: 14 | Resolved: 0
+Type: other
+Date: 2026-01-17 11:18:18
+Topic: 02 Üre Siklus Defektleri ve Hiperamonyemi (Pediatri)
+Question: Otuz iki yaşında erkek hasta, tekrarlayan psikoz, deliryum ve tremor atakları ile psikiyatri polikli...
+Feedback: Mğkemmel bir soru hazırlamışsın.
+-bu tür sorularda (üre siklüsü gibi çok ünlü metabolizma yolakları) ekstradan bir görsel açıklama üretebilir miyiz, ama görsel açıklamanın da kontrolden geçmesi gerekli
+--------------------------------------------------------------------------------
+ID: 13 | Resolved: 0
+Type: other
+Date: 2026-01-17 11:05:55
+Topic: 08 Kemik Metabolizma Bozuklukları (Pediatri)
+Question: On dört aylık bir erkek çocuk, alt ekstremitelerde eğrilme ve yürümede gecikme nedeniyle polikliniğe...
+Feedback: Soruda 1,25-dihidroksivitamin D düzeyinin düşük olduğunun açıkça verilmesi, sorunun "bilgi/yorum" sorusu olmaktan çıkıp basit bir "eşleştirme" sorusuna dönüşmesine neden olmuş.
+Tıp eğitiminde ve board sınavlarında (TUS, USMLE vb.) bu tip soruların ayırt ediciliğini artırmak için yapılması gereken en kritik hamle, 1,25-dihidroksivitamin D düzeyini gizlemek veya tedavi üzerinden sormaktır.
+İşte bu sorunun "gerçekten bilenle bilmeyeni ayıracak" hale getirilmiş 3 farklı versiyonu:
+Versiyon 1: En İdeal Zorluk (Mekanizma Yorumlatma)
+Bu versiyonda 1,25 düzeyi verilmez. Adayın, "Depo (25-OH) dolu ama hasta hala raşitik, demek ki aktivasyon bozuk" çıkarımını yapması beklenir.
+Soru Revizyonu:
+> ...Laboratuvar tetkiklerinde hipokalsemi, hipofosfatemi ve PTH yüksekliği saptanıyor. Hastanın öyküsünden doğumdan itibaren düzenli D vitamini profilaksisi aldığı öğreniliyor ve yapılan tetkikte 25-hidroksivitamin D düzeyi normal sınırlarda bulunuyor. Fizik muayenede alopesi (kellik) saptanmıyor.
+> Bu hasta için en olası tanı veya eksik olan mekanizma nedir?
+> 
+ * Neden daha iyi? Aday şu mantığı kurmak zorundadır:
+   * Raşitizm var (Kalsiyum düşük, PTH yüksek).
+   * D vitamini eksikliği (nutrisyonel) değil, çünkü 25-OH normal.
+   * Geriye genetik nedenler kalıyor.
+   * Alopesi yok ve 25-OH normalse sorun reseptörde (Tip 2) değil, aktivasyon enzimindedir (1-alfa hidroksilaz).
+Versiyon 2: Tedavi Üzerinden Sorma (Klinik Yönetim)
+Tanıyı doğrudan sormak yerine, doğru tanıyı koyamayanın çözemeyeceği bir tedavi sorusu sorulur.
+Soru Revizyonu:
+> ...25-hidroksivitamin D düzeyi normal olan ancak hipokalsemik raşitizm bulguları devam eden bu hastada, patofizyolojiye yönelik en uygun tedavi yaklaşımı aşağıdakilerden hangisidir?
+> A) Yüksek doz kalsiyum + Kolekalsiferol (D3)
+> B) Oral Fosfat replasmanı
+> C) Fizyolojik doz Kalsitriol (1,25(OH)_2D_3)
+> D) Düşük kalsiyum diyet
+> E) Bisfosfonat tedavisi
+> 
+ * Neden daha iyi? Eğer aday bunun "Nutrisyonel Rikets" olduğunu sanarsa A şıkkına atlar. Eğer bunun bir enzim eksikliği (1-alfa hidroksilaz) olduğunu anlarsa, vücudun üretemediği aktif formu (Kalsitriolü) dışarıdan vermesi gerektiğini bilir.
+Versiyon 3: Ayırıcı Tanı (Tip 1 vs Tip 2)
+Soruyu daha da zorlaştırmak için 1,25 düzeyi verilecekse bile, Tip 2 (Reseptör direnci) ile karışacak bir kurgu yapılmalıdır.
+Soru Revizyonu:
+> ...Kalsiyum düşük, PTH yüksek, 25-OH D vitamini normal saptanıyor. Hastaya tanısal amaçlı fizyolojik dozda kalsitriol (aktif D vitamini) başlanıyor ve kısa süre içinde biyokimyasal parametrelerde düzelme olduğu görülüyor.
+> En olası tanı nedir?
+> 
+ * Neden daha iyi? Burada anahtar bilgi "tedaviye yanıt"tır.
+   * Vitamin D Bağımlı Rikets Tip 1A: Enzim yoktur, dışarıdan aktif form verilince hasta hemen düzelir.
+   * Vitamin D Bağımlı Rikets Tip 2 (Reseptör): Reseptör bozuktur, dışarıdan ne kadar verirseniz verin (çok yüksek dozlar hariç) yanıt alamazsınız.
+Özet: Soru Nasıl Kurtarılırdı?
+Sizin de belirttiğiniz gibi, orijinal sorudaki "1,25 düzeyi düşük, hangisi eksiktir?" ifadesi, cevabı sorunun içinde vermektedir.
+Soru şu şablonla sorulmalıydı:
+Normal 25(OH)D + Raşitizm Bulguları + Alopesi Yok \rightarrow 1-alfa hidroksilaz eksikliği (Tip 1A).
+Burada adayın "Normal 25(OH)D düzeyinin nutrisyonel eksikliği elediğini" bilmesi, sorunun asıl ölçmesi gereken bilgi olmalıydı.
+
+--------------------------------------------------------------------------------
+ID: 12 | Resolved: 0
+Type: other
+Date: 2026-01-17 11:01:41
+Topic: 08 Kemik Metabolizma Bozuklukları (Pediatri)
+Question: On dört aylık bir erkek çocuk, alt ekstremitelerde eğrilme ve yürümede gecikme nedeniyle polikliniğe...
+Feedback: Alp düzeyiyle ilgili de bilgi vermişsin ama soru açıklamasında alp düzeyinin ayırıcılıgından bahsetmemişsin.
+
+Açıklamada, Şıklardaki hastalıkların mekanızmasından daha fazla bahsedebilirdin 
+--------------------------------------------------------------------------------
+ID: 11 | Resolved: 0
+Type: typo
+Date: 2026-01-17 10:06:40
+Topic: 02 Göz Kapağı ve Orbita Hastalıkları (AI Flashcards)
+Question: What are the findings associated with the highlighted text?...
+Feedback: “What are the findings associated with the highlighted text?”Diyemezsin highlighted texti kullanıcı görmüyor. Flashcard mantıgını prompta oturtmamız lazım
+--------------------------------------------------------------------------------
+ID: 10 | Resolved: 0
+Type: other
+Date: 2026-01-17 09:57:56
+Topic: 06 Uvea ve Retina Hastalıkları (Kucuk_Stajlar)
+Question: Delici göz yaralanmasından 6 hafta sonra her iki gözde ağrı, fotofobi ve görme kaybı ile başvuran bi...
+Feedback: Kronolojik seyrini sorgulayacaksan, soeu kökünde hastalıgın kronolojik seyrinden bahsetmek zoeundda değilsin. Unutma klinik sorularda hasttalıkla ilgili her bilgiyi vermek zorunda değilsin, onun için spesifik detaayları vermen bille yeter
+--------------------------------------------------------------------------------
+ID: 9 | Resolved: 0
+Type: other
+Date: 2026-01-17 09:55:58
+Topic: 06 Uvea ve Retina Hastalıkları (Kucuk_Stajlar)
+Question: Delici göz yaralanmasından 6 hafta sonra her iki gözde ağrı, fotofobi ve görme kaybı ile başvuran bi...
+Feedback: Soruda 6 hafta sonra oldugunu söylemişsin zaten. Bu ipucunu verdikten sonra hastalıgın kronolojik seyrini sorgulaman saçma
+--------------------------------------------------------------------------------
+ID: 8 | Resolved: 0
+Type: bad_explanation
+Date: 2026-01-17 05:39:31
+Topic: 01 HİSTAMİN (Farmakoloji)
+Question: Aşağıdaki birinci nesil H1 reseptör blokörlerinden hangisi, alfa-1 adrenerjik reseptörleri de bloke ...
+Feedback: Bu soru farmaokolojinin antigistaminikler bölümünden aorulmuş bir soru. Açıklamada son sınıf bir tıp öğrencisine ortostarik hipotansiyonun mekanizmasını anlatacagına (öğrencilerinin bilgi seviyesini biliyor olman önemli, hangi dersten ne tür bilgiler kazanımı hedefleniyor bilmen önemli), sana verilen kaynaktaki diğer ilaçlarla karşılaştırmalara ve onların açıklamasına yer versen daha iyi olurdu.
+--------------------------------------------------------------------------------
+ID: 7 | Resolved: 0
+Type: wrong_answer
+Date: 2026-01-16 20:57:14
+Topic: Hücre Hasarı Hücre Ölümü Ve Adaptif Değişiklikler (Patoloji)
+Question: Elli iki yaşında erkek hasta, kronik aritmi nedeniyle uzun süreli amiodaron kullanımı sonrası gelişe...
+Feedback: bu tür soruların açıklamasında bütün görüldüğü durumları düzgün bir şekilde belirt ve açıklamalarını öyle yap. 
+
+--------------------------------------------------------------------------------
+ID: 6 | Resolved: 0
+Type: bad_explanation
+Date: 2026-01-16 18:18:41
+Topic: ANEMİLER (AI Flashcards)
+Question: Beta talasemi majörde biriken alfa zincirleri hangi yolağı tetikler?...
+Feedback: 
+--------------------------------------------------------------------------------
+ID: 5 | Resolved: 0
+Type: other
+Date: 2026-01-16 18:18:27
+Topic: 01 KONJESTİF KALP YETMEZLİĞİ TEDAVİSİNDE KULLANILAN İLAÇLAR (AI Flashcards)
+Question: Digoksin kullanımının olası yan etkilerinden biri nedir?...
+Feedback: digoskin kullanımının bir sürü yan etkisi varken kullanıcıdan flashcardda "o bir etki"yi bulmasını bekleyemezsin. bir ipucu vermeyi düşün.
+--------------------------------------------------------------------------------
+ID: 4 | Resolved: 0
+Type: other
+Date: 2026-01-16 18:16:58
+Topic: 02 Vaskülitler (AI Flashcards)
+Question: Hangi vaskülit türünde kriyoglobulinemik durum görülür?...
+Feedback: cevap "kriyoglobulinemik" ise soru kökünde kriyoglobülinemik dememelisin. 
+(highlightlarda kriyogobülinemik vaskülitin başka özel bir özelliği de işaretlenmiştir, demek ki kullanıcı senden kriyoglobülinemik vaskülitin o özelliğini hatırlatmanı istiyor)
+--------------------------------------------------------------------------------
+ID: 3 | Resolved: 0
+Type: wrong_answer
+Date: 2026-01-16 17:41:02
+Topic: 01 KONJESTİF KALP YETMEZLİĞİ TEDAVİSİNDE KULLANILAN İLAÇLAR (AI Flashcards)
+Question: Digoksin'in AV bloklu atriyal taşikardi üzerindeki etkileri nelerdir?...
+Feedback: olması gereken:
++digoksin ne çeşit ritim bozuklugu yapar
+-av bloklu atriyal taşikardi
+--------------------------------------------------------------------------------
+ID: 2 | Resolved: 0
+Type: other
+Date: 2026-01-16 17:39:46
+Topic: 01 KONJESTİF KALP YETMEZLİĞİ TEDAVİSİNDE KULLANILAN İLAÇLAR (AI Flashcards)
+Question: Furosemid kullanımında hangi elektrolit dengesizliği görülebilir?...
+Feedback: olması gereken: furosemid hangi mekanizmayla digoksin toksisitesi yapar.demeliydin
+-flashcard üretirken spesifik ol. 
+--------------------------------------------------------------------------------
+ID: 1 | Resolved: 0
+Type: bad_explanation
+Date: 2026-01-16 17:36:58
+Topic: ANEMİLER (AI Flashcards)
+Question: Luspatercept hangi hastalıkta kullanılır?...
+Feedback: "beta talsemi majorda smad 2-3 blokajı yaparak, inefektif eritropoezi engelleyen ilaç nedir. "
+diye sormalıydın, böylece kullanıcıyı bu bilgilerin hatırlanmaya değer olduguna ikna edebilirsin
+--------------------------------------------------------------------------------

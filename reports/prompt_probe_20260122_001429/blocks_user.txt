@@ -1,0 +1,56 @@
+GİRDİ VERİSİ:
+{"draft": {"question_text": "Yirmi beş yaşında bir kadın hasta, son bir yıldır tekrarlayan, bilinç kaybı olmadan başlayan ve sağ kolunda kasılma ile seyreden nöbetler nedeniyle başvuruyor. EEG'de sol frontal odak saptanıyor. Hastaya etkinliği kanıtlanmış birinci basamak tedavi başlanıyor. Bu ilacın etki mekanizması aşağıdakilerden hangisidir?", "options": [{"id": "A", "text": "Yavaş sodyum kanal blokajı"}, {"id": "B", "text": "GABA uptake inhibisyonu"}, {"id": "C", "text": "Hızlı sodyum kanal blokajı"}, {"id": "D", "text": "Kalsiyum kanallarının α2δ -1 ligandına bağlanma"}, {"id": "E", "text": "SV2A proteinine bağlanma"}], "correct_option_id": "C", "concept_tag": "concept: Antiepileptik ilaçların etki mekanizmaları ve parsiyel nöbet tedavisi", "brief_explanation": "Hastanın klinik tablosu (bilinç kaybı olmadan başlayan, fokal motor nöbet ve frontal odak) basit parsiyel nöbet ile uyumludur. Kaynak tabloda basit parsiyel nöbet için konvansiyonel tedavide birinci sırada karbamazepin belirtilmiştir. Karbamazepin, etki mekanizması tablosunda 'Hızlı sodyum kanal blokörleri' grubunda listelenmiştir. Bu nedenle doğru cevap hızlı sodyum kanal blokajıdır."}, "siblings": ["Kompleks parsiyel nöbet", "Absans nöbet", "Miyoklonik nöbet", "Tonik-klonik nöbet"], "updates": [], "source_material": "Farmakoloji", "topic": "Antiepileptik İlaçlar"}
+
+KAYNAK:
+262
+TUS HAZIRLIK MERKEZLERİ
+
+
+|Antiepileptik ilaçların etki mekaniz|Col2|
+|---|---|
+|**Etki**|**İlaçlar**|
+|**Hızlı sodyum kanal blokörleri**|Fenitoin / Karbamazepin / Lamotrijin / Felbamat /<br>Okskarbazepin / Topiramat / Valproik asit|
+|**Yavaş sodyum kanal blokörleri**|Lakosamid|
+|**Ca2+ kanal blokörleri**|Etosüksimid / Valproik asit / Lamotrijin|
+|**Kalsiyum kanallarının α2δ -1 ligandına bağlananlar**|Gabapentin / Pregabalin|
+|**GABA A reseptör allosterik modülatörleri ve / veya**<br>**agonistleri**|Benzodiazepinler / Fenobarbital / Felbamat / Topirama<br>Karbamazepin / Okskarbazepin / Perampanel / Stiripent<br>Klobazam|
+|**GABA uptake inhibitörleri / GABA aminotransferaz**<br>**inhibitörleri**|Tiagabin / Vigabatrin|
+|**NMDA reseptör antagonistleri**|Felbamat|
+|**Glutamat sekresyonunu baskılayanlar**|Lamotrijin|
+|**AMPA / KAİNAT reseptör antagonistleri**|Fenobarbital / Topiramat / Perampanel|
+|**HCN (Hiperpolarization activated cyclic nucleotide**<br>**gated) kanal aktivitesini stimüle eden**|Lamotrijin|
+|**SV2A proteinine bağlanan**|Levetirasetam|
+|**Karbonik anhidraz inhibitörleri**|Asetazolamid / Topiramat / Zonisamid|
+|||
+
+
+
+
+|Epileptik nöbet çeşitleri ve tedavi seçenekleri|Col2|Col3|
+|---|---|---|
+||**Konvansiyonel tedavi**|**Yeni geliştirilen tedavi**|
+||||
+|**  Basit parsiyel nöbet**|**Karbamazepin**, fenitoin, valproat|tin / Lakosamid, lamotrijin, levetiraset<br>rufinamid, tiagabin, topiramat, zonisamid|
+|**  Kompleks parsiyel**<br>**nöbet**|**Karbamazepin**, fenitoin, valproat|Gabapentin, lakosamid, lamotrijin, levetiraset<br>rufinamid, tiagabin, topiramat, zonisamid|
+|**  Parsiyel + Sekonder**<br>**tonik-klonik nöbet**|**Karbamazepin**, fenobarbital,<br>fenitoin, primidon, valproat|Gabapentin, lakosamid, lamotrijin, levetiraset<br>Rufinamid, Tiagabin, Topiramat, Zonisamid|
+|**Jeneralize Nöbetler**|**Jeneralize Nöbetler**|**Jeneralize Nöbetler**|
+|**  Absans nöbet**|**Etosüksimid / Valproat /**<br>**K**lonazepam|Lamotrijin|
+|**  Miyoklonik nöbet**|**Valproat** / Klonazepam|Levetirasetam|
+|**  Tonik-klonik nöbet**|Karbamazepin / Fenobarbital /<br>Fenitoin / Primidon / Valproat|Lamotrijin / Levetirasetam / Topiramat|
+|**  Lennox-Gestaut**<br>**sendromu**|**Lamotrijin**|Topiramat, felbamat, rufinamid, klobazam, norkloba<br>(desmetilklobazam), kannabidiol|
+|**  İnfantil spazm**<br>**(West sendromu)**|ACTH preparatı**kosinotropin**<br>Prednizon<br>Hidrokortizon|Vigabatrin (tuberous skleroz varsa çok etkilidir)<br>Klonezepam, Nitrazepam, Valproat, Topiramad<br>Zonisamid|
+|**  Status epileptikus**|**Diazepam**/ Lorazepam|Fosfenitoin / Fenobarbital / Valproat|
+|**  Febril konvülsiyon**|**Fenobarbital / Diazepam**||
+|**  Dravet sendromu**|Stiripentol / Kannabidiol /<br>Fenfluramin||
+||||
+
+
+
+olit oluşturanlar: Karbamazepin / Oksarbazepin / Ezogab
+
+çenler: Levetirasetam / Lamotrijin / Gabapentin / Topiram
+
+•	
+Süte geçmeyenler: Valproat / Fenobarbital / Fenitoin / Karbamazepin
+
+https://www.klinisyen.com?route=product&isbn=2359550578339&product=XRmjDOR+zGe/2uqAQ//dZZhc4Woljfgs&sav=true
