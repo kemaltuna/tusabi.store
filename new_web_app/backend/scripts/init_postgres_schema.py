@@ -263,6 +263,123 @@ SCHEMA_STATEMENTS: list[str] = [
     "CREATE INDEX IF NOT EXISTS idx_qtl_scope_topic ON question_topic_links (source_material, category, topic, question_id)",
     "CREATE INDEX IF NOT EXISTS idx_qtl_topic ON question_topic_links (topic, question_id)",
     "CREATE INDEX IF NOT EXISTS idx_qtl_question ON question_topic_links (question_id)",
+    # Constraints / hygiene (idempotent via pg_constraint checks).
+    # Policy: If a question is deleted, dependent rows must not remain.
+    """
+    DO $$
+    BEGIN
+      IF EXISTS (
+        SELECT 1
+        FROM information_schema.columns
+        WHERE table_schema = 'public'
+          AND table_name = 'user_highlights'
+          AND column_name = 'question_id'
+          AND is_nullable = 'YES'
+      ) THEN
+        ALTER TABLE user_highlights
+          ALTER COLUMN question_id SET NOT NULL;
+      END IF;
+    END $$;
+    """,
+    """
+    DO $$
+    BEGIN
+      IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conname = 'fk_user_highlights_question') THEN
+        ALTER TABLE user_highlights
+          ADD CONSTRAINT fk_user_highlights_question
+          FOREIGN KEY (question_id) REFERENCES questions(id)
+          ON DELETE CASCADE;
+      END IF;
+    END $$;
+    """,
+    """
+    DO $$
+    BEGIN
+      IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conname = 'fk_flashcard_usage_highlight') THEN
+        ALTER TABLE flashcard_highlight_usage
+          ADD CONSTRAINT fk_flashcard_usage_highlight
+          FOREIGN KEY (highlight_id) REFERENCES user_highlights(id)
+          ON DELETE CASCADE;
+      END IF;
+    END $$;
+    """,
+    """
+    DO $$
+    BEGIN
+      IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conname = 'fk_reviews_question') THEN
+        ALTER TABLE reviews
+          ADD CONSTRAINT fk_reviews_question
+          FOREIGN KEY (question_id) REFERENCES questions(id)
+          ON DELETE CASCADE;
+      END IF;
+    END $$;
+    """,
+    """
+    DO $$
+    BEGIN
+      IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conname = 'fk_question_feedback_question') THEN
+        ALTER TABLE question_feedback
+          ADD CONSTRAINT fk_question_feedback_question
+          FOREIGN KEY (question_id) REFERENCES questions(id)
+          ON DELETE CASCADE;
+      END IF;
+    END $$;
+    """,
+    """
+    DO $$
+    BEGIN
+      IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conname = 'fk_content_feedback_question') THEN
+        ALTER TABLE content_feedback
+          ADD CONSTRAINT fk_content_feedback_question
+          FOREIGN KEY (question_id) REFERENCES questions(id)
+          ON DELETE CASCADE;
+      END IF;
+    END $$;
+    """,
+    """
+    DO $$
+    BEGIN
+      IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conname = 'fk_extended_explanations_question') THEN
+        ALTER TABLE extended_explanations
+          ADD CONSTRAINT fk_extended_explanations_question
+          FOREIGN KEY (question_id) REFERENCES questions(id)
+          ON DELETE CASCADE;
+      END IF;
+    END $$;
+    """,
+    """
+    DO $$
+    BEGIN
+      IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conname = 'fk_visual_explanations_question') THEN
+        ALTER TABLE visual_explanations
+          ADD CONSTRAINT fk_visual_explanations_question
+          FOREIGN KEY (question_id) REFERENCES questions(id)
+          ON DELETE CASCADE;
+      END IF;
+    END $$;
+    """,
+    """
+    DO $$
+    BEGIN
+      IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conname = 'fk_question_topic_links_question') THEN
+        ALTER TABLE question_topic_links
+          ADD CONSTRAINT fk_question_topic_links_question
+          FOREIGN KEY (question_id) REFERENCES questions(id)
+          ON DELETE CASCADE;
+      END IF;
+    END $$;
+    """,
+    """
+    DO $$
+    BEGIN
+      IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conname = 'fk_user_sessions_current_card') THEN
+        ALTER TABLE user_sessions
+          ADD CONSTRAINT fk_user_sessions_current_card
+          FOREIGN KEY (current_card_id) REFERENCES questions(id)
+          ON DELETE SET NULL;
+      END IF;
+    END $$;
+    """,
 ]
 
 

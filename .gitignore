@@ -42,6 +42,9 @@ temp_merges/
 *.dump
 *.sqlite
 
+# Ad-hoc audit reports (keep local)
+reports/orphan_cleanup_*.json
+
 # OS / editor
 .DS_Store
 Thumbs.db
