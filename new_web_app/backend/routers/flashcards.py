@@ -44,27 +44,69 @@ class FlashcardGenerateResponse(BaseModel):
 
 def ensure_usage_table(conn) -> None:
     c = conn.cursor()
-    c.execute('''
-        CREATE TABLE IF NOT EXISTS flashcard_highlight_usage (
-            highlight_id INTEGER,
-            user_id INTEGER,
-            used_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-            PRIMARY KEY (highlight_id, user_id)
+    try:
+        from ..database import get_db_engine
+        engine = get_db_engine()
+    except Exception:
+        engine = "sqlite"
+
+    if engine == "postgres":
+        c.execute(
+            """
+            CREATE TABLE IF NOT EXISTS flashcard_highlight_usage (
+                highlight_id BIGINT,
+                user_id BIGINT,
+                used_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                PRIMARY KEY (highlight_id, user_id),
+                FOREIGN KEY (highlight_id) REFERENCES user_highlights (id),
+                FOREIGN KEY (user_id) REFERENCES users (id)
+            )
+            """
         )
-    ''')
+    else:
+        c.execute(
+            """
+            CREATE TABLE IF NOT EXISTS flashcard_highlight_usage (
+                highlight_id INTEGER,
+                user_id INTEGER,
+                used_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                PRIMARY KEY (highlight_id, user_id)
+            )
+            """
+        )
     conn.commit()
 
 def ensure_generation_table(conn) -> None:
     c = conn.cursor()
-    c.execute('''
-        CREATE TABLE IF NOT EXISTS flashcard_generation_runs (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            user_id INTEGER,
-            status TEXT,
-            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-            updated_at TIMESTAMP
+    # Keep SQLite and Postgres compatible.
+    try:
+        from ..database import get_db_engine
+        engine = get_db_engine()
+    except Exception:
+        engine = "sqlite"
+
+    if engine == "postgres":
+        c.execute(
+            """
+            CREATE TABLE IF NOT EXISTS flashcard_generation_runs (
+                id BIGSERIAL PRIMARY KEY,
+                user_id BIGINT,
+                status TEXT,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                updated_at TIMESTAMP
+            )
+            """
         )
-    ''')
+    else:
+        c.execute('''
+            CREATE TABLE IF NOT EXISTS flashcard_generation_runs (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                user_id INTEGER,
+                status TEXT,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                updated_at TIMESTAMP
+            )
+        ''')
     conn.commit()
 
 def get_unused_highlight_stats(user_id: int) -> Dict[str, int]:
@@ -136,7 +178,8 @@ def fetch_highlight_groups(user_id: int, limit: int) -> tuple[list, list]:
                q.question_text,
                q.explanation_data
         FROM user_highlights h
-        JOIN questions q ON h.question_id = q.id
+        -- LEFT JOIN to allow generating flashcards even if the original question was deleted.
+        LEFT JOIN questions q ON h.question_id = q.id
         LEFT JOIN flashcard_highlight_usage u
           ON u.highlight_id = h.id AND u.user_id = ?
         WHERE h.user_id = ? AND u.highlight_id IS NULL AND h.context_type = 'flashcard'
@@ -156,26 +199,30 @@ def fetch_highlight_groups(user_id: int, limit: int) -> tuple[list, list]:
 
     for row in rows:
         highlight_ids.append(row["highlight_id"])
-        # Parse explanation safely to extract text
-        expl_data = safe_json_parse(row["explanation_data"], {}) or {}
-        # You might want to format the explanation blocks into a readable string
-        # For now, let's just dump it or extract text if possible. 
-        # A simple dump is often enough for the LLM.
-        expl_text = json.dumps(expl_data, ensure_ascii=False)
+        # Optional question context (may be missing if the original question was deleted).
+        expl_text = ""
+        if row["explanation_data"]:
+            expl_data = safe_json_parse(row["explanation_data"], {}) or {}
+            expl_text = json.dumps(expl_data, ensure_ascii=False)
 
-        # Construct Rich Source Context
-        rich_source = f"""
-ORIGINAL SOURCE:
-{row['source_material']}
+        src = (row["source_material"] or "").strip()
+        qtext = (row["question_text"] or "").strip()
+        snippet = (row["context_snippet"] or "").strip()
 
----
-CONTEXT (QUESTION & EXPLANATION):
-Question: {row['question_text']}
+        rich_parts = []
+        if src:
+            rich_parts.append("ORIGINAL SOURCE:\n" + src)
+        if qtext or expl_text:
+            rich_parts.append(
+                "CONTEXT (QUESTION & EXPLANATION):\n"
+                f"Question: {qtext}\n\n"
+                f"Explanation:\n{expl_text}"
+            )
+        if not src and snippet:
+            # For orphan highlights, this is often the only available context.
+            rich_parts.append("CONTEXT SNIPPET:\n" + snippet)
+        rich_source = "\n\n---\n".join(rich_parts).strip()
 
-Explanation:
-{expl_text}
----
-"""
         group = groups.setdefault(row["question_id"], {
             "group_id": row["question_id"],
             "source_material": rich_source,
@@ -242,11 +289,20 @@ def run_flashcard_generation(user_id: int, limit: int, max_cards: int) -> Flashc
         logger.error("Flashcard generation client init failed: %s", exc)
         raise HTTPException(status_code=500, detail="DeepSeek client is not configured.")
 
-    cards = client.generate_flashcards_grouped(groups, max_cards=max_cards)
+    try:
+        cards = client.generate_flashcards_grouped(groups, max_cards=max_cards)
+    except ValueError as exc:
+        # E.g. auth failures (401/403). Provide a clear message; avoid leaking keys.
+        logger.error("Flashcard generation failed (DeepSeek): %s", exc)
+        raise HTTPException(status_code=500, detail="DeepSeek authentication failed. Check DEEPSEEK_API_KEY.")
+    except Exception as exc:
+        logger.error("Flashcard generation failed (DeepSeek): %s", exc)
+        raise HTTPException(status_code=500, detail="DeepSeek flashcard generation failed.")
+
     if not cards:
         return FlashcardGenerateResponse(
             created=0,
-            highlight_count=0,
+            highlight_count=len(highlight_ids),
             flashcard_ids=[],
         )
 
@@ -255,6 +311,19 @@ def run_flashcard_generation(user_id: int, limit: int, max_cards: int) -> Flashc
 
     for card in cards:
         group_id = card.get("group_id")
+        # Normalize group_id type: LLMs may emit it as a string.
+        if isinstance(group_id, str):
+            s = group_id.strip()
+            if s.isdigit():
+                group_id = int(s)
+            else:
+                try:
+                    group_id = int(float(s))
+                except Exception:
+                    group_id = None
+        elif isinstance(group_id, float):
+            group_id = int(group_id) if group_id.is_integer() else None
+
         question_text = (card.get("question_text") or "").strip()
         answer_text = (card.get("answer_text") or "").strip()
         if not group_id or not question_text or not answer_text:
@@ -295,7 +364,7 @@ def run_flashcard_generation(user_id: int, limit: int, max_cards: int) -> Flashc
         c = conn.cursor()
         now = datetime.now().isoformat()
         c.executemany(
-            "INSERT OR IGNORE INTO flashcard_highlight_usage (highlight_id, user_id, used_at) VALUES (?, ?, ?)",
+            "INSERT INTO flashcard_highlight_usage (highlight_id, user_id, used_at) VALUES (?, ?, ?) ON CONFLICT DO NOTHING",
             [(hid, user_id, now) for hid in highlight_ids],
         )
         conn.commit()
@@ -320,10 +389,16 @@ def maybe_trigger_flashcard_generation(user_id: int) -> None:
         ensure_generation_table(conn)
         c = conn.cursor()
         c.execute(
-            "INSERT INTO flashcard_generation_runs (user_id, status, created_at) VALUES (?, ?, ?)",
-            (user_id, "processing", datetime.now().isoformat())
+            "INSERT INTO flashcard_generation_runs (user_id, status, created_at) VALUES (?, ?, ?) RETURNING id",
+            (user_id, "processing", datetime.now().isoformat()),
         )
-        run_id = c.lastrowid
+        inserted = c.fetchone()
+        run_id = None
+        if inserted:
+            try:
+                run_id = int(inserted["id"])
+            except Exception:
+                run_id = int(inserted[0])
         conn.commit()
         conn.close()
 

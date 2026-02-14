@@ -2,7 +2,7 @@ from fastapi import APIRouter, HTTPException, Depends, Header
 from pydantic import BaseModel
 from typing import Optional
 from datetime import datetime, timedelta
-from ..database import get_next_card, update_card_stats
+from ..database import get_next_card, update_card_stats, ensure_user_sessions_schema
 from ..models import QuizCard, SubmitReviewRequest
 from ..helpers import calculate_sm2
 from ..database import get_db_connection
@@ -187,14 +187,13 @@ def get_session(user_id: int = Depends(get_user_id_from_token)):
 def save_session(state: SessionState, user_id: int = Depends(get_user_id_from_token)):
     conn = get_db_connection()
     c = conn.cursor()
-    
-    # Ensure columns exist (Migration on the fly)
+
+    # Ensure schema is up to date (legacy on-the-fly migration, now centralized).
     try:
-        c.execute("ALTER TABLE user_sessions ADD COLUMN active_source TEXT")
-    except: pass
-    try:
-        c.execute("ALTER TABLE user_sessions ADD COLUMN active_category TEXT")
-    except: pass
+        ensure_user_sessions_schema()
+    except Exception:
+        # Non-fatal: if schema is already correct or DB lacks privileges, proceed.
+        pass
     
     c.execute('''
         INSERT INTO user_sessions (user_id, active_page, active_topic, active_source, active_category, active_mode, current_card_id, last_updated)

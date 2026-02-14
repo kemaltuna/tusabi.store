@@ -1,0 +1,22 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: medquiz-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: medquiz
+      POSTGRES_PASSWORD: medquiz
+      POSTGRES_DB: medquiz
+    ports:
+      - "5432:5432"
+    volumes:
+      - medquiz_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U medquiz -d medquiz"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+volumes:
+  medquiz_postgres_data:
+

@@ -35,6 +35,8 @@ class DeepSeekClient:
         self.api_key = api_key or os.environ.get("DEEPSEEK_API_KEY")
         if not self.api_key:
             raise ValueError("DEEPSEEK_API_KEY not found. Please add it to your .env file.")
+        # Never log full keys.
+        self._api_key_last4 = self.api_key[-4:] if isinstance(self.api_key, str) and len(self.api_key) >= 4 else "????"
         
         # DeepSeek uses OpenAI Client with custom base URL
         self.client = OpenAI(
@@ -164,11 +166,22 @@ class DeepSeekClient:
                 time.sleep(random.uniform(2, 5))
                 
             except openai.APIStatusError as e:
-                 logging.error(f"⚠️ DeepSeek Status Error: {e.status_code} - {e.message}")
-                 if e.status_code >= 500:
-                     time.sleep(random.uniform(2, 5)) # Retry on server errors
+                 status_code = getattr(e, "status_code", None)
+                 # Typical for auth failures: 401/403. Do not silently swallow these.
+                 if status_code in (401, 403):
+                     logging.error(
+                         "⚠️ DeepSeek Authentication Error (%s). Key=...%s. Raw=%s",
+                         status_code,
+                         self._api_key_last4,
+                         str(e),
+                     )
+                     raise ValueError(f"DeepSeek authentication failed (key ...{self._api_key_last4}).")
+
+                 logging.error("⚠️ DeepSeek Status Error (%s): %s", status_code, str(e))
+                 if status_code and status_code >= 500:
+                     time.sleep(random.uniform(2, 5))  # Retry on server errors
                  else:
-                     return {} # Give up on 400s
+                     return {}  # Give up on other 4xx
             except Exception as e:
                 print(f"⚠️ DeepSeek Unexpected Error: {e}")
                 return {}

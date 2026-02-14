@@ -14,10 +14,40 @@ _BASE_DIR = Path(__file__).parent.parent.parent  # -> medical_quiz_app
 DB_PATH = str(_BASE_DIR / "shared" / "data" / "quiz_v2.db")
 LIBRARY_JSON_PATH = str(_BASE_DIR / "shared" / "data" / "medquiz_library.json")
 
+def get_db_engine() -> str:
+    """
+    Returns the active DB engine name used by the backend.
+
+    - "sqlite": default (uses shared/data/quiz_v2.db)
+    - "postgres": when MEDQUIZ_DB_URL (or DATABASE_URL) is a postgres DSN
+    """
+    dsn = os.getenv("MEDQUIZ_DB_URL") or os.getenv("DATABASE_URL") or ""
+    try:
+        from .db_compat import is_postgres_dsn
+        return "postgres" if is_postgres_dsn(dsn) else "sqlite"
+    except Exception:
+        return "sqlite"
+
 def get_db_connection():
+    dsn = os.getenv("MEDQUIZ_DB_URL") or os.getenv("DATABASE_URL")
+    try:
+        from .db_compat import is_postgres_dsn, PostgresCompatConnection
+    except Exception:
+        is_postgres_dsn = None
+        PostgresCompatConnection = None
+
+    if dsn and is_postgres_dsn and PostgresCompatConnection and is_postgres_dsn(dsn):
+        # Postgres connection (psycopg). Keep rows dict-like for existing call sites.
+        import psycopg
+        from .db_compat import compat_row_factory
+
+        raw = psycopg.connect(dsn, row_factory=compat_row_factory)
+        return PostgresCompatConnection(raw)
+
+    # SQLite fallback (default)
     if not os.path.exists(os.path.dirname(DB_PATH)):
         os.makedirs(os.path.dirname(DB_PATH), exist_ok=True)
-    
+
     conn = sqlite3.connect(DB_PATH, timeout=30, check_same_thread=False)
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA journal_mode=WAL")
@@ -29,15 +59,28 @@ def ensure_concept_embeddings_table():
     """Ensures that the concept_embeddings table exists."""
     conn = get_db_connection()
     c = conn.cursor()
-    c.execute('''
-        CREATE TABLE IF NOT EXISTS concept_embeddings (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            topic TEXT NOT NULL,
-            concept_text TEXT NOT NULL,
-            embedding_json TEXT NOT NULL,
-            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    if get_db_engine() == "postgres":
+        c.execute(
+            """
+            CREATE TABLE IF NOT EXISTS concept_embeddings (
+                id BIGSERIAL PRIMARY KEY,
+                topic TEXT NOT NULL,
+                concept_text TEXT NOT NULL,
+                embedding_json TEXT NOT NULL,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+            """
         )
-    ''')
+    else:
+        c.execute('''
+            CREATE TABLE IF NOT EXISTS concept_embeddings (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                topic TEXT NOT NULL,
+                concept_text TEXT NOT NULL,
+                embedding_json TEXT NOT NULL,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+        ''')
     # Index for faster lookup by topic
     c.execute('CREATE INDEX IF NOT EXISTS idx_embeddings_topic ON concept_embeddings (topic)')
     conn.commit()
@@ -48,17 +91,67 @@ def ensure_highlight_context_schema():
     conn = get_db_connection()
     try:
         c = conn.cursor()
-        c.execute("PRAGMA table_info(user_highlights)")
         columns = set()
-        for row in c.fetchall():
-            try:
-                columns.add(row["name"])
-            except Exception:
-                columns.add(row[1])
+        if get_db_engine() == "postgres":
+            c.execute(
+                """
+                SELECT column_name
+                FROM information_schema.columns
+                WHERE table_schema = 'public' AND table_name = 'user_highlights'
+                """
+            )
+            for row in c.fetchall() or []:
+                # psycopg dict_row returns dicts
+                if isinstance(row, dict):
+                    columns.add(row.get("column_name"))
+                else:
+                    columns.add(row[0])
+        else:
+            c.execute("PRAGMA table_info(user_highlights)")
+            for row in c.fetchall():
+                try:
+                    columns.add(row["name"])
+                except Exception:
+                    columns.add(row[1])
         if "context_snippet" not in columns:
             c.execute("ALTER TABLE user_highlights ADD COLUMN context_snippet TEXT")
         if "context_meta" not in columns:
             c.execute("ALTER TABLE user_highlights ADD COLUMN context_meta TEXT")
+        conn.commit()
+    finally:
+        conn.close()
+
+def ensure_user_sessions_schema() -> None:
+    """Ensure user_sessions has active_source and active_category columns (legacy on-the-fly migration)."""
+    conn = get_db_connection()
+    try:
+        c = conn.cursor()
+        columns = set()
+        if get_db_engine() == "postgres":
+            c.execute(
+                """
+                SELECT column_name
+                FROM information_schema.columns
+                WHERE table_schema = 'public' AND table_name = 'user_sessions'
+                """
+            )
+            for row in c.fetchall() or []:
+                if isinstance(row, dict):
+                    columns.add(row.get("column_name"))
+                else:
+                    columns.add(row[0])
+        else:
+            c.execute("PRAGMA table_info(user_sessions)")
+            for row in c.fetchall() or []:
+                try:
+                    columns.add(row["name"])
+                except Exception:
+                    columns.add(row[1])
+
+        if "active_source" not in columns:
+            c.execute("ALTER TABLE user_sessions ADD COLUMN active_source TEXT")
+        if "active_category" not in columns:
+            c.execute("ALTER TABLE user_sessions ADD COLUMN active_category TEXT")
         conn.commit()
     finally:
         conn.close()
@@ -68,16 +161,32 @@ def ensure_question_topic_links_table():
     conn = get_db_connection()
     try:
         c = conn.cursor()
-        c.execute('''
-            CREATE TABLE IF NOT EXISTS question_topic_links (
-                question_id INTEGER NOT NULL,
-                source_material TEXT,
-                category TEXT,
-                topic TEXT NOT NULL,
-                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                PRIMARY KEY (question_id, topic)
+        if get_db_engine() == "postgres":
+            c.execute(
+                """
+                CREATE TABLE IF NOT EXISTS question_topic_links (
+                    question_id BIGINT NOT NULL,
+                    source_material TEXT,
+                    category TEXT,
+                    topic TEXT NOT NULL,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    PRIMARY KEY (question_id, topic)
+                )
+                """
             )
-        ''')
+        else:
+            c.execute(
+                """
+                CREATE TABLE IF NOT EXISTS question_topic_links (
+                    question_id INTEGER NOT NULL,
+                    source_material TEXT,
+                    category TEXT,
+                    topic TEXT NOT NULL,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    PRIMARY KEY (question_id, topic)
+                )
+                """
+            )
         c.execute(
             "CREATE INDEX IF NOT EXISTS idx_qtl_scope_topic "
             "ON question_topic_links (source_material, category, topic, question_id)"
@@ -227,9 +336,10 @@ def link_question_to_topics(
         for topic in clean_topics:
             c.execute(
                 '''
-                INSERT OR IGNORE INTO question_topic_links
+                INSERT INTO question_topic_links
                 (question_id, source_material, category, topic)
                 VALUES (?, ?, ?, ?)
+                ON CONFLICT DO NOTHING
                 ''',
                 (question_id, source_material, category, topic)
             )
@@ -931,7 +1041,7 @@ def add_question(data: Dict[str, Any]) -> Optional[int]:
                     f"(matched id {match_id})."
                 )
                 conn.close()
-                return match_id
+                return None
 
         # QA Tag Generation Removed to prevent UI clutter
         # We now compute signatures dynamically during retrieval.
@@ -957,12 +1067,13 @@ def add_question(data: Dict[str, Any]) -> Optional[int]:
                     f"(matched id {match_id})."
                 )
                 conn.close()
-                return match_id
+                return None
         
         # Insert Question
         c.execute('''
             INSERT INTO questions (source_material, category, topic, question_text, options, correct_answer_index, explanation_data, tags)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+            RETURNING id
         ''', (
             source_material,
             category,
@@ -974,7 +1085,13 @@ def add_question(data: Dict[str, Any]) -> Optional[int]:
             json.dumps(data.get("tags"))
         ))
         
-        question_id = c.lastrowid
+        inserted = c.fetchone()
+        question_id = None
+        if inserted:
+            try:
+                question_id = int(inserted["id"])
+            except Exception:
+                question_id = int(inserted[0])
 
         topic_links = _dedupe_topics(data.get("topic_links"))
         normalized_topic_clean = _normalize_topic_value(normalized_topic)
@@ -1209,16 +1326,30 @@ def ensure_prompt_templates_table():
     conn = get_db_connection()
     try:
         c = conn.cursor()
-        c.execute('''
-            CREATE TABLE IF NOT EXISTS prompt_templates (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                name TEXT NOT NULL,
-                sections TEXT NOT NULL,
-                is_default INTEGER DEFAULT 0,
-                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        if get_db_engine() == "postgres":
+            c.execute(
+                """
+                CREATE TABLE IF NOT EXISTS prompt_templates (
+                    id BIGSERIAL PRIMARY KEY,
+                    name TEXT NOT NULL,
+                    sections TEXT NOT NULL,
+                    is_default INTEGER DEFAULT 0,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                )
+                """
             )
-        ''')
+        else:
+            c.execute('''
+                CREATE TABLE IF NOT EXISTS prompt_templates (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    name TEXT NOT NULL,
+                    sections TEXT NOT NULL,
+                    is_default INTEGER DEFAULT 0,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                )
+            ''')
         conn.commit()
     finally:
         conn.close()
@@ -1257,11 +1388,17 @@ def save_prompt_template(name: str, sections: dict, is_default: bool = False) ->
         if is_default:
             c.execute("UPDATE prompt_templates SET is_default = 0")
         c.execute(
-            "INSERT INTO prompt_templates (name, sections, is_default, created_at, updated_at) VALUES (?, ?, ?, ?, ?)",
+            "INSERT INTO prompt_templates (name, sections, is_default, created_at, updated_at) VALUES (?, ?, ?, ?, ?) RETURNING id",
             (name, json.dumps(sections, ensure_ascii=False), int(is_default), now, now),
         )
+        row = c.fetchone()
         conn.commit()
-        return c.lastrowid
+        if not row:
+            return 0
+        try:
+            return int(row["id"])
+        except Exception:
+            return int(row[0])
     finally:
         conn.close()
 
@@ -1305,15 +1442,28 @@ def ensure_section_favorites_table():
     conn = get_db_connection()
     try:
         c = conn.cursor()
-        c.execute('''
-            CREATE TABLE IF NOT EXISTS section_favorites (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                section_key TEXT NOT NULL,
-                name TEXT NOT NULL,
-                content TEXT NOT NULL,
-                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        if get_db_engine() == "postgres":
+            c.execute(
+                """
+                CREATE TABLE IF NOT EXISTS section_favorites (
+                    id BIGSERIAL PRIMARY KEY,
+                    section_key TEXT NOT NULL,
+                    name TEXT NOT NULL,
+                    content TEXT NOT NULL,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                )
+                """
             )
-        ''')
+        else:
+            c.execute('''
+                CREATE TABLE IF NOT EXISTS section_favorites (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    section_key TEXT NOT NULL,
+                    name TEXT NOT NULL,
+                    content TEXT NOT NULL,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                )
+            ''')
         conn.commit()
     finally:
         conn.close()
@@ -1341,10 +1491,18 @@ def save_section_favorite(section_key: str, name: str, content: str) -> int:
     conn = get_db_connection()
     try:
         c = conn.cursor()
-        c.execute("INSERT INTO section_favorites (section_key, name, content, created_at) VALUES (?, ?, ?, ?)",
-                  (section_key, name, content, datetime.now()))
+        c.execute(
+            "INSERT INTO section_favorites (section_key, name, content, created_at) VALUES (?, ?, ?, ?) RETURNING id",
+            (section_key, name, content, datetime.now()),
+        )
+        row = c.fetchone()
         conn.commit()
-        return c.lastrowid
+        if not row:
+            return 0
+        try:
+            return int(row["id"])
+        except Exception:
+            return int(row[0])
     finally:
         conn.close()
 
@@ -1369,16 +1527,30 @@ def ensure_difficulty_templates_table():
     conn = get_db_connection()
     try:
         c = conn.cursor()
-        c.execute('''
-            CREATE TABLE IF NOT EXISTS difficulty_templates (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                name TEXT NOT NULL,
-                levels TEXT NOT NULL,
-                is_default INTEGER DEFAULT 0,
-                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        if get_db_engine() == "postgres":
+            c.execute(
+                """
+                CREATE TABLE IF NOT EXISTS difficulty_templates (
+                    id BIGSERIAL PRIMARY KEY,
+                    name TEXT NOT NULL,
+                    levels TEXT NOT NULL,
+                    is_default INTEGER DEFAULT 0,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                )
+                """
             )
-        ''')
+        else:
+            c.execute('''
+                CREATE TABLE IF NOT EXISTS difficulty_templates (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    name TEXT NOT NULL,
+                    levels TEXT NOT NULL,
+                    is_default INTEGER DEFAULT 0,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                )
+            ''')
         conn.commit()
     finally:
         conn.close()
@@ -1417,11 +1589,17 @@ def save_difficulty_template(name: str, levels: dict, is_default: bool = False) 
         if is_default:
             c.execute("UPDATE difficulty_templates SET is_default = 0")
         c.execute(
-            "INSERT INTO difficulty_templates (name, levels, is_default, created_at, updated_at) VALUES (?, ?, ?, ?, ?)",
+            "INSERT INTO difficulty_templates (name, levels, is_default, created_at, updated_at) VALUES (?, ?, ?, ?, ?) RETURNING id",
             (name, json.dumps(levels, ensure_ascii=False), int(is_default), now, now),
         )
+        row = c.fetchone()
         conn.commit()
-        return c.lastrowid
+        if not row:
+            return 0
+        try:
+            return int(row["id"])
+        except Exception:
+            return int(row[0])
     finally:
         conn.close()
 

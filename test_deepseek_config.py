@@ -5,6 +5,13 @@ from new_web_app.core.deepseek_client import DeepSeekClient
 
 print("🧪 Testing DeepSeek Model Config...")
 try:
+    # Ensure local .env is loaded for CLI runs.
+    try:
+        from dotenv import load_dotenv
+        load_dotenv()
+    except Exception:
+        pass
+
     api_key = os.environ.get("DEEPSEEK_API_KEY")
     if not api_key or "your_key_here" in api_key:
         print("❌ DEEPSEEK_API_KEY is missing or invalid in .env")
@@ -23,7 +30,11 @@ try:
         model="deepseek-chat"
     )
     print(f"   🎉 Response: {response}")
-    
+
+    if not response:
+        print("❌ DeepSeek test call returned empty JSON. This usually indicates an auth/permission issue.")
+        exit(2)
+
     print("✅ DeepSeek Configuration Verified!")
     
 except Exception as e:

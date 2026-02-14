@@ -37,9 +37,13 @@ def test_parallel_execution():
     
     print(f"🎯 Using Topic: {topic}")
     
-    c.execute("INSERT INTO generation_jobs (topic, source_material, status, questions_generated, created_at) VALUES (?, ?, 'pending', 0, ?)", 
-              (topic, "Test Source", datetime.now().isoformat()))
-    job_id = c.lastrowid
+    c.execute(
+        "INSERT INTO generation_jobs (topic, source_material, status, questions_generated, created_at) "
+        "VALUES (?, ?, 'pending', 0, ?) RETURNING id",
+        (topic, "Test Source", datetime.now().isoformat()),
+    )
+    inserted = c.fetchone()
+    job_id = int(inserted["id"]) if inserted else None
     conn.commit()
     conn.close()
     

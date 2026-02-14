@@ -9,6 +9,7 @@ from pathlib import Path
 from typing import Any, Optional
 
 from .database import get_db_connection
+from .database import get_db_engine
 
 logger = logging.getLogger(__name__)
 
@@ -91,17 +92,32 @@ class JobWorker:
         try:
             c = conn.cursor()
             while True:
-                # Atomic claim: lock DB for write while selecting+updating.
-                c.execute("BEGIN IMMEDIATE")
-                c.execute(
-                    """
-                    SELECT id, type, payload, attempts, max_attempts
-                    FROM background_jobs
-                    WHERE status = 'pending'
-                    ORDER BY created_at ASC, id ASC
-                    LIMIT 1
-                    """
-                )
+                engine = get_db_engine()
+                if engine == "postgres":
+                    # In Postgres we rely on row-level locking + SKIP LOCKED.
+                    c.execute("BEGIN")
+                    c.execute(
+                        """
+                        SELECT id, type, payload, attempts, max_attempts
+                        FROM background_jobs
+                        WHERE status = 'pending'
+                        ORDER BY created_at ASC, id ASC
+                        LIMIT 1
+                        FOR UPDATE SKIP LOCKED
+                        """
+                    )
+                else:
+                    # SQLite: lock DB for write while selecting+updating.
+                    c.execute("BEGIN IMMEDIATE")
+                    c.execute(
+                        """
+                        SELECT id, type, payload, attempts, max_attempts
+                        FROM background_jobs
+                        WHERE status = 'pending'
+                        ORDER BY created_at ASC, id ASC
+                        LIMIT 1
+                        """
+                    )
                 row = c.fetchone()
                 if not row:
                     conn.commit()

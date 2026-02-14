@@ -72,10 +72,11 @@ def seed_direct_topic_links(conn: sqlite3.Connection) -> int:
     c = conn.cursor()
     c.execute(
         """
-        INSERT OR IGNORE INTO question_topic_links (question_id, source_material, category, topic)
+        INSERT INTO question_topic_links (question_id, source_material, category, topic)
         SELECT id, source_material, category, TRIM(topic)
         FROM questions
         WHERE topic IS NOT NULL AND TRIM(topic) != ''
+        ON CONFLICT DO NOTHING
         """
     )
     return c.rowcount if c.rowcount and c.rowcount > 0 else 0
@@ -175,9 +176,10 @@ def expand_merged_topic_links(conn: sqlite3.Connection) -> tuple[int, int]:
             for topic in topic_list:
                 c.execute(
                     """
-                    INSERT OR IGNORE INTO question_topic_links
+                    INSERT INTO question_topic_links
                     (question_id, source_material, category, topic)
                     VALUES (?, ?, ?, ?)
+                    ON CONFLICT DO NOTHING
                     """,
                     (question_id, source, category, topic)
                 )
@@ -224,4 +226,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

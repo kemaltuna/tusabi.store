@@ -103,10 +103,16 @@ async def register(user_data: UserCreate):
     
     # Create user
     c.execute(
-        "INSERT INTO users (username, password_hash, role) VALUES (?, ?, ?)",
-        (user_data.username, hash_password(user_data.password), "user")
+        "INSERT INTO users (username, password_hash, role) VALUES (?, ?, ?) RETURNING id",
+        (user_data.username, hash_password(user_data.password), "user"),
     )
-    user_id = c.lastrowid
+    inserted = c.fetchone()
+    user_id = None
+    if inserted:
+        try:
+            user_id = int(inserted["id"])
+        except Exception:
+            user_id = int(inserted[0])
     conn.commit()
     conn.close()
     

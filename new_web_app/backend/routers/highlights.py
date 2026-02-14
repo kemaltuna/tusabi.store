@@ -62,6 +62,7 @@ async def create_highlight(
     c.execute("""
         INSERT INTO user_highlights (user_id, question_id, text_content, context_type, word_index, context_snippet, context_meta, created_at)
         VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        RETURNING id
     """, (
         current_user.user_id,
         data.question_id,
@@ -72,8 +73,14 @@ async def create_highlight(
         json.dumps(data.context_meta) if data.context_meta else None,
         datetime.now().isoformat()
     ))
-    
-    highlight_id = c.lastrowid
+
+    inserted = c.fetchone()
+    highlight_id = None
+    if inserted:
+        try:
+            highlight_id = int(inserted["id"])
+        except Exception:
+            highlight_id = int(inserted[0])
     conn.commit()
     conn.close()
 

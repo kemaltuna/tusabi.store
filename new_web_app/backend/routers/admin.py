@@ -143,10 +143,16 @@ async def trigger_generation(
     conn = get_db_connection()
     c = conn.cursor()
     c.execute(
-        "INSERT INTO background_jobs (type, status, payload, created_at, updated_at) VALUES (?, ?, ?, ?, ?)",
-        ("generation_batch", "pending", json.dumps(payload), datetime.now(), datetime.now())
+        "INSERT INTO background_jobs (type, status, payload, created_at, updated_at) VALUES (?, ?, ?, ?, ?) RETURNING id",
+        ("generation_batch", "pending", json.dumps(payload), datetime.now(), datetime.now()),
     )
-    job_id = c.lastrowid
+    inserted = c.fetchone()
+    job_id = None
+    if inserted:
+        try:
+            job_id = int(inserted["id"])
+        except Exception:
+            job_id = int(inserted[0])
     conn.commit()
     conn.close()
     
@@ -350,10 +356,16 @@ async def auto_chunk_generate(
             }
 
             c.execute(
-                "INSERT INTO background_jobs (type, status, payload, created_at, updated_at) VALUES (?, ?, ?, ?, ?)",
-                ("generation_batch", "pending", json.dumps(payload), datetime.now(), datetime.now())
+                "INSERT INTO background_jobs (type, status, payload, created_at, updated_at) VALUES (?, ?, ?, ?, ?) RETURNING id",
+                ("generation_batch", "pending", json.dumps(payload), datetime.now(), datetime.now()),
             )
-            job_id = c.lastrowid
+            inserted = c.fetchone()
+            job_id = None
+            if inserted:
+                try:
+                    job_id = int(inserted["id"])
+                except Exception:
+                    job_id = int(inserted[0])
             chunk_job_ids.append(job_id)
             total_jobs += 1
 
