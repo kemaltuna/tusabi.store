@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from .database import get_db_connection
+from .database import get_db_connection, get_db_engine
 from .routers import quiz, library, auth, highlights, admin, pdfs, flashcards
 from fastapi.middleware.gzip import GZipMiddleware
 
@@ -78,4 +78,4 @@ def health_check():
     except Exception as e:
         db_status = f"error: {str(e)}"
         
-    return {"status": "healthy", "database": db_status}
+    return {"status": "healthy", "database": db_status, "db_engine": get_db_engine()}
