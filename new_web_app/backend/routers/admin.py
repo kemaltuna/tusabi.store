@@ -572,15 +572,32 @@ class JobResponse(BaseModel):
 @router.get("/jobs", response_model=List[JobResponse])
 async def list_jobs(limit: int = 20, current_user: TokenData = Depends(require_admin)):
     """List recent background generation jobs."""
+    from ..database import get_db_engine
     conn = get_db_connection()
     c = conn.cursor()
     
     # Check if table exists (in case running against old DB or during migration)
     try:
-        c.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='background_jobs'")
-        if not c.fetchone():
-            conn.close()
-            return []
+        engine = get_db_engine()
+        if engine == "postgres":
+            # Postgres: to_regclass returns NULL if the table doesn't exist.
+            c.execute("SELECT to_regclass('public.background_jobs')")
+            row = c.fetchone()
+            exists = False
+            if row:
+                # Row may be dict-like (compat) or tuple.
+                if isinstance(row, dict):
+                    exists = bool(next(iter(row.values()), None))
+                else:
+                    exists = bool(row[0])
+            if not exists:
+                conn.close()
+                return []
+        else:
+            c.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='background_jobs'")
+            if not c.fetchone():
+                conn.close()
+                return []
             
         c.execute("""
             SELECT id, status, payload, progress, total_items, generated_count, created_at, updated_at, error_message

@@ -239,6 +239,27 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--admin-username", default="admin")
     parser.add_argument("--difficulty", type=int, default=1)
     parser.add_argument("--batch-size", type=int, default=8)
+    parser.add_argument(
+        "--sources",
+        default="",
+        help="Comma-separated source_material filter (e.g. Dahiliye,Pediatri). When set, queues only for these lessons.",
+    )
+    parser.add_argument(
+        "--additional-total",
+        type=int,
+        default=0,
+        help="Queue exactly this many additional questions (capacity) according to distribution weights, instead of filling to --min-total.",
+    )
+    parser.add_argument(
+        "--prompt-template-name",
+        default="",
+        help="Optional prompt template name (e.g. Debahir). Defaults to the template marked is_default=1.",
+    )
+    parser.add_argument(
+        "--difficulty-template-name",
+        default="",
+        help="Optional difficulty template name (e.g. varsayılan1). Defaults to the template marked is_default=1.",
+    )
     parser.add_argument("--page-threshold", type=int, default=20)
     parser.add_argument("--target-pages", type=int, default=20)
     parser.add_argument(
@@ -413,13 +434,14 @@ def build_plans(
     page_threshold: int,
     target_pages: int,
     auto_target_pages: list[int],
+    distribution_items: list[DistItem],
 ) -> tuple[list[SegmentPlan], dict[str, Any]]:
     unresolved: list[dict[str, str]] = []
     weight_by_segment: dict[tuple[str, str], float] = defaultdict(float)
     segment_topics: dict[tuple[str, str], list[str]] = defaultdict(list)
     inferred_topics: dict[tuple[str, str], list[str]] = defaultdict(list)
 
-    for item in DISTRIBUTION_ITEMS:
+    for item in distribution_items:
         missing_segments = [segment for segment in item.segments if segment not in segment_index.get(item.source, {})]
         if missing_segments:
             unresolved.append(
@@ -522,6 +544,215 @@ def build_plans(
     return plans, aggregate
 
 
+def _allocate_additional_rounds(
+    *,
+    weight_by_segment: dict[tuple[str, str], float],
+    unit_jobs_by_segment: dict[tuple[str, str], int],
+    total_job_units: int,
+) -> dict[tuple[str, str], int]:
+    total_weight = sum(weight_by_segment.values())
+    if total_weight <= 0:
+        raise RuntimeError("Total distribution weight is zero.")
+    if total_job_units <= 0:
+        return {k: 0 for k in weight_by_segment.keys()}
+
+    keys = sorted(weight_by_segment.keys())
+    ideal_units = {k: (weight_by_segment[k] / total_weight) * total_job_units for k in keys}
+
+    rounds: dict[tuple[str, str], int] = {}
+    allocated_units: dict[tuple[str, str], int] = {}
+    allocated_total = 0
+
+    for k in keys:
+        unit = max(1, int(unit_jobs_by_segment.get(k, 1) or 1))
+        r = int(ideal_units[k] // unit)
+        rounds[k] = r
+        allocated_units[k] = r * unit
+        allocated_total += allocated_units[k]
+
+    remaining = total_job_units - allocated_total
+    while remaining > 0:
+        best_key = None
+        best_score = None
+        for k in keys:
+            unit = max(1, int(unit_jobs_by_segment.get(k, 1) or 1))
+            if unit > remaining:
+                continue
+            gap = ideal_units[k] - allocated_units.get(k, 0)
+            score = gap / unit
+            if best_key is None or score > best_score:
+                best_key = k
+                best_score = score
+
+        if best_key is None:
+            # Shouldn't happen if there is any unit=1 segment, but avoid infinite loops.
+            break
+
+        unit = max(1, int(unit_jobs_by_segment.get(best_key, 1) or 1))
+        rounds[best_key] = rounds.get(best_key, 0) + 1
+        allocated_units[best_key] = allocated_units.get(best_key, 0) + unit
+        remaining -= unit
+
+    return rounds
+
+
+def build_additional_plans(
+    *,
+    segment_index: dict[str, dict[str, dict[str, Any]]],
+    additional_total: int,
+    batch_size: int,
+    page_threshold: int,
+    target_pages: int,
+    auto_target_pages: list[int],
+    distribution_items: list[DistItem],
+) -> tuple[list[SegmentPlan], dict[str, Any]]:
+    unresolved: list[dict[str, str]] = []
+    weight_by_segment: dict[tuple[str, str], float] = defaultdict(float)
+    segment_topics: dict[tuple[str, str], list[str]] = defaultdict(list)
+    inferred_topics: dict[tuple[str, str], list[str]] = defaultdict(list)
+
+    for item in distribution_items:
+        missing_segments = [segment for segment in item.segments if segment not in segment_index.get(item.source, {})]
+        if missing_segments:
+            unresolved.append(
+                {
+                    "source": item.source,
+                    "topic": item.topic,
+                    "missing_segments": ", ".join(missing_segments),
+                }
+            )
+            continue
+
+        part_weight = item.weight / len(item.segments)
+        for segment_title in item.segments:
+            key = (item.source, segment_title)
+            weight_by_segment[key] += part_weight
+            segment_topics[key].append(item.topic)
+            if item.inferred:
+                inferred_topics[key].append(item.topic)
+
+    if unresolved:
+        message = "Distribution mapping has unresolved segments:\n" + json.dumps(unresolved, ensure_ascii=False, indent=2)
+        raise RuntimeError(message)
+
+    if additional_total <= 0:
+        raise RuntimeError("--additional-total must be > 0")
+    if batch_size <= 0:
+        raise RuntimeError("--batch-size must be > 0")
+
+    total_job_units = math.ceil(additional_total / batch_size)
+    total_capacity = total_job_units * batch_size
+
+    # Precompute chunk metadata per segment and the unit size in job-units (1 job=8 questions).
+    unit_jobs_by_segment: dict[tuple[str, str], int] = {}
+    chunk_meta: dict[tuple[str, str], dict[str, Any]] = {}
+
+    for (source, segment_title) in weight_by_segment.keys():
+        seg = segment_index[source][segment_title]
+        page_count = int(seg.get("page_count", 0) or 0)
+        sub_segments = seg.get("sub_segments") or []
+        has_chunk = page_count > page_threshold and len(sub_segments) > 0
+
+        if has_chunk:
+            selected_target_pages, chunks = choose_best_target_pages(
+                sub_segments=sub_segments,
+                candidates=auto_target_pages,
+                fallback_target=target_pages,
+            )
+            chunk_count = max(1, len(chunks))
+            chunk_page_sizes = _chunk_page_sizes(chunks)
+            unit_jobs = chunk_count
+        else:
+            selected_target_pages = None
+            chunk_count = 0
+            chunk_page_sizes = []
+            unit_jobs = 1
+
+        unit_jobs_by_segment[(source, segment_title)] = unit_jobs
+        chunk_meta[(source, segment_title)] = {
+            "has_chunk": has_chunk,
+            "chunk_count": chunk_count,
+            "chunk_target_pages": selected_target_pages,
+            "chunk_page_sizes": chunk_page_sizes,
+            "sub_segments": sub_segments,
+            "page_count": page_count,
+            "current": int(seg.get("question_count", 0) or 0),
+        }
+
+    rounds_by_segment = _allocate_additional_rounds(
+        weight_by_segment=weight_by_segment,
+        unit_jobs_by_segment=unit_jobs_by_segment,
+        total_job_units=total_job_units,
+    )
+
+    plans: list[SegmentPlan] = []
+    aggregate = {
+        "distribution_weight_total": sum(weight_by_segment.values()),
+        "additional_total_questions_requested": additional_total,
+        "additional_total_questions_capacity": total_capacity,
+        "additional_total_job_units": total_job_units,
+        "segments_in_plan": 0,
+        "total_deficit": 0,
+        "estimated_jobs": 0,
+        "inferred_topic_count": 0,
+        "chunk_target_usage": {},
+    }
+
+    for (source, segment_title), rounds in sorted(rounds_by_segment.items()):
+        rounds = int(rounds or 0)
+        if rounds <= 0:
+            continue
+
+        meta = chunk_meta[(source, segment_title)]
+        unit_jobs = int(unit_jobs_by_segment[(source, segment_title)] or 1)
+        deficit = rounds * unit_jobs * batch_size
+
+        has_chunk = bool(meta["has_chunk"])
+        if has_chunk:
+            chunk_count = int(meta["chunk_count"] or 1)
+            chunk_multiplier_rounds = rounds
+            direct_rounds = 0
+            estimated_jobs = rounds * chunk_count
+        else:
+            chunk_count = 0
+            chunk_multiplier_rounds = 0
+            direct_rounds = rounds
+            estimated_jobs = rounds
+
+        mapped = sorted(set(segment_topics[(source, segment_title)]))
+        inferred = sorted(set(inferred_topics[(source, segment_title)]))
+
+        plans.append(
+            SegmentPlan(
+                source=source,
+                segment_title=segment_title,
+                deficit=deficit,
+                target=int(meta["current"]) + deficit,
+                current=int(meta["current"]),
+                page_count=int(meta["page_count"]),
+                chunk_count=chunk_count,
+                direct_rounds=direct_rounds,
+                chunk_multiplier_rounds=chunk_multiplier_rounds,
+                chunk_target_pages=meta["chunk_target_pages"],
+                chunk_page_sizes=list(meta["chunk_page_sizes"] or []),
+                inferred_topics=inferred,
+                mapped_topics=mapped,
+                sub_segments=list(meta["sub_segments"] or []),
+            )
+        )
+
+        aggregate["segments_in_plan"] += 1
+        aggregate["total_deficit"] += deficit
+        aggregate["estimated_jobs"] += estimated_jobs
+        aggregate["inferred_topic_count"] += len(inferred)
+        if meta["chunk_target_pages"] is not None:
+            key = str(int(meta["chunk_target_pages"]))
+            aggregate["chunk_target_usage"][key] = int(aggregate["chunk_target_usage"].get(key, 0)) + 1
+
+    plans.sort(key=lambda p: (p.source, p.segment_title))
+    return plans, aggregate
+
+
 def split_rounds(total_rounds: int, per_call_cap: int) -> list[int]:
     rounds: list[int] = []
     remaining = total_rounds
@@ -546,6 +777,8 @@ def queue_jobs(
     plans: list[SegmentPlan],
     difficulty: int,
     batch_size: int,
+    custom_prompt_sections: dict[str, Any] | None,
+    custom_difficulty_levels: dict[str, Any] | None,
     max_multiplier_per_call: int,
     sleep_ms: int,
     max_requests: int,
@@ -577,6 +810,8 @@ def queue_jobs(
                     "all_topics": [plan.segment_title],
                     "main_header": plan.segment_title,
                     "source_pdfs_list": None,
+                    "custom_prompt_sections": custom_prompt_sections or None,
+                    "custom_difficulty_levels": custom_difficulty_levels or None,
                 }
                 try:
                     response = post_json(generate_url, headers, payload)
@@ -626,6 +861,8 @@ def queue_jobs(
                     "difficulty": difficulty,
                     "multiplier": multiplier,
                     "target_pages": int(plan.chunk_target_pages or 20),
+                    "custom_prompt_sections": custom_prompt_sections or None,
+                    "custom_difficulty_levels": custom_difficulty_levels or None,
                 }
                 try:
                     response = post_json(auto_chunk_url, headers, payload)
@@ -670,8 +907,13 @@ def print_plan_summary(plans: list[SegmentPlan], aggregate: dict[str, Any], batc
     direct_calls = sum(plan.direct_rounds for plan in plans)
     chunk_calls = sum(math.ceil(plan.chunk_multiplier_rounds / max_multiplier_per_call) for plan in plans)
     print(f"Segments in plan: {aggregate['segments_in_plan']}")
-    print(f"Existing total questions: {aggregate['existing_total_questions']}")
-    print(f"Desired total questions: {aggregate['desired_total_questions']}")
+    if "additional_total_questions_capacity" in aggregate:
+        print(f"Additional requested: {aggregate.get('additional_total_questions_requested')}")
+        print(f"Additional capacity (queued): {aggregate.get('additional_total_questions_capacity')}")
+        print(f"Additional job units: {aggregate.get('additional_total_job_units')}")
+    else:
+        print(f"Existing total questions: {aggregate['existing_total_questions']}")
+        print(f"Desired total questions: {aggregate['desired_total_questions']}")
     print(f"Total deficit: {aggregate['total_deficit']}")
     print(f"Estimated jobs: {aggregate['estimated_jobs']}")
     print(f"Estimated API calls: {direct_calls + chunk_calls} (direct={direct_calls}, auto_chunk={chunk_calls})")
@@ -703,7 +945,7 @@ def write_report(path: Path, payload: dict[str, Any]) -> None:
 
 def main() -> int:
     args = parse_args()
-    if not DB_PATH.exists():
+    if args.additional_total <= 0 and not DB_PATH.exists():
         print(f"Database not found: {DB_PATH}", file=sys.stderr)
         return 1
     if args.batch_size <= 0:
@@ -725,18 +967,35 @@ def main() -> int:
     if not auto_target_pages:
         auto_target_pages = [args.target_pages]
 
-    existing_total = get_existing_total_questions(DB_PATH)
+    sources_filter = {s.strip() for s in (args.sources or "").split(",") if s.strip()}
+    distribution_items = [item for item in DISTRIBUTION_ITEMS if not sources_filter or item.source in sources_filter]
+
+    existing_total = 0
+    if args.additional_total <= 0:
+        existing_total = get_existing_total_questions(DB_PATH)
     subjects = fetch_manifest_subjects(args.api_base)
     segment_index = build_segment_index(subjects)
-    plans, aggregate = build_plans(
-        segment_index=segment_index,
-        min_total=args.min_total,
-        existing_total=existing_total,
-        batch_size=args.batch_size,
-        page_threshold=args.page_threshold,
-        target_pages=args.target_pages,
-        auto_target_pages=auto_target_pages,
-    )
+    if args.additional_total > 0:
+        plans, aggregate = build_additional_plans(
+            segment_index=segment_index,
+            additional_total=args.additional_total,
+            batch_size=args.batch_size,
+            page_threshold=args.page_threshold,
+            target_pages=args.target_pages,
+            auto_target_pages=auto_target_pages,
+            distribution_items=distribution_items,
+        )
+    else:
+        plans, aggregate = build_plans(
+            segment_index=segment_index,
+            min_total=args.min_total,
+            existing_total=existing_total,
+            batch_size=args.batch_size,
+            page_threshold=args.page_threshold,
+            target_pages=args.target_pages,
+            auto_target_pages=auto_target_pages,
+            distribution_items=distribution_items,
+        )
 
     print_plan_summary(
         plans=plans,
@@ -754,6 +1013,10 @@ def main() -> int:
             "api_base": args.api_base,
             "difficulty": args.difficulty,
             "batch_size": args.batch_size,
+            "sources": sorted(sources_filter),
+            "additional_total": args.additional_total,
+            "prompt_template_name": args.prompt_template_name,
+            "difficulty_template_name": args.difficulty_template_name,
             "page_threshold": args.page_threshold,
             "target_pages": args.target_pages,
             "auto_target_pages": auto_target_pages,
@@ -795,12 +1058,52 @@ def main() -> int:
         user_id=args.admin_user_id,
         username=args.admin_username,
     )
+
+    headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
+
+    def _pick_by_name_or_default(items: list[dict[str, Any]], name: str) -> dict[str, Any] | None:
+        want = (name or "").strip().casefold()
+        if want:
+            for it in items or []:
+                if str(it.get("name", "")).strip().casefold() == want:
+                    return it
+        for it in items or []:
+            if it.get("is_default"):
+                return it
+        return (items or [None])[0]
+
+    def _fetch_templates() -> tuple[dict[str, Any] | None, dict[str, Any] | None]:
+        try:
+            pt = requests.get(
+                f"{args.api_base.rstrip('/')}/admin/prompt-templates",
+                headers=headers,
+                timeout=60,
+            ).json()
+        except Exception:
+            pt = []
+        try:
+            dtpl = requests.get(
+                f"{args.api_base.rstrip('/')}/admin/difficulty-templates",
+                headers=headers,
+                timeout=60,
+            ).json()
+        except Exception:
+            dtpl = []
+        pt_item = _pick_by_name_or_default(pt if isinstance(pt, list) else [], args.prompt_template_name)
+        dt_item = _pick_by_name_or_default(dtpl if isinstance(dtpl, list) else [], args.difficulty_template_name)
+        prompt_sections = pt_item.get("sections") if isinstance(pt_item, dict) else None
+        diff_levels = dt_item.get("levels") if isinstance(dt_item, dict) else None
+        return prompt_sections, diff_levels
+
+    custom_prompt_sections, custom_difficulty_levels = _fetch_templates()
     queue_result = queue_jobs(
         api_base=args.api_base,
         token=token,
         plans=plans,
         difficulty=args.difficulty,
         batch_size=args.batch_size,
+        custom_prompt_sections=custom_prompt_sections,
+        custom_difficulty_levels=custom_difficulty_levels,
         max_multiplier_per_call=args.max_multiplier_per_call,
         sleep_ms=args.sleep_ms,
         max_requests=args.max_requests,

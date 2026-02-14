@@ -1,0 +1,3510 @@
+{
+  "timestamp": "20260214_212639",
+  "params": {
+    "api_base": "http://127.0.0.1:8000",
+    "difficulty": 1,
+    "batch_size": 8,
+    "sources": [
+      "Dahiliye",
+      "Kadin_Dogum",
+      "Patoloji",
+      "Pediatri"
+    ],
+    "additional_total": 1000,
+    "prompt_template_name": "",
+    "difficulty_template_name": "",
+    "page_threshold": 20,
+    "target_pages": 20,
+    "auto_target_pages": [
+      10,
+      15,
+      20
+    ],
+    "max_multiplier_per_call": 6,
+    "min_total": 20008,
+    "execute": true,
+    "sleep_ms": 80,
+    "max_requests": 0
+  },
+  "aggregate": {
+    "distribution_weight_total": 4414.0,
+    "additional_total_questions_requested": 1000,
+    "additional_total_questions_capacity": 1000,
+    "additional_total_job_units": 125,
+    "segments_in_plan": 48,
+    "total_deficit": 1000,
+    "estimated_jobs": 125,
+    "inferred_topic_count": 22,
+    "chunk_target_usage": {
+      "10": 14,
+      "20": 9,
+      "15": 8
+    }
+  },
+  "segments": [
+    {
+      "source": "Dahiliye",
+      "segment_title": "Endokrinoloji",
+      "deficit": 40,
+      "target": 318,
+      "current": 278,
+      "page_count": 61,
+      "chunk_count": 5,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        12,
+        11,
+        9,
+        14,
+        15
+      ],
+      "mapped_topics": [
+        "Endokrinoloji"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Dahiliye",
+      "segment_title": "Gastroenteroloji",
+      "deficit": 24,
+      "target": 165,
+      "current": 141,
+      "page_count": 52,
+      "chunk_count": 3,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 20,
+      "chunk_page_sizes": [
+        20,
+        21,
+        11
+      ],
+      "mapped_topics": [
+        "Gastroenteroloji"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Dahiliye",
+      "segment_title": "Göğüs Hastalıkları",
+      "deficit": 64,
+      "target": 623,
+      "current": 559,
+      "page_count": 64,
+      "chunk_count": 4,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 2,
+      "chunk_target_pages": 15,
+      "chunk_page_sizes": [
+        15,
+        21,
+        13,
+        15
+      ],
+      "mapped_topics": [
+        "Enfeksiyon Hastalıkları",
+        "Göğüs Hastalıkları"
+      ],
+      "inferred_topics": [
+        "Enfeksiyon Hastalıkları"
+      ]
+    },
+    {
+      "source": "Dahiliye",
+      "segment_title": "Hematoloji",
+      "deficit": 24,
+      "target": 281,
+      "current": 257,
+      "page_count": 65,
+      "chunk_count": 3,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 20,
+      "chunk_page_sizes": [
+        24,
+        22,
+        19
+      ],
+      "mapped_topics": [
+        "Hematoloji"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Dahiliye",
+      "segment_title": "Hepatoloji",
+      "deficit": 24,
+      "target": 212,
+      "current": 188,
+      "page_count": 30,
+      "chunk_count": 3,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        12,
+        7,
+        11
+      ],
+      "mapped_topics": [
+        "Hepatoloji"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Dahiliye",
+      "segment_title": "Kardiyoloji",
+      "deficit": 40,
+      "target": 315,
+      "current": 275,
+      "page_count": 81,
+      "chunk_count": 5,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 20,
+      "chunk_page_sizes": [
+        19,
+        14,
+        20,
+        13,
+        15
+      ],
+      "mapped_topics": [
+        "Kardiyoloji"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Dahiliye",
+      "segment_title": "Nefroloji",
+      "deficit": 40,
+      "target": 272,
+      "current": 232,
+      "page_count": 45,
+      "chunk_count": 5,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        7,
+        10,
+        8,
+        8,
+        12
+      ],
+      "mapped_topics": [
+        "Nefroloji"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Dahiliye",
+      "segment_title": "Onkoloji",
+      "deficit": 16,
+      "target": 114,
+      "current": 98,
+      "page_count": 13,
+      "chunk_count": 0,
+      "direct_rounds": 2,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Onkoloji"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Dahiliye",
+      "segment_title": "Romatoloji",
+      "deficit": 32,
+      "target": 217,
+      "current": 185,
+      "page_count": 37,
+      "chunk_count": 4,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        12,
+        9,
+        7,
+        9
+      ],
+      "mapped_topics": [
+        "Romatoloji"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Kadin_Dogum",
+      "segment_title": "Jinekoloji ve Üreme Endokrinolojisi",
+      "deficit": 64,
+      "target": 632,
+      "current": 568,
+      "page_count": 140,
+      "chunk_count": 8,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 20,
+      "chunk_page_sizes": [
+        16,
+        19,
+        13,
+        20,
+        15,
+        23,
+        17,
+        17
+      ],
+      "mapped_topics": [
+        "Endokrinoloji",
+        "Jinekoloji"
+      ],
+      "inferred_topics": [
+        "Endokrinoloji",
+        "Jinekoloji"
+      ]
+    },
+    {
+      "source": "Kadin_Dogum",
+      "segment_title": "Jinekolojik Onkoloji",
+      "deficit": 32,
+      "target": 224,
+      "current": 192,
+      "page_count": 50,
+      "chunk_count": 4,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        8,
+        11,
+        8,
+        23
+      ],
+      "mapped_topics": [
+        "Onkoloji"
+      ],
+      "inferred_topics": [
+        "Onkoloji"
+      ]
+    },
+    {
+      "source": "Kadin_Dogum",
+      "segment_title": "Obstetri",
+      "deficit": 56,
+      "target": 501,
+      "current": 445,
+      "page_count": 124,
+      "chunk_count": 7,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 15,
+      "chunk_page_sizes": [
+        15,
+        16,
+        14,
+        20,
+        14,
+        22,
+        23
+      ],
+      "mapped_topics": [
+        "Obstetri"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "DAMAR HASTALIKLARI",
+      "deficit": 8,
+      "target": 64,
+      "current": 56,
+      "page_count": 9,
+      "chunk_count": 0,
+      "direct_rounds": 1,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Kardiyovasküler Sistem Patolojisi"
+      ],
+      "inferred_topics": [
+        "Kardiyovasküler Sistem Patolojisi"
+      ]
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "DERİ HASTALIKLARI",
+      "deficit": 8,
+      "target": 84,
+      "current": 76,
+      "page_count": 21,
+      "chunk_count": 1,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 20,
+      "chunk_page_sizes": [
+        21
+      ],
+      "mapped_topics": [
+        "Deri Hastalıkları"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "ENDOKRİN SİSTEM HASTALIKLARI",
+      "deficit": 16,
+      "target": 128,
+      "current": 112,
+      "page_count": 21,
+      "chunk_count": 2,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        9,
+        12
+      ],
+      "mapped_topics": [
+        "Endokrin Sistem Patolojisi"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "ERKEK GENİTAL SİSTEM",
+      "deficit": 8,
+      "target": 70,
+      "current": 62,
+      "page_count": 8,
+      "chunk_count": 0,
+      "direct_rounds": 1,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Erkek Genital Sistemi Patolojisi"
+      ],
+      "inferred_topics": [
+        "Erkek Genital Sistemi Patolojisi"
+      ]
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "HEMATOPOETİK SİSTEM HASTALIKLARI",
+      "deficit": 16,
+      "target": 136,
+      "current": 120,
+      "page_count": 28,
+      "chunk_count": 2,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        9,
+        19
+      ],
+      "mapped_topics": [
+        "Hematopoetik Sistem Hastalıkları"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "HEMODİNAMİK HASTALIKLAR",
+      "deficit": 8,
+      "target": 62,
+      "current": 54,
+      "page_count": 10,
+      "chunk_count": 0,
+      "direct_rounds": 1,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Hemodinamik Hastalıklar"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "HEPATOBİLİYER SİSTEM HASTALIKLARI",
+      "deficit": 8,
+      "target": 88,
+      "current": 80,
+      "page_count": 22,
+      "chunk_count": 1,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        22
+      ],
+      "mapped_topics": [
+        "Karaciğer Patolojileri",
+        "Safra Kesesi Patolojileri"
+      ],
+      "inferred_topics": [
+        "Karaciğer Patolojileri",
+        "Safra Kesesi Patolojileri"
+      ]
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "HÜCRE PATOLOJİSİ",
+      "deficit": 16,
+      "target": 150,
+      "current": 134,
+      "page_count": 11,
+      "chunk_count": 0,
+      "direct_rounds": 2,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Hücre"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "KADIN GENİTAL SİSTEM",
+      "deficit": 8,
+      "target": 106,
+      "current": 98,
+      "page_count": 18,
+      "chunk_count": 0,
+      "direct_rounds": 1,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Kadın Genital Sistemi Patolojisi"
+      ],
+      "inferred_topics": [
+        "Kadın Genital Sistemi Patolojisi"
+      ]
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "KALP HASTALIKLARI",
+      "deficit": 8,
+      "target": 68,
+      "current": 60,
+      "page_count": 12,
+      "chunk_count": 0,
+      "direct_rounds": 1,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Kardiyovasküler Sistem Patolojisi"
+      ],
+      "inferred_topics": [
+        "Kardiyovasküler Sistem Patolojisi"
+      ]
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "MEME HASTALIKLARI",
+      "deficit": 8,
+      "target": 80,
+      "current": 72,
+      "page_count": 11,
+      "chunk_count": 0,
+      "direct_rounds": 1,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Meme Hastalıkları"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "NEOPLAZİ",
+      "deficit": 16,
+      "target": 133,
+      "current": 117,
+      "page_count": 16,
+      "chunk_count": 0,
+      "direct_rounds": 2,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Neoplazi"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "ONARIM VE REJENERASYON",
+      "deficit": 8,
+      "target": 51,
+      "current": 43,
+      "page_count": 8,
+      "chunk_count": 0,
+      "direct_rounds": 1,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Onarım ve Yara İyileşmesi"
+      ],
+      "inferred_topics": [
+        "Onarım ve Yara İyileşmesi"
+      ]
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "SOLUNUM SİSTEMİ HASTALIKLARI",
+      "deficit": 16,
+      "target": 144,
+      "current": 128,
+      "page_count": 25,
+      "chunk_count": 2,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 15,
+      "chunk_page_sizes": [
+        13,
+        12
+      ],
+      "mapped_topics": [
+        "Solunum Sistemi Patolojisi"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "SİNDİRİM SİSTEMİ HASTALIKLARI",
+      "deficit": 16,
+      "target": 179,
+      "current": 163,
+      "page_count": 30,
+      "chunk_count": 2,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 15,
+      "chunk_page_sizes": [
+        15,
+        15
+      ],
+      "mapped_topics": [
+        "Gastrointestinal Sistem Patolojisi"
+      ],
+      "inferred_topics": [
+        "Gastrointestinal Sistem Patolojisi"
+      ]
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "SİNİR SİSTEMİ HASTALIKLARI",
+      "deficit": 16,
+      "target": 141,
+      "current": 125,
+      "page_count": 28,
+      "chunk_count": 2,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 15,
+      "chunk_page_sizes": [
+        15,
+        13
+      ],
+      "mapped_topics": [
+        "Sinir Sistemi Patolojisi"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "ÜRİNER SİSTEM HASTALIKLARI",
+      "deficit": 16,
+      "target": 130,
+      "current": 114,
+      "page_count": 22,
+      "chunk_count": 2,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 15,
+      "chunk_page_sizes": [
+        13,
+        9
+      ],
+      "mapped_topics": [
+        "Üriner Sistem Patolojisi"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "İMMÜN SİSTEM HASTALIKLARI",
+      "deficit": 16,
+      "target": 133,
+      "current": 117,
+      "page_count": 16,
+      "chunk_count": 0,
+      "direct_rounds": 2,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "İmmun Sistem"
+      ],
+      "inferred_topics": [
+        "İmmun Sistem"
+      ]
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "İNFLAMASYON",
+      "deficit": 8,
+      "target": 78,
+      "current": 70,
+      "page_count": 17,
+      "chunk_count": 0,
+      "direct_rounds": 1,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "İnflamasyon"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "İSKELET SİSTEMİ HASTALIKLARI",
+      "deficit": 24,
+      "target": 157,
+      "current": 133,
+      "page_count": 34,
+      "chunk_count": 3,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        16,
+        6,
+        12
+      ],
+      "mapped_topics": [
+        "Kas-İskelet Sistemi Patolojisi"
+      ],
+      "inferred_topics": [
+        "Kas-İskelet Sistemi Patolojisi"
+      ]
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "ACİL VE YOĞUN BAKIM",
+      "deficit": 8,
+      "target": 48,
+      "current": 40,
+      "page_count": 14,
+      "chunk_count": 0,
+      "direct_rounds": 1,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Pediatrik Acil, Yoğun Bakım ve Zehirlenmeler"
+      ],
+      "inferred_topics": [
+        "Pediatrik Acil, Yoğun Bakım ve Zehirlenmeler"
+      ]
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "ADÖLESAN",
+      "deficit": 8,
+      "target": 48,
+      "current": 40,
+      "page_count": 9,
+      "chunk_count": 0,
+      "direct_rounds": 1,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Sosyal Pediatri ve Adölesan Hastalıkları"
+      ],
+      "inferred_topics": [
+        "Sosyal Pediatri ve Adölesan Hastalıkları"
+      ]
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Beslenme ve Malnütrisyon",
+      "deficit": 16,
+      "target": 120,
+      "current": 104,
+      "page_count": 21,
+      "chunk_count": 1,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 2,
+      "chunk_target_pages": 20,
+      "chunk_page_sizes": [
+        21
+      ],
+      "mapped_topics": [
+        "Beslenme ve Malnutrisyon"
+      ],
+      "inferred_topics": [
+        "Beslenme ve Malnutrisyon"
+      ]
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Büyüme ve Gelişme",
+      "deficit": 8,
+      "target": 56,
+      "current": 48,
+      "page_count": 13,
+      "chunk_count": 0,
+      "direct_rounds": 1,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Büyüme ve Gelişme"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Döküntülü Hastalıklar ve Bağışıklama",
+      "deficit": 16,
+      "target": 167,
+      "current": 151,
+      "page_count": 26,
+      "chunk_count": 1,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 2,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        26
+      ],
+      "mapped_topics": [
+        "Döküntülü Hastalıklar ve Bağışıklama"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Genetik",
+      "deficit": 8,
+      "target": 106,
+      "current": 98,
+      "page_count": 16,
+      "chunk_count": 0,
+      "direct_rounds": 1,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Pediatrik Genetik Hastalıklar"
+      ],
+      "inferred_topics": [
+        "Pediatrik Genetik Hastalıklar"
+      ]
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Metabolik Hastalıklar",
+      "deficit": 24,
+      "target": 191,
+      "current": 167,
+      "page_count": 32,
+      "chunk_count": 3,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        10,
+        9,
+        10
+      ],
+      "mapped_topics": [
+        "Pediatrik Metabolik Hastalıklar"
+      ],
+      "inferred_topics": [
+        "Pediatrik Metabolik Hastalıklar"
+      ]
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Pediatrik Alerji-İmmünoloji",
+      "deficit": 32,
+      "target": 221,
+      "current": 189,
+      "page_count": 45,
+      "chunk_count": 4,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        8,
+        11,
+        13,
+        11
+      ],
+      "mapped_topics": [
+        "Allerji ve İmmünoloji"
+      ],
+      "inferred_topics": [
+        "Allerji ve İmmünoloji"
+      ]
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Pediatrik Endokrinoloji",
+      "deficit": 24,
+      "target": 192,
+      "current": 168,
+      "page_count": 31,
+      "chunk_count": 3,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        13,
+        6,
+        12
+      ],
+      "mapped_topics": [
+        "Pediatrik Endokrinoloji"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Pediatrik Göğüs Hastalıkları",
+      "deficit": 24,
+      "target": 274,
+      "current": 250,
+      "page_count": 43,
+      "chunk_count": 3,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 15,
+      "chunk_page_sizes": [
+        15,
+        15,
+        13
+      ],
+      "mapped_topics": [
+        "Pediatrik Göğüs Hastalıkları"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Pediatrik Hematoloji",
+      "deficit": 32,
+      "target": 272,
+      "current": 240,
+      "page_count": 45,
+      "chunk_count": 2,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 2,
+      "chunk_target_pages": 15,
+      "chunk_page_sizes": [
+        29,
+        16
+      ],
+      "mapped_topics": [
+        "Pediatrik Hematoloji"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Pediatrik Kardiyoloji",
+      "deficit": 32,
+      "target": 277,
+      "current": 245,
+      "page_count": 82,
+      "chunk_count": 4,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 20,
+      "chunk_page_sizes": [
+        21,
+        22,
+        20,
+        19
+      ],
+      "mapped_topics": [
+        "Pediatrik Kardiyoloji"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Pediatrik Nefroloji",
+      "deficit": 24,
+      "target": 192,
+      "current": 168,
+      "page_count": 33,
+      "chunk_count": 3,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        10,
+        11,
+        12
+      ],
+      "mapped_topics": [
+        "Pediatrik Nefroloji ve Üriner Hastalıklar"
+      ],
+      "inferred_topics": [
+        "Pediatrik Nefroloji ve Üriner Hastalıklar"
+      ]
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Pediatrik Onkoloji",
+      "deficit": 16,
+      "target": 160,
+      "current": 144,
+      "page_count": 22,
+      "chunk_count": 1,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 2,
+      "chunk_target_pages": 20,
+      "chunk_page_sizes": [
+        22
+      ],
+      "mapped_topics": [
+        "Pediatrik Onkoloji"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Pediatrik Romatoloji",
+      "deficit": 16,
+      "target": 127,
+      "current": 111,
+      "page_count": 21,
+      "chunk_count": 1,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 2,
+      "chunk_target_pages": 20,
+      "chunk_page_sizes": [
+        21
+      ],
+      "mapped_topics": [
+        "Pediatrik Romatoloji"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Zehirlenmeler",
+      "deficit": 8,
+      "target": 48,
+      "current": 40,
+      "page_count": 10,
+      "chunk_count": 0,
+      "direct_rounds": 1,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Pediatrik Acil, Yoğun Bakım ve Zehirlenmeler"
+      ],
+      "inferred_topics": [
+        "Pediatrik Acil, Yoğun Bakım ve Zehirlenmeler"
+      ]
+    }
+  ],
+  "queued": {
+    "queued_requests": 52,
+    "queued_jobs": 125,
+    "queued_question_capacity": 1000,
+    "failed_request_count": 0,
+    "failed_requests": [],
+    "call_log": [
+      {
+        "mode": "auto_chunk",
+        "source": "Dahiliye",
+        "segment": "Endokrinoloji",
+        "multiplier": 1,
+        "response": {
+          "success": true,
+          "total_chunks": 5,
+          "total_jobs": 5,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "Endokrinoloji (Hipotalamo-Hipofizer Hormonlar + Hipotalamus ve Hipofiz Hastalıkları)",
+              "topics": [
+                "Hipotalamo-Hipofizer Hormonlar",
+                "Hipotalamus ve Hipofiz Hastalıkları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Endokrinoloji/01_Hipotalamo_Hipofizer_Hormonlar.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Endokrinoloji/02_Hipotalamus_ve_Hipofiz_Hastalıkları.pdf"
+              ],
+              "page_count": 12,
+              "job_ids": [
+                108791
+              ]
+            },
+            {
+              "chunk_index": 1,
+              "topic_name": "Tiroid Hormonları ve Hastalıkları",
+              "topics": [
+                "Tiroid Hormonları ve Hastalıkları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Endokrinoloji/03_Tiroid_Hormonları_ve_Hastalıkları.pdf"
+              ],
+              "page_count": 11,
+              "job_ids": [
+                108792
+              ]
+            },
+            {
+              "chunk_index": 2,
+              "topic_name": "Endokrinoloji (Paratiroid Hastalıkları ve Kalsiyum Metabolizması + Metabolik Kemik Hastalıkları)",
+              "topics": [
+                "Paratiroid Hastalıkları ve Kalsiyum Metabolizması",
+                "Metabolik Kemik Hastalıkları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Endokrinoloji/04_Paratiroid_Hastalıkları_ve_Kalsiyum_Metabolizması.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Endokrinoloji/05_Metabolik_Kemik_Hastalıkları.pdf"
+              ],
+              "page_count": 9,
+              "job_ids": [
+                108793
+              ]
+            },
+            {
+              "chunk_index": 3,
+              "topic_name": "Diabetes Mellitus",
+              "topics": [
+                "Diabetes Mellitus"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Endokrinoloji/06_Diabetes_Mellitus.pdf"
+              ],
+              "page_count": 14,
+              "job_ids": [
+                108794
+              ]
+            },
+            {
+              "chunk_index": 4,
+              "topic_name": "Endokrinoloji (Adrenal Bez Hastalıkları + Diğer Endokrin Hastalıkları)",
+              "topics": [
+                "Adrenal Bez Hastalıkları",
+                "Diğer Endokrin Hastalıkları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Endokrinoloji/07_Adrenal_Bez_Hastalıkları.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Endokrinoloji/08_Diğer_Endokrin_Hastalıkları.pdf"
+              ],
+              "page_count": 15,
+              "job_ids": [
+                108795
+              ]
+            }
+          ],
+          "message": "5 chunk, 5 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Dahiliye",
+        "segment": "Gastroenteroloji",
+        "multiplier": 1,
+        "response": {
+          "success": true,
+          "total_chunks": 3,
+          "total_jobs": 3,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "Gastroenteroloji (Özofagus Hastalıkları + Mide ve Duodenum Hastalıkları + Üst Gastrointestinal Sistem Kanamaları)",
+              "topics": [
+                "Özofagus Hastalıkları",
+                "Mide ve Duodenum Hastalıkları",
+                "Üst Gastrointestinal Sistem Kanamaları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Gastroenteroloji/01_Özofagus_Hastalıkları.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Gastroenteroloji/02_Mide_ve_Duodenum_Hastalıkları.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Gastroenteroloji/03_Üst_Gastrointestinal_Sistem_Kanamaları.pdf"
+              ],
+              "page_count": 20,
+              "job_ids": [
+                108796
+              ]
+            },
+            {
+              "chunk_index": 1,
+              "topic_name": "İntestinal Hastalıklar",
+              "topics": [
+                "İntestinal Hastalıklar"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Gastroenteroloji/04_İntestinal_Hastalıklar.pdf"
+              ],
+              "page_count": 21,
+              "job_ids": [
+                108797
+              ]
+            },
+            {
+              "chunk_index": 2,
+              "topic_name": "Gastroenteroloji (Alt Gastrointestinal Sistem Kanamaları + Pankreas Hastalıkları + Safra Kesesi ve Safra Yolları Hastalıkları)",
+              "topics": [
+                "Alt Gastrointestinal Sistem Kanamaları",
+                "Pankreas Hastalıkları",
+                "Safra Kesesi ve Safra Yolları Hastalıkları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Gastroenteroloji/05_Alt_Gastrointestinal_Sistem_Kanamaları.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Gastroenteroloji/06_Pankreas_Hastalıkları.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Gastroenteroloji/07_Safra_Kesesi_ve_Safra_Yolları_Hastalıkları.pdf"
+              ],
+              "page_count": 11,
+              "job_ids": [
+                108798
+              ]
+            }
+          ],
+          "message": "3 chunk, 3 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Dahiliye",
+        "segment": "Göğüs Hastalıkları",
+        "multiplier": 2,
+        "response": {
+          "success": true,
+          "total_chunks": 4,
+          "total_jobs": 8,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "Göğüs Hastalıkları (Akciğer Hastalıklarında Semptomlar + Akciğer Hastalıklarında Fizik Muayene + Solunum Hastalıklarında Tanı Yöntemleri)",
+              "topics": [
+                "Akciğer Hastalıklarında Semptomlar",
+                "Akciğer Hastalıklarında Fizik Muayene",
+                "Solunum Hastalıklarında Tanı Yöntemleri"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Göğüs_Hastalıkları/01_Akciğer_Hastalıklarında_Semptomlar.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Göğüs_Hastalıkları/02_Akciğer_Hastalıklarında_Fizik_Muayene.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Göğüs_Hastalıkları/03_Solunum_Hastalıklarında_Tanı_Yöntemleri.pdf"
+              ],
+              "page_count": 15,
+              "job_ids": [
+                108799,
+                108800
+              ]
+            },
+            {
+              "chunk_index": 1,
+              "topic_name": "Restriktif Akciğer Hastalıkları",
+              "topics": [
+                "Restriktif Akciğer Hastalıkları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Göğüs_Hastalıkları/05_Restriktif_Akciğer_Hastalıkları.pdf"
+              ],
+              "page_count": 21,
+              "job_ids": [
+                108801,
+                108802
+              ]
+            },
+            {
+              "chunk_index": 2,
+              "topic_name": "Göğüs Hastalıkları (Mesleksel Akciğer Hastalıkları + Pulmoner Tromboemboli + Pulmoner Hipertansiyon ve Kor Pulmonale + Tüberküloz)",
+              "topics": [
+                "Mesleksel Akciğer Hastalıkları",
+                "Pulmoner Tromboemboli",
+                "Pulmoner Hipertansiyon ve Kor Pulmonale",
+                "Tüberküloz"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Göğüs_Hastalıkları/06_Mesleksel_Akciğer_Hastalıkları.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Göğüs_Hastalıkları/07_Pulmoner_Tromboemboli.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Göğüs_Hastalıkları/08_Pulmoner_Hipertansiyon_ve_Kor_Pulmonale.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Göğüs_Hastalıkları/09_Tüberküloz.pdf"
+              ],
+              "page_count": 13,
+              "job_ids": [
+                108803,
+                108804
+              ]
+            },
+            {
+              "chunk_index": 3,
+              "topic_name": "Göğüs Hastalıkları (6 konu: Solunum Sisteminin Enfeksiyon Hastalıkları -> Yaşlılıkta Meydana Gelen Solunum Sistemi Değişiklikleri)",
+              "topics": [
+                "Solunum Sisteminin Enfeksiyon Hastalıkları",
+                "Mantarlarla Oluşan Solunum Yolu Hastalıkları",
+                "Plevra Hastalıkları",
+                "Uyku Apne / Hipoapne Sendromu",
+                "Akciğer Kanserleri",
+                "Yaşlılıkta Meydana Gelen Solunum Sistemi Değişiklikleri"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Göğüs_Hastalıkları/10_Solunum_Sisteminin_Enfeksiyon_Hastalıkları.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Göğüs_Hastalıkları/11_Mantarlarla_Oluşan_Solunum_Yolu_Hastalıkları.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Göğüs_Hastalıkları/12_Plevra_Hastalıkları.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Göğüs_Hastalıkları/13_Uyku_Apne___Hipoapne_Sendromu.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Göğüs_Hastalıkları/14_Akciğer_Kanserleri.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Göğüs_Hastalıkları/15_Yaşlılıkta_Meydana_Gelen_Solunum_Sistemi_Değişiklikleri.pdf"
+              ],
+              "page_count": 15,
+              "job_ids": [
+                108805,
+                108806
+              ]
+            }
+          ],
+          "message": "4 chunk, 8 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Dahiliye",
+        "segment": "Hematoloji",
+        "multiplier": 1,
+        "response": {
+          "success": true,
+          "total_chunks": 3,
+          "total_jobs": 3,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "Hematoloji (Hematopoez + Hemolitik Anemiler)",
+              "topics": [
+                "Hematopoez",
+                "Hemolitik Anemiler"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f1/sub/Hematoloji/01_Hematopoez.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f1/sub/Hematoloji/03_Hemolitik_Anemiler.pdf"
+              ],
+              "page_count": 24,
+              "job_ids": [
+                108807
+              ]
+            },
+            {
+              "chunk_index": 1,
+              "topic_name": "Hematoloji (Lökosit Hastalıkları + Lenfomalar + Miyeloproliferatif Hastalıklar + Plazma Hücre Diskrazileri)",
+              "topics": [
+                "Lökosit Hastalıkları",
+                "Lenfomalar",
+                "Miyeloproliferatif Hastalıklar",
+                "Plazma Hücre Diskrazileri"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f1/sub/Hematoloji/04_Lökosit_Hastalıkları.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f1/sub/Hematoloji/05_Lenfomalar.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f1/sub/Hematoloji/06_Miyeloproliferatif_Hastalıklar.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f1/sub/Hematoloji/07_Plazma_Hücre_Diskrazileri.pdf"
+              ],
+              "page_count": 22,
+              "job_ids": [
+                108808
+              ]
+            },
+            {
+              "chunk_index": 2,
+              "topic_name": "Hematoloji (Kanama Diyatezleri ve Trombozlar + Kan Transfüzyonu + Hematopoetik Kök Hücre Nakli)",
+              "topics": [
+                "Kanama Diyatezleri ve Trombozlar",
+                "Kan Transfüzyonu",
+                "Hematopoetik Kök Hücre Nakli"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f1/sub/Hematoloji/08_Kanama_Diyatezleri_ve_Trombozlar.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f1/sub/Hematoloji/09_Kan_Transfüzyonu.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f1/sub/Hematoloji/11_Hematopoetik_Kök_Hücre_Nakli.pdf"
+              ],
+              "page_count": 19,
+              "job_ids": [
+                108809
+              ]
+            }
+          ],
+          "message": "3 chunk, 3 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Dahiliye",
+        "segment": "Hepatoloji",
+        "multiplier": 1,
+        "response": {
+          "success": true,
+          "total_chunks": 3,
+          "total_jobs": 3,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "Hepatoloji (Karaciğer Testleri ve Hiperbilirubinemiler + Akut ve Kronik Viral Hepatitler)",
+              "topics": [
+                "Karaciğer Testleri ve Hiperbilirubinemiler",
+                "Akut ve Kronik Viral Hepatitler"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Hepatoloji/01_Karaciğer_Testleri_ve_Hiperbilirubinemiler.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Hepatoloji/02_Akut_ve_Kronik_Viral_Hepatitler.pdf"
+              ],
+              "page_count": 12,
+              "job_ids": [
+                108810
+              ]
+            },
+            {
+              "chunk_index": 1,
+              "topic_name": "Metabolik, Toksik ve İmmünolojik Karaciğer Hastalıkları",
+              "topics": [
+                "Metabolik, Toksik ve İmmünolojik Karaciğer Hastalıkları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Hepatoloji/03_Metabolik__Toksik_ve_İmmünolojik_Karaciğer_Hastalıkları.pdf"
+              ],
+              "page_count": 7,
+              "job_ids": [
+                108811
+              ]
+            },
+            {
+              "chunk_index": 2,
+              "topic_name": "Hepatoloji (Karaciğer Sirozu ve Komplikasyonları + Diğer Karaciğer Hastalıkları)",
+              "topics": [
+                "Karaciğer Sirozu ve Komplikasyonları",
+                "Diğer Karaciğer Hastalıkları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Hepatoloji/04_Karaciğer_Sirozu_ve_Komplikasyonları.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Hepatoloji/05_Diğer_Karaciğer_Hastalıkları.pdf"
+              ],
+              "page_count": 11,
+              "job_ids": [
+                108812
+              ]
+            }
+          ],
+          "message": "3 chunk, 3 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Dahiliye",
+        "segment": "Kardiyoloji",
+        "multiplier": 1,
+        "response": {
+          "success": true,
+          "total_chunks": 5,
+          "total_jobs": 5,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "Kardiyoloji (Kalbin Fizyolojisi + Kardiyovasküler Sistem Muayenesi + Kalp Hastalıklarında Tanı Yöntemleri)",
+              "topics": [
+                "Kalbin Fizyolojisi",
+                "Kardiyovasküler Sistem Muayenesi",
+                "Kalp Hastalıklarında Tanı Yöntemleri"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Kardiyoloji/01_Kalbin_Fizyolojisi.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Kardiyoloji/02_Kardiyovasküler_Sistem_Muayenesi.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Kardiyoloji/04_Kalp_Hastalıklarında_Tanı_Yöntemleri.pdf"
+              ],
+              "page_count": 19,
+              "job_ids": [
+                108813
+              ]
+            },
+            {
+              "chunk_index": 1,
+              "topic_name": "Kardiyoloji (Kalp Yetmezliği + Hipertansiyon)",
+              "topics": [
+                "Kalp Yetmezliği",
+                "Hipertansiyon"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Kardiyoloji/05_Kalp_Yetmezliği.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Kardiyoloji/06_Hipertansiyon.pdf"
+              ],
+              "page_count": 14,
+              "job_ids": [
+                108814
+              ]
+            },
+            {
+              "chunk_index": 2,
+              "topic_name": "Kardiyoloji (İskemik Kalp Hastalıkları + Kapak Hastalıkları)",
+              "topics": [
+                "İskemik Kalp Hastalıkları",
+                "Kapak Hastalıkları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Kardiyoloji/07_İskemik_Kalp_Hastalıkları.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Kardiyoloji/08_Kapak_Hastalıkları.pdf"
+              ],
+              "page_count": 20,
+              "job_ids": [
+                108815
+              ]
+            },
+            {
+              "chunk_index": 3,
+              "topic_name": "Kardiyoloji (5 konu: İnfektif Endokardit -> Kardiyak Tümörler)",
+              "topics": [
+                "İnfektif Endokardit",
+                "Kardiyomiyopatiler",
+                "Akut Miyokardit",
+                "Perikard Hastalıkları",
+                "Kardiyak Tümörler"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Kardiyoloji/09_İnfektif_Endokardit.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Kardiyoloji/10_Kardiyomiyopatiler.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Kardiyoloji/11_Akut_Miyokardit.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Kardiyoloji/12_Perikard_Hastalıkları.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Kardiyoloji/13_Kardiyak_Tümörler.pdf"
+              ],
+              "page_count": 13,
+              "job_ids": [
+                108816
+              ]
+            },
+            {
+              "chunk_index": 4,
+              "topic_name": "Kardiyoloji (Kardiyak Aritmiler + Yaşlılarda Kalp Hastalıkları)",
+              "topics": [
+                "Kardiyak Aritmiler",
+                "Yaşlılarda Kalp Hastalıkları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Kardiyoloji/15_Kardiyak_Aritmiler.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f2/sub/Kardiyoloji/16_Yaşlılarda_Kalp_Hastalıkları.pdf"
+              ],
+              "page_count": 15,
+              "job_ids": [
+                108817
+              ]
+            }
+          ],
+          "message": "5 chunk, 5 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Dahiliye",
+        "segment": "Nefroloji",
+        "multiplier": 1,
+        "response": {
+          "success": true,
+          "total_chunks": 5,
+          "total_jobs": 5,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "Renal Fizyoloji ve Tübül Hastalıkları",
+              "topics": [
+                "Renal Fizyoloji ve Tübül Hastalıkları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f1/sub/Nefroloji/01_Renal_Fizyoloji_ve_Tübül_Hastalıkları.pdf"
+              ],
+              "page_count": 7,
+              "job_ids": [
+                108818
+              ]
+            },
+            {
+              "chunk_index": 1,
+              "topic_name": "Nefroloji (Sıvı ve Elektrolit Dengesi ve Bozuklukları + Asit-Baz Dengesi ve Bozuklukları)",
+              "topics": [
+                "Sıvı ve Elektrolit Dengesi ve Bozuklukları",
+                "Asit-Baz Dengesi ve Bozuklukları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f1/sub/Nefroloji/02_Sıvı_ve_Elektrolit_Dengesi_ve_Bozuklukları.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f1/sub/Nefroloji/03_Asit_Baz_Dengesi_ve_Bozuklukları.pdf"
+              ],
+              "page_count": 10,
+              "job_ids": [
+                108819
+              ]
+            },
+            {
+              "chunk_index": 2,
+              "topic_name": "Nefroloji (Böbrek Fonksiyonlarının Değerlendirilmesi + Akut Böbrek Hasarı)",
+              "topics": [
+                "Böbrek Fonksiyonlarının Değerlendirilmesi",
+                "Akut Böbrek Hasarı"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f1/sub/Nefroloji/04_Böbrek_Fonksiyonlarının_Değerlendirilmesi.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f1/sub/Nefroloji/05_Akut_Böbrek_Hasarı.pdf"
+              ],
+              "page_count": 8,
+              "job_ids": [
+                108820
+              ]
+            },
+            {
+              "chunk_index": 3,
+              "topic_name": "Kronik Böbrek Hastalığı (KBH)",
+              "topics": [
+                "Kronik Böbrek Hastalığı (KBH)"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f1/sub/Nefroloji/06_Kronik_Böbrek_Hastalığı__KBH_.pdf"
+              ],
+              "page_count": 8,
+              "job_ids": [
+                108821
+              ]
+            },
+            {
+              "chunk_index": 4,
+              "topic_name": "Nefroloji (Glomerülonefritler + Sistemik Hastalıkların Böbrek Tutulumu + İnterstisyel Nefritler + Diğer Renal Patolojiler)",
+              "topics": [
+                "Glomerülonefritler",
+                "Sistemik Hastalıkların Böbrek Tutulumu",
+                "İnterstisyel Nefritler",
+                "Diğer Renal Patolojiler"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f1/sub/Nefroloji/07_Glomerülonefritler.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f1/sub/Nefroloji/08_Sistemik_Hastalıkların_Böbrek_Tutulumu.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f1/sub/Nefroloji/09_İnterstisyel_Nefritler.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f1/sub/Nefroloji/10_Diğer_Renal_Patolojiler.pdf"
+              ],
+              "page_count": 12,
+              "job_ids": [
+                108822
+              ]
+            }
+          ],
+          "message": "5 chunk, 5 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "generate",
+        "source": "Dahiliye",
+        "segment": "Onkoloji",
+        "response": {
+          "success": true,
+          "topic": "Onkoloji",
+          "source_material": "Dahiliye",
+          "generated_count": 0,
+          "skipped_count": 0,
+          "failed_count": 0,
+          "attempted_count": 0,
+          "target_count": 8,
+          "question_ids": [],
+          "message": "Job queued (ID: 108823)"
+        }
+      },
+      {
+        "mode": "generate",
+        "source": "Dahiliye",
+        "segment": "Onkoloji",
+        "response": {
+          "success": true,
+          "topic": "Onkoloji",
+          "source_material": "Dahiliye",
+          "generated_count": 0,
+          "skipped_count": 0,
+          "failed_count": 0,
+          "attempted_count": 0,
+          "target_count": 8,
+          "question_ids": [],
+          "message": "Job queued (ID: 108824)"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Dahiliye",
+        "segment": "Romatoloji",
+        "multiplier": 1,
+        "response": {
+          "success": true,
+          "total_chunks": 4,
+          "total_jobs": 4,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "Romatoloji (Romatolojiye Giriş + Vaskülitler + Sistemik Lupus Eritematozus)",
+              "topics": [
+                "Romatolojiye Giriş",
+                "Vaskülitler",
+                "Sistemik Lupus Eritematozus"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Romatoloji/01_Romatolojiye_Giriş.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Romatoloji/02_Vaskülitler.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Romatoloji/03_Sistemik_Lupus_Eritematozus.pdf"
+              ],
+              "page_count": 12,
+              "job_ids": [
+                108825
+              ]
+            },
+            {
+              "chunk_index": 1,
+              "topic_name": "Romatoloji (Romatoid Artrit + Seronegatif Spondiloartropatiler)",
+              "topics": [
+                "Romatoid Artrit",
+                "Seronegatif Spondiloartropatiler"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Romatoloji/04_Romatoid_Artrit.pdf",
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Romatoloji/05_Seronegatif_Spondiloartropatiler.pdf"
+              ],
+              "page_count": 9,
+              "job_ids": [
+                108826
+              ]
+            },
+            {
+              "chunk_index": 2,
+              "topic_name": "Diğer Bağ Doku Hastalıkları",
+              "topics": [
+                "Diğer Bağ Doku Hastalıkları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Romatoloji/06_Diğer_Bağ_Doku_Hastalıkları.pdf"
+              ],
+              "page_count": 7,
+              "job_ids": [
+                108827
+              ]
+            },
+            {
+              "chunk_index": 3,
+              "topic_name": "Diğer Artritler",
+              "topics": [
+                "Diğer Artritler"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Dahiliye/output_dahiliye_f3/sub/Romatoloji/07_Diğer_Artritler.pdf"
+              ],
+              "page_count": 9,
+              "job_ids": [
+                108828
+              ]
+            }
+          ],
+          "message": "4 chunk, 4 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Kadin_Dogum",
+        "segment": "Jinekoloji ve Üreme Endokrinolojisi",
+        "multiplier": 1,
+        "response": {
+          "success": true,
+          "total_chunks": 8,
+          "total_jobs": 8,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "Jinekoloji ve Üreme Endokrinolojisi (Kadın Genital Sistem Anatomisi + Jinekolojide Muayene ve Jinekolojik Prosedürler)",
+              "topics": [
+                "Kadın Genital Sistem Anatomisi",
+                "Jinekolojide Muayene ve Jinekolojik Prosedürler"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f1/sub/Jinekoloji_ve_Üreme_Endokrinolojisi/01_Kadın_Genital_Sistem_Anatomisi.pdf",
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f1/sub/Jinekoloji_ve_Üreme_Endokrinolojisi/02_Jinekolojide_Muayene_ve_Jinekolojik_Prosedürler.pdf"
+              ],
+              "page_count": 16,
+              "job_ids": [
+                108829
+              ]
+            },
+            {
+              "chunk_index": 1,
+              "topic_name": "Jinekoloji ve Üreme Endokrinolojisi (Üreme Fizyolojisi + Kadın Genital Sistem Embriyolojisi)",
+              "topics": [
+                "Üreme Fizyolojisi",
+                "Kadın Genital Sistem Embriyolojisi"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f1/sub/Jinekoloji_ve_Üreme_Endokrinolojisi/03_Üreme_Fizyolojisi.pdf",
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f1/sub/Jinekoloji_ve_Üreme_Endokrinolojisi/04_Kadın_Genital_Sistem_Embriyolojisi.pdf"
+              ],
+              "page_count": 19,
+              "job_ids": [
+                108830
+              ]
+            },
+            {
+              "chunk_index": 2,
+              "topic_name": "Jinekoloji ve Üreme Endokrinolojisi (Seksüel Gelişim Bozuklukları + Puberte ve Anormallikleri)",
+              "topics": [
+                "Seksüel Gelişim Bozuklukları",
+                "Puberte ve Anormallikleri"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f1/sub/Jinekoloji_ve_Üreme_Endokrinolojisi/05_Seksüel_Gelişim_Bozuklukları.pdf",
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f1/sub/Jinekoloji_ve_Üreme_Endokrinolojisi/06_Puberte_ve_Anormallikleri.pdf"
+              ],
+              "page_count": 13,
+              "job_ids": [
+                108831
+              ]
+            },
+            {
+              "chunk_index": 3,
+              "topic_name": "Menstrüel Siklus ve Anormallikleri",
+              "topics": [
+                "Menstrüel Siklus ve Anormallikleri"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f1/sub/Jinekoloji_ve_Üreme_Endokrinolojisi/07_Menstrüel_Siklus_ve_Anormallikleri.pdf"
+              ],
+              "page_count": 20,
+              "job_ids": [
+                108832
+              ]
+            },
+            {
+              "chunk_index": 4,
+              "topic_name": "Jinekoloji ve Üreme Endokrinolojisi (Kronik Anovulasyon ve Hiperandrojenizm + İnfertilite)",
+              "topics": [
+                "Kronik Anovulasyon ve Hiperandrojenizm",
+                "İnfertilite"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f1/sub/Jinekoloji_ve_Üreme_Endokrinolojisi/08_Kronik_Anovulasyon_ve_Hiperandrojenizm.pdf",
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f1/sub/Jinekoloji_ve_Üreme_Endokrinolojisi/09_İnfertilite.pdf"
+              ],
+              "page_count": 15,
+              "job_ids": [
+                108833
+              ]
+            },
+            {
+              "chunk_index": 5,
+              "topic_name": "Jinekoloji ve Üreme Endokrinolojisi (Kontrasepsiyon + Menopoz)",
+              "topics": [
+                "Kontrasepsiyon",
+                "Menopoz"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f1/sub/Jinekoloji_ve_Üreme_Endokrinolojisi/10_Kontrasepsiyon.pdf",
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f1/sub/Jinekoloji_ve_Üreme_Endokrinolojisi/11_Menopoz.pdf"
+              ],
+              "page_count": 23,
+              "job_ids": [
+                108834
+              ]
+            },
+            {
+              "chunk_index": 6,
+              "topic_name": "Jinekoloji ve Üreme Endokrinolojisi (Pelvik Ağrılar + Pelvik Kitleler)",
+              "topics": [
+                "Pelvik Ağrılar",
+                "Pelvik Kitleler"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f1/sub/Jinekoloji_ve_Üreme_Endokrinolojisi/12_Pelvik_Ağrılar.pdf",
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f1/sub/Jinekoloji_ve_Üreme_Endokrinolojisi/13_Pelvik_Kitleler.pdf"
+              ],
+              "page_count": 17,
+              "job_ids": [
+                108835
+              ]
+            },
+            {
+              "chunk_index": 7,
+              "topic_name": "Jinekoloji ve Üreme Endokrinolojisi (Pelvik Enfeksiyonlar ve Cinsel Yolla Bulaşıcı Hastalıklar (CYBH) + Ürojinekoloji)",
+              "topics": [
+                "Pelvik Enfeksiyonlar ve Cinsel Yolla Bulaşıcı Hastalıklar (CYBH)",
+                "Ürojinekoloji"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f1/sub/Jinekoloji_ve_Üreme_Endokrinolojisi/14_Pelvik_Enfeksiyonlar_ve_Cinsel_Yolla_Bulaşıcı_Hastalıklar__CYBH_.pdf",
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f1/sub/Jinekoloji_ve_Üreme_Endokrinolojisi/15_Ürojinekoloji.pdf"
+              ],
+              "page_count": 17,
+              "job_ids": [
+                108836
+              ]
+            }
+          ],
+          "message": "8 chunk, 8 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Kadin_Dogum",
+        "segment": "Jinekolojik Onkoloji",
+        "multiplier": 1,
+        "response": {
+          "success": true,
+          "total_chunks": 4,
+          "total_jobs": 4,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "Vulva ve Vajenin Premalign - Malign Hastalıkları",
+              "topics": [
+                "Vulva ve Vajenin Premalign - Malign Hastalıkları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f2/sub/Jinekolojik_Onkoloji/01_Vulva_ve_Vajenin_Premalign___Malign_Hastalıkları.pdf"
+              ],
+              "page_count": 8,
+              "job_ids": [
+                108837
+              ]
+            },
+            {
+              "chunk_index": 1,
+              "topic_name": "Serviks Uterinin Premalign ve Malign Hastalıkları",
+              "topics": [
+                "Serviks Uterinin Premalign ve Malign Hastalıkları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f2/sub/Jinekolojik_Onkoloji/02_Serviks_Uterinin_Premalign_ve_Malign_Hastalıkları.pdf"
+              ],
+              "page_count": 11,
+              "job_ids": [
+                108838
+              ]
+            },
+            {
+              "chunk_index": 2,
+              "topic_name": "Korpus Uterinin Premalign - Malign Hastalıkları",
+              "topics": [
+                "Korpus Uterinin Premalign - Malign Hastalıkları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f2/sub/Jinekolojik_Onkoloji/03_Korpus_Uterinin_Premalign___Malign_Hastalıkları.pdf"
+              ],
+              "page_count": 8,
+              "job_ids": [
+                108839
+              ]
+            },
+            {
+              "chunk_index": 3,
+              "topic_name": "Jinekolojik Onkoloji (Tuba ve Overin Malign Hastalıkları + Gestasyonel Trofoblastik Hastalıklar)",
+              "topics": [
+                "Tuba ve Overin Malign Hastalıkları",
+                "Gestasyonel Trofoblastik Hastalıklar"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f2/sub/Jinekolojik_Onkoloji/04_Tuba_ve_Overin_Malign_Hastalıkları.pdf",
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f2/sub/Jinekolojik_Onkoloji/05_Gestasyonel_Trofoblastik_Hastalıklar.pdf"
+              ],
+              "page_count": 23,
+              "job_ids": [
+                108840
+              ]
+            }
+          ],
+          "message": "4 chunk, 4 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Kadin_Dogum",
+        "segment": "Obstetri",
+        "multiplier": 1,
+        "response": {
+          "success": true,
+          "total_chunks": 7,
+          "total_jobs": 7,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "Obstetri (Maternal – Plasental – Fetal Ünite + Abortuslar)",
+              "topics": [
+                "Maternal – Plasental – Fetal Ünite",
+                "Abortuslar"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f2/sub/Obstetri/01_Maternal___Plasental___Fetal_Ünite.pdf",
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f2/sub/Obstetri/02_Abortuslar.pdf"
+              ],
+              "page_count": 15,
+              "job_ids": [
+                108841
+              ]
+            },
+            {
+              "chunk_index": 1,
+              "topic_name": "Obstetri (Ektopik Gebelikler + Fetal Fizyoloji + Maternal Fizyoloji)",
+              "topics": [
+                "Ektopik Gebelikler",
+                "Fetal Fizyoloji",
+                "Maternal Fizyoloji"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f2/sub/Obstetri/03_Ektopik_Gebelikler.pdf",
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f2/sub/Obstetri/04_Fetal_Fizyoloji.pdf",
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f2/sub/Obstetri/05_Maternal_Fizyoloji.pdf"
+              ],
+              "page_count": 16,
+              "job_ids": [
+                108842
+              ]
+            },
+            {
+              "chunk_index": 2,
+              "topic_name": "Obstetri (Gebelikte İlaç Kullanımı ve Aşılar + Prekonsepsiyonel ve Prenatal Değerlendirme)",
+              "topics": [
+                "Gebelikte İlaç Kullanımı ve Aşılar",
+                "Prekonsepsiyonel ve Prenatal Değerlendirme"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f2/sub/Obstetri/06_Gebelikte_İlaç_Kullanımı_ve_Aşılar.pdf",
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f2/sub/Obstetri/07_Prekonsepsiyonel_ve_Prenatal_Değerlendirme.pdf"
+              ],
+              "page_count": 14,
+              "job_ids": [
+                108843
+              ]
+            },
+            {
+              "chunk_index": 3,
+              "topic_name": "Obstetri (Fetal Monitorizasyon + Normal Doğum Eylemi ve Doğumun Komplikasyonları)",
+              "topics": [
+                "Fetal Monitorizasyon",
+                "Normal Doğum Eylemi ve Doğumun Komplikasyonları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f2/sub/Obstetri/08_Fetal_Monitorizasyon.pdf",
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f2/sub/Obstetri/09_Normal_Doğum_Eylemi_ve_Doğumun_Komplikasyonları.pdf"
+              ],
+              "page_count": 20,
+              "job_ids": [
+                108844
+              ]
+            },
+            {
+              "chunk_index": 4,
+              "topic_name": "Obstetri (Anormal Doğum Eylemi ve Operatif Doğum + Puerperium ve Puerperal Hastalıklar)",
+              "topics": [
+                "Anormal Doğum Eylemi ve Operatif Doğum",
+                "Puerperium ve Puerperal Hastalıklar"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f2/sub/Obstetri/10_Anormal_Doğum_Eylemi_ve_Operatif_Doğum.pdf",
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f2/sub/Obstetri/11_Puerperium_ve_Puerperal_Hastalıklar.pdf"
+              ],
+              "page_count": 14,
+              "job_ids": [
+                108845
+              ]
+            },
+            {
+              "chunk_index": 5,
+              "topic_name": "Riskli Gebelikler",
+              "topics": [
+                "Riskli Gebelikler"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f2/sub/Obstetri/12_Riskli_Gebelikler.pdf"
+              ],
+              "page_count": 22,
+              "job_ids": [
+                108846
+              ]
+            },
+            {
+              "chunk_index": 6,
+              "topic_name": "Gebelikte Dahili ve Cerrahi Hastalıklar",
+              "topics": [
+                "Gebelikte Dahili ve Cerrahi Hastalıklar"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Kadin_Dogum/output_kadin_dogum_f2/sub/Obstetri/13_Gebelikte_Dahili_ve_Cerrahi_Hastalıklar.pdf"
+              ],
+              "page_count": 23,
+              "job_ids": [
+                108847
+              ]
+            }
+          ],
+          "message": "7 chunk, 7 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "generate",
+        "source": "Patoloji",
+        "segment": "DAMAR HASTALIKLARI",
+        "response": {
+          "success": true,
+          "topic": "DAMAR HASTALIKLARI",
+          "source_material": "Patoloji",
+          "generated_count": 0,
+          "skipped_count": 0,
+          "failed_count": 0,
+          "attempted_count": 0,
+          "target_count": 8,
+          "question_ids": [],
+          "message": "Job queued (ID: 108848)"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Patoloji",
+        "segment": "DERİ HASTALIKLARI",
+        "multiplier": 1,
+        "response": {
+          "success": true,
+          "total_chunks": 1,
+          "total_jobs": 1,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "DERİ HASTALIKLARI (7 konu: Deri Lezyonlarının Tanımları -> Deri Enfeksiyonları)",
+              "topics": [
+                "Deri Lezyonlarının Tanımları",
+                "Pigmentasyon Hastalıkları ve Melanositler",
+                "Deri Tümörleri",
+                "Kronik İnflamatuvar Dermatozlar",
+                "Non-inflamatuvar Büllöz Hastalıklar",
+                "Pannikülitler",
+                "Deri Enfeksiyonları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/DERİ_HASTALIKLARI/01_Deri_Lezyonlarının_Tanımları.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/DERİ_HASTALIKLARI/02_Pigmentasyon_Hastalıkları_ve_Melanositler.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/DERİ_HASTALIKLARI/03_Deri_Tümörleri.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/DERİ_HASTALIKLARI/06_Kronik_İnflamatuvar_Dermatozlar.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/DERİ_HASTALIKLARI/08_Non_inflamatuvar_Büllöz_Hastalıklar.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/DERİ_HASTALIKLARI/10_Pannikülitler.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/DERİ_HASTALIKLARI/11_Deri_Enfeksiyonları.pdf"
+              ],
+              "page_count": 21,
+              "job_ids": [
+                108849
+              ]
+            }
+          ],
+          "message": "1 chunk, 1 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Patoloji",
+        "segment": "ENDOKRİN SİSTEM HASTALIKLARI",
+        "multiplier": 1,
+        "response": {
+          "success": true,
+          "total_chunks": 2,
+          "total_jobs": 2,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "ENDOKRİN SİSTEM HASTALIKLARI (Hipofiz + Adrenal Bez + Adrenal Medulla Hastalıkları)",
+              "topics": [
+                "Hipofiz",
+                "Adrenal Bez",
+                "Adrenal Medulla Hastalıkları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/ENDOKRİN_SİSTEM_HASTALIKLARI/01_Hipofiz.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/ENDOKRİN_SİSTEM_HASTALIKLARI/03_Adrenal_Bez.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/ENDOKRİN_SİSTEM_HASTALIKLARI/04_Adrenal_Medulla_Hastalıkları.pdf"
+              ],
+              "page_count": 9,
+              "job_ids": [
+                108850
+              ]
+            },
+            {
+              "chunk_index": 1,
+              "topic_name": "ENDOKRİN SİSTEM HASTALIKLARI (Tiroid + Paratiroid Bezi + Multipl Endokrin Neoplazi Sendromları + Otoimmün Poliendokrin Sendromları)",
+              "topics": [
+                "Tiroid",
+                "Paratiroid Bezi",
+                "Multipl Endokrin Neoplazi Sendromları",
+                "Otoimmün Poliendokrin Sendromları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/ENDOKRİN_SİSTEM_HASTALIKLARI/05_Tiroid.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/ENDOKRİN_SİSTEM_HASTALIKLARI/06_Paratiroid_Bezi.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/ENDOKRİN_SİSTEM_HASTALIKLARI/07_Multipl_Endokrin_Neoplazi_Sendromları.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/ENDOKRİN_SİSTEM_HASTALIKLARI/08_Otoimmün_Poliendokrin_Sendromları.pdf"
+              ],
+              "page_count": 12,
+              "job_ids": [
+                108851
+              ]
+            }
+          ],
+          "message": "2 chunk, 2 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "generate",
+        "source": "Patoloji",
+        "segment": "ERKEK GENİTAL SİSTEM",
+        "response": {
+          "success": true,
+          "topic": "ERKEK GENİTAL SİSTEM",
+          "source_material": "Patoloji",
+          "generated_count": 0,
+          "skipped_count": 0,
+          "failed_count": 0,
+          "attempted_count": 0,
+          "target_count": 8,
+          "question_ids": [],
+          "message": "Job queued (ID: 108852)"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Patoloji",
+        "segment": "HEMATOPOETİK SİSTEM HASTALIKLARI",
+        "multiplier": 1,
+        "response": {
+          "success": true,
+          "total_chunks": 2,
+          "total_jobs": 2,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "HEMATOPOETİK SİSTEM HASTALIKLARI (Eritrosit Hastalıkları + Kanama Bozuklukları)",
+              "topics": [
+                "Eritrosit Hastalıkları",
+                "Kanama Bozuklukları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Patoloji/output_patoloji_f1/sub/HEMATOPOETİK_SİSTEM_HASTALIKLARI/01_Eritrosit_Hastalıkları.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f1/sub/HEMATOPOETİK_SİSTEM_HASTALIKLARI/02_Kanama_Bozuklukları.pdf"
+              ],
+              "page_count": 9,
+              "job_ids": [
+                108853
+              ]
+            },
+            {
+              "chunk_index": 1,
+              "topic_name": "HEMATOPOETİK SİSTEM HASTALIKLARI (Lökosit Hastalıkları + Dalak)",
+              "topics": [
+                "Lökosit Hastalıkları",
+                "Dalak"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Patoloji/output_patoloji_f1/sub/HEMATOPOETİK_SİSTEM_HASTALIKLARI/03_Lökosit_Hastalıkları.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f1/sub/HEMATOPOETİK_SİSTEM_HASTALIKLARI/05_Dalak.pdf"
+              ],
+              "page_count": 19,
+              "job_ids": [
+                108854
+              ]
+            }
+          ],
+          "message": "2 chunk, 2 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "generate",
+        "source": "Patoloji",
+        "segment": "HEMODİNAMİK HASTALIKLAR",
+        "response": {
+          "success": true,
+          "topic": "HEMODİNAMİK HASTALIKLAR",
+          "source_material": "Patoloji",
+          "generated_count": 0,
+          "skipped_count": 0,
+          "failed_count": 0,
+          "attempted_count": 0,
+          "target_count": 8,
+          "question_ids": [],
+          "message": "Job queued (ID: 108855)"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Patoloji",
+        "segment": "HEPATOBİLİYER SİSTEM HASTALIKLARI",
+        "multiplier": 1,
+        "response": {
+          "success": true,
+          "total_chunks": 1,
+          "total_jobs": 1,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "HEPATOBİLİYER SİSTEM HASTALIKLARI (5 konu: Karaciğer Hastalıkları -> Safra Kesesi)",
+              "topics": [
+                "Karaciğer Hastalıkları",
+                "Safra Yolu Hastalıkları",
+                "Karaciğerin Dolaşım Bozukluğuna Yol Açan Hastalıkları",
+                "Karaciğerin Nodül ve Tümörleri",
+                "Safra Kesesi"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/HEPATOBİLİYER_SİSTEM_HASTALIKLARI/01_Karaciğer_Hastalıkları.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/HEPATOBİLİYER_SİSTEM_HASTALIKLARI/02_Safra_Yolu_Hastalıkları.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/HEPATOBİLİYER_SİSTEM_HASTALIKLARI/03_Karaciğerin_Dolaşım_Bozukluğuna_Yol_Açan_Hastalıkları.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/HEPATOBİLİYER_SİSTEM_HASTALIKLARI/05_Karaciğerin_Nodül_ve_Tümörleri.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/HEPATOBİLİYER_SİSTEM_HASTALIKLARI/06_Safra_Kesesi.pdf"
+              ],
+              "page_count": 22,
+              "job_ids": [
+                108856
+              ]
+            }
+          ],
+          "message": "1 chunk, 1 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "generate",
+        "source": "Patoloji",
+        "segment": "HÜCRE PATOLOJİSİ",
+        "response": {
+          "success": true,
+          "topic": "HÜCRE PATOLOJİSİ",
+          "source_material": "Patoloji",
+          "generated_count": 0,
+          "skipped_count": 0,
+          "failed_count": 0,
+          "attempted_count": 0,
+          "target_count": 8,
+          "question_ids": [],
+          "message": "Job queued (ID: 108857)"
+        }
+      },
+      {
+        "mode": "generate",
+        "source": "Patoloji",
+        "segment": "HÜCRE PATOLOJİSİ",
+        "response": {
+          "success": true,
+          "topic": "HÜCRE PATOLOJİSİ",
+          "source_material": "Patoloji",
+          "generated_count": 0,
+          "skipped_count": 0,
+          "failed_count": 0,
+          "attempted_count": 0,
+          "target_count": 8,
+          "question_ids": [],
+          "message": "Job queued (ID: 108858)"
+        }
+      },
+      {
+        "mode": "generate",
+        "source": "Patoloji",
+        "segment": "KADIN GENİTAL SİSTEM",
+        "response": {
+          "success": true,
+          "topic": "KADIN GENİTAL SİSTEM",
+          "source_material": "Patoloji",
+          "generated_count": 0,
+          "skipped_count": 0,
+          "failed_count": 0,
+          "attempted_count": 0,
+          "target_count": 8,
+          "question_ids": [],
+          "message": "Job queued (ID: 108859)"
+        }
+      },
+      {
+        "mode": "generate",
+        "source": "Patoloji",
+        "segment": "KALP HASTALIKLARI",
+        "response": {
+          "success": true,
+          "topic": "KALP HASTALIKLARI",
+          "source_material": "Patoloji",
+          "generated_count": 0,
+          "skipped_count": 0,
+          "failed_count": 0,
+          "attempted_count": 0,
+          "target_count": 8,
+          "question_ids": [],
+          "message": "Job queued (ID: 108860)"
+        }
+      },
+      {
+        "mode": "generate",
+        "source": "Patoloji",
+        "segment": "MEME HASTALIKLARI",
+        "response": {
+          "success": true,
+          "topic": "MEME HASTALIKLARI",
+          "source_material": "Patoloji",
+          "generated_count": 0,
+          "skipped_count": 0,
+          "failed_count": 0,
+          "attempted_count": 0,
+          "target_count": 8,
+          "question_ids": [],
+          "message": "Job queued (ID: 108861)"
+        }
+      },
+      {
+        "mode": "generate",
+        "source": "Patoloji",
+        "segment": "NEOPLAZİ",
+        "response": {
+          "success": true,
+          "topic": "NEOPLAZİ",
+          "source_material": "Patoloji",
+          "generated_count": 0,
+          "skipped_count": 0,
+          "failed_count": 0,
+          "attempted_count": 0,
+          "target_count": 8,
+          "question_ids": [],
+          "message": "Job queued (ID: 108862)"
+        }
+      },
+      {
+        "mode": "generate",
+        "source": "Patoloji",
+        "segment": "NEOPLAZİ",
+        "response": {
+          "success": true,
+          "topic": "NEOPLAZİ",
+          "source_material": "Patoloji",
+          "generated_count": 0,
+          "skipped_count": 0,
+          "failed_count": 0,
+          "attempted_count": 0,
+          "target_count": 8,
+          "question_ids": [],
+          "message": "Job queued (ID: 108863)"
+        }
+      },
+      {
+        "mode": "generate",
+        "source": "Patoloji",
+        "segment": "ONARIM VE REJENERASYON",
+        "response": {
+          "success": true,
+          "topic": "ONARIM VE REJENERASYON",
+          "source_material": "Patoloji",
+          "generated_count": 0,
+          "skipped_count": 0,
+          "failed_count": 0,
+          "attempted_count": 0,
+          "target_count": 8,
+          "question_ids": [],
+          "message": "Job queued (ID: 108864)"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Patoloji",
+        "segment": "SOLUNUM SİSTEMİ HASTALIKLARI",
+        "multiplier": 1,
+        "response": {
+          "success": true,
+          "total_chunks": 2,
+          "total_jobs": 2,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "SOLUNUM SİSTEMİ HASTALIKLARI (Akut Akciğer Hasarı + Obstrüktif ve Restriktif Akciğer Hastalıkları + Vasküler Akciğer Hastalıkları)",
+              "topics": [
+                "Akut Akciğer Hasarı",
+                "Obstrüktif ve Restriktif Akciğer Hastalıkları",
+                "Vasküler Akciğer Hastalıkları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Patoloji/output_patoloji_f1/sub/SOLUNUM_SİSTEMİ_HASTALIKLARI/03_Akut_Akciğer_Hasarı.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f1/sub/SOLUNUM_SİSTEMİ_HASTALIKLARI/04_Obstrüktif_ve_Restriktif_Akciğer_Hastalıkları.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f1/sub/SOLUNUM_SİSTEMİ_HASTALIKLARI/05_Vasküler_Akciğer_Hastalıkları.pdf"
+              ],
+              "page_count": 13,
+              "job_ids": [
+                108865
+              ]
+            },
+            {
+              "chunk_index": 1,
+              "topic_name": "SOLUNUM SİSTEMİ HASTALIKLARI (Pulmoner Enfeksiyonlar + Akciğer Tümörleri + Plevra Lezyonları + Solunum Yolu)",
+              "topics": [
+                "Pulmoner Enfeksiyonlar",
+                "Akciğer Tümörleri",
+                "Plevra Lezyonları",
+                "Solunum Yolu"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Patoloji/output_patoloji_f1/sub/SOLUNUM_SİSTEMİ_HASTALIKLARI/06_Pulmoner_Enfeksiyonlar.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f1/sub/SOLUNUM_SİSTEMİ_HASTALIKLARI/07_Akciğer_Tümörleri.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f1/sub/SOLUNUM_SİSTEMİ_HASTALIKLARI/08_Plevra_Lezyonları.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f1/sub/SOLUNUM_SİSTEMİ_HASTALIKLARI/09_Solunum_Yolu.pdf"
+              ],
+              "page_count": 12,
+              "job_ids": [
+                108866
+              ]
+            }
+          ],
+          "message": "2 chunk, 2 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Patoloji",
+        "segment": "SİNDİRİM SİSTEMİ HASTALIKLARI",
+        "multiplier": 1,
+        "response": {
+          "success": true,
+          "total_chunks": 2,
+          "total_jobs": 2,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "SİNDİRİM SİSTEMİ HASTALIKLARI (Oral Kavite + Özofagus Hastalıkları + Mide Hastalıkları)",
+              "topics": [
+                "Oral Kavite",
+                "Özofagus Hastalıkları",
+                "Mide Hastalıkları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/SİNDİRİM_SİSTEMİ_HASTALIKLARI/01_Oral_Kavite.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/SİNDİRİM_SİSTEMİ_HASTALIKLARI/02_Özofagus_Hastalıkları.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/SİNDİRİM_SİSTEMİ_HASTALIKLARI/03_Mide_Hastalıkları.pdf"
+              ],
+              "page_count": 15,
+              "job_ids": [
+                108867
+              ]
+            },
+            {
+              "chunk_index": 1,
+              "topic_name": "SİNDİRİM SİSTEMİ HASTALIKLARI (İnce ve Kalın Bağırsak Hastalıkları + Periton)",
+              "topics": [
+                "İnce ve Kalın Bağırsak Hastalıkları",
+                "Periton"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/SİNDİRİM_SİSTEMİ_HASTALIKLARI/04_İnce_ve_Kalın_Bağırsak_Hastalıkları.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/SİNDİRİM_SİSTEMİ_HASTALIKLARI/06_Periton.pdf"
+              ],
+              "page_count": 15,
+              "job_ids": [
+                108868
+              ]
+            }
+          ],
+          "message": "2 chunk, 2 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Patoloji",
+        "segment": "SİNİR SİSTEMİ HASTALIKLARI",
+        "multiplier": 1,
+        "response": {
+          "success": true,
+          "total_chunks": 2,
+          "total_jobs": 2,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "SİNİR SİSTEMİ HASTALIKLARI (7 konu: Beyin Hücreleri ve Gösterdikleri Patolojik Değişiklikler -> Sinir Sistemi Enfeksiyonları)",
+              "topics": [
+                "Beyin Hücreleri ve Gösterdikleri Patolojik Değişiklikler",
+                "Ödem, Herniasyon ve Hidrosefali",
+                "Konjenital Malformasyonlar",
+                "Vasküler Hastalıklar",
+                "Santral Sinir Sistemi Travmaları",
+                "Nörokutanöz Sendromlar",
+                "Sinir Sistemi Enfeksiyonları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/SİNİR_SİSTEMİ_HASTALIKLARI/01_Beyin_Hücreleri_ve_Gösterdikleri_Patolojik_Değişiklikler.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/SİNİR_SİSTEMİ_HASTALIKLARI/02_Ödem__Herniasyon_ve_Hidrosefali.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/SİNİR_SİSTEMİ_HASTALIKLARI/03_Konjenital_Malformasyonlar.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/SİNİR_SİSTEMİ_HASTALIKLARI/04_Vasküler_Hastalıklar.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/SİNİR_SİSTEMİ_HASTALIKLARI/05_Santral_Sinir_Sistemi_Travmaları.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/SİNİR_SİSTEMİ_HASTALIKLARI/06_Nörokutanöz_Sendromlar.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/SİNİR_SİSTEMİ_HASTALIKLARI/08_Sinir_Sistemi_Enfeksiyonları.pdf"
+              ],
+              "page_count": 15,
+              "job_ids": [
+                108869
+              ]
+            },
+            {
+              "chunk_index": 1,
+              "topic_name": "SİNİR SİSTEMİ HASTALIKLARI (7 konu: Santral Sinir Sistemi Tümörleri -> Periferik Sinir Sistemi Tümörleri)",
+              "topics": [
+                "Santral Sinir Sistemi Tümörleri",
+                "Miyelin Kaybıyla Giden Primer Hastalıklar",
+                "Lökodistrofiler (Dismiyelinizan Hastalıklar)",
+                "Kazanılmış Metabolik Ve Toksik Bozukluklar",
+                "Nörodejeneratif Hastalıklar",
+                "Motor Nöron Hastalıkları",
+                "Periferik Sinir Sistemi Tümörleri"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/SİNİR_SİSTEMİ_HASTALIKLARI/09_Santral_Sinir_Sistemi_Tümörleri.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/SİNİR_SİSTEMİ_HASTALIKLARI/10_Miyelin_Kaybıyla_Giden_Primer_Hastalıklar.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/SİNİR_SİSTEMİ_HASTALIKLARI/11_Lökodistrofiler__Dismiyelinizan_Hastalıklar_.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/SİNİR_SİSTEMİ_HASTALIKLARI/12_Kazanılmış_Metabolik_Ve_Toksik_Bozukluklar.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/SİNİR_SİSTEMİ_HASTALIKLARI/13_Nörodejeneratif_Hastalıklar.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/SİNİR_SİSTEMİ_HASTALIKLARI/15_Motor_Nöron_Hastalıkları.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/SİNİR_SİSTEMİ_HASTALIKLARI/16_Periferik_Sinir_Sistemi_Tümörleri.pdf"
+              ],
+              "page_count": 13,
+              "job_ids": [
+                108870
+              ]
+            }
+          ],
+          "message": "2 chunk, 2 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Patoloji",
+        "segment": "ÜRİNER SİSTEM HASTALIKLARI",
+        "multiplier": 1,
+        "response": {
+          "success": true,
+          "total_chunks": 2,
+          "total_jobs": 2,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "ÜRİNER SİSTEM HASTALIKLARI (Glomerüler Hastalıklar + Tübül ve İnterstisyumu Etkileyen Hastalıklar + Kan Damarlarını İlgilendiren Hastalıklar)",
+              "topics": [
+                "Glomerüler Hastalıklar",
+                "Tübül ve İnterstisyumu Etkileyen Hastalıklar",
+                "Kan Damarlarını İlgilendiren Hastalıklar"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/ÜRİNER_SİSTEM_HASTALIKLARI/01_Glomerüler_Hastalıklar.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/ÜRİNER_SİSTEM_HASTALIKLARI/02_Tübül_ve_İnterstisyumu_Etkileyen_Hastalıklar.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/ÜRİNER_SİSTEM_HASTALIKLARI/03_Kan_Damarlarını_İlgilendiren_Hastalıklar.pdf"
+              ],
+              "page_count": 13,
+              "job_ids": [
+                108871
+              ]
+            },
+            {
+              "chunk_index": 1,
+              "topic_name": "ÜRİNER SİSTEM HASTALIKLARI (Böbreğin Kistik Hastalıkları + Böbrek Tümörleri + Mesane Hastalıkları + Mesane Tümörleri)",
+              "topics": [
+                "Böbreğin Kistik Hastalıkları",
+                "Böbrek Tümörleri",
+                "Mesane Hastalıkları",
+                "Mesane Tümörleri"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/ÜRİNER_SİSTEM_HASTALIKLARI/04_Böbreğin_Kistik_Hastalıkları.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/ÜRİNER_SİSTEM_HASTALIKLARI/06_Böbrek_Tümörleri.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/ÜRİNER_SİSTEM_HASTALIKLARI/07_Mesane_Hastalıkları.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/ÜRİNER_SİSTEM_HASTALIKLARI/08_Mesane_Tümörleri.pdf"
+              ],
+              "page_count": 9,
+              "job_ids": [
+                108872
+              ]
+            }
+          ],
+          "message": "2 chunk, 2 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "generate",
+        "source": "Patoloji",
+        "segment": "İMMÜN SİSTEM HASTALIKLARI",
+        "response": {
+          "success": true,
+          "topic": "İMMÜN SİSTEM HASTALIKLARI",
+          "source_material": "Patoloji",
+          "generated_count": 0,
+          "skipped_count": 0,
+          "failed_count": 0,
+          "attempted_count": 0,
+          "target_count": 8,
+          "question_ids": [],
+          "message": "Job queued (ID: 108873)"
+        }
+      },
+      {
+        "mode": "generate",
+        "source": "Patoloji",
+        "segment": "İMMÜN SİSTEM HASTALIKLARI",
+        "response": {
+          "success": true,
+          "topic": "İMMÜN SİSTEM HASTALIKLARI",
+          "source_material": "Patoloji",
+          "generated_count": 0,
+          "skipped_count": 0,
+          "failed_count": 0,
+          "attempted_count": 0,
+          "target_count": 8,
+          "question_ids": [],
+          "message": "Job queued (ID: 108874)"
+        }
+      },
+      {
+        "mode": "generate",
+        "source": "Patoloji",
+        "segment": "İNFLAMASYON",
+        "response": {
+          "success": true,
+          "topic": "İNFLAMASYON",
+          "source_material": "Patoloji",
+          "generated_count": 0,
+          "skipped_count": 0,
+          "failed_count": 0,
+          "attempted_count": 0,
+          "target_count": 8,
+          "question_ids": [],
+          "message": "Job queued (ID: 108875)"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Patoloji",
+        "segment": "İSKELET SİSTEMİ HASTALIKLARI",
+        "multiplier": 1,
+        "response": {
+          "success": true,
+          "total_chunks": 3,
+          "total_jobs": 3,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "Kemik ve Kıkırdak Hastalıkları",
+              "topics": [
+                "Kemik ve Kıkırdak Hastalıkları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/İSKELET_SİSTEMİ_HASTALIKLARI/01_Kemik_ve_Kıkırdak_Hastalıkları.pdf"
+              ],
+              "page_count": 16,
+              "job_ids": [
+                108876
+              ]
+            },
+            {
+              "chunk_index": 1,
+              "topic_name": "Eklem Hastalıkları",
+              "topics": [
+                "Eklem Hastalıkları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/İSKELET_SİSTEMİ_HASTALIKLARI/02_Eklem_Hastalıkları.pdf"
+              ],
+              "page_count": 6,
+              "job_ids": [
+                108877
+              ]
+            },
+            {
+              "chunk_index": 2,
+              "topic_name": "İSKELET SİSTEMİ HASTALIKLARI (Yumuşak Doku Tümörleri ve Tümör Benzeri Lezyonlar + Kas Hastalıkları + Periferik Sinir Sistemi Hastalıkları)",
+              "topics": [
+                "Yumuşak Doku Tümörleri ve Tümör Benzeri Lezyonlar",
+                "Kas Hastalıkları",
+                "Periferik Sinir Sistemi Hastalıkları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/İSKELET_SİSTEMİ_HASTALIKLARI/03_Yumuşak_Doku_Tümörleri_ve_Tümör_Benzeri_Lezyonlar.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/İSKELET_SİSTEMİ_HASTALIKLARI/04_Kas_Hastalıkları.pdf",
+                "processed_pdfs/Patoloji/output_patoloji_f2/sub/İSKELET_SİSTEMİ_HASTALIKLARI/05_Periferik_Sinir_Sistemi_Hastalıkları.pdf"
+              ],
+              "page_count": 12,
+              "job_ids": [
+                108878
+              ]
+            }
+          ],
+          "message": "3 chunk, 3 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "generate",
+        "source": "Pediatri",
+        "segment": "ACİL VE YOĞUN BAKIM",
+        "response": {
+          "success": true,
+          "topic": "ACİL VE YOĞUN BAKIM",
+          "source_material": "Pediatri",
+          "generated_count": 0,
+          "skipped_count": 0,
+          "failed_count": 0,
+          "attempted_count": 0,
+          "target_count": 8,
+          "question_ids": [],
+          "message": "Job queued (ID: 108879)"
+        }
+      },
+      {
+        "mode": "generate",
+        "source": "Pediatri",
+        "segment": "ADÖLESAN",
+        "response": {
+          "success": true,
+          "topic": "ADÖLESAN",
+          "source_material": "Pediatri",
+          "generated_count": 0,
+          "skipped_count": 0,
+          "failed_count": 0,
+          "attempted_count": 0,
+          "target_count": 8,
+          "question_ids": [],
+          "message": "Job queued (ID: 108880)"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Pediatri",
+        "segment": "Beslenme ve Malnütrisyon",
+        "multiplier": 2,
+        "response": {
+          "success": true,
+          "total_chunks": 1,
+          "total_jobs": 2,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "Beslenme ve Malnütrisyon (Anne Sütü ile Beslenme, Çocukluk Çağının Şiddetli Akut Malnütrisyonu (Protein-Enerji Malnütrisyonu) + Obezite + Vitaminler ve Vitamin Eksikliklerine Bağlı Hastalıklar)",
+              "topics": [
+                "Anne Sütü ile Beslenme, Çocukluk Çağının Şiddetli Akut Malnütrisyonu (Protein-Enerji Malnütrisyonu)",
+                "Obezite",
+                "Vitaminler ve Vitamin Eksikliklerine Bağlı Hastalıklar"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Pediatri/output_pediatri_f1/sub/Beslenme_ve_Malnütrisyon/01_Anne_Sütü_ile_Beslenme__Çocukluk_Çağının_Şiddetli_Akut_Malnütrisyonu__Protein_Enerji_Malnütrisyonu_.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f1/sub/Beslenme_ve_Malnütrisyon/02_Obezite.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f1/sub/Beslenme_ve_Malnütrisyon/03_Vitaminler_ve_Vitamin_Eksikliklerine_Bağlı_Hastalıklar.pdf"
+              ],
+              "page_count": 21,
+              "job_ids": [
+                108881,
+                108882
+              ]
+            }
+          ],
+          "message": "1 chunk, 2 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "generate",
+        "source": "Pediatri",
+        "segment": "Büyüme ve Gelişme",
+        "response": {
+          "success": true,
+          "topic": "Büyüme ve Gelişme",
+          "source_material": "Pediatri",
+          "generated_count": 0,
+          "skipped_count": 0,
+          "failed_count": 0,
+          "attempted_count": 0,
+          "target_count": 8,
+          "question_ids": [],
+          "message": "Job queued (ID: 108883)"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Pediatri",
+        "segment": "Döküntülü Hastalıklar ve Bağışıklama",
+        "multiplier": 2,
+        "response": {
+          "success": true,
+          "total_chunks": 1,
+          "total_jobs": 2,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "Bağışıklama",
+              "topics": [
+                "Bağışıklama"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Döküntülü_Hastalıklar_ve_Bağışıklama/02_Bağışıklama.pdf"
+              ],
+              "page_count": 26,
+              "job_ids": [
+                108884,
+                108885
+              ]
+            }
+          ],
+          "message": "1 chunk, 2 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "generate",
+        "source": "Pediatri",
+        "segment": "Genetik",
+        "response": {
+          "success": true,
+          "topic": "Genetik",
+          "source_material": "Pediatri",
+          "generated_count": 0,
+          "skipped_count": 0,
+          "failed_count": 0,
+          "attempted_count": 0,
+          "target_count": 8,
+          "question_ids": [],
+          "message": "Job queued (ID: 108886)"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Pediatri",
+        "segment": "Metabolik Hastalıklar",
+        "multiplier": 1,
+        "response": {
+          "success": true,
+          "total_chunks": 3,
+          "total_jobs": 3,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "Aminoasidopatiler",
+              "topics": [
+                "Aminoasidopatiler"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Metabolik_Hastalıklar/01_Aminoasidopatiler.pdf"
+              ],
+              "page_count": 10,
+              "job_ids": [
+                108887
+              ]
+            },
+            {
+              "chunk_index": 1,
+              "topic_name": "Metabolik Hastalıklar (Üre Siklus Defektleri ve Hiperamonyemi + Yağ Asidi Oksidasyon Defektleri (YAOD) + Peroksizomal Hastalıklar + Lizozomal Depo Hastalıkları)",
+              "topics": [
+                "Üre Siklus Defektleri ve Hiperamonyemi",
+                "Yağ Asidi Oksidasyon Defektleri (YAOD)",
+                "Peroksizomal Hastalıklar",
+                "Lizozomal Depo Hastalıkları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Metabolik_Hastalıklar/02_Üre_Siklus_Defektleri_ve_Hiperamonyemi.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Metabolik_Hastalıklar/03_Yağ_Asidi_Oksidasyon_Defektleri__YAOD_.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Metabolik_Hastalıklar/04_Peroksizomal_Hastalıklar.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Metabolik_Hastalıklar/05_Lizozomal_Depo_Hastalıkları.pdf"
+              ],
+              "page_count": 9,
+              "job_ids": [
+                108888
+              ]
+            },
+            {
+              "chunk_index": 2,
+              "topic_name": "Metabolik Hastalıklar (Karbohidrat Metabolizması Bozuklukları + Kemik Metabolizma Bozuklukları)",
+              "topics": [
+                "Karbohidrat Metabolizması Bozuklukları",
+                "Kemik Metabolizma Bozuklukları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Metabolik_Hastalıklar/06_Karbohidrat_Metabolizması_Bozuklukları.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Metabolik_Hastalıklar/08_Kemik_Metabolizma_Bozuklukları.pdf"
+              ],
+              "page_count": 10,
+              "job_ids": [
+                108889
+              ]
+            }
+          ],
+          "message": "3 chunk, 3 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Pediatri",
+        "segment": "Pediatrik Alerji-İmmünoloji",
+        "multiplier": 1,
+        "response": {
+          "success": true,
+          "total_chunks": 4,
+          "total_jobs": 4,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "Pediatrik Alerji-İmmünoloji (Anafilaktik Tip 1 (Anafilaktik) Aşırı Duyarlılık Reaksiyonları + Anafilaksi + Ürtiker ve Anjioödem)",
+              "topics": [
+                "Anafilaktik Tip 1 (Anafilaktik) Aşırı Duyarlılık Reaksiyonları",
+                "Anafilaksi",
+                "Ürtiker ve Anjioödem"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Alerji_İmmünoloji/01_Anafilaktik_Tip_1__Anafilaktik__Aşırı_Duyarlılık_Reaksiyonları.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Alerji_İmmünoloji/03_Anafilaksi.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Alerji_İmmünoloji/04_Ürtiker_ve_Anjioödem.pdf"
+              ],
+              "page_count": 8,
+              "job_ids": [
+                108890
+              ]
+            },
+            {
+              "chunk_index": 1,
+              "topic_name": "Pediatrik Alerji-İmmünoloji (Bronşiyal Astım + Atopik Dermatit (AD) + Alerjik Konjuktivit + Alerjik Rinit)",
+              "topics": [
+                "Bronşiyal Astım",
+                "Atopik Dermatit (AD)",
+                "Alerjik Konjuktivit",
+                "Alerjik Rinit"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Alerji_İmmünoloji/05_Bronşiyal_Astım.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Alerji_İmmünoloji/06_Atopik_Dermatit__AD_.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Alerji_İmmünoloji/07_Alerjik_Konjuktivit.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Alerji_İmmünoloji/08_Alerjik_Rinit.pdf"
+              ],
+              "page_count": 11,
+              "job_ids": [
+                108891
+              ]
+            },
+            {
+              "chunk_index": 2,
+              "topic_name": "Pediatrik Alerji-İmmünoloji (Advers İlaç Reaksiyonları + Besinlere Karşı Advers Reaksiyonlar + İmmün Yetmezlik Sendromları + Humoral İmmün Yetmezlik (B Hücresi Yetmezlikleri))",
+              "topics": [
+                "Advers İlaç Reaksiyonları",
+                "Besinlere Karşı Advers Reaksiyonlar",
+                "İmmün Yetmezlik Sendromları",
+                "Humoral İmmün Yetmezlik (B Hücresi Yetmezlikleri)"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Alerji_İmmünoloji/09_Advers_İlaç_Reaksiyonları.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Alerji_İmmünoloji/10_Besinlere_Karşı_Advers_Reaksiyonlar.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Alerji_İmmünoloji/12_İmmün_Yetmezlik_Sendromları.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Alerji_İmmünoloji/13_Humoral_İmmün_Yetmezlik__B_Hücresi_Yetmezlikleri_.pdf"
+              ],
+              "page_count": 13,
+              "job_ids": [
+                108892
+              ]
+            },
+            {
+              "chunk_index": 3,
+              "topic_name": "Pediatrik Alerji-İmmünoloji (Hücresel ve Kombine İmmün Yetmezlikler + Fagositer Sistem Defektleri + Kompleman Eksiklikleri)",
+              "topics": [
+                "Hücresel ve Kombine İmmün Yetmezlikler",
+                "Fagositer Sistem Defektleri",
+                "Kompleman Eksiklikleri"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Alerji_İmmünoloji/14_Hücresel_ve_Kombine_İmmün_Yetmezlikler.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Alerji_İmmünoloji/15_Fagositer_Sistem_Defektleri.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Alerji_İmmünoloji/16_Kompleman_Eksiklikleri.pdf"
+              ],
+              "page_count": 11,
+              "job_ids": [
+                108893
+              ]
+            }
+          ],
+          "message": "4 chunk, 4 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Pediatri",
+        "segment": "Pediatrik Endokrinoloji",
+        "multiplier": 1,
+        "response": {
+          "success": true,
+          "total_chunks": 3,
+          "total_jobs": 3,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "Pediatrik Endokrinoloji (Hipofiz ve Hipotalamus Bezi + Paratiroid Bezi Hastalıkları)",
+              "topics": [
+                "Hipofiz ve Hipotalamus Bezi",
+                "Paratiroid Bezi Hastalıkları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Endokrinoloji/01_Hipofiz_ve_Hipotalamus_Bezi.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Endokrinoloji/03_Paratiroid_Bezi_Hastalıkları.pdf"
+              ],
+              "page_count": 13,
+              "job_ids": [
+                108894
+              ]
+            },
+            {
+              "chunk_index": 1,
+              "topic_name": "Tip1 Diabetes Mellitus",
+              "topics": [
+                "Tip1 Diabetes Mellitus"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Endokrinoloji/04_Tip1_Diabetes_Mellitus.pdf"
+              ],
+              "page_count": 6,
+              "job_ids": [
+                108895
+              ]
+            },
+            {
+              "chunk_index": 2,
+              "topic_name": "Pediatrik Endokrinoloji (Puberte ve Bozuklukları + Adrenal Bez Hastalıkları + Obezite)",
+              "topics": [
+                "Puberte ve Bozuklukları",
+                "Adrenal Bez Hastalıkları",
+                "Obezite"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Endokrinoloji/05_Puberte_ve_Bozuklukları.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Endokrinoloji/06_Adrenal_Bez_Hastalıkları.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Endokrinoloji/07_Obezite.pdf"
+              ],
+              "page_count": 12,
+              "job_ids": [
+                108896
+              ]
+            }
+          ],
+          "message": "3 chunk, 3 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Pediatri",
+        "segment": "Pediatrik Göğüs Hastalıkları",
+        "multiplier": 1,
+        "response": {
+          "success": true,
+          "total_chunks": 3,
+          "total_jobs": 3,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "Pediatrik Göğüs Hastalıkları (Solunum Yolu Konjenital Anomalileri + Yabancı Cisim Aspirasyonu + Kistik Fibrozis)",
+              "topics": [
+                "Solunum Yolu Konjenital Anomalileri",
+                "Yabancı Cisim Aspirasyonu",
+                "Kistik Fibrozis"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Göğüs_Hastalıkları/02_Solunum_Yolu_Konjenital_Anomalileri.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Göğüs_Hastalıkları/03_Yabancı_Cisim_Aspirasyonu.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Göğüs_Hastalıkları/04_Kistik_Fibrozis.pdf"
+              ],
+              "page_count": 15,
+              "job_ids": [
+                108897
+              ]
+            },
+            {
+              "chunk_index": 1,
+              "topic_name": "Pediatrik Göğüs Hastalıkları (Wheezing İnfant (Hışıltılı Çocuk) Sendromu + Üst Solunum Yolu Enfeksiyonları + Alt Solunum Yolu Hastalıkları)",
+              "topics": [
+                "Wheezing İnfant (Hışıltılı Çocuk) Sendromu",
+                "Üst Solunum Yolu Enfeksiyonları",
+                "Alt Solunum Yolu Hastalıkları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Göğüs_Hastalıkları/05_Wheezing_İnfant__Hışıltılı_Çocuk__Sendromu.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Göğüs_Hastalıkları/07_Üst_Solunum_Yolu_Enfeksiyonları.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Göğüs_Hastalıkları/08_Alt_Solunum_Yolu_Hastalıkları.pdf"
+              ],
+              "page_count": 15,
+              "job_ids": [
+                108898
+              ]
+            },
+            {
+              "chunk_index": 2,
+              "topic_name": "Pediatrik Göğüs Hastalıkları (Toplum Kökenli Pnömoni + Bronşektazi + Plevra ve Hastalıkları + Obstrüktif Uyku Apnesi ve Hipoventilasyon)",
+              "topics": [
+                "Toplum Kökenli Pnömoni",
+                "Bronşektazi",
+                "Plevra ve Hastalıkları",
+                "Obstrüktif Uyku Apnesi ve Hipoventilasyon"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Göğüs_Hastalıkları/09_Toplum_Kökenli_Pnömoni.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Göğüs_Hastalıkları/10_Bronşektazi.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Göğüs_Hastalıkları/11_Plevra_ve_Hastalıkları.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Göğüs_Hastalıkları/12_Obstrüktif_Uyku_Apnesi_ve_Hipoventilasyon.pdf"
+              ],
+              "page_count": 13,
+              "job_ids": [
+                108899
+              ]
+            }
+          ],
+          "message": "3 chunk, 3 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Pediatri",
+        "segment": "Pediatrik Hematoloji",
+        "multiplier": 2,
+        "response": {
+          "success": true,
+          "total_chunks": 2,
+          "total_jobs": 4,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "Pediatrik Hematoloji (Hematopoez + Anemiler (Genel))",
+              "topics": [
+                "Hematopoez",
+                "Anemiler (Genel)"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Hematoloji/01_Hematopoez.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Hematoloji/02_Anemiler__Genel_.pdf"
+              ],
+              "page_count": 29,
+              "job_ids": [
+                108900,
+                108901
+              ]
+            },
+            {
+              "chunk_index": 1,
+              "topic_name": "Pediatrik Hematoloji (5 konu: Kan ve Kan Ürünleri Kullanımı -> Tromboza Eğilim (Trombofili))",
+              "topics": [
+                "Kan ve Kan Ürünleri Kullanımı",
+                "Çocukluk Çağında Polisitemi",
+                "Kanama Hastalıkları",
+                "Koagülasyon Faktör Eksiklikleri",
+                "Tromboza Eğilim (Trombofili)"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Hematoloji/03_Kan_ve_Kan_Ürünleri_Kullanımı.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Hematoloji/04_Çocukluk_Çağında_Polisitemi.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Hematoloji/05_Kanama_Hastalıkları.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Hematoloji/06_Koagülasyon_Faktör_Eksiklikleri.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Hematoloji/07_Tromboza_Eğilim__Trombofili_.pdf"
+              ],
+              "page_count": 16,
+              "job_ids": [
+                108902,
+                108903
+              ]
+            }
+          ],
+          "message": "2 chunk, 4 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Pediatri",
+        "segment": "Pediatrik Kardiyoloji",
+        "multiplier": 1,
+        "response": {
+          "success": true,
+          "total_chunks": 4,
+          "total_jobs": 4,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "Pediatrik Kardiyoloji (8 konu: Maternal Faktörler -> Soldan Sağa Şantlı Konjenital Kalp Hastalıkları)",
+              "topics": [
+                "Maternal Faktörler",
+                "Kromozomal Anomaliler ve KKH",
+                "Kardiyovasküler Fizik Muayene",
+                "Üfürümler",
+                "Radyolojik Değerlendirme",
+                "Fetal Dolaşım",
+                "Doğum Sonrasında Sirkülasyonda Değişmeler",
+                "Soldan Sağa Şantlı Konjenital Kalp Hastalıkları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/02_Maternal_Faktörler.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/03_Kromozomal_Anomaliler_ve_KKH.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/04_Kardiyovasküler_Fizik_Muayene.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/05_Üfürümler.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/06_Radyolojik_Değerlendirme.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/08_Fetal_Dolaşım.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/09_Doğum_Sonrasında_Sirkülasyonda_Değişmeler.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/11_Soldan_Sağa_Şantlı_Konjenital_Kalp_Hastalıkları.pdf"
+              ],
+              "page_count": 21,
+              "job_ids": [
+                108904
+              ]
+            },
+            {
+              "chunk_index": 1,
+              "topic_name": "Pediatrik Kardiyoloji (5 konu: Obstrüktif Kalp Hastalıkları -> Konjestif Kalp Yetmezliği (KKY))",
+              "topics": [
+                "Obstrüktif Kalp Hastalıkları",
+                "Siyanotik Konjenital Kalp Hastalıkları",
+                "Pulmoner Hipertansiyon",
+                "Akut Romatizmal Ateş (ARA)",
+                "Konjestif Kalp Yetmezliği (KKY)"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/12_Obstrüktif_Kalp_Hastalıkları.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/13_Siyanotik_Konjenital_Kalp_Hastalıkları.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/14_Pulmoner_Hipertansiyon.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/15_Akut_Romatizmal_Ateş__ARA_.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/16_Konjestif_Kalp_Yetmezliği__KKY_.pdf"
+              ],
+              "page_count": 22,
+              "job_ids": [
+                108905
+              ]
+            },
+            {
+              "chunk_index": 2,
+              "topic_name": "Pediatrik Kardiyoloji (7 konu: Enfektif Endokardit -> Senkop)",
+              "topics": [
+                "Enfektif Endokardit",
+                "Perikarditler",
+                "Miyokardit",
+                "Kardiyomiyopatiler (KMP)",
+                "Sistemik Hipertansiyon",
+                "Göğüs Ağrısı",
+                "Senkop"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/17_Enfektif_Endokardit.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/18_Perikarditler.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/19_Miyokardit.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/20_Kardiyomiyopatiler__KMP_.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/21_Sistemik_Hipertansiyon.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/22_Göğüs_Ağrısı.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/23_Senkop.pdf"
+              ],
+              "page_count": 20,
+              "job_ids": [
+                108906
+              ]
+            },
+            {
+              "chunk_index": 3,
+              "topic_name": "Pediatrik Kardiyoloji (7 konu: Ani Beklenmedik Kardiyak Ölüm -> Çocuklarda İmplante Edilebilir Defibrilatör-ICD Takılma Endikasyonları)",
+              "topics": [
+                "Ani Beklenmedik Kardiyak Ölüm",
+                "Çocuklarda Elektrokardiyografi (EKG) Hız ve Ritim",
+                "Pediatrik ve Yetişkin Elektrokardiyogramların Karşılaştırılması",
+                "Elektrolit Bozukluklarının EKG Bulguları",
+                "Çocuklarda Ritim Bozuklukları",
+                "Çocuklarda Primer İyon Kanal Hastalıkları ve Ani Ölüm",
+                "Çocuklarda İmplante Edilebilir Defibrilatör-ICD Takılma Endikasyonları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/24_Ani_Beklenmedik_Kardiyak_Ölüm.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/25_Çocuklarda_Elektrokardiyografi__EKG__Hız_ve_Ritim.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/26_Pediatrik_ve_Yetişkin_Elektrokardiyogramların_Karşılaştırılması.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/27_Elektrolit_Bozukluklarının_EKG_Bulguları.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/28_Çocuklarda_Ritim_Bozuklukları.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/29_Çocuklarda_Primer_İyon_Kanal_Hastalıkları_ve_Ani_Ölüm.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f2/sub/Pediatrik_Kardiyoloji/30_Çocuklarda_İmplante_Edilebilir_Defibrilatör_ICD_Takılma_Endikasyonları.pdf"
+              ],
+              "page_count": 19,
+              "job_ids": [
+                108907
+              ]
+            }
+          ],
+          "message": "4 chunk, 4 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Pediatri",
+        "segment": "Pediatrik Nefroloji",
+        "multiplier": 1,
+        "response": {
+          "success": true,
+          "total_chunks": 3,
+          "total_jobs": 3,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "Pediatrik Nefroloji (5 konu: Tam İdrar Tetkiki -> Hematüriler)",
+              "topics": [
+                "Tam İdrar Tetkiki",
+                "Üriner Sistem Enfeksiyonları (İYE)",
+                "Vezikoüreteral Reflü (VUR)",
+                "Ürolitiyazis (Üriner Taşlar)",
+                "Hematüriler"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Nefroloji/01_Tam_İdrar_Tetkiki.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Nefroloji/02_Üriner_Sistem_Enfeksiyonları__İYE_.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Nefroloji/03_Vezikoüreteral_Reflü__VUR_.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Nefroloji/04_Ürolitiyazis__Üriner_Taşlar_.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Nefroloji/05_Hematüriler.pdf"
+              ],
+              "page_count": 10,
+              "job_ids": [
+                108908
+              ]
+            },
+            {
+              "chunk_index": 1,
+              "topic_name": "Pediatrik Nefroloji (Çocukluk Çağı Glomerülonefritleri + Proteinüriler + Nefrotik Sendrom)",
+              "topics": [
+                "Çocukluk Çağı Glomerülonefritleri",
+                "Proteinüriler",
+                "Nefrotik Sendrom"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Nefroloji/06_Çocukluk_Çağı_Glomerülonefritleri.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Nefroloji/07_Proteinüriler.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Nefroloji/08_Nefrotik_Sendrom.pdf"
+              ],
+              "page_count": 11,
+              "job_ids": [
+                108909
+              ]
+            },
+            {
+              "chunk_index": 2,
+              "topic_name": "Pediatrik Nefroloji (5 konu: İdrarın Asidifikasyonu ve Tübülüs Hastalıkları -> Çocuk Ürolojisi)",
+              "topics": [
+                "İdrarın Asidifikasyonu ve Tübülüs Hastalıkları",
+                "Kistik Böbrek Hastalıkları",
+                "Akut Böbrek Hasarı (ABH)",
+                "Kronik Böbrek Hasarı (KBH)",
+                "Çocuk Ürolojisi"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Nefroloji/10_İdrarın_Asidifikasyonu_ve_Tübülüs_Hastalıkları.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Nefroloji/11_Kistik_Böbrek_Hastalıkları.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Nefroloji/12_Akut_Böbrek_Hasarı__ABH_.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Nefroloji/13_Kronik_Böbrek_Hasarı__KBH_.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Nefroloji/14_Çocuk_Ürolojisi.pdf"
+              ],
+              "page_count": 12,
+              "job_ids": [
+                108910
+              ]
+            }
+          ],
+          "message": "3 chunk, 3 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Pediatri",
+        "segment": "Pediatrik Onkoloji",
+        "multiplier": 2,
+        "response": {
+          "success": true,
+          "total_chunks": 1,
+          "total_jobs": 2,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "Pediatrik Onkoloji (7 konu: Lösemiler -> Histiyositozis Sendromları)",
+              "topics": [
+                "Lösemiler",
+                "Lenfomalar",
+                "Solid Tümörler",
+                "Yumuşak Doku Tümörleri",
+                "Kemik Tümörleri",
+                "Diğer Çocukluk Çağı Tümörleri",
+                "Histiyositozis Sendromları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Onkoloji/02_Lösemiler.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Onkoloji/03_Lenfomalar.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Onkoloji/04_Solid_Tümörler.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Onkoloji/05_Yumuşak_Doku_Tümörleri.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Onkoloji/06_Kemik_Tümörleri.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Onkoloji/07_Diğer_Çocukluk_Çağı_Tümörleri.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Onkoloji/08_Histiyositozis_Sendromları.pdf"
+              ],
+              "page_count": 22,
+              "job_ids": [
+                108911,
+                108912
+              ]
+            }
+          ],
+          "message": "1 chunk, 2 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "auto_chunk",
+        "source": "Pediatri",
+        "segment": "Pediatrik Romatoloji",
+        "multiplier": 2,
+        "response": {
+          "success": true,
+          "total_chunks": 1,
+          "total_jobs": 2,
+          "chunks": [
+            {
+              "chunk_index": 0,
+              "topic_name": "Pediatrik Romatoloji (7 konu: Juvenil İdiyopatik Artrit (JİA) -> Herediter Periyodik Ateş Sendromları)",
+              "topics": [
+                "Juvenil İdiyopatik Artrit (JİA)",
+                "Sistemik Lupus Eritematozus (SLE)",
+                "Juvenil Dermatomiyozit (JDM)",
+                "Skleroderma",
+                "Çocukluk Çağı Vaskülit Sendromları",
+                "Kawasaki Hastalığı",
+                "Herediter Periyodik Ateş Sendromları"
+              ],
+              "source_pdfs_list": [
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Romatoloji/01_Juvenil_İdiyopatik_Artrit__JİA_.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Romatoloji/02_Sistemik_Lupus_Eritematozus__SLE_.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Romatoloji/03_Juvenil_Dermatomiyozit__JDM_.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Romatoloji/04_Skleroderma.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Romatoloji/06_Çocukluk_Çağı_Vaskülit_Sendromları.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Romatoloji/07_Kawasaki_Hastalığı.pdf",
+                "processed_pdfs/Pediatri/output_pediatri_f3/sub/Pediatrik_Romatoloji/08_Herediter_Periyodik_Ateş_Sendromları.pdf"
+              ],
+              "page_count": 21,
+              "job_ids": [
+                108913,
+                108914
+              ]
+            }
+          ],
+          "message": "1 chunk, 2 job oluşturuldu"
+        }
+      },
+      {
+        "mode": "generate",
+        "source": "Pediatri",
+        "segment": "Zehirlenmeler",
+        "response": {
+          "success": true,
+          "topic": "Zehirlenmeler",
+          "source_material": "Pediatri",
+          "generated_count": 0,
+          "skipped_count": 0,
+          "failed_count": 0,
+          "attempted_count": 0,
+          "target_count": 8,
+          "question_ids": [],
+          "message": "Job queued (ID: 108915)"
+        }
+      }
+    ]
+  }
+}

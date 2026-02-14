@@ -1,0 +1,1036 @@
+{
+  "timestamp": "20260214_212627",
+  "params": {
+    "api_base": "http://127.0.0.1:8000",
+    "difficulty": 1,
+    "batch_size": 8,
+    "sources": [
+      "Dahiliye",
+      "Kadin_Dogum",
+      "Patoloji",
+      "Pediatri"
+    ],
+    "additional_total": 1000,
+    "prompt_template_name": "",
+    "difficulty_template_name": "",
+    "page_threshold": 20,
+    "target_pages": 20,
+    "auto_target_pages": [
+      10,
+      15,
+      20
+    ],
+    "max_multiplier_per_call": 6,
+    "min_total": 20008,
+    "execute": false,
+    "sleep_ms": 80,
+    "max_requests": 0
+  },
+  "aggregate": {
+    "distribution_weight_total": 4414.0,
+    "additional_total_questions_requested": 1000,
+    "additional_total_questions_capacity": 1000,
+    "additional_total_job_units": 125,
+    "segments_in_plan": 48,
+    "total_deficit": 1000,
+    "estimated_jobs": 125,
+    "inferred_topic_count": 22,
+    "chunk_target_usage": {
+      "10": 14,
+      "20": 9,
+      "15": 8
+    }
+  },
+  "segments": [
+    {
+      "source": "Dahiliye",
+      "segment_title": "Endokrinoloji",
+      "deficit": 40,
+      "target": 318,
+      "current": 278,
+      "page_count": 61,
+      "chunk_count": 5,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        12,
+        11,
+        9,
+        14,
+        15
+      ],
+      "mapped_topics": [
+        "Endokrinoloji"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Dahiliye",
+      "segment_title": "Gastroenteroloji",
+      "deficit": 24,
+      "target": 165,
+      "current": 141,
+      "page_count": 52,
+      "chunk_count": 3,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 20,
+      "chunk_page_sizes": [
+        20,
+        21,
+        11
+      ],
+      "mapped_topics": [
+        "Gastroenteroloji"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Dahiliye",
+      "segment_title": "Göğüs Hastalıkları",
+      "deficit": 64,
+      "target": 623,
+      "current": 559,
+      "page_count": 64,
+      "chunk_count": 4,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 2,
+      "chunk_target_pages": 15,
+      "chunk_page_sizes": [
+        15,
+        21,
+        13,
+        15
+      ],
+      "mapped_topics": [
+        "Enfeksiyon Hastalıkları",
+        "Göğüs Hastalıkları"
+      ],
+      "inferred_topics": [
+        "Enfeksiyon Hastalıkları"
+      ]
+    },
+    {
+      "source": "Dahiliye",
+      "segment_title": "Hematoloji",
+      "deficit": 24,
+      "target": 281,
+      "current": 257,
+      "page_count": 65,
+      "chunk_count": 3,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 20,
+      "chunk_page_sizes": [
+        24,
+        22,
+        19
+      ],
+      "mapped_topics": [
+        "Hematoloji"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Dahiliye",
+      "segment_title": "Hepatoloji",
+      "deficit": 24,
+      "target": 212,
+      "current": 188,
+      "page_count": 30,
+      "chunk_count": 3,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        12,
+        7,
+        11
+      ],
+      "mapped_topics": [
+        "Hepatoloji"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Dahiliye",
+      "segment_title": "Kardiyoloji",
+      "deficit": 40,
+      "target": 315,
+      "current": 275,
+      "page_count": 81,
+      "chunk_count": 5,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 20,
+      "chunk_page_sizes": [
+        19,
+        14,
+        20,
+        13,
+        15
+      ],
+      "mapped_topics": [
+        "Kardiyoloji"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Dahiliye",
+      "segment_title": "Nefroloji",
+      "deficit": 40,
+      "target": 272,
+      "current": 232,
+      "page_count": 45,
+      "chunk_count": 5,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        7,
+        10,
+        8,
+        8,
+        12
+      ],
+      "mapped_topics": [
+        "Nefroloji"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Dahiliye",
+      "segment_title": "Onkoloji",
+      "deficit": 16,
+      "target": 114,
+      "current": 98,
+      "page_count": 13,
+      "chunk_count": 0,
+      "direct_rounds": 2,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Onkoloji"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Dahiliye",
+      "segment_title": "Romatoloji",
+      "deficit": 32,
+      "target": 217,
+      "current": 185,
+      "page_count": 37,
+      "chunk_count": 4,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        12,
+        9,
+        7,
+        9
+      ],
+      "mapped_topics": [
+        "Romatoloji"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Kadin_Dogum",
+      "segment_title": "Jinekoloji ve Üreme Endokrinolojisi",
+      "deficit": 64,
+      "target": 632,
+      "current": 568,
+      "page_count": 140,
+      "chunk_count": 8,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 20,
+      "chunk_page_sizes": [
+        16,
+        19,
+        13,
+        20,
+        15,
+        23,
+        17,
+        17
+      ],
+      "mapped_topics": [
+        "Endokrinoloji",
+        "Jinekoloji"
+      ],
+      "inferred_topics": [
+        "Endokrinoloji",
+        "Jinekoloji"
+      ]
+    },
+    {
+      "source": "Kadin_Dogum",
+      "segment_title": "Jinekolojik Onkoloji",
+      "deficit": 32,
+      "target": 224,
+      "current": 192,
+      "page_count": 50,
+      "chunk_count": 4,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        8,
+        11,
+        8,
+        23
+      ],
+      "mapped_topics": [
+        "Onkoloji"
+      ],
+      "inferred_topics": [
+        "Onkoloji"
+      ]
+    },
+    {
+      "source": "Kadin_Dogum",
+      "segment_title": "Obstetri",
+      "deficit": 56,
+      "target": 501,
+      "current": 445,
+      "page_count": 124,
+      "chunk_count": 7,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 15,
+      "chunk_page_sizes": [
+        15,
+        16,
+        14,
+        20,
+        14,
+        22,
+        23
+      ],
+      "mapped_topics": [
+        "Obstetri"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "DAMAR HASTALIKLARI",
+      "deficit": 8,
+      "target": 64,
+      "current": 56,
+      "page_count": 9,
+      "chunk_count": 0,
+      "direct_rounds": 1,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Kardiyovasküler Sistem Patolojisi"
+      ],
+      "inferred_topics": [
+        "Kardiyovasküler Sistem Patolojisi"
+      ]
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "DERİ HASTALIKLARI",
+      "deficit": 8,
+      "target": 84,
+      "current": 76,
+      "page_count": 21,
+      "chunk_count": 1,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 20,
+      "chunk_page_sizes": [
+        21
+      ],
+      "mapped_topics": [
+        "Deri Hastalıkları"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "ENDOKRİN SİSTEM HASTALIKLARI",
+      "deficit": 16,
+      "target": 128,
+      "current": 112,
+      "page_count": 21,
+      "chunk_count": 2,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        9,
+        12
+      ],
+      "mapped_topics": [
+        "Endokrin Sistem Patolojisi"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "ERKEK GENİTAL SİSTEM",
+      "deficit": 8,
+      "target": 70,
+      "current": 62,
+      "page_count": 8,
+      "chunk_count": 0,
+      "direct_rounds": 1,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Erkek Genital Sistemi Patolojisi"
+      ],
+      "inferred_topics": [
+        "Erkek Genital Sistemi Patolojisi"
+      ]
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "HEMATOPOETİK SİSTEM HASTALIKLARI",
+      "deficit": 16,
+      "target": 136,
+      "current": 120,
+      "page_count": 28,
+      "chunk_count": 2,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        9,
+        19
+      ],
+      "mapped_topics": [
+        "Hematopoetik Sistem Hastalıkları"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "HEMODİNAMİK HASTALIKLAR",
+      "deficit": 8,
+      "target": 62,
+      "current": 54,
+      "page_count": 10,
+      "chunk_count": 0,
+      "direct_rounds": 1,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Hemodinamik Hastalıklar"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "HEPATOBİLİYER SİSTEM HASTALIKLARI",
+      "deficit": 8,
+      "target": 88,
+      "current": 80,
+      "page_count": 22,
+      "chunk_count": 1,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        22
+      ],
+      "mapped_topics": [
+        "Karaciğer Patolojileri",
+        "Safra Kesesi Patolojileri"
+      ],
+      "inferred_topics": [
+        "Karaciğer Patolojileri",
+        "Safra Kesesi Patolojileri"
+      ]
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "HÜCRE PATOLOJİSİ",
+      "deficit": 16,
+      "target": 150,
+      "current": 134,
+      "page_count": 11,
+      "chunk_count": 0,
+      "direct_rounds": 2,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Hücre"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "KADIN GENİTAL SİSTEM",
+      "deficit": 8,
+      "target": 106,
+      "current": 98,
+      "page_count": 18,
+      "chunk_count": 0,
+      "direct_rounds": 1,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Kadın Genital Sistemi Patolojisi"
+      ],
+      "inferred_topics": [
+        "Kadın Genital Sistemi Patolojisi"
+      ]
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "KALP HASTALIKLARI",
+      "deficit": 8,
+      "target": 68,
+      "current": 60,
+      "page_count": 12,
+      "chunk_count": 0,
+      "direct_rounds": 1,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Kardiyovasküler Sistem Patolojisi"
+      ],
+      "inferred_topics": [
+        "Kardiyovasküler Sistem Patolojisi"
+      ]
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "MEME HASTALIKLARI",
+      "deficit": 8,
+      "target": 80,
+      "current": 72,
+      "page_count": 11,
+      "chunk_count": 0,
+      "direct_rounds": 1,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Meme Hastalıkları"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "NEOPLAZİ",
+      "deficit": 16,
+      "target": 133,
+      "current": 117,
+      "page_count": 16,
+      "chunk_count": 0,
+      "direct_rounds": 2,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Neoplazi"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "ONARIM VE REJENERASYON",
+      "deficit": 8,
+      "target": 51,
+      "current": 43,
+      "page_count": 8,
+      "chunk_count": 0,
+      "direct_rounds": 1,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Onarım ve Yara İyileşmesi"
+      ],
+      "inferred_topics": [
+        "Onarım ve Yara İyileşmesi"
+      ]
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "SOLUNUM SİSTEMİ HASTALIKLARI",
+      "deficit": 16,
+      "target": 144,
+      "current": 128,
+      "page_count": 25,
+      "chunk_count": 2,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 15,
+      "chunk_page_sizes": [
+        13,
+        12
+      ],
+      "mapped_topics": [
+        "Solunum Sistemi Patolojisi"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "SİNDİRİM SİSTEMİ HASTALIKLARI",
+      "deficit": 16,
+      "target": 179,
+      "current": 163,
+      "page_count": 30,
+      "chunk_count": 2,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 15,
+      "chunk_page_sizes": [
+        15,
+        15
+      ],
+      "mapped_topics": [
+        "Gastrointestinal Sistem Patolojisi"
+      ],
+      "inferred_topics": [
+        "Gastrointestinal Sistem Patolojisi"
+      ]
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "SİNİR SİSTEMİ HASTALIKLARI",
+      "deficit": 16,
+      "target": 141,
+      "current": 125,
+      "page_count": 28,
+      "chunk_count": 2,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 15,
+      "chunk_page_sizes": [
+        15,
+        13
+      ],
+      "mapped_topics": [
+        "Sinir Sistemi Patolojisi"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "ÜRİNER SİSTEM HASTALIKLARI",
+      "deficit": 16,
+      "target": 130,
+      "current": 114,
+      "page_count": 22,
+      "chunk_count": 2,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 15,
+      "chunk_page_sizes": [
+        13,
+        9
+      ],
+      "mapped_topics": [
+        "Üriner Sistem Patolojisi"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "İMMÜN SİSTEM HASTALIKLARI",
+      "deficit": 16,
+      "target": 133,
+      "current": 117,
+      "page_count": 16,
+      "chunk_count": 0,
+      "direct_rounds": 2,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "İmmun Sistem"
+      ],
+      "inferred_topics": [
+        "İmmun Sistem"
+      ]
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "İNFLAMASYON",
+      "deficit": 8,
+      "target": 78,
+      "current": 70,
+      "page_count": 17,
+      "chunk_count": 0,
+      "direct_rounds": 1,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "İnflamasyon"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Patoloji",
+      "segment_title": "İSKELET SİSTEMİ HASTALIKLARI",
+      "deficit": 24,
+      "target": 157,
+      "current": 133,
+      "page_count": 34,
+      "chunk_count": 3,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        16,
+        6,
+        12
+      ],
+      "mapped_topics": [
+        "Kas-İskelet Sistemi Patolojisi"
+      ],
+      "inferred_topics": [
+        "Kas-İskelet Sistemi Patolojisi"
+      ]
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "ACİL VE YOĞUN BAKIM",
+      "deficit": 8,
+      "target": 48,
+      "current": 40,
+      "page_count": 14,
+      "chunk_count": 0,
+      "direct_rounds": 1,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Pediatrik Acil, Yoğun Bakım ve Zehirlenmeler"
+      ],
+      "inferred_topics": [
+        "Pediatrik Acil, Yoğun Bakım ve Zehirlenmeler"
+      ]
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "ADÖLESAN",
+      "deficit": 8,
+      "target": 48,
+      "current": 40,
+      "page_count": 9,
+      "chunk_count": 0,
+      "direct_rounds": 1,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Sosyal Pediatri ve Adölesan Hastalıkları"
+      ],
+      "inferred_topics": [
+        "Sosyal Pediatri ve Adölesan Hastalıkları"
+      ]
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Beslenme ve Malnütrisyon",
+      "deficit": 16,
+      "target": 120,
+      "current": 104,
+      "page_count": 21,
+      "chunk_count": 1,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 2,
+      "chunk_target_pages": 20,
+      "chunk_page_sizes": [
+        21
+      ],
+      "mapped_topics": [
+        "Beslenme ve Malnutrisyon"
+      ],
+      "inferred_topics": [
+        "Beslenme ve Malnutrisyon"
+      ]
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Büyüme ve Gelişme",
+      "deficit": 8,
+      "target": 56,
+      "current": 48,
+      "page_count": 13,
+      "chunk_count": 0,
+      "direct_rounds": 1,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Büyüme ve Gelişme"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Döküntülü Hastalıklar ve Bağışıklama",
+      "deficit": 16,
+      "target": 167,
+      "current": 151,
+      "page_count": 26,
+      "chunk_count": 1,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 2,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        26
+      ],
+      "mapped_topics": [
+        "Döküntülü Hastalıklar ve Bağışıklama"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Genetik",
+      "deficit": 8,
+      "target": 106,
+      "current": 98,
+      "page_count": 16,
+      "chunk_count": 0,
+      "direct_rounds": 1,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Pediatrik Genetik Hastalıklar"
+      ],
+      "inferred_topics": [
+        "Pediatrik Genetik Hastalıklar"
+      ]
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Metabolik Hastalıklar",
+      "deficit": 24,
+      "target": 191,
+      "current": 167,
+      "page_count": 32,
+      "chunk_count": 3,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        10,
+        9,
+        10
+      ],
+      "mapped_topics": [
+        "Pediatrik Metabolik Hastalıklar"
+      ],
+      "inferred_topics": [
+        "Pediatrik Metabolik Hastalıklar"
+      ]
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Pediatrik Alerji-İmmünoloji",
+      "deficit": 32,
+      "target": 221,
+      "current": 189,
+      "page_count": 45,
+      "chunk_count": 4,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        8,
+        11,
+        13,
+        11
+      ],
+      "mapped_topics": [
+        "Allerji ve İmmünoloji"
+      ],
+      "inferred_topics": [
+        "Allerji ve İmmünoloji"
+      ]
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Pediatrik Endokrinoloji",
+      "deficit": 24,
+      "target": 192,
+      "current": 168,
+      "page_count": 31,
+      "chunk_count": 3,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        13,
+        6,
+        12
+      ],
+      "mapped_topics": [
+        "Pediatrik Endokrinoloji"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Pediatrik Göğüs Hastalıkları",
+      "deficit": 24,
+      "target": 274,
+      "current": 250,
+      "page_count": 43,
+      "chunk_count": 3,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 15,
+      "chunk_page_sizes": [
+        15,
+        15,
+        13
+      ],
+      "mapped_topics": [
+        "Pediatrik Göğüs Hastalıkları"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Pediatrik Hematoloji",
+      "deficit": 32,
+      "target": 272,
+      "current": 240,
+      "page_count": 45,
+      "chunk_count": 2,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 2,
+      "chunk_target_pages": 15,
+      "chunk_page_sizes": [
+        29,
+        16
+      ],
+      "mapped_topics": [
+        "Pediatrik Hematoloji"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Pediatrik Kardiyoloji",
+      "deficit": 32,
+      "target": 277,
+      "current": 245,
+      "page_count": 82,
+      "chunk_count": 4,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 20,
+      "chunk_page_sizes": [
+        21,
+        22,
+        20,
+        19
+      ],
+      "mapped_topics": [
+        "Pediatrik Kardiyoloji"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Pediatrik Nefroloji",
+      "deficit": 24,
+      "target": 192,
+      "current": 168,
+      "page_count": 33,
+      "chunk_count": 3,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 1,
+      "chunk_target_pages": 10,
+      "chunk_page_sizes": [
+        10,
+        11,
+        12
+      ],
+      "mapped_topics": [
+        "Pediatrik Nefroloji ve Üriner Hastalıklar"
+      ],
+      "inferred_topics": [
+        "Pediatrik Nefroloji ve Üriner Hastalıklar"
+      ]
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Pediatrik Onkoloji",
+      "deficit": 16,
+      "target": 160,
+      "current": 144,
+      "page_count": 22,
+      "chunk_count": 1,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 2,
+      "chunk_target_pages": 20,
+      "chunk_page_sizes": [
+        22
+      ],
+      "mapped_topics": [
+        "Pediatrik Onkoloji"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Pediatrik Romatoloji",
+      "deficit": 16,
+      "target": 127,
+      "current": 111,
+      "page_count": 21,
+      "chunk_count": 1,
+      "direct_rounds": 0,
+      "chunk_multiplier_rounds": 2,
+      "chunk_target_pages": 20,
+      "chunk_page_sizes": [
+        21
+      ],
+      "mapped_topics": [
+        "Pediatrik Romatoloji"
+      ],
+      "inferred_topics": []
+    },
+    {
+      "source": "Pediatri",
+      "segment_title": "Zehirlenmeler",
+      "deficit": 8,
+      "target": 48,
+      "current": 40,
+      "page_count": 10,
+      "chunk_count": 0,
+      "direct_rounds": 1,
+      "chunk_multiplier_rounds": 0,
+      "chunk_target_pages": null,
+      "chunk_page_sizes": [],
+      "mapped_topics": [
+        "Pediatrik Acil, Yoğun Bakım ve Zehirlenmeler"
+      ],
+      "inferred_topics": [
+        "Pediatrik Acil, Yoğun Bakım ve Zehirlenmeler"
+      ]
+    }
+  ],
+  "queued": {
+    "skipped": true,
+    "reason": "dry-run"
+  }
+}
