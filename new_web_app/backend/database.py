@@ -688,9 +688,9 @@ def get_next_card(
             WHERE r.user_id = ? 
               AND r.next_review_date <= ?
               AND r.repetitions > 0
-              AND (r.flags IS NULL OR r.flags NOT LIKE '%suspended%')
+              AND (r.flags IS NULL OR r.flags NOT LIKE ?)
         '''
-        params = [user_id, now]
+        params = [user_id, now, "%suspended%"]
         
         filter_clauses, filter_params = build_where_clause(prefix="q.")
         if filter_clauses:
@@ -715,9 +715,9 @@ def get_next_card(
         SELECT q.*, r.ease_factor, r.interval, r.repetitions, r.next_review_date, r.flags, r.last_review_date
         FROM questions q
         LEFT JOIN reviews r ON q.id = r.question_id AND r.user_id = ?
-        WHERE (r.question_id IS NULL OR (r.repetitions = 0 AND (r.flags IS NULL OR r.flags NOT LIKE '%suspended%')))
+        WHERE (r.question_id IS NULL OR (r.repetitions = 0 AND (r.flags IS NULL OR r.flags NOT LIKE ?)))
     '''
-    params = [user_id]
+    params = [user_id, "%suspended%"]
     
     filter_clauses, filter_params = build_where_clause(prefix="q.")
     if filter_clauses:
@@ -1301,7 +1301,7 @@ def get_all_visual_tags() -> List[str]:
     try:
         # SQLite doesn't have a native JSON array unnesting until recent versions.
         # We'll fetch all tags and filter in Python for safety/compatibility.
-        c.execute("SELECT tags FROM questions WHERE tags LIKE '%visual:%'")
+        c.execute("SELECT tags FROM questions WHERE tags LIKE ?", ("%visual:%",))
         rows = c.fetchall()
         
         visual_tags = set()

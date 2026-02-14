@@ -14,7 +14,9 @@ class QuestionBase(BaseModel):
 
 class QuestionOut(QuestionBase):
     id: int
-    created_at: Optional[str] = None # SQLite returns strings usually
+    # Postgres returns native `datetime`; sqlite often stores timestamps as strings.
+    # Using datetime keeps both compatible (Pydantic will parse strings and serialize to ISO).
+    created_at: Optional[datetime] = None
 
 class ReviewState(BaseModel):
     ease_factor: float = 2.5
