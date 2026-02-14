@@ -2,105 +2,79 @@
 description: How to start the server and keep it running (Persistent)
 ---
 
-# Server Management Guide
+# Server Management Guide (Next.js + FastAPI + Cloudflare)
 
-## 🚀 Quick Start
+Bu proje Streamlit degil; servisler:
+- FastAPI backend: `:8000`
+- Next.js frontend: `:3000`
+- Cloudflare tunnel (opsiyonel): custom domain icin
 
-### Custom Domain (Production) - **RECOMMENDED**
+## Quick Start
+
+### 1) Local Dev (en hizli)
+```bash
+./start_all.sh
+```
+- Frontend: `http://localhost:3000`
+- Backend: `http://localhost:8000` (`/docs` ile API swagger)
+
+Dur:
+```bash
+./stop_all.sh
+```
+
+### 2) Custom Domain (quiz.tusabi.store) keep-alive
 ```bash
 ./scripts/keep_alive_custom.sh
 ```
-**URL:** https://quiz.tusabi.store
+URL: `https://quiz.tusabi.store`
 
-### Temporary URL (Testing)
+### 3) Production-benzeri (foreground + tunnel)
 ```bash
-./scripts/keep_alive.sh
+./scripts/run_medquiz_stack.sh
 ```
-**Find URL:** `grep -o 'https://.*\.trycloudflare.com' cloudflare.log`
+Not: Bu script frontend'i `npm run build` + `npm run start` ile calistirir ve tunnel'i foreground'da tutar.
 
----
+## Postgres (multi-user icin onerilen)
 
-## 🛑 Stop Everything
-
+Postgres'i docker ile baslat:
 ```bash
-pkill -f streamlit
-pkill -f cloudflared
+docker compose -f docker-compose.postgres.yml up -d
 ```
 
----
-
-## 🔍 Check Status
-
-### Is the server running?
+Backend'in Postgres'e baglanmasi icin `.env`:
 ```bash
-ps aux | grep streamlit
-ps aux | grep cloudflared
+MEDQUIZ_DB_URL=postgresql://medquiz:medquiz@localhost:5432/medquiz
 ```
 
-### View logs (real-time)
-```bash
-# Streamlit logs
-tail -f streamlit.log
+## Logs
 
-# Cloudflare tunnel logs
+```bash
+tail -f backend.log
+tail -f frontend.log
 tail -f cloudflare.log
 ```
 
-### Check what's using port 8501
+## Check Status / Ports
+
 ```bash
-lsof -i :8501
+lsof -i :8000
+lsof -i :3000
+ps aux | rg "uvicorn|next-server|cloudflared"
 ```
 
----
+## Troubleshooting
 
-## 🔧 Troubleshooting
+### "Frontend geliyor ama API calismiyor"
+- `http://localhost:8000/health` kontrol et.
+- Next.js rewrite: `new_web_app/frontend/next.config.ts` `/api/*` -> `http://localhost:8000/*`.
 
-### Server won't start
-1. Kill old processes:
-   ```bash
-   pkill -f streamlit
-   pkill -f cloudflared
-   ```
+### "Custom domain gelmiyor"
+- `tail -200 cloudflare.log`
+- Tunnel config var mi: `~/.cloudflared/config.yml`
 
-2. Check for errors:
-   ```bash
-   tail -50 streamlit.log
-   tail -50 cloudflare.log
-   ```
-
-3. Start fresh:
-   ```bash
-   ./scripts/keep_alive_custom.sh
-   ```
-
-### Custom domain not working
-Check tunnel status:
+### "Port dolu"
 ```bash
-./cloudflared tunnel list
-./cloudflared tunnel info medquiz
-```
-
-### Port 8501 already in use
-```bash
-lsof -i :8501
-kill -9 <PID>
-```
-
----
-
-## 📝 Important Notes
-
-- **Scripts use `nohup`** - Server stays alive even after closing terminal
-- **Logs are saved** to `streamlit.log` and `cloudflare.log`
-- **Custom domain uses named tunnel** `medquiz`
-- **Temporary URL changes** each restart (not persistent)
-
----
-
-## 🔄 Restart After System Reboot
-
-The server doesn't auto-start after reboot. Run:
-```bash
-cd /home/yusuf-kemal-tuna/medical_quiz_app
-./scripts/keep_alive_custom.sh
+fuser -k 8000/tcp
+fuser -k 3000/tcp
 ```
